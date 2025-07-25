@@ -1,0 +1,94 @@
+name: Sync Repositories
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout local repository
+      uses: actions/checkout@v4
+
+    - name: Set up Git
+      run: |
+          git config --global user.email "komaru@komaru.org"
+          git config --global user.name "Real komaru (not fake)"
+
+    - name: Clone remote repository
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN_TO_PUSH }}
+      run: |
+        git clone https://${GITHUB_TOKEN}@github.com/Komaru-cats/BACAP-Enhanced-Discoveries.git remote-repo
+
+    - name: Copy files to remote repository
+      run: |
+        rm -rf remote-repo/BACAP_Enhanced_Discoveries/*
+        mkdir -p remote-repo/BACAP_Enhanced_Discoveries
+        cp -r datapacks/bacaped/* remote-repo/BACAP_Enhanced_Discoveries/
+
+        rm -rf remote-repo/BACAP_Enhanced_Discoveries_Hardcore_Addon/*
+        mkdir -p remote-repo/BACAP_Enhanced_Discoveries_Hardcore_Addon
+        cp -r datapacks/bacaped_hardcore/* remote-repo/BACAP_Enhanced_Discoveries_Hardcore_Addon/
+
+        rm -rf remote-repo/Enhanced_Discoveries_Language_Pack/*
+        mkdir -p remote-repo/Enhanced_Discoveries_Language_Pack
+        cp -r Enhanced_Discoveries_Language_Pack/* remote-repo/Enhanced_Discoveries_Language_Pack/
+
+    - name: Create new branch in remote repository
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN_TO_PUSH }}
+      run: |
+        cd remote-repo
+        BRANCH_NAME="ver/${GITHUB_REF#refs/tags/}"
+        git checkout -b $BRANCH_NAME
+        git add .
+        git commit -m "Sync files from private development repository"
+        git push https://${GITHUB_TOKEN}@github.com/Komaru-cats/BACAP-Enhanced-Discoveries.git $BRANCH_NAME
+
+    - name: Create Pull Request
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN_TO_PUSH }}
+      run: |
+        BRANCH_NAME="ver/${GITHUB_REF#refs/tags/}"
+        PR_TITLE="Release ${GITHUB_REF#refs/tags/}"
+        PR_BODY="This PR includes all changes for version ${GITHUB_REF#refs/tags/}."
+        curl -X POST https://api.github.com/repos/Komaru-cats/BACAP-Enhanced-Discoveries/pulls \
+          -H "Authorization: token ${GITHUB_TOKEN}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d "{\"title\":\"${PR_TITLE}\",\"body\":\"${PR_BODY}\",\"head\":\"${BRANCH_NAME}\",\"base\":\"main\"}"
+
+    # Новый шаг: Клонируем ветку pages, заменяем файл data.json и создаем pull request
+    - name: Clone pages branch and update data.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN_TO_PUSH }}
+      run: |
+        # Клонируем репозиторий и переходим в ветку pages
+        git clone --single-branch --branch pages https://${GITHUB_TOKEN}@github.com/Komaru-cats/BACAP-Enhanced-Discoveries.git remote-repo-pages
+        cd remote-repo-pages
+        
+        # Копируем новый файл data.json в соответствующую папку
+        cp -r ../pages/ver/ .
+        
+        DEFAULT_VERSION=$(echo "${GITHUB_REF#refs/tags/}" | tr '.' '_')
+        echo "{\"defaultVersion\": \"${DEFAULT_VERSION}\"}" > ver/default_data.json
+        # Создаем новую ветку для изменений
+        PAGES_BRANCH_NAME="pages-dev/ver/${GITHUB_REF#refs/tags/}"
+        git checkout -b $PAGES_BRANCH_NAME
+        git add ver/
+        git commit -m "Update data.json from local repository"
+        git push https://${GITHUB_TOKEN}@github.com/Komaru-cats/BACAP-Enhanced-Discoveries.git $PAGES_BRANCH_NAME
+
+    - name: Create Pull Request for pages branch update
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN_TO_PUSH }}
+      run: |
+        PAGES_BRANCH_NAME="pages-dev/ver/${GITHUB_REF#refs/tags/}"
+        PAGES_PR_TITLE="Update data for ${GITHUB_REF#refs/tags/}"
+        PAGES_PR_BODY="This PR updates the pages/data.json content for version ${GITHUB_REF#refs/tags/}."
+        curl -X POST https://api.github.com/repos/Komaru-cats/BACAP-Enhanced-Discoveries/pulls \
+          -H "Authorization: token ${GITHUB_TOKEN}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d "{\"title\":\"${PAGES_PR_TITLE}\",\"body\":\"${PAGES_PR_BODY}\",\"head\":\"${PAGES_BRANCH_NAME}\",\"base\":\"pages\"}"

@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:enderman",
+    "location": {
+      "dimension": "minecraft:the_end"
+    },
+    "effects": {
+      "minecraft:levitation": {}
+    },
+    "components": {
+      "minecraft:custom_name": "Circus"
+    }
+  }
+}

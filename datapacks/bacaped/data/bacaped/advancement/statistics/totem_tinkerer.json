@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "Totem Tinkerer"
+    },
+    "description": {
+      "translate": "Spend 5 totems of undying"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/totem_tinkerer"
+  }
+}

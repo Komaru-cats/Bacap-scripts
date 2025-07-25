@@ -1,0 +1,120 @@
+{
+  "path": "datapacks/bacaped_hardcore",
+  "encoding": "utf-8",
+  "language_pack": "Enhanced_Discoveries_Language_Pack",
+  "base_translation_path": "Enhanced_Discoveries_Language_Pack/assets/minecraft/lang/base_translation.json",
+  "main_translation_path": "Enhanced_Discoveries_Language_Pack/assets/minecraft/lang/ru_ru.json",
+  "lang": "en_us",
+  "adv_namespaces": [
+    "bacaped"
+  ],
+  "default_adv_namespace": "bacaped",
+  "reward_namespace": "bacaped_rewards",
+  "fanpacks_namespace": "bacaped_fanpacks",
+  "technical_paths": [
+    "technical"
+  ],
+  "excluded_paths": [],
+  "tabs_have_branch": [
+    "challenges"
+  ],
+  "legend_adv": "",
+  "milestones": {},
+  "empty_file": "\n\n",
+  "generate_functions": false,
+  "default_type": "task",
+  "install_mcpath": "bacaped:hc_install",
+  "adv_parse_type_data": {
+    "task": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "green|light_purple",
+      "frame": "task",
+      "hidden": ".*"
+    },
+    "goal": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "#75E1FF|light_purple",
+      "frame": "goal",
+      "hidden": ".*"
+    },
+    "challenge": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "dark_purple|light_purple",
+      "frame": "challenge",
+      "hidden": ".*"
+    },
+    "super_challenge": {
+      "filename": ".*",
+      "tab": "challenges",
+      "color": "#FF2A2A|light_purple",
+      "frame": "challenge",
+      "hidden": ".*"
+    },
+    "root": {
+      "filename": "root",
+      "tab": ".*",
+      "color": "#CCCCCC",
+      "frame": ".*",
+      "hidden": ".*"
+    },
+    "milestone": {
+      "filename": ".*",
+      "tab": "bacap",
+      "color": "yellow",
+      "frame": ".*",
+      "hidden": ".*"
+    },
+    "advancement_legend": {
+      "filename": ".*",
+      "tab": "bacap",
+      "color": "gold",
+      "frame": ".*",
+      "hidden": ".*"
+    }
+  },
+  "adv_default_type_data": {
+    "task": {
+      "color": "green",
+      "frame": "task",
+      "trophy_color": "green"
+    },
+    "goal": {
+      "color": "#75E1FF",
+      "frame": "goal",
+      "trophy_color": "#75E1FF"
+    },
+    "challenge": {
+      "color": "dark_purple",
+      "frame": "challenge",
+      "trophy_color": "light_purple"
+    },
+    "super_challenge": {
+      "color": "#FF2A2A",
+      "frame": "challenge",
+      "trophy_color": "#FF2A2A"
+    },
+    "root": {
+      "color": "#CCCCCC",
+      "frame": "task",
+      "trophy_color": "#CCCCCC"
+    },
+    "milestone": {
+      "color": "yellow",
+      "frame": "challenge"
+    },
+    "advancement_legend": {
+      "color": "gold",
+      "frame": "challenge",
+      "trophy_color": "gold"
+    }
+  },
+  "default_hidden_data": {
+    "color": "light_purple",
+    "trophy_color": "#7BBCFA"
+  },
+  "use_default_msg": true,
+  "override_hidden_msg": true
+}

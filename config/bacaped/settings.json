@@ -1,0 +1,142 @@
+{
+  "path": "datapacks/bacaped",
+  "encoding": "utf-8",
+  "blacklisted_symbols": "^[^\\u0400-\\u04FF]+$",
+  "language_pack": "Enhanced_Discoveries_Language_Pack",
+  "base_translation_path": "Enhanced_Discoveries_Language_Pack/assets/minecraft/lang/base_translation.json",
+  "main_translation_path": "Enhanced_Discoveries_Language_Pack/assets/minecraft/lang/ru_ru.json",
+  "lang": "en_us",
+  "adv_namespaces": [
+    "bacaped"
+  ],
+  "start_floats_num": 15500,
+  "default_adv_namespace": "bacaped",
+  "reward_namespace": "bacaped_rewards",
+  "fanpacks_namespace": "bacaped_fanpacks",
+  "technical_paths": [
+    "technical"
+  ],
+  "excluded_paths": [
+    "end/test.json"
+  ],
+  "tabs_have_branch": [
+    "challenges"
+  ],
+  "legend_adv_mcpath": "bacaped:bacap/enhanced_legend",
+  "milestone_adv_mcpaths": {
+    "adventure": "bacaped:bacap/enhanced_adventure_milestone",
+    "animal": "bacaped:bacap/enhanced_animal_milestone",
+    "biomes": "bacaped:bacap/enhanced_biomes_milestone",
+    "building": "bacaped:bacap/enhanced_building_milestone",
+    "challenges": "bacaped:bacap/enhanced_challenges_milestone",
+    "enchanting": "bacaped:bacap/enhanced_enchanting_milestone",
+    "end": "bacaped:bacap/enhanced_end_milestone",
+    "farming": "bacaped:bacap/enhanced_farming_milestone",
+    "mining": "bacaped:bacap/enhanced_mining_milestone",
+    "monsters": "bacaped:bacap/enhanced_monsters_milestone",
+    "nether": "bacaped:bacap/enhanced_nether_milestone",
+    "potion": "bacaped:bacap/enhanced_potion_milestone",
+    "redstone": "bacaped:bacap/enhanced_redstone_milestone",
+    "statistics": "bacaped:bacap/enhanced_statistics_milestone",
+    "weaponry": "bacaped:bacap/enhanced_weaponry_milestone"
+  },
+  "empty_file": "\n\n",
+  "generate_functions": true,
+  "default_type": "task",
+  "release_pattern": "BACAP_Enhanced_Discoveries_[<version>]",
+  "install_mcpath": "bacaped:install",
+  "adv_parse_type_data": {
+    "task": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "green|light_purple",
+      "frame": "task",
+      "hidden": ".*"
+    },
+    "goal": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "#75E1FF|light_purple",
+      "frame": "goal",
+      "hidden": ".*"
+    },
+    "challenge": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "dark_purple|light_purple",
+      "frame": "challenge",
+      "hidden": ".*"
+    },
+    "super_challenge": {
+      "filename": ".*",
+      "tab": "challenges",
+      "color": "#FF2A2A|light_purple",
+      "frame": "challenge",
+      "hidden": ".*"
+    },
+    "root": {
+      "filename": "root",
+      "tab": ".*",
+      "color": "#CCCCCC",
+      "frame": ".*",
+      "hidden": ".*"
+    },
+    "milestone": {
+      "filename": ".*",
+      "tab": "bacap",
+      "color": "yellow",
+      "frame": ".*",
+      "hidden": ".*"
+    },
+    "advancement_legend": {
+      "filename": ".*",
+      "tab": "bacap",
+      "color": "gold",
+      "frame": ".*",
+      "hidden": ".*"
+    }
+  },
+  "adv_default_type_data": {
+    "task": {
+      "color": "green",
+      "frame": "task",
+      "trophy_color": "green"
+    },
+    "goal": {
+      "color": "#75E1FF",
+      "frame": "goal",
+      "trophy_color": "#75E1FF"
+    },
+    "challenge": {
+      "color": "dark_purple",
+      "frame": "challenge",
+      "trophy_color": "light_purple"
+    },
+    "super_challenge": {
+      "color": "#FF2A2A",
+      "frame": "challenge",
+      "trophy_color": "#FF2A2A"
+    },
+    "root": {
+      "color": "#CCCCCC",
+      "frame": "task",
+      "trophy_color": "#CCCCCC"
+    },
+    "milestone": {
+      "color": "yellow",
+      "frame": "challenge",
+      "trophy_color": "yellow"
+    },
+    "advancement_legend": {
+      "color": "gold",
+      "frame": "challenge",
+      "trophy_color": "gold"
+    }
+  },
+  "default_hidden_data": {
+    "color": "light_purple",
+    "trophy_color": "#FFAEFF"
+  },
+  "use_default_msg": false,
+  "override_hidden_msg": true
+}

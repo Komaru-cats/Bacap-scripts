@@ -1,0 +1,98 @@
+{
+  "awkward": {
+    "long": false,
+    "strong": false
+  },
+  "fire_resistance": {
+    "long": true,
+    "strong": false
+  },
+  "harming": {
+    "long": false,
+    "strong": true
+  },
+  "healing": {
+    "long": false,
+    "strong": true
+  },
+  "infested": {
+    "long": false,
+    "strong": false
+  },
+  "invisibility": {
+    "long": true,
+    "strong": false
+  },
+  "leaping": {
+    "long": true,
+    "strong": true
+  },
+  "luck": {
+    "long": false,
+    "strong": false
+  },
+  "mundane": {
+    "long": false,
+    "strong": false
+  },
+  "night_vision": {
+    "long": true,
+    "strong": false
+  },
+  "oozing": {
+    "long": false,
+    "strong": false
+  },
+  "poison": {
+    "long": true,
+    "strong": true
+  },
+  "regeneration": {
+    "long": true,
+    "strong": true
+  },
+  "slow_falling": {
+    "long": true,
+    "strong": false
+  },
+  "slowness": {
+    "long": true,
+    "strong": true
+  },
+  "strength": {
+    "long": true,
+    "strong": true
+  },
+  "swiftness": {
+    "long": true,
+    "strong": true
+  },
+  "thick": {
+    "long": false,
+    "strong": false
+  },
+  "turtle_master": {
+    "long": true,
+    "strong": true
+  },
+  "water": {
+    "long": false,
+    "strong": false
+  },
+  "water_breathing": {
+    "long": true,
+    "strong": false
+  },
+  "weakness": {
+    "long": true,
+    "strong": false
+  },
+  "weaving": {
+    "long": false,
+    "strong": false
+  },
+  "wind_charged": {
+    "long": false,
+    "strong": false
+  }
+}

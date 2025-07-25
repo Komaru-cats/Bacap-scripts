@@ -1,0 +1,6 @@
+pyperclip~=1.9.0
+autoslot~=2022.12.1
+requests~=2.32.3
+sqlalchemy~=2.0.36
+titlecase~=2.4.1
+jsoncomment

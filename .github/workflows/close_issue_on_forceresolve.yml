@@ -1,0 +1,33 @@
+name: Close Issues on Commit with ForceResolve
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  close_issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract commit messages
+        id: extract_messages
+        run: echo "commit_messages=$(git log -1 --pretty=format:%s)" >> $GITHUB_ENV
+
+      - name: Close issue if commit message matches
+        if: contains(env.commit_messages, 'ForceResolve')
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_TO_PUSH }}
+          COMMIT_MESSAGES: ${{ env.commit_messages }}
+        run: |
+          ISSUE_NUMBER=$(echo "$COMMIT_MESSAGES" | grep -oP '(?<=ForceResolve #)\d+')
+          if [ -n "$ISSUE_NUMBER" ]; then
+            curl -s -X PATCH \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER \
+              -d '{"state":"closed"}'
+          fi

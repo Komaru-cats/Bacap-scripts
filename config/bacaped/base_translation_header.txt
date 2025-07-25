@@ -1,0 +1,9 @@
+# Enhanced Discoveries Language File
+
+# How to use: Name and descriptions of advancement to left of: and put translation to right of:, inside the speech marks "" like this: "Advancement Description"
+# Some advancement titles make use of puns that would work in English but probably not in other languages. Be creative if you wish if you can find any puns in foreign languages.
+
+# This file will be updated with new advancements with each new update.
+
+# Language: Your Language
+# Author: Names

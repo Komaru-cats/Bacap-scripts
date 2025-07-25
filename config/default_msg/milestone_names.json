@@ -1,0 +1,66 @@
+{
+  "adventure": {
+    "milestone": "Adventure Milestone",
+    "name": "Adventure"
+  },
+  "animal": {
+    "milestone": "Animal Milestone",
+    "name": "Animals"
+  },
+  "bacap": {
+    "milestone": "Advancement Legend",
+    "name": "BlazeandCave's Advancements"
+  },
+  "biomes": {
+    "milestone": "Biomes Milestone",
+    "name": "Biomes"
+  },
+  "building": {
+    "milestone": "Building Milestone",
+    "name": "Building"
+  },
+  "challenges": {
+    "milestone": "Super Challenges Milestone",
+    "name": "Super Challenges"
+  },
+  "enchanting": {
+    "milestone": "Enchanting Milestone",
+    "name": "Enchanting"
+  },
+  "end": {
+    "milestone": "End Milestone",
+    "name": "The End"
+  },
+  "farming": {
+    "milestone": "Farming Milestone",
+    "name": "Farming"
+  },
+  "mining": {
+    "milestone": "Mining Milestone",
+    "name": "Mining"
+  },
+  "monsters": {
+    "milestone": "Monsters Milestone",
+    "name": "Monsters"
+  },
+  "nether": {
+    "milestone": "Nether Milestone",
+    "name": "Nether"
+  },
+  "potion": {
+    "milestone": "Potion Milestone",
+    "name": "Potions"
+  },
+  "redstone": {
+    "milestone": "Redstone Milestone",
+    "name": "Redstone"
+  },
+  "statistics": {
+    "milestone": "Statistic Milestone",
+    "name": "Statistics"
+  },
+  "weaponry": {
+    "milestone": "Weaponry Milestone",
+    "name": "Weaponry"
+  }
+}

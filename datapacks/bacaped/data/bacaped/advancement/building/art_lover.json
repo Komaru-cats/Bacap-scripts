@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:painting"
+    },
+    "title": {
+      "translate": "Art Lover"
+    },
+    "description": {
+      "translate": "Place 100 paintings",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:building/art_gallery",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:used",
+                    "stat": "minecraft:painting",
+                    "value": {
+                      "min": 99
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:building/art_lover"
+  }
+}

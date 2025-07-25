@@ -1,0 +1,136 @@
+{
+  "path": "datapacks/bacap",
+  "encoding": "utf-8",
+  "language_pack": "",
+  "lang": "en_us",
+  "adv_namespaces": [
+    "blazeandcave",
+    "minecraft"
+  ],
+  "default_adv_namespace": "blazeandcave",
+  "reward_namespace": "bacap_rewards",
+  "fanpacks_namespace": "bacap_fanpacks",
+  "technical_paths": [
+    "technical"
+  ],
+  "excluded_paths": [],
+  "tabs_have_branch": [
+    "challenges"
+  ],
+  "legend_adv": "blazeandcave:bacap/advancement_legend",
+  "milestones": {
+    "adventure": "blazeandcave:bacap/adventure_milestone",
+    "animal": "blazeandcave:bacap/animal_milestone",
+    "biomes": "blazeandcave:bacap/biomes_milestone",
+    "building": "blazeandcave:bacap/building_milestone",
+    "challenges": "blazeandcave:bacap/challenges_milestone",
+    "enchanting": "blazeandcave:bacap/enchanting_milestone",
+    "end": "blazeandcave:bacap/end_milestone",
+    "farming": "blazeandcave:bacap/farming_milestone",
+    "mining": "blazeandcave:bacap/mining_milestone",
+    "monsters": "blazeandcave:bacap/monsters_milestone",
+    "nether": "blazeandcave:bacap/nether_milestone",
+    "potion": "blazeandcave:bacap/potion_milestone",
+    "redstone": "blazeandcave:bacap/redstone_milestone",
+    "statistics": "blazeandcave:bacap/statistics_milestone",
+    "weaponry": "blazeandcave:bacap/weaponry_milestone"
+  },
+  "empty_file": "\n\n",
+  "generate_functions": false,
+  "default_type": "task",
+  "release_pattern": "",
+  "install_mcpath": "",
+  "adv_parse_type_data": {
+    "task": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "green|light_purple",
+      "frame": "task",
+      "hidden": ".*"
+    },
+    "goal": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "#75E1FF|light_purple",
+      "frame": "goal",
+      "hidden": ".*"
+    },
+    "challenge": {
+      "filename": ".*",
+      "tab": "^(?!^challenges).*",
+      "color": "dark_purple|light_purple",
+      "frame": "challenge",
+      "hidden": ".*"
+    },
+    "super_challenge": {
+      "filename": ".*",
+      "tab": "challenges",
+      "color": "#FF2A2A|light_purple",
+      "frame": "challenge",
+      "hidden": ".*"
+    },
+    "root": {
+      "filename": "root",
+      "tab": ".*",
+      "color": "#CCCCCC",
+      "frame": ".*",
+      "hidden": ".*"
+    },
+    "milestone": {
+      "filename": ".*",
+      "tab": "bacap",
+      "color": "yellow",
+      "frame": ".*",
+      "hidden": ".*"
+    },
+    "advancement_legend": {
+      "filename": ".*",
+      "tab": "bacap",
+      "color": "gold",
+      "frame": ".*",
+      "hidden": ".*"
+    }
+  },
+  "adv_default_type_data": {
+    "task": {
+      "color": "green",
+      "frame": "task",
+      "trophy_color": "green"
+    },
+    "goal": {
+      "color": "#75E1FF",
+      "frame": "goal",
+      "trophy_color": "#75E1FF"
+    },
+    "challenge": {
+      "color": "dark_purple",
+      "frame": "challenge",
+      "trophy_color": "light_purple"
+    },
+    "super_challenge": {
+      "color": "#FF2A2A",
+      "frame": "challenge",
+      "trophy_color": "#FF2A2A"
+    },
+    "root": {
+      "color": "#CCCCCC",
+      "frame": "task",
+      "trophy_color": "#CCCCCC"
+    },
+    "milestone": {
+      "color": "yellow",
+      "frame": "challenge",
+      "trophy_color": "yellow"
+    },
+    "advancement_legend": {
+      "color": "gold",
+      "frame": "challenge",
+      "trophy_color": "gold"
+    }
+  },
+  "default_hidden_data": {
+    "color": "light_purple"
+  },
+  "use_default_msg": true,
+  "override_hidden_msg": true
+}

@@ -1,0 +1,66 @@
+{
+  "adventure": {
+    "milestone": "Enh. Adventure Milestone",
+    "name": "Adventure"
+  },
+  "animal": {
+    "milestone": "Enh. Animal Milestone",
+    "name": "Animals"
+  },
+  "bacap": {
+    "milestone": "Enhanced Legend",
+    "name": "Enhanced Discoveries"
+  },
+  "biomes": {
+    "milestone": "Enh. Biomes Milestone",
+    "name": "Biomes"
+  },
+  "building": {
+    "milestone": "Enh. Building Milestone",
+    "name": "Building"
+  },
+  "challenges": {
+    "milestone": "Enh. Super Challenges Milestone",
+    "name": "Super Challenges"
+  },
+  "enchanting": {
+    "milestone": "Enh. Enchanting Milestone",
+    "name": "Enchanting"
+  },
+  "end": {
+    "milestone": "Enh. End Milestone",
+    "name": "The End"
+  },
+  "farming": {
+    "milestone": "Enh. Farming Milestone",
+    "name": "Farming"
+  },
+  "mining": {
+    "milestone": "Enh. Mining Milestone",
+    "name": "Mining"
+  },
+  "monsters": {
+    "milestone": "Enh. Monsters Milestone",
+    "name": "Monsters"
+  },
+  "nether": {
+    "milestone": "Enh. Nether Milestone",
+    "name": "Nether"
+  },
+  "potion": {
+    "milestone": "Enh. Potion Milestone",
+    "name": "Potions"
+  },
+  "redstone": {
+    "milestone": "Enh. Redstone Milestone",
+    "name": "Redstone"
+  },
+  "statistics": {
+    "milestone": "Enh. Statistic Milestone",
+    "name": "Statistics"
+  },
+  "weaponry": {
+    "milestone": "Enh. Weaponry Milestone",
+    "name": "Weaponry"
+  }
+}

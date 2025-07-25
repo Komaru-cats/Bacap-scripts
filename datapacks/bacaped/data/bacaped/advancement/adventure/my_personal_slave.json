@@ -1,0 +1,131 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "My Personal Slave"
+    },
+    "description": {
+      "translate": "Have an Allay drop you all the swords, trident, bow, crossbow and mace"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/diagon_allay",
+  "criteria": {
+    "wooden_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wooden_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "stone_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stone_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:iron_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "golden_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:diamond_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "netherite_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:bow"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "crossbow": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:crossbow"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "mace": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mace"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
+    "trident": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:trident"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/my_personal_slave"
+  }
+}

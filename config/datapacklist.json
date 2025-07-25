@@ -1,0 +1,6 @@
+{
+  "available": ["bacap", "bacaped", "bacaped_hardcore"],
+  "work_with": ["bacaped", "bacaped_hardcore"],
+  "default": "bacaped",
+  "bacap": "bacap"
+}
