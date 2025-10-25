@@ -57,6 +57,4 @@ You can configure `user_config.json` to specify the paths to the resource pack a
 - This repository includes a `ForceResolve #issue_number` feature:  
   If a commit message contains `ForceResolve #<issue_number>`, the corresponding issue will be automatically closed.
   For example: `feat: ForceResolve #575 - add new advancement`
-- Previously, there was a GitHub Actions workflow called `push_to_main_rep.yml` for pushing changes to the main repository.  
-  However, it requires a GitHub token, which can no longer be stored in this repository.  
-  For this reason, the file has been renamed to `push_to_main_rep.yml.skip`.
+- There is a GitHub Actions workflow called `push_to_main_rep.yml` for pushing changes to the main repository.
