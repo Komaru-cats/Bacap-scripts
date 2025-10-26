@@ -32,6 +32,7 @@ python -m scripts.WorldBorder
 ```
 
 > Again, make sure the working directory is the root of the repository.
+> Also you need to create a `user_config.json` file
 
 ## Configuration
 
