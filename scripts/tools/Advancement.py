@@ -1,11 +1,12 @@
 import os
 from collections import defaultdict
 from functools import reduce
+
 from . import Datapack
-from .Warnings import *
 from .Criteria import CriteriaList
 from .Functions import *
 from .Item import *
+from .Warnings import *
 from .utils import *
 
 

@@ -1,16 +1,16 @@
-from itertools import chain
-import re
 import json
+import re
+from itertools import chain
 from pathlib import Path
 from typing import Set, Literal, List, Tuple
 
 import titlecase
 
-from .Datapack import DatapackList, Datapack
-from .utils import can_access_keypath, cut_namespace
 from .Advancement import Advancement, AdvancementsManager, InvalidAdvancement
-from .Warnings import AdvWarningType, AdvWarning
+from .Datapack import DatapackList, Datapack
 from .Resources import ItemProperties
+from .Warnings import AdvWarningType, AdvWarning
+from .utils import can_access_keypath, cut_namespace
 from .utils import get_by_keypath
 
 

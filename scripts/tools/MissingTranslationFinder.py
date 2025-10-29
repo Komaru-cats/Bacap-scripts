@@ -1,15 +1,15 @@
 import os.path
+from collections.abc import Iterable
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Set
-from collections.abc import Iterable
 
 import jsoncomment
 
 from . import Advancement
-from .Datapack import Datapack
 from .Advancement import AdvancementsManager
+from .Datapack import Datapack
 from .Warnings import AdvWarning, AdvWarningType
-from dataclasses import dataclass
 
 
 @dataclass(frozen=True)

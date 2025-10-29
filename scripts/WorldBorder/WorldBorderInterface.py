@@ -1,13 +1,13 @@
-from pathlib import Path
 import shutil
+from pathlib import Path
 
+from scripts.WorldBorder.Types import DATAPACK_PRESET_PATH, NotAdvRewardFound
+from scripts.WorldBorder.WBDataSet import WBDataSet
 from scripts.tools import DatapackList
 from scripts.tools.Advancement import AdvancementsManager
 from scripts.tools.Interface import MenuInterface
 from scripts.tools.InterfaceSchema import *
 from scripts.tools.utils import fill_pattern
-from scripts.WorldBorder.WBDataSet import WBDataSet
-from scripts.WorldBorder.Types import DATAPACK_PRESET_PATH, NotAdvRewardFound
 
 mi = MenuInterface()
 

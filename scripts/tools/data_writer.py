@@ -3,9 +3,9 @@ from pathlib import Path
 
 from .Advancement import AdvancementsManager, Advancement
 from .Datapack import DatapackList
+from .InterfaceSchema import get_value
 from .Resources import ItemProperties
 from .utils import cut_namespace
-from .InterfaceSchema import get_value
 
 
 def generate_type(adv: Advancement):

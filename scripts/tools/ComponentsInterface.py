@@ -1,9 +1,10 @@
 import json
 from typing import Dict, Any
+
 from . import Resources
+from .Color import Color
 from .InterfaceSchema import *
 from .utils import cut_namespace, arabic_to_rims, merge_dicts
-from .Color import Color
 
 
 class BasicComponent:

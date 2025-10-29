@@ -3,8 +3,8 @@ from .Advancement import BaseAdvancement, InvalidAdvancement, TechnicalAdvanceme
     AdvancementFactory
 from .Functions import *
 from .Item import *
-from .Resources import *
 from .Patterns import *
+from .Resources import *
 
 __all__ = ['AdvancementsManager', 'AdvancementFactory', 'Advancement', 'DatapackList', 'Datapack', 'FuncMixin', 'Main',
            'Exp', 'Reward', 'Msg', 'Trophy', 'Item', 'RewardItem', 'TrophyItem']

@@ -1,7 +1,7 @@
 import sys
 from difflib import get_close_matches
-from typing import *
 from functools import wraps
+from typing import *
 
 literal_color_list = Literal["black", "red", "green", "yellow", "blue", "purple", "cyan", "white"]
 
