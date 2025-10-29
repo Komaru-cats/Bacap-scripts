@@ -7,8 +7,6 @@ from .components_parser import item_components_decoder, item_components_encoder
 from .nbt_parser import nbt_decoder, nbt_encoder
 from .utils import *
 
-from collections import Counter
-
 
 class FuncMixin:
     """

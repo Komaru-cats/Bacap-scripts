@@ -8,20 +8,18 @@ from textwrap import wrap as textwrap
 import pyperclip
 
 import tools.data_writer as dw
-
+from tools import Advancement, AdvancementsManager, AdvancementFactory, DatapackList, Resources, Patterns
+from tools.BaseTranslationGenerator import BaseTranslationGenerator
 from tools.ComponentsInterface import ComponentsInterface as Ci
+from tools.DatapackFunctionsGenerator import DatapackFunctionsGenerator
 from tools.Interface import MenuInterface, exit_on_empty_input
 from tools.Interface import func_loop as loop
 from tools.InterfaceSchema import *
-from tools.utils import cut_namespace, multi_replace, user_config
-
-from tools import Advancement, AdvancementsManager, AdvancementFactory, DatapackList, Resources, Patterns
-from tools.Validator import Validator, SpellingValidator
-from tools.Release import Release
 from tools.MilestonesGenerator import MilestonesGenerator
-from tools.BaseTranslationGenerator import BaseTranslationGenerator
-from tools.DatapackFunctionsGenerator import DatapackFunctionsGenerator
 from tools.MissingTranslationFinder import MissingTranslationFinder
+from tools.Release import Release
+from tools.Validator import Validator, SpellingValidator
+from tools.utils import cut_namespace, multi_replace, user_config
 
 change_type_mi = MenuInterface(input_icon=Icon("[>]", color="cyan"))
 adv_mi = MenuInterface(input_icon=Icon("[>]", color="purple"))

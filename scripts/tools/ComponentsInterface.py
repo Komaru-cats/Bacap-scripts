@@ -1,9 +1,10 @@
 import json
 from typing import Dict, Any
+
 from . import Resources
+from .Color import Color
 from .InterfaceSchema import *
 from .utils import cut_namespace, arabic_to_rims, merge_dicts
-from .Color import Color
 
 
 class BasicComponent:
@@ -459,7 +460,12 @@ class BannerPatterns(BasicComponent):
                 break
             patterns.append({"color": get_value("Color:", possible_value=Resources.DyeColors.list, indent=self.indent),
                              "pattern": pattern})
-        comp = {"banner_patterns": patterns}
+        comp = {
+            "tooltip_display": {"hidden_components": []},
+            "banner_patterns": patterns
+        }
+        if not get_bool("Show in tooltip [y/n]:", indent=self.indent):
+            comp["tooltip_display"]["hidden_components"].append("minecraft:banner_patterns")
         return comp
 
 

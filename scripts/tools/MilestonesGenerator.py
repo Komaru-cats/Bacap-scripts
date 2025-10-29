@@ -1,9 +1,5 @@
 import json
-import os
-import time
 from collections.abc import Iterable
-import msvcrt
-from copy import deepcopy
 
 from . import Datapack, AdvancementsManager
 from .utils import get_adv_json

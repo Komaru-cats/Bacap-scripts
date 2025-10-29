@@ -9,7 +9,6 @@ from scripts.tools.Datapack import Datapack
 from scripts.tools.Interface import exit_on_empty_input
 from scripts.tools.InterfaceSchema import *
 from scripts.tools.utils import cut_namespace, fill_pattern
-
 from .Types import DATAPACK_PRESET_PATH, Base, WBSQL, AdvFunctionCommands, desc_color_dict, FileRewardData, RewardSet, \
     RewardPattern, NotAdvRewardFound
 

@@ -1,12 +1,11 @@
 import json
 import re
+from collections.abc import Sequence
 from pathlib import Path
 from typing import Dict, List
 
 from .Color import Color
 from .utils import mc_path_to_path
-
-from collections.abc import Sequence
 
 
 class Datapack:
