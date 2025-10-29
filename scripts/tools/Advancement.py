@@ -30,7 +30,6 @@ class BaseAdvancement:
         self._namespace = str(path.relative_to(datapack.path / "data").parts[0])
         self._mc_path = path_to_mc_path(self.path)
         self._reward_mcpath = reward_mcpath
-        self._criteria_list = CriteriaList(self._adv_json["criteria"])
 
         if self._adv_json:
             self._parent = self._adv_json.get("parent")
@@ -154,13 +153,6 @@ class BaseAdvancement:
     def reward_mcpath(self) -> str:
         return self._reward_mcpath
 
-    @property
-    def criteria_list(self) -> CriteriaList:
-        """
-        Returns a 'CriteriaList' of criteria for the advancement
-        """
-        return self._criteria_list
-
     def __gt__(self, other):
         return self.mc_path > other.mc_path
 
@@ -278,6 +270,7 @@ class Advancement(BaseAdvancement):
 
         self._background = self._adv_json["display"].get("background")
         self._icon = Item(self._adv_json["display"]["icon"])
+        self._criteria_list = CriteriaList(self._adv_json["criteria"])
         self._functions = Functions(self)
 
     def _get_description_from_extra(self):
@@ -469,6 +462,14 @@ class Advancement(BaseAdvancement):
     def icon(self) -> Item:
         return self._icon
 
+    @property
+    def criteria_list(self) -> CriteriaList:
+        """
+        Returns a 'CriteriaList' of criteria for the advancement
+        """
+        return self._criteria_list
+
+
     def __str__(self):
         return f"Advancement([{self.datapack}] {self.mc_path})"
 
@@ -489,7 +490,7 @@ class AdvancementFactory:
 
         if cls._is_not_parsable_json(adv_json):
             return InvalidAdvancement(advancement_path, datapack, adv_json,
-                                      AdvWarning(AdvWarningType.CANT_PARSE_JSON, "JSON is None"))
+                                      AdvWarning(AdvWarningType.CANT_PARSE_JSON, "Invalid JSON"))
 
         if datapack.is_technical(advancement_path):
             return TechnicalAdvancement(advancement_path, datapack, adv_json)
