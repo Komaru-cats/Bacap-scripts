@@ -9,7 +9,7 @@ from .utils import cut_namespace
 
 
 def generate_type(adv: Advancement):
-    if adv.hidden is True:
+    if adv.hidden:
         return "Hidden"
     if adv.color.value == "gold":
         return "Advancement Legend"
@@ -17,7 +17,7 @@ def generate_type(adv: Advancement):
 
 
 def generate_requirements():
-    req_path = Path('pages\\assets\\requirements.json')
+    req_path = Path('pages/assets/requirements.json')
     if not req_path.exists():
         req_path.write_text(json.dumps({}), encoding=DatapackList.default.encoding)
     data = json.loads(req_path.read_text(encoding=DatapackList.default.encoding))
@@ -30,7 +30,7 @@ def generate_requirements():
 def create():
     generate_requirements()
     data = []
-    req_data = json.loads(Path('pages\\assets\\requirements.json').read_text(encoding=DatapackList.default.encoding))
+    req_data = json.loads(Path('pages/assets/requirements.json').read_text(encoding=DatapackList.default.encoding))
     for adv in AdvancementsManager.filtered_iterator(datapack=DatapackList.default):
         if adv.functions.reward.item:
             reward_msg = f"{adv.functions.reward.item.amount} {ItemProperties.dict[cut_namespace(adv.functions.reward.item.id)]["display_name"]}"
