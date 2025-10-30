@@ -447,7 +447,6 @@ class MainInterface:
 
     @mi.register_func("Find Missing Translation", "t")
     def find_missing_translation(self):
-
         missing_translations = MissingTranslationFinder.find_all_missing_translations(datapack=DatapackList.work_with)
 
         if missing_translations:

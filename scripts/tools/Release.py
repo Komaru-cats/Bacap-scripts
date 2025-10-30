@@ -1,7 +1,7 @@
 import os
 from collections.abc import Iterable
 from shutil import make_archive
-from typing import List
+from typing import List, Tuple
 
 from .Advancement import AdvancementsManager
 from .Datapack import Datapack
@@ -68,38 +68,15 @@ class Release:
         output(warning.reason, indent=indent + 3)
 
     @classmethod
-    def release_warnings(cls, datapack: Datapack | Iterable[Datapack]) -> dict[
-        AdvWarningType, list[dict[Advancement, str]]]:
-
-        warning_types = {}
-        for adv in AdvancementsManager.filtered_iterator(datapack=datapack, skip_invalid=False):
-
-            warnings = Validator.validate_advancement(adv)
-
-            if not isinstance(adv, InvalidAdvancement):
-                warnings.extend(MissingTranslationFinder.find_missing_translations(adv))
-
-            if not warnings:
-                continue
-
-            for warning in warnings:
-                if warning.warning_type.name not in warning_types:
-                    warning_types[warning.warning_type.name] = []
-                warning_types[warning.warning_type.name].append({adv: warning.reason})
-
-        return warning_types
-
-    @classmethod
     def check(cls, datapack: Datapack | List[Datapack]):
         """
         Check all bacaped advancements and print warnings to console.
         :return: Number of warnings
         """
-        warnings_type_dict = {}
+        warnings_type_dict: dict[str, list[Tuple[Advancement, AdvWarning]]] = {}
         warnings_count = 0
 
         for adv in AdvancementsManager.filtered_iterator(datapack=datapack, skip_invalid=False):
-
             warnings = Validator.validate_advancement(adv)
             if not isinstance(adv, InvalidAdvancement):
                 warnings.extend(MissingTranslationFinder.find_missing_translations(adv))

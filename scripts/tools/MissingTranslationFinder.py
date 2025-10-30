@@ -2,7 +2,7 @@ import os.path
 from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Set
+from typing import Set, Tuple, Any
 
 import jsoncomment
 
@@ -55,36 +55,24 @@ class MissingTranslationFinder:
     @classmethod
     def find_missing_translations(cls, adv: Advancement) -> list[AdvWarning] | None:
         warnings = []
-        fields = {
-            "Title": adv.title,
-            "Description": adv.description,
-        }
-
+        adv_translations = cls._search_in_dict(adv.json["display"])
+        trophy_translations = []
         if adv.functions.trophy.item:
-            fields["Trophy Name"] = adv.functions.trophy.item.name
-            trophy_lore = {f"Line {i}": line for i, line in
-                           enumerate(adv.functions.trophy.item.lore.split('\n'), start=1)}
-        else:
-            trophy_lore = {}
+            trophy_translations = [adv.functions.trophy.item.name] + adv.functions.trophy.item.lore.split("\n")
 
-        for key, value in fields.items():
-
-            if not cls._is_valid_translation_line(value):
+        for adv_translate in adv_translations:
+            if not cls._is_valid_translation_line(adv_translate):
                 continue
 
-            if value not in cls._fetch_translation(adv.datapack).translation_keys_set:
-                warnings.append(
-                    AdvWarning(AdvWarningType.MISSING_TRANSLATION, f"Field \"{value}\" is missing in translation"))
+            if adv_translate not in cls._fetch_translation(adv.datapack).translation_keys_set:
+                warnings.append(AdvWarning(AdvWarningType.MISSING_TRANSLATION, f"\"{adv_translate.strip("\n")}\" is missing in translation"))
 
-        for key, value in trophy_lore.items():
-
-            if not cls._is_valid_translation_line(value):
+        for trophy_translate in trophy_translations:
+            if not cls._is_valid_translation_line(trophy_translate):
                 continue
 
-            if value not in cls._fetch_translation(adv.datapack).translation_keys_set:
-                warnings.append(AdvWarning(AdvWarningType.MISSING_TRANSLATION,
-                                           f"{key} \"{value.strip("\n")}\" of trophy description is missing in translation"))
-
+            if trophy_translate not in cls._fetch_translation(adv.datapack).translation_keys_set:
+                warnings.append(AdvWarning(AdvWarningType.MISSING_TRANSLATION, f"\"{trophy_translate.strip("\n")}\" is missing in translation in trophy"))
         return warnings
 
     @classmethod
@@ -142,7 +130,7 @@ class MissingTranslationFinder:
         return translations
 
     @staticmethod
-    def _search_in_dict(d: dict):
+    def _search_in_dict(d: dict) -> list[str]:
         stack = [d]  # Initialize the stack with the starting element d
         translations = []
         while stack:
@@ -157,7 +145,7 @@ class MissingTranslationFinder:
                 # If the current item is a list, add all its elements to the stack
                 stack.extend(current)
 
-        return reversed(translations)
+        return list(reversed(translations))
 
     @classmethod
     def _read_lang_file(cls, lang_file_path: Path | str, encoding: str = "utf-8") -> dict:
