@@ -715,6 +715,54 @@
     "display_name": "Chiseled Bookshelf",
     "stack_size": 64
   },
+  "acacia_shelf": {
+    "display_name": "Acacia Shelf",
+    "stack_size": 64
+  },
+  "bamboo_shelf": {
+    "display_name": "Bamboo Shelf",
+    "stack_size": 64
+  },
+  "birch_shelf": {
+    "display_name": "Birch Shelf",
+    "stack_size": 64
+  },
+  "cherry_shelf": {
+    "display_name": "Cherry Shelf",
+    "stack_size": 64
+  },
+  "crimson_shelf": {
+    "display_name": "Crimson Shelf",
+    "stack_size": 64
+  },
+  "dark_oak_shelf": {
+    "display_name": "Dark Oak Shelf",
+    "stack_size": 64
+  },
+  "jungle_shelf": {
+    "display_name": "Jungle Shelf",
+    "stack_size": 64
+  },
+  "mangrove_shelf": {
+    "display_name": "Mangrove Shelf",
+    "stack_size": 64
+  },
+  "oak_shelf": {
+    "display_name": "Oak Shelf",
+    "stack_size": 64
+  },
+  "pale_oak_shelf": {
+    "display_name": "Pale Oak Shelf",
+    "stack_size": 64
+  },
+  "spruce_shelf": {
+    "display_name": "Spruce Shelf",
+    "stack_size": 64
+  },
+  "warped_shelf": {
+    "display_name": "Warped Shelf",
+    "stack_size": 64
+  },
   "mossy_cobblestone": {
     "display_name": "Mossy Cobblestone",
     "stack_size": 64
@@ -1115,6 +1163,14 @@
     "display_name": "Soul Torch",
     "stack_size": 64
   },
+  "copper_torch": {
+    "display_name": "Copper Torch",
+    "stack_size": 64
+  },
+  "copper_wall_torch": {
+    "display_name": "Copper Torch",
+    "stack_size": 64
+  },
   "glowstone": {
     "display_name": "Glowstone",
     "stack_size": 64
@@ -1307,8 +1363,72 @@
     "display_name": "Iron Bars",
     "stack_size": 64
   },
-  "chain": {
-    "display_name": "Chain",
+  "copper_bars": {
+    "display_name": "Copper Bars",
+    "stack_size": 64
+  },
+  "exposed_copper_bars": {
+    "display_name": "Exposed Copper Bars",
+    "stack_size": 64
+  },
+  "weathered_copper_bars": {
+    "display_name": "Weathered Copper Bars",
+    "stack_size": 64
+  },
+  "oxidized_copper_bars": {
+    "display_name": "Oxidized Copper Bars",
+    "stack_size": 64
+  },
+  "waxed_copper_bars": {
+    "display_name": "Waxed Copper Bars",
+    "stack_size": 64
+  },
+  "waxed_exposed_copper_bars": {
+    "display_name": "Waxed Exposed Copper Bars",
+    "stack_size": 64
+  },
+  "waxed_weathered_copper_bars": {
+    "display_name": "Waxed Weathered Copper Bars",
+    "stack_size": 64
+  },
+  "waxed_oxidized_copper_bars": {
+    "display_name": "Waxed Oxidized Copper Bars",
+    "stack_size": 64
+  },
+  "iron_chain": {
+    "display_name": "Iron Chain",
+    "stack_size": 64
+  },
+  "copper_chain": {
+    "display_name": "Copper Chain",
+    "stack_size": 64
+  },
+  "exposed_copper_chain": {
+    "display_name": "Exposed Copper Chain",
+    "stack_size": 64
+  },
+  "weathered_copper_chain": {
+    "display_name": "Weathered Copper Chain",
+    "stack_size": 64
+  },
+  "oxidized_copper_chain": {
+    "display_name": "Oxidized Copper Chain",
+    "stack_size": 64
+  },
+  "waxed_copper_chain": {
+    "display_name": "Waxed Copper Chain",
+    "stack_size": 64
+  },
+  "waxed_exposed_copper_chain": {
+    "display_name": "Waxed Exposed Copper Chain",
+    "stack_size": 64
+  },
+  "waxed_weathered_copper_chain": {
+    "display_name": "Waxed Weathered Copper Chain",
+    "stack_size": 64
+  },
+  "waxed_oxidized_copper_chain": {
+    "display_name": "Waxed Oxidized Copper Chain",
     "stack_size": 64
   },
   "glass_pane": {
@@ -2859,6 +2979,10 @@
     "display_name": "Sniffer Egg",
     "stack_size": 64
   },
+  "dried_ghast": {
+    "display_name": "Dried Ghast",
+    "stack_size": 64
+  },
   "dead_tube_coral_block": {
     "display_name": "Dead Tube Coral Block",
     "stack_size": 64
@@ -3269,6 +3393,38 @@
   },
   "soul_lantern": {
     "display_name": "Soul Lantern",
+    "stack_size": 64
+  },
+  "copper_lantern": {
+    "display_name": "Copper Lantern",
+    "stack_size": 64
+  },
+  "exposed_copper_lantern": {
+    "display_name": "Exposed Copper Lantern",
+    "stack_size": 64
+  },
+  "weathered_copper_lantern": {
+    "display_name": "Weathered Copper Lantern",
+    "stack_size": 64
+  },
+  "oxidized_copper_lantern": {
+    "display_name": "Oxidized Copper Lantern",
+    "stack_size": 64
+  },
+  "waxed_copper_lantern": {
+    "display_name": "Waxed Copper Lantern",
+    "stack_size": 64
+  },
+  "waxed_exposed_copper_lantern": {
+    "display_name": "Waxed Exposed Copper Lantern",
+    "stack_size": 64
+  },
+  "waxed_weathered_copper_lantern": {
+    "display_name": "Waxed Weathered Copper Lantern",
+    "stack_size": 64
+  },
+  "waxed_oxidized_copper_lantern": {
+    "display_name": "Waxed Oxidized Copper Lantern",
     "stack_size": 64
   },
   "campfire": {
@@ -4159,8 +4315,100 @@
     "display_name": "Waxed Oxidized Copper Bulb",
     "stack_size": 64
   },
+  "copper_chest": {
+    "display_name": "Copper Chest",
+    "stack_size": 64
+  },
+  "exposed_copper_chest": {
+    "display_name": "Exposed Copper Chest",
+    "stack_size": 64
+  },
+  "weathered_copper_chest": {
+    "display_name": "Weathered Copper Chest",
+    "stack_size": 64
+  },
+  "oxidized_copper_chest": {
+    "display_name": "Oxidized Copper Chest",
+    "stack_size": 64
+  },
+  "waxed_copper_chest": {
+    "display_name": "Waxed Copper Chest",
+    "stack_size": 64
+  },
+  "waxed_exposed_copper_chest": {
+    "display_name": "Waxed Exposed Copper Chest",
+    "stack_size": 64
+  },
+  "waxed_weathered_copper_chest": {
+    "display_name": "Waxed Weathered Copper Chest",
+    "stack_size": 64
+  },
+  "waxed_oxidized_copper_chest": {
+    "display_name": "Waxed Oxidized Copper Chest",
+    "stack_size": 64
+  },
+  "copper_golem_statue": {
+    "display_name": "Copper Golem Statue",
+    "stack_size": 64
+  },
+  "exposed_copper_golem_statue": {
+    "display_name": "Exposed Copper Golem Statue",
+    "stack_size": 64
+  },
+  "weathered_copper_golem_statue": {
+    "display_name": "Weathered Copper Golem Statue",
+    "stack_size": 64
+  },
+  "oxidized_copper_golem_statue": {
+    "display_name": "Oxidized Copper Golem Statue",
+    "stack_size": 64
+  },
+  "waxed_copper_golem_statue": {
+    "display_name": "Waxed Copper Golem Statue",
+    "stack_size": 64
+  },
+  "waxed_exposed_copper_golem_statue": {
+    "display_name": "Waxed Exposed Copper Golem Statue",
+    "stack_size": 64
+  },
+  "waxed_weathered_copper_golem_statue": {
+    "display_name": "Waxed Weathered Copper Golem Statue",
+    "stack_size": 64
+  },
+  "waxed_oxidized_copper_golem_statue": {
+    "display_name": "Waxed Oxidized Copper Golem Statue",
+    "stack_size": 64
+  },
   "lightning_rod": {
     "display_name": "Lightning Rod",
+    "stack_size": 64
+  },
+  "exposed_lightning_rod": {
+    "display_name": "Exposed Lightning Rod",
+    "stack_size": 64
+  },
+  "weathered_lightning_rod": {
+    "display_name": "Weathered Lightning Rod",
+    "stack_size": 64
+  },
+  "oxidized_lightning_rod": {
+    "display_name": "Oxidized Lightning Rod",
+    "stack_size": 64
+  },
+  "waxed_lightning_rod": {
+    "display_name": "Waxed Lightning Rod",
+    "stack_size": 64
+  },
+  "waxed_exposed_lightning_rod": {
+    "display_name": "Waxed Exposed Lightning Rod",
+    "stack_size": 64
+  },
+  "waxed_weathered_lightning_rod": {
+    "display_name": "Waxed Weathered Lightning Rod",
+    "stack_size": 64
+  },
+  "waxed_oxidized_lightning_rod": {
+    "display_name": "Waxed Oxidized Lightning Rod",
     "stack_size": 64
   },
   "pointed_dripstone": {

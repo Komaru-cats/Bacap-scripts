@@ -1,7 +1,7 @@
 import json
 import os
 
-ASSETS_FOLDER = "1.21.5"
+ASSETS_FOLDER = "minecraft-data/data/pc/1.21.10"
 
 GENERATED_FOLDER = ASSETS_FOLDER + "_GEN"
 

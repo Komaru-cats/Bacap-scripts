@@ -894,6 +894,66 @@
     "stack_size": 64,
     "type": "block"
   },
+  "acacia_shelf": {
+    "display_name": "Acacia Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "bamboo_shelf": {
+    "display_name": "Bamboo Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "birch_shelf": {
+    "display_name": "Birch Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "cherry_shelf": {
+    "display_name": "Cherry Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "crimson_shelf": {
+    "display_name": "Crimson Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "dark_oak_shelf": {
+    "display_name": "Dark Oak Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "jungle_shelf": {
+    "display_name": "Jungle Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "mangrove_shelf": {
+    "display_name": "Mangrove Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "oak_shelf": {
+    "display_name": "Oak Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "pale_oak_shelf": {
+    "display_name": "Pale Oak Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "spruce_shelf": {
+    "display_name": "Spruce Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "warped_shelf": {
+    "display_name": "Warped Shelf",
+    "stack_size": 64,
+    "type": "block"
+  },
   "mossy_cobblestone": {
     "display_name": "Mossy Cobblestone",
     "stack_size": 64,
@@ -1394,6 +1454,16 @@
     "stack_size": 64,
     "type": "block"
   },
+  "copper_torch": {
+    "display_name": "Copper Torch",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "copper_wall_torch": {
+    "display_name": "Copper Torch",
+    "stack_size": 64,
+    "type": "block"
+  },
   "glowstone": {
     "display_name": "Glowstone",
     "stack_size": 64,
@@ -1634,8 +1704,88 @@
     "stack_size": 64,
     "type": "block"
   },
-  "chain": {
-    "display_name": "Chain",
+  "copper_bars": {
+    "display_name": "Copper Bars",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "exposed_copper_bars": {
+    "display_name": "Exposed Copper Bars",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "weathered_copper_bars": {
+    "display_name": "Weathered Copper Bars",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "oxidized_copper_bars": {
+    "display_name": "Oxidized Copper Bars",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_copper_bars": {
+    "display_name": "Waxed Copper Bars",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_exposed_copper_bars": {
+    "display_name": "Waxed Exposed Copper Bars",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_weathered_copper_bars": {
+    "display_name": "Waxed Weathered Copper Bars",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_oxidized_copper_bars": {
+    "display_name": "Waxed Oxidized Copper Bars",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "iron_chain": {
+    "display_name": "Iron Chain",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "copper_chain": {
+    "display_name": "Copper Chain",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "exposed_copper_chain": {
+    "display_name": "Exposed Copper Chain",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "weathered_copper_chain": {
+    "display_name": "Weathered Copper Chain",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "oxidized_copper_chain": {
+    "display_name": "Oxidized Copper Chain",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_copper_chain": {
+    "display_name": "Waxed Copper Chain",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_exposed_copper_chain": {
+    "display_name": "Waxed Exposed Copper Chain",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_weathered_copper_chain": {
+    "display_name": "Waxed Weathered Copper Chain",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_oxidized_copper_chain": {
+    "display_name": "Waxed Oxidized Copper Chain",
     "stack_size": 64,
     "type": "block"
   },
@@ -3574,6 +3724,11 @@
     "stack_size": 64,
     "type": "block"
   },
+  "dried_ghast": {
+    "display_name": "Dried Ghast",
+    "stack_size": 64,
+    "type": "block"
+  },
   "dead_tube_coral_block": {
     "display_name": "Dead Tube Coral Block",
     "stack_size": 64,
@@ -4086,6 +4241,46 @@
   },
   "soul_lantern": {
     "display_name": "Soul Lantern",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "copper_lantern": {
+    "display_name": "Copper Lantern",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "exposed_copper_lantern": {
+    "display_name": "Exposed Copper Lantern",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "weathered_copper_lantern": {
+    "display_name": "Weathered Copper Lantern",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "oxidized_copper_lantern": {
+    "display_name": "Oxidized Copper Lantern",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_copper_lantern": {
+    "display_name": "Waxed Copper Lantern",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_exposed_copper_lantern": {
+    "display_name": "Waxed Exposed Copper Lantern",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_weathered_copper_lantern": {
+    "display_name": "Waxed Weathered Copper Lantern",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_oxidized_copper_lantern": {
+    "display_name": "Waxed Oxidized Copper Lantern",
     "stack_size": 64,
     "type": "block"
   },
@@ -5199,8 +5394,123 @@
     "stack_size": 64,
     "type": "block"
   },
+  "copper_chest": {
+    "display_name": "Copper Chest",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "exposed_copper_chest": {
+    "display_name": "Exposed Copper Chest",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "weathered_copper_chest": {
+    "display_name": "Weathered Copper Chest",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "oxidized_copper_chest": {
+    "display_name": "Oxidized Copper Chest",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_copper_chest": {
+    "display_name": "Waxed Copper Chest",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_exposed_copper_chest": {
+    "display_name": "Waxed Exposed Copper Chest",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_weathered_copper_chest": {
+    "display_name": "Waxed Weathered Copper Chest",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_oxidized_copper_chest": {
+    "display_name": "Waxed Oxidized Copper Chest",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "copper_golem_statue": {
+    "display_name": "Copper Golem Statue",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "exposed_copper_golem_statue": {
+    "display_name": "Exposed Copper Golem Statue",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "weathered_copper_golem_statue": {
+    "display_name": "Weathered Copper Golem Statue",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "oxidized_copper_golem_statue": {
+    "display_name": "Oxidized Copper Golem Statue",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_copper_golem_statue": {
+    "display_name": "Waxed Copper Golem Statue",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_exposed_copper_golem_statue": {
+    "display_name": "Waxed Exposed Copper Golem Statue",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_weathered_copper_golem_statue": {
+    "display_name": "Waxed Weathered Copper Golem Statue",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_oxidized_copper_golem_statue": {
+    "display_name": "Waxed Oxidized Copper Golem Statue",
+    "stack_size": 64,
+    "type": "block"
+  },
   "lightning_rod": {
     "display_name": "Lightning Rod",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "exposed_lightning_rod": {
+    "display_name": "Exposed Lightning Rod",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "weathered_lightning_rod": {
+    "display_name": "Weathered Lightning Rod",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "oxidized_lightning_rod": {
+    "display_name": "Oxidized Lightning Rod",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_lightning_rod": {
+    "display_name": "Waxed Lightning Rod",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_exposed_lightning_rod": {
+    "display_name": "Waxed Exposed Lightning Rod",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_weathered_lightning_rod": {
+    "display_name": "Waxed Weathered Lightning Rod",
+    "stack_size": 64,
+    "type": "block"
+  },
+  "waxed_oxidized_lightning_rod": {
+    "display_name": "Waxed Oxidized Lightning Rod",
     "stack_size": 64,
     "type": "block"
   },
@@ -5529,6 +5839,86 @@
     "stack_size": 1,
     "type": "item"
   },
+  "white_harness": {
+    "display_name": "White Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "orange_harness": {
+    "display_name": "Orange Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "magenta_harness": {
+    "display_name": "Magenta Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "light_blue_harness": {
+    "display_name": "Light Blue Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "yellow_harness": {
+    "display_name": "Yellow Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "lime_harness": {
+    "display_name": "Lime Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "pink_harness": {
+    "display_name": "Pink Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "gray_harness": {
+    "display_name": "Gray Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "light_gray_harness": {
+    "display_name": "Light Gray Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "cyan_harness": {
+    "display_name": "Cyan Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "purple_harness": {
+    "display_name": "Purple Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "blue_harness": {
+    "display_name": "Blue Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "brown_harness": {
+    "display_name": "Brown Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "green_harness": {
+    "display_name": "Green Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "red_harness": {
+    "display_name": "Red Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "black_harness": {
+    "display_name": "Black Harness",
+    "stack_size": 1,
+    "type": "item"
+  },
   "minecart": {
     "display_name": "Minecart",
     "stack_size": 1,
@@ -5819,6 +6209,31 @@
     "stack_size": 1,
     "type": "item"
   },
+  "copper_sword": {
+    "display_name": "Copper Sword",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "copper_shovel": {
+    "display_name": "Copper Shovel",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "copper_pickaxe": {
+    "display_name": "Copper Pickaxe",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "copper_axe": {
+    "display_name": "Copper Axe",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "copper_hoe": {
+    "display_name": "Copper Hoe",
+    "stack_size": 1,
+    "type": "item"
+  },
   "stone_sword": {
     "display_name": "Stone Sword",
     "stack_size": 1,
@@ -5996,6 +6411,26 @@
   },
   "leather_boots": {
     "display_name": "Leather Boots",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "copper_helmet": {
+    "display_name": "Copper Helmet",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "copper_chestplate": {
+    "display_name": "Copper Chestplate",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "copper_leggings": {
+    "display_name": "Copper Leggings",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "copper_boots": {
+    "display_name": "Copper Boots",
     "stack_size": 1,
     "type": "item"
   },
@@ -6674,6 +7109,11 @@
     "stack_size": 64,
     "type": "item"
   },
+  "copper_golem_spawn_egg": {
+    "display_name": "Copper Golem Spawn Egg",
+    "stack_size": 64,
+    "type": "item"
+  },
   "cow_spawn_egg": {
     "display_name": "Cow Spawn Egg",
     "stack_size": 64,
@@ -6736,6 +7176,11 @@
   },
   "ghast_spawn_egg": {
     "display_name": "Ghast Spawn Egg",
+    "stack_size": 64,
+    "type": "item"
+  },
+  "happy_ghast_spawn_egg": {
+    "display_name": "Happy Ghast Spawn Egg",
     "stack_size": 64,
     "type": "item"
   },
@@ -7164,6 +7609,11 @@
     "stack_size": 16,
     "type": "item"
   },
+  "copper_horse_armor": {
+    "display_name": "Copper Horse Armor",
+    "stack_size": 1,
+    "type": "item"
+  },
   "iron_horse_armor": {
     "display_name": "Iron Horse Armor",
     "stack_size": 1,
@@ -7294,6 +7744,11 @@
     "stack_size": 64,
     "type": "item"
   },
+  "copper_nugget": {
+    "display_name": "Copper Nugget",
+    "stack_size": 64,
+    "type": "item"
+  },
   "knowledge_book": {
     "display_name": "Knowledge Book",
     "stack_size": 1,
@@ -7335,6 +7790,11 @@
     "type": "item"
   },
   "music_disc_far": {
+    "display_name": "Music Disc",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "music_disc_lava_chicken": {
     "display_name": "Music Disc",
     "stack_size": 1,
     "type": "item"
@@ -7395,6 +7855,11 @@
     "type": "item"
   },
   "music_disc_precipice": {
+    "display_name": "Music Disc",
+    "stack_size": 1,
+    "type": "item"
+  },
+  "music_disc_tears": {
     "display_name": "Music Disc",
     "stack_size": 1,
     "type": "item"
@@ -7737,11 +8202,6 @@
   "ominous_bottle": {
     "display_name": "Ominous Bottle",
     "stack_size": 64,
-    "type": "item"
-  },
-  "light_gray_harness": {
-    "display_name": "Light Gray Harness",
-    "stack_size": 1,
     "type": "item"
   }
 }
