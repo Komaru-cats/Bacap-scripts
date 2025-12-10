@@ -204,7 +204,7 @@ class AdvancementInterface:
                     break
                 elif not cont:
                     path = DatapackList.default.default_advancements_path / (
-                                eget_value(f"Path (with filename):") + ".json")
+                            eget_value(f"Path (with filename):") + ".json")
 
                 if not advancement_json.get("rewards"):
                     reward = f"{DatapackList.default.reward_namespace}:{path.relative_to(DatapackList.default.default_advancements_path).with_suffix("").as_posix()}"
@@ -273,6 +273,10 @@ class FuncInterface:
     @staticmethod
     @exit_on_empty_input
     def __generate_exp(adv: Advancement):
+        if adv.mc_path in adv.datapack.ignore_adv_gen_list:
+            output(f"Skip {adv.mc_path}")
+            return None
+
         exp = eget_value("Exp:", value_type=int)
         if exp == 0:
             adv.functions.exp.generate(None)
@@ -282,6 +286,10 @@ class FuncInterface:
     @exit_on_empty_input
     @loop
     def __generate_reward(self, adv: Advancement):
+        if adv.mc_path in adv.datapack.ignore_adv_gen_list:
+            output(f"Skip {adv.mc_path}")
+            return None
+
         if not eget_bool("Give Reward [y/n]:"):
             adv.functions.reward.generate(None)
             return True
@@ -306,6 +314,10 @@ class FuncInterface:
     @exit_on_empty_input
     @loop
     def __generate_trophy(self, adv: Advancement):
+        if adv.mc_path in adv.datapack.ignore_adv_gen_list:
+            output(f"Skip {adv.mc_path}")
+            return None
+
         if not eget_bool("Give Trophy [y/n]:"):
             adv.functions.trophy.generate(None)
             return True
@@ -374,8 +386,10 @@ class FuncInterface:
 
     @func_mi.register_func("Regen Trophies", "r")
     def regen_trophies(self):
-        AdvancementsManager.generate()  # Обновляем сука ачивки перед тем как...
+        AdvancementsManager.generate()
         for adv in AdvancementsManager.filtered_iterator(datapack=DatapackList.default):
+            if adv.mc_path in adv.datapack.ignore_adv_gen_list:
+                continue
             adv.functions.trophy.gen_from_selfdata()
 
 

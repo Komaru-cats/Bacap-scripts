@@ -469,7 +469,6 @@ class Advancement(BaseAdvancement):
         """
         return self._criteria_list
 
-
     def __str__(self):
         return f"Advancement([{self.datapack}] {self.mc_path})"
 
@@ -615,8 +614,7 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
     def filtered_list(
             cls,
             datapack: Iterable[Datapack] | Datapack,
-            skip_invalid: bool = True, skip_technical: bool = True, skip_normal: bool = False) -> list[
-        Advancement | InvalidAdvancement | TechnicalAdvancement]:
+            skip_invalid: bool = True, skip_technical: bool = True, skip_normal: bool = False) -> list[Advancement | InvalidAdvancement | TechnicalAdvancement]:
         """
         Returns list of advancements by parameters.
         """

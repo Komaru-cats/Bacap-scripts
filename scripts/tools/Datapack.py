@@ -44,7 +44,7 @@ class Datapack:
         if self._language_pack is not None:
             self._base_translation_path = Path(config["base_translation_path"]) \
                 if config.get("base_translation_path", None) else None
-            self._main_translation_path = Path(config["main_translation_path"])\
+            self._main_translation_path = Path(config["main_translation_path"]) \
                 if config.get("main_translation_path", None) else None
 
         base_translation_header_path = path_to_config_folder / "base_translation_header.txt"
@@ -125,6 +125,8 @@ class Datapack:
                               self._msg_patterns_path.iterdir() if pattern.suffix == ".pattern"}
         self._msg_milestone_names = json.loads(
             (self._msg_patterns_path / "milestone_names.json").read_text(encoding=self._encoding))
+
+        self._ignore_adv_gen_list: List[str] = json.loads((path_to_config_folder / "ignore_adv_gen.json").read_text(encoding="utf-8"))
 
     def is_technical(self, path):
         return any(path.is_relative_to(tech_folder) for tech_folder in self.technical_paths)
@@ -316,6 +318,10 @@ class Datapack:
     @property
     def blacklisted_symbols(self) -> str:
         return self._blacklisted_symbols
+
+    @property
+    def ignore_adv_gen_list(self) -> List[str]:
+        return self._ignore_adv_gen_list
 
     def get_trophy_text_color_by_type(self, adv_type: str, is_hidden: bool = False):
         if is_hidden:
