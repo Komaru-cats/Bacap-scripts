@@ -201,16 +201,11 @@ def nbt_encoder(nbt: Dict | List | float | int | str) -> str:
 
     def convert_list(data: List) -> str:
         result = ""
-        types = []
         for value in data:
-            types.append(type(value) is int)
             result += f"{convert_value(value)},"
         if result.endswith(","):
             result = result[:-1]
-        if len(types) > 0 and all(types):
-            result = f"[I;{result}]"
-        else:
-            result = f"[{result}]"
+        result = f"[{result}]"
         return result
 
     def convert_string(value: str) -> str:
@@ -237,7 +232,7 @@ def nbt_encoder(nbt: Dict | List | float | int | str) -> str:
             return convert_string(value)
         elif isinstance(value, Color):
             return convert_color(value)
-        elif type(value) == int:
+        elif type(value) is int:
             return convert_int(value)
         elif isinstance(value, float):
             return convert_float(value)
