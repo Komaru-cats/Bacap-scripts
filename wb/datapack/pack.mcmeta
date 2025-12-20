@@ -1,7 +1,7 @@
 {
   "pack": {
-	"min_format": [88, 0],
-	"max_format": [88, 0],
-	"description": "WB for BACAP - adds worldborder that expands after completing advancements"
+        "min_format": [94.1],
+        "max_format": [94.1],
+        "description": "WB for BACAP - adds worldborder that expands after completing advancements"
   }
 }

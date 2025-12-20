@@ -7,7 +7,9 @@ from sqlalchemy import Column, Integer, String, Float
 from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
-desc_color_dict: Dict = json.loads(Path("wb/desc_color.json").read_text(encoding="UTF-8"))
+desc_color_dict: Dict = json.loads(
+    Path("wb/desc_color.json").read_text(encoding="UTF-8")
+)
 
 DATAPACK_PRESET_PATH = Path("wb/datapack")
 
@@ -17,7 +19,7 @@ class NotAdvRewardFound(KeyError):
 
 
 class WBSQL(Base):
-    __tablename__ = 'WorldBorder'
+    __tablename__ = "WorldBorder"
 
     id = Column(Integer, primary_key=True, nullable=False)
     path = Column(String, nullable=False)
@@ -26,10 +28,8 @@ class WBSQL(Base):
 
 
 class RewardPattern:
-    vanilla_normal = Path("wb/vanilla_patterns/reward.pattern").read_text(encoding="UTF-8")
-    vanilla_fast = Path("wb/vanilla_patterns/fast_reward.pattern").read_text(encoding="UTF-8")
-    bukkit_normal = Path("wb/bukkit_patterns/reward.pattern").read_text(encoding="UTF-8")
-    bukkit_fast = Path("wb/bukkit_patterns/fast_reward.pattern").read_text(encoding="UTF-8")
+    normal = Path("wb/patterns/reward.pattern").read_text(encoding="UTF-8")
+    fast = Path("wb/patterns/fast_reward.pattern").read_text(encoding="UTF-8")
 
 
 @dataclass
@@ -42,25 +42,17 @@ class FileRewardData:
     def write_reward(self, datapack_path: Path):
         if self.excluded:
             return
-        path = datapack_path / self.path
-        if not path.parent.exists():
-            path.parent.mkdir(parents=True)
-        path.write_text(self.content, encoding="UTF-8")
-
-
-@dataclass
-class RewardSet:
-    normal: FileRewardData
-    fast: FileRewardData
+        full_path = datapack_path / self.path
+        if not full_path.parent.exists():
+            full_path.parent.mkdir(parents=True)
+        full_path.write_text(self.content, encoding="UTF-8")
 
 
 @dataclass
 class AdvFunctionCommands:
-    vanilla: RewardSet
-    bukkit: RewardSet
+    normal: FileRewardData
+    fast: FileRewardData
 
     def write_all_rewards(self, datapack_path: Path):
-        self.vanilla.normal.write_reward(datapack_path)
-        self.vanilla.fast.write_reward(datapack_path)
-        self.bukkit.normal.write_reward(datapack_path)
-        self.bukkit.fast.write_reward(datapack_path)
+        self.normal.write_reward(datapack_path)
+        self.fast.write_reward(datapack_path)
