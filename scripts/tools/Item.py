@@ -1,5 +1,4 @@
 import base64
-import json
 from io import BytesIO
 from typing import Literal
 
@@ -7,6 +6,7 @@ import requests
 
 from .Color import Color
 from .utils import cut_namespace, get_with_multiple_values
+from .nbt_parser import nbt_decoder
 
 
 class PlayerHead:
@@ -14,7 +14,7 @@ class PlayerHead:
         self._profile = profile
         if self._profile is not None:
             self._texture_url: str | None = \
-            json.loads(base64.b64decode(self._profile["properties"][0]["value"]).decode())['textures']['SKIN']['url']
+                nbt_decoder(base64.b64decode(self._profile["properties"][0]["value"]).decode())['textures']['SKIN']['url']
             self._head_hash_value: str | None = self._texture_url.rsplit('/', 1)[-1]
         else:
             self._texture_url = self._head_hash_value = None

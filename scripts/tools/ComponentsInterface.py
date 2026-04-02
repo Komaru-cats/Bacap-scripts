@@ -70,7 +70,7 @@ class Profile(BasicComponent):
         import re
         from pyperclip import paste as pypaste
         pattern = re.compile(
-            r"profile\"?[:=]{id:\[I;(?P<id>.*?)],properties:\[{name:\"textures\",value:\"(?P<value>.*?)\"}")
+            r"profile\"?[:=]{(id:\[I;.*],)?properties:\[{name:\"textures\",value:\"(?P<value>.*?)\"}")
         search = None
         output("https://minecraft-heads.com/wiki/heads/heads-categories", indent=self.indent)
         while not search:
@@ -80,7 +80,6 @@ class Profile(BasicComponent):
         output("PlayerHead has been parsed", indent=self.indent)
         return {
             "profile": {
-                "id": list(map(int, search["id"].split(","))),
                 "properties": [
                     {
                         "name": "textures",
