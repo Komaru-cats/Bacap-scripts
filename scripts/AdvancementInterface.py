@@ -8,7 +8,14 @@ from textwrap import wrap as textwrap
 import pyperclip
 
 import tools.data_writer as dw
-from tools import Advancement, AdvancementsManager, AdvancementFactory, DatapackList, Resources, Patterns
+from tools import (
+    Advancement,
+    AdvancementsManager,
+    AdvancementFactory,
+    DatapackList,
+    Resources,
+    Patterns,
+)
 from tools.BaseTranslationGenerator import BaseTranslationGenerator
 from tools.ComponentsInterface import ComponentsInterface as Ci
 from tools.DatapackFunctionsGenerator import DatapackFunctionsGenerator
@@ -36,11 +43,16 @@ class Renaming:
         old_mc_path = adv.mc_path
         adv_path_folder = adv.datapack.default_advancements_path
         path = adv_path_folder / f"{path}.json"
-        if (not path.parent.exists()) or (not path.is_relative_to(adv_path_folder)) or (
-                path.resolve() == adv_path_folder.resolve()):
+        if (
+            (not path.parent.exists())
+            or (not path.is_relative_to(adv_path_folder))
+            or (path.resolve() == adv_path_folder.resolve())
+        ):
             print_warning(f"Can't find folder {path.parent}")
             return
-        if not eget_bool(f"Continue with '{path.relative_to(adv_path_folder).with_suffix("").as_posix()}' [y/n]:"):
+        if not eget_bool(
+            f"Continue with '{path.relative_to(adv_path_folder).with_suffix('').as_posix()}' [y/n]:"
+        ):
             return
         adv.path = path
         parent = get_value("New parent [empty/any]:")
@@ -55,8 +67,11 @@ class Renaming:
         title = eget_value("Title:", exit_on_empty=True)
         warnings = SpellingValidator.validate_title(title, adv.datapack)
         if warnings:
-            print_warning(text(
-                f"Title \"{title}\" has {len(warnings)} warnings:\n {"\n".join([warning.reason for warning in warnings])}"))
+            print_warning(
+                text(
+                    f'Title "{title}" has {len(warnings)} warnings:\n {"\n".join([warning.reason for warning in warnings])}'
+                )
+            )
         if not eget_bool(f"Continue with '{title}' [y/n]:"):
             return
         adv.title = title
@@ -84,7 +99,6 @@ class Renaming:
 
 @adv_mi.register_class()
 class AdvancementInterface:
-
     @staticmethod
     def search_adv(find, datapacks=None):
         AdvancementsManager.generate()  # Updating the list before searching
@@ -96,7 +110,9 @@ class AdvancementInterface:
             if adv_list:
                 return adv_list[0]
         for criteria in criteria_list:
-            adv_list = AdvancementsManager.deep_find({criteria: find}, datapacks, limit=1)
+            adv_list = AdvancementsManager.deep_find(
+                {criteria: find}, datapacks, limit=1
+            )
             if adv_list:
                 return adv_list[0]
             return None
@@ -104,8 +120,16 @@ class AdvancementInterface:
 
     @staticmethod
     def __filename_by_adv_title(title):
-        forbidden_chars_in_file = ((",", ""), ("?", ""), ("'", ""), ("!", ""), ("\"", ""))
-        return "_".join(multi_replace(title.lower(), forbidden_chars_in_file).split(" "))
+        forbidden_chars_in_file = (
+            (",", ""),
+            ("?", ""),
+            ("'", ""),
+            ("!", ""),
+            ('"', ""),
+        )
+        return "_".join(
+            multi_replace(title.lower(), forbidden_chars_in_file).split(" ")
+        )
 
     @adv_mi.register_func("Info", "i")
     def advancement_info(self):
@@ -123,23 +147,33 @@ class AdvancementInterface:
     def stats(self):
         AdvancementsManager.generate()  # Updating the list before getting stats
         from collections import defaultdict
+
         split_hidden = get_bool("See hidden separately [y/n]:")
         for datapack in DatapackList.work_with:
             adv_types = defaultdict(list)
 
             if split_hidden:
-                for adv in AdvancementsManager.find(criteria={"hidden": False}, datapack=datapack):
+                for adv in AdvancementsManager.find(
+                    criteria={"hidden": False}, datapack=datapack
+                ):
                     adv_types[adv.type].append(adv)
 
-                adv_types["hidden"] = AdvancementsManager.find(criteria={"hidden": True}, datapack=datapack)
+                adv_types["hidden"] = AdvancementsManager.find(
+                    criteria={"hidden": True}, datapack=datapack
+                )
             else:
                 for adv in AdvancementsManager.filtered_iterator(datapack=datapack):
                     adv_types[adv.type].append(adv)
 
             adv_type_count = {key: len(value) for key, value in adv_types.items()}
-            adv_type_count = dict(sorted(adv_type_count.items(), key=lambda item: item[1], reverse=True))
+            adv_type_count = dict(
+                sorted(adv_type_count.items(), key=lambda item: item[1], reverse=True)
+            )
             output(f"{datapack}: {sum(x for x in adv_type_count.values())}")
-            output("\n".join(f"{adv_type}: {n}" for adv_type, n in adv_type_count.items()), indent=3)
+            output(
+                "\n".join(f"{adv_type}: {n}" for adv_type, n in adv_type_count.items()),
+                indent=3,
+            )
 
     @adv_mi.register_func("Rename", "r")
     @exit_on_empty_input
@@ -181,20 +215,31 @@ class AdvancementInterface:
     def create(self):
         @exit_on_empty_input
         def create_adv(advancement_json):
-            warnings = Validator.validate_json_structure(adv_json=advancement_json, datapack=DatapackList.default)
+            warnings = Validator.validate_json_structure(
+                adv_json=advancement_json, datapack=DatapackList.default
+            )
             if warnings:
                 print_warning("\n".join(map(str, warnings)))
                 if not get_bool("Continue [y/n]:"):
                     return
-            name = self.__filename_by_adv_title(advancement_json["display"]["title"]["translate"])
-            parent_adv = AdvancementsManager.find({"mc_path": advancement_json["parent"]},
-                                                  datapack=DatapackList.available, limit=1)
+            name = self.__filename_by_adv_title(
+                advancement_json["display"]["title"]["translate"]
+            )
+            parent_adv = AdvancementsManager.find(
+                {"mc_path": advancement_json["parent"]},
+                datapack=DatapackList.available,
+                limit=1,
+            )
             if parent_adv:
-                folder = (DatapackList.default.default_advancements_path / cut_namespace(
-                    parent_adv[0].reward_mcpath)).parent
+                folder = (
+                    DatapackList.default.default_advancements_path
+                    / cut_namespace(parent_adv[0].reward_mcpath)
+                ).parent
                 path = folder / f"{name}.json"
             else:
-                folder = DatapackList.default.default_advancements_path / eget_value("Path to advancement folder:")
+                folder = DatapackList.default.default_advancements_path / eget_value(
+                    "Path to advancement folder:"
+                )
                 path = folder / f"{name}.json"
 
             while True:
@@ -204,13 +249,18 @@ class AdvancementInterface:
                     break
                 elif not cont:
                     path = DatapackList.default.default_advancements_path / (
-                            eget_value(f"Path (with filename):") + ".json")
+                        eget_value(f"Path (with filename):") + ".json"
+                    )
 
                 if not advancement_json.get("rewards"):
-                    reward = f"{DatapackList.default.reward_namespace}:{path.relative_to(DatapackList.default.default_advancements_path).with_suffix("").as_posix()}"
+                    reward = f"{DatapackList.default.reward_namespace}:{path.relative_to(DatapackList.default.default_advancements_path).with_suffix('').as_posix()}"
                     advancement_json["rewards"] = {"function": reward}
-                AdvancementFactory.add_advancement(path, advancement_json, datapack=DatapackList.default)
-                shutil.copy(path, Path(user_config["mcpath"]) / Path("/".join(path.parts[2:])))
+                AdvancementFactory.add_advancement(
+                    path, advancement_json, datapack=DatapackList.default
+                )
+                shutil.copy(
+                    path, Path(user_config["mcpath"]) / Path("/".join(path.parts[2:]))
+                )
                 break
 
         if get_value("Copy json and continue [any/e]:") != "e":
@@ -221,7 +271,9 @@ class AdvancementInterface:
             adv_json = json.loads(adv)
             create_adv(adv_json)
         except json.JSONDecodeError as json_error:
-            print_warning(f"Invalid json, try again\n{json_error.msg} at {json_error.lineno}:{json_error.colno}")
+            print_warning(
+                f"Invalid json, try again\n{json_error.msg} at {json_error.lineno}:{json_error.colno}"
+            )
 
     @adv_mi.register_func("Format", "format")
     def advancement_format(self):
@@ -235,7 +287,6 @@ class AdvancementInterface:
 
 @func_mi.register_class()
 class FuncInterface:
-
     @staticmethod
     def __color_wrapper(color):
         mc_colors = Resources.TextColors.list
@@ -299,7 +350,9 @@ class FuncInterface:
         components = None
 
         if eget_bool("Add extra data [y/n]:"):
-            command = eget_value_from_variants("Give or Summon command [g/s]:", s="summon", g="give")
+            command = eget_value_from_variants(
+                "Give or Summon command [g/s]:", s="summon", g="give"
+            )
             components = Ci(item_id)
 
         output(f"Data:")
@@ -324,21 +377,31 @@ class FuncInterface:
         item_id = eget_value("Item Id:", possible_value=Resources.ItemProperties.list)
         name = eget_value("Name:")
         description = textwrap(eget_value("Description:"), 45)
-        output(f"Description:\n{"\n".join(description)}", icon=Icon("[d]", color="purple"))
+        output(
+            f"Description:\n{'\n'.join(description)}", icon=Icon("[d]", color="purple")
+        )
         if not eget_bool("Use this split text [y/n]:"):
             description = self.__make_text_with_lines()
         color = eget_value("Color:", value_type=self.__color_wrapper)
-        command = eget_value_from_variants("Give or Summon command [g/s]:", s="summon", g="give")
+        command = eget_value_from_variants(
+            "Give or Summon command [g/s]:", s="summon", g="give"
+        )
         components = Ci(item_id, True)
 
         output(f"Data:")
         output(f"Item Id: {item_id}", icon=Icon("[i]", color="purple"), indent=3)
         output(f"Name: {name}", icon=Icon("[n]", color="purple"), indent=3)
-        output(f"Description:\n{"\n".join(description)}", icon=Icon("[d]", color="purple"), indent=3)
+        output(
+            f"Description:\n{'\n'.join(description)}",
+            icon=Icon("[d]", color="purple"),
+            indent=3,
+        )
         output(f"Color: {color}", icon=Icon("[c]", color="purple"), indent=3)
         output(f"Command: {command}", icon=Icon("[c]", color="purple"), indent=3)
 
-        trophy_command = adv.functions.trophy.generate(item_id, name, description, color, command, components)
+        trophy_command = adv.functions.trophy.generate(
+            item_id, name, description, color, command, components
+        )
         pyperclip.copy(trophy_command.splitlines()[0])
         output("Command to give trophy has been copied")
         if eget_bool("Continue with this trophy [y/n]:"):
@@ -356,8 +419,12 @@ class FuncInterface:
         print_adv_data(adv)
         if not eget_bool("Continue [y/n]:"):
             return
-        func = eget_value_from_variants("Exp | Reward | Trophy [e/r/t]:",
-                                        e=self.__generate_exp, r=self.__generate_reward, t=self.__generate_trophy)
+        func = eget_value_from_variants(
+            "Exp | Reward | Trophy [e/r/t]:",
+            e=self.__generate_exp,
+            r=self.__generate_reward,
+            t=self.__generate_trophy,
+        )
         func(adv)
 
     @func_mi.register_func("Generate All", "all")
@@ -366,7 +433,8 @@ class FuncInterface:
         for adv in AdvancementsManager.filtered_iterator(datapack=DatapackList.default):
             functions = adv.functions
             if adv.datapack.generate_functions and not any(
-                    (functions.exp.empty, functions.reward.empty, functions.trophy.empty)):
+                (functions.exp.empty, functions.reward.empty, functions.trophy.empty)
+            ):
                 continue
             print_adv_data(adv)
             if not eget_bool("Continue [y/n]:"):
@@ -390,7 +458,10 @@ class FuncInterface:
         for adv in AdvancementsManager.filtered_iterator(datapack=DatapackList.default):
             if adv.mc_path in adv.datapack.ignore_adv_gen_list:
                 continue
-            adv.functions.trophy.gen_from_selfdata()
+            try:
+                adv.functions.trophy.gen_from_selfdata()
+            except BaseException as err:
+                raise RuntimeError(f"Error generating trophies in {adv}\n{err}")
 
 
 @mi.register_class()
@@ -422,9 +493,12 @@ class MainInterface:
         for datapack in DatapackList.work_with:
             output(datapack, icon=Icon("[D]"))
             if count := Release.check(datapack):
-                if not get_bool(f"You have {count} {"problem" if count == 1 else "problems"}\n"
-                                f"Do you want to continue create release [y/n]:",
-                                icon=Icon("[>]", color="yellow", bold=True), indent=3):
+                if not get_bool(
+                    f"You have {count} {'problem' if count == 1 else 'problems'}\n"
+                    f"Do you want to continue create release [y/n]:",
+                    icon=Icon("[>]", color="yellow", bold=True),
+                    indent=3,
+                ):
                     return
             version = get_value("Version:", indent=3)
             Release.create_install(datapack, version)
@@ -447,25 +521,36 @@ class MainInterface:
                 if file.name == "pack.mcmeta":
                     break
             else:
-                print_warning("The datapack path in user's config is invalid. Can't find pack.mcmeta\n"
-                              "If it's correct path - add pack.mcmeta", color="yellow")
+                print_warning(
+                    "The datapack path in user's config is invalid. Can't find pack.mcmeta\n"
+                    "If it's correct path - add pack.mcmeta",
+                    color="yellow",
+                )
                 return
 
             if datapack_path.exists():
                 shutil.rmtree(datapack_path)
-            shutil.copytree(DatapackList.default.path, datapack_path, dirs_exist_ok=True)
+            shutil.copytree(
+                DatapackList.default.path, datapack_path, dirs_exist_ok=True
+            )
 
-            shutil.copytree(resourcepack_path.name, resourcepack_path, dirs_exist_ok=True)
+            shutil.copytree(
+                resourcepack_path.name, resourcepack_path, dirs_exist_ok=True
+            )
 
         threading.Thread(target=save_operation).start()
 
     @mi.register_func("Find Missing Translation", "t")
     def find_missing_translation(self):
-        missing_translations = MissingTranslationFinder.find_all_missing_translations(datapack=DatapackList.work_with)
+        missing_translations = MissingTranslationFinder.find_all_missing_translations(
+            datapack=DatapackList.work_with
+        )
 
         if missing_translations:
-            print_warning(text("Missing translations:\n", bold=True) + "\n".join(
-                [f"\"{x}\": \"\"," for x in missing_translations]))
+            print_warning(
+                text("Missing translations:\n", bold=True)
+                + "\n".join([f'"{x}": "",' for x in missing_translations])
+            )
         else:
             output(text("All translations are fine", bold=True))
 
