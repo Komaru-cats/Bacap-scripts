@@ -29,14 +29,11 @@ class MilestonesGenerator:
                         "trigger": "minecraft:location",
                         "conditions": {
                             "player": {
-                                "type_specific": {
-                                    "type": "player",
-                                    "advancements": {}
-                                }
+                                "minecraft:type_specific/player": {"advancements": {}}
                             }
-                        }
+                        },
                     }
-                    criteria["conditions"]["player"]["type_specific"]["advancements"][adv.mc_path] = True
+                    criteria["conditions"]["player"]["minecraft:type_specific/player"]["advancements"][adv.mc_path] = True
                     adv_json["criteria"][adv.filename] = criteria
 
                 milestone_path.write_text(json.dumps(adv_json, indent=2), encoding=dp.encoding)
@@ -61,9 +58,15 @@ class MilestonesGenerator:
                 if adv.path == dp.legend_adv_path:
                     continue
 
-                criteria = {"trigger": "minecraft:location",
-                            "conditions": {"player": {"type_specific": {"type": "player", "advancements": {}}}}}
-                criteria["conditions"]["player"]["type_specific"]["advancements"][adv.mc_path] = True
+                criteria = {
+                    "trigger": "minecraft:location",
+                    "conditions": {
+                        "player": {
+                            "minecraft:type_specific/player": {"advancements": {}}
+                        }
+                    }
+                }
+                criteria["conditions"]["player"]["minecraft:type_specific/player"]["advancements"][adv.mc_path] = True
                 adv_json["criteria"][adv.filename] = criteria
 
             dp.legend_adv_path.write_text(json.dumps(adv_json, indent=2), encoding=dp.encoding)
