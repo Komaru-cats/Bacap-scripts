@@ -295,6 +295,7 @@ execute if score bacaped:redstone/light_touch bac_obtained_dark_blue matches 1..
 execute if score bacaped:redstone/more_optimisations bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:redstone/more_optimisations
 execute if score bacaped:redstone/night_shift bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:redstone/night_shift
 execute if score bacaped:redstone/old_optimisations bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:redstone/old_optimisations
+execute if score bacaped:redstone/oppositional_position bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:redstone/oppositional_position
 execute if score bacaped:redstone/say_no_to_campfires bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:redstone/say_no_to_campfires
 execute if score bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow
 execute if score bacaped:redstone/what_do_you_know_about_pistons bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:redstone/what_do_you_know_about_pistons
@@ -366,6 +367,7 @@ execute if score bacaped:weaponry/frightening_fishing bac_obtained_dark_blue mat
 execute if score bacaped:weaponry/glowball bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:weaponry/glowball
 execute if score bacaped:weaponry/meet_the_snipe bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:weaponry/meet_the_snipe
 execute if score bacaped:weaponry/more_shields bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:weaponry/more_shields
+execute if score bacaped:weaponry/renowned_armament bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:weaponry/renowned_armament
 execute if score bacaped:weaponry/snow_fights bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:weaponry/snow_fights
 execute if score bacaped:weaponry/surface_to_air_missle bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:weaponry/surface_to_air_missle
 execute if score bacaped:weaponry/the_explosive_adventure bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:weaponry/the_explosive_adventure

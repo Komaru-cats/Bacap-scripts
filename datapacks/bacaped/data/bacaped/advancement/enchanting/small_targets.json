@@ -26,31 +26,31 @@
         },
         "victims": [
           {
-            "type": "minecraft:axolotl",
+            "entity_type": "minecraft:axolotl",
             "flags": {
               "is_baby": true
             }
           },
           {
-            "type": "minecraft:turtle",
+            "entity_type": "minecraft:turtle",
             "flags": {
               "is_baby": true
             }
           },
           {
-            "type": "minecraft:salmon",
+            "entity_type": "minecraft:salmon",
             "components": {
               "minecraft:salmon/size": "small"
             }
           },
           {
-            "type": "minecraft:rabbit",
+            "entity_type": "minecraft:rabbit",
             "flags": {
               "is_baby": true
             }
           },
           {
-            "type": "minecraft:cat",
+            "entity_type": "minecraft:cat",
             "flags": {
               "is_baby": true
             }

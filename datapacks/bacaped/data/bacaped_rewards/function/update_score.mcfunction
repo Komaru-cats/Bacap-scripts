@@ -274,6 +274,7 @@ execute as @a[advancements={bacaped:redstone/light_touch=true}] run scoreboard p
 execute as @a[advancements={bacaped:redstone/more_optimisations=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/night_shift=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/old_optimisations=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={bacaped:redstone/oppositional_position=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/say_no_to_campfires=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/what_do_you_know_about_pistons=true}] run scoreboard players add @s bac_advancements 1

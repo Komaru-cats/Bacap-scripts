@@ -175,4 +175,5 @@ execute as @s[advancements={bacaped:statistics/your_legs_are_beat=true}] run fun
 execute as @s[advancements={bacaped:weaponry/air_battle=true}] run function bacaped_rewards:trophy/weaponry/air_battle
 execute as @s[advancements={bacaped:weaponry/dead-eye=true}] run function bacaped_rewards:trophy/weaponry/dead-eye
 execute as @s[advancements={bacaped:weaponry/more_shields=true}] run function bacaped_rewards:trophy/weaponry/more_shields
+execute as @s[advancements={bacaped:weaponry/renowned_armament=true}] run function bacaped_rewards:trophy/weaponry/renowned_armament
 execute as @s[advancements={bacaped:weaponry/unlucky=true}] run function bacaped_rewards:trophy/weaponry/unlucky
