@@ -24,7 +24,7 @@
 								"structures": "#blazeandcave:village"
 							},
 							"vehicle": {
-								"type": "happy_ghast"
+								"entity_type": "happy_ghast"
 							}
 						}
 					},
@@ -34,8 +34,8 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type_specific": {
-									"type": "player",
+								"minecraft:type_specific/player": {
+
 									"gamemode": ["spectator"]
 								}
 							}
@@ -53,7 +53,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "happy_ghast",
+								"entity_type": "happy_ghast",
 								"location": {
 									"structures": "#blazeandcave:village"
 								}
@@ -66,8 +66,8 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"type_specific": {
-									"type": "player",
+								"minecraft:type_specific/player": {
+
 									"gamemode": ["spectator"]
 								}
 							}

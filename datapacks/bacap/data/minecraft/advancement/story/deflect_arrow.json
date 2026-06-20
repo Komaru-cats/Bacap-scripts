@@ -50,7 +50,7 @@
 					},
 					"blocked": true,
 					"source_entity": {
-						"type": "#minecraft:skeletons"
+						"entity_type": "#minecraft:skeletons"
 					}
 				}
 			}

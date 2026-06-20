@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:camel"
+					"entity_type": "minecraft:camel"
 				},
 				"partner": {
-					"type": "minecraft:camel"
+					"entity_type": "minecraft:camel"
 				}
 			}
 		}

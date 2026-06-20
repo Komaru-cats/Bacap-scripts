@@ -18,7 +18,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "creeper"
+					"entity_type": "creeper"
 				}
 			}
 		}

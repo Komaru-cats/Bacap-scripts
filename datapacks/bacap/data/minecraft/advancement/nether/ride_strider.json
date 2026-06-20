@@ -20,7 +20,7 @@
 							"condition": "minecraft:entity_properties",
 							"predicate": {
 								"vehicle": {
-									"type": "minecraft:strider"
+									"entity_type": "minecraft:strider"
 								}
 							},
 						"entity": "this"

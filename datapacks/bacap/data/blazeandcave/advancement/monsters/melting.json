@@ -17,7 +17,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:stray",
+					"entity_type": "minecraft:stray",
 					"location": {
 						"biomes": "desert",
 						"position": {

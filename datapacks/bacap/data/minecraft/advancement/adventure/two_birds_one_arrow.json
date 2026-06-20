@@ -18,10 +18,10 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:phantom"
+						"entity_type": "minecraft:phantom"
 					},
 					{
-						"type": "minecraft:phantom"
+						"entity_type": "minecraft:phantom"
 					}
 				],
 				"fired_from_weapon": {

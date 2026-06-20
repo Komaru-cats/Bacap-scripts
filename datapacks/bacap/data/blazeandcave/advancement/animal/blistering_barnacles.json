@@ -18,7 +18,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "minecraft:llama"
+						"entity_type": "minecraft:llama"
 					}
 				}
 			}

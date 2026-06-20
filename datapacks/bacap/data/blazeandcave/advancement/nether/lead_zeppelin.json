@@ -38,7 +38,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "minecraft:happy_ghast"
+							"entity_type": "minecraft:happy_ghast"
 						}
 					}
 				]

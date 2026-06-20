@@ -17,9 +17,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombified_piglin",
+					"entity_type": "zombified_piglin",
 					"vehicle": {
-						"type": "strider"
+						"entity_type": "strider"
 					}
 				}
 			}
@@ -33,8 +33,12 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "strider",
-								"nbt": "{Tags:[zp_ridden]}"
+								"entity_type": "strider",
+								"entity_tags": {
+									"all_of": [
+										"zp_ridden"
+									]
+								}
 							}
 						}
 					}

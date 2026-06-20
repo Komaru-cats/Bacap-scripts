@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:boss_music_check"
+		"function": "blazeandcave:advancement/check/boss_music"
 	},		
 	"criteria": {
 		"music_disc": {

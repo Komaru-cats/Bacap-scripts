@@ -24,7 +24,7 @@
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:egg",
+							"entity_type": "minecraft:egg",
 							"nbt": "{Item:{id:\"minecraft:egg\"}}"
 						}
 					}
@@ -43,7 +43,7 @@
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:egg",
+							"entity_type": "minecraft:egg",
 							"nbt": "{Item:{id:\"minecraft:blue_egg\"}}"
 						}
 					}
@@ -62,7 +62,7 @@
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:egg",
+							"entity_type": "minecraft:egg",
 							"nbt": "{Item:{id:\"minecraft:brown_egg\"}}"
 						}
 					}

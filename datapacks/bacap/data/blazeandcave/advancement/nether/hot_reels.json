@@ -16,7 +16,7 @@
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:strider"
+					"entity_type": "minecraft:strider"
 				}
 			}
 		}

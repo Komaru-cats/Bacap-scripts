@@ -16,7 +16,7 @@
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
 				"entity": {
-					"type": "#blazeandcave:llamas"
+					"entity_type": "#blazeandcave:llamas"
 				}
 			}
 		}

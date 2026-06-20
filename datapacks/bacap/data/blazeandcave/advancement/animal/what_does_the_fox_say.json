@@ -16,11 +16,11 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:fox",
+					"entity_type": "minecraft:fox",
 					"nbt": "{Type:red}"
 				},
 				"partner": {
-					"type": "minecraft:fox",
+					"entity_type": "minecraft:fox",
 					"nbt": "{Type:red}"
 				}
 			}

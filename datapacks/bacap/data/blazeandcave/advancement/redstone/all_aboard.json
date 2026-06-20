@@ -20,7 +20,7 @@
 						"condition": "minecraft:entity_properties",
 						"predicate": {
 							"vehicle": {
-								"type": "minecraft:minecart"
+								"entity_type": "minecraft:minecart"
 							}
 						},
 						"entity": "this"

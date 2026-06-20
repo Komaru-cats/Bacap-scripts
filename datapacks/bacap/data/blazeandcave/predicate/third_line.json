@@ -6,7 +6,7 @@
 			"entity": "this",
 			"predicate": {
 				"vehicle": {
-					"type": "#blazeandcave:player_rideable_mobs"
+					"entity_type": "#blazeandcave:player_rideable_mobs"
 				}
 			}
 		},

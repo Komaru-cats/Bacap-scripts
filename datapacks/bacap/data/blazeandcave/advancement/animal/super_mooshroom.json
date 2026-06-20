@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:mooshroom"
+					"entity_type": "minecraft:mooshroom"
 				},
 				"partner": {
-					"type": "minecraft:mooshroom"
+					"entity_type": "minecraft:mooshroom"
 				}
 			}
 		}

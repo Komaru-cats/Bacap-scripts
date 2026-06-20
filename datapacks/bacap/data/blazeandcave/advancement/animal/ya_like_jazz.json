@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:bee"
+					"entity_type": "minecraft:bee"
 				},
 				"partner": {
-					"type": "minecraft:bee"
+					"entity_type": "minecraft:bee"
 				}
 			}
 		}

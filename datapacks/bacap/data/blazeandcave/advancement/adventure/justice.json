@@ -23,19 +23,19 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:pillager"
+						"entity_type": "minecraft:pillager"
 					},
 					{
-						"type": "minecraft:vindicator"
+						"entity_type": "minecraft:vindicator"
 					},
 					{
-						"type": "minecraft:evoker"
+						"entity_type": "minecraft:evoker"
 					},
 					{
-						"type": "minecraft:ravager"
+						"entity_type": "minecraft:ravager"
 					},
 					{
-						"type": "minecraft:witch"
+						"entity_type": "minecraft:witch"
 					}
 				],
 				"fired_from_weapon": {

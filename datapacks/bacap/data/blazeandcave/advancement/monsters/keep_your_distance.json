@@ -23,11 +23,11 @@
 							}
 						],
 						"direct_entity": {
-							"type": "#blazeandcave:arrows"
+							"entity_type": "#blazeandcave:arrows"
 						}
 				},
 				"entity": {
-					"type": "creeper"
+					"entity_type": "creeper"
 				}
 			}
 		}	

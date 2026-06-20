@@ -16,7 +16,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie",
+					"entity_type": "minecraft:zombie",
 					"equipment": {
 						"mainhand": {
 							"items": [
@@ -48,7 +48,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie",
+					"entity_type": "minecraft:zombie",
 					"equipment": {
 						"mainhand": {
 							"items": [
@@ -80,7 +80,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "zombie",
+					"entity_type": "minecraft:zombie",
 					"equipment": {
 						"mainhand": {
 							"items": [

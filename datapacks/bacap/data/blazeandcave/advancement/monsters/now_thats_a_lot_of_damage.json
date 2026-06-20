@@ -16,7 +16,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "warden"
+					"entity_type": "warden"
 				}
 			}
 		}

@@ -17,7 +17,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "iron_golem"
+					"entity_type": "iron_golem"
 				}
 			}
 		}

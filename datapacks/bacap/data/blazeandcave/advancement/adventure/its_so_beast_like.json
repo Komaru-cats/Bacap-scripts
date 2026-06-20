@@ -17,7 +17,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "ravager",
+					"entity_type": "ravager",
 					"nbt": "{CanJoinRaid:1b}"
 				}
 			}

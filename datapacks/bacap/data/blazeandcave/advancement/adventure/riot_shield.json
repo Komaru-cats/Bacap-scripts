@@ -39,7 +39,7 @@
 					},
 					"blocked": true,
 					"source_entity": {
-						"type": "pillager"
+						"entity_type": "pillager"
 					}
 				}
 			}

@@ -18,7 +18,7 @@
 			"conditions": {
 				"victims": [
 						{
-					"type": "minecraft:villager"
+					"entity_type": "minecraft:villager"
 					}
 				]
 			}

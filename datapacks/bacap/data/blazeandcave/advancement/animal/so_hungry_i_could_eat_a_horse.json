@@ -26,7 +26,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#blazeandcave:horses"
+							"entity_type": "#blazeandcave:horses"
 						}
 					}
 				]
@@ -45,7 +45,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#blazeandcave:horses"
+							"entity_type": "#blazeandcave:horses"
 						}
 					}
 				]
@@ -64,7 +64,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#blazeandcave:horses"
+							"entity_type": "#blazeandcave:horses"
 						}
 					}
 				]
@@ -83,7 +83,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#blazeandcave:horses"
+							"entity_type": "#blazeandcave:horses"
 						}
 					}
 				]
@@ -102,7 +102,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#blazeandcave:horses"
+							"entity_type": "#blazeandcave:horses"
 						}
 					}
 				]
@@ -121,7 +121,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#blazeandcave:horses"
+							"entity_type": "#blazeandcave:horses"
 						}
 					}
 				]
@@ -140,7 +140,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#blazeandcave:horses"
+							"entity_type": "#blazeandcave:horses"
 						}
 					}
 				]
@@ -159,7 +159,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#blazeandcave:horses"
+							"entity_type": "#blazeandcave:horses"
 						}
 					}
 				]

@@ -22,7 +22,7 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"type": "wandering_trader",
+					"entity_type": "wandering_trader",
 					"effects": {
 						"minecraft:invisibility": {}
 					}

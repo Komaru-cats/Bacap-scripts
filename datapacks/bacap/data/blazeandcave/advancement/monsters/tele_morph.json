@@ -24,7 +24,7 @@
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:ender_pearl"
+							"entity_type": "minecraft:ender_pearl"
 						}
 					}
 				}

@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "#blazeandcave:llamas"
+					"entity_type": "#blazeandcave:llamas"
 				},
 				"partner": {
-					"type": "#blazeandcave:llamas"
+					"entity_type": "#blazeandcave:llamas"
 				}
 			}
 		}

@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:cat"
+					"entity_type": "minecraft:cat"
 				},
 				"partner": {
-					"type": "minecraft:cat"
+					"entity_type": "minecraft:cat"
 				}
 			}
 		}

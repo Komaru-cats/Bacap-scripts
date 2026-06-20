@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:strider"
+					"entity_type": "minecraft:strider"
 				},
 				"partner": {
-					"type": "minecraft:strider"
+					"entity_type": "minecraft:strider"
 				}
 			}
 		}

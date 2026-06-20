@@ -22,7 +22,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -45,7 +45,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -68,7 +68,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -91,7 +91,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -114,7 +114,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -137,7 +137,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -160,7 +160,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -183,7 +183,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -206,7 +206,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -229,7 +229,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -252,7 +252,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -275,7 +275,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -298,7 +298,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -321,7 +321,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -344,7 +344,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
@@ -367,7 +367,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:llamas",
+								"entity_type": "#blazeandcave:llamas",
 								"equipment": {
 									"body": {
 										"items": [
