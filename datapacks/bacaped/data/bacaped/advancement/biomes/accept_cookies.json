@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:animal/accept_cookies"
+    "function": "bacaped_rewards:biomes/accept_cookies"
   }
 }
