@@ -47,7 +47,7 @@ def create():
             "exp": adv.functions.exp.value or 0,
             "req": req_data.get(adv.mc_path, "")
         })
-    ver = get_value("Версия релиза (Например 2.2.3):")
+    ver = get_value("Release version (ex. 2.2.3):")
     path = Path(f'pages/ver/{ver.replace(".", "_")}/data.json')
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding=DatapackList.default.encoding)
