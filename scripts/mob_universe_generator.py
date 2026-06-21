@@ -7,10 +7,12 @@ overworld_mobs = [
     "bogged",
     "breeze",
     "camel",
+    "camel_husk",
     "cat",
     "cave_spider",
     "chicken",
     "cod",
+    "copper_golem",
     "cow",
     "creaking",
     "creeper",
@@ -30,8 +32,10 @@ overworld_mobs = [
     "llama",
     "mooshroom",
     "mule",
+    "nautilus",
     "ocelot",
     "panda",
+    "parched",
     "parrot",
     "phantom",
     "pig",
@@ -63,6 +67,8 @@ overworld_mobs = [
     "witch",
     "wolf",
     "zombie",
+    "zombie_horse",
+    "zombie_nautilus",
     "zombie_villager"
 ]
 
@@ -87,7 +93,6 @@ end_mobs = [
     "endermite",
     "shulker"
 ]
-
 
 def iterateThroughMobList(world_mob_list):
     COMPLETE_COLOR = "#00a523"
