@@ -1,3 +1,4 @@
+import json
 import os.path
 from collections.abc import Iterable
 from dataclasses import dataclass
@@ -11,6 +12,7 @@ from .Advancement import AdvancementsManager
 from .Datapack import Datapack
 from .Warnings import AdvWarning, AdvWarningType
 
+IGNORE_TRANSLATIONS: Set[str] = set(json.loads(Path("resources/spelling/ignore_missing_translations.json").read_text()))
 
 @dataclass(frozen=True)
 class CachedTranslation:
@@ -61,6 +63,8 @@ class MissingTranslationFinder:
             trophy_translations = [adv.functions.trophy.item.name] + adv.functions.trophy.item.lore.split("\n")
 
         for adv_translate in adv_translations:
+            if adv_translate in IGNORE_TRANSLATIONS:
+                continue
             if not cls._is_valid_translation_line(adv_translate):
                 continue
 
@@ -108,6 +112,8 @@ class MissingTranslationFinder:
 
     @classmethod
     def _is_missing_translation(cls, translation_line: str, main_translation: Set[str]) -> bool:
+        if translation_line in IGNORE_TRANSLATIONS:
+            return False
 
         if not cls._is_valid_translation_line(translation_line):
             return False
