@@ -28,17 +28,17 @@ class MissingTranslationFinder:
     @classmethod
     def _fetch_translation(cls, datapack: Datapack) -> CachedTranslation:
 
-        last_modified = os.path.getmtime(datapack.main_translation_path)
+        last_modified = os.path.getmtime(datapack.base_translation_path)
 
-        if datapack.main_translation_path not in cls._cached_main_translation_files:
-            main_translation = cls._read_lang_file(datapack.main_translation_path)
-            cls._cache_main_translation_file(datapack.main_translation_path, main_translation, last_modified)
+        if datapack.base_translation_path not in cls._cached_main_translation_files:
+            main_translation = cls._read_lang_file(datapack.base_translation_path)
+            cls._cache_main_translation_file(datapack.base_translation_path, main_translation, last_modified)
 
-        elif last_modified != cls._cached_main_translation_files[datapack.main_translation_path].last_modified:
-            main_translation = cls._read_lang_file(datapack.main_translation_path)
-            cls._cache_main_translation_file(datapack.main_translation_path, main_translation, last_modified)
+        elif last_modified != cls._cached_main_translation_files[datapack.base_translation_path].last_modified:
+            main_translation = cls._read_lang_file(datapack.base_translation_path)
+            cls._cache_main_translation_file(datapack.base_translation_path, main_translation, last_modified)
 
-        return cls._cached_main_translation_files[datapack.main_translation_path]
+        return cls._cached_main_translation_files[datapack.base_translation_path]
 
     @classmethod
     def _cache_main_translation_file(cls, main_translation_path: Path, translations: dict[str, str],
