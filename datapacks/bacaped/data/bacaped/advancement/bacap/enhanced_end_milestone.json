@@ -15,6 +15,18 @@
   },
   "parent": "bacaped:bacap/enhanced_potion_milestone",
   "criteria": {
+    "intergalactic_journey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/intergalactic_journey": true
+            }
+          }
+        }
+      }
+    },
     "bee_colonist": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -22,30 +34,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:end/bee_colonist": true
-            }
-          }
-        }
-      }
-    },
-    "compact_base": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:end/compact_base": true
-            }
-          }
-        }
-      }
-    },
-    "dragon_blitz": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:end/dragon_blitz": true
             }
           }
         }
@@ -63,18 +51,6 @@
         }
       }
     },
-    "end_at_the_start_of_the_game": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:end/end_at_the_start_of_the_game": true
-            }
-          }
-        }
-      }
-    },
     "interdimensional_travel": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -87,25 +63,13 @@
         }
       }
     },
-    "intergalactic_journey": {
+    "dragon_blitz": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:end/intergalactic_journey": true
-            }
-          }
-        }
-      }
-    },
-    "last_hit": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:end/last_hit": true
+              "bacaped:end/dragon_blitz": true
             }
           }
         }
@@ -130,6 +94,42 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:end/the_lockbox": true
+            }
+          }
+        }
+      }
+    },
+    "last_hit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/last_hit": true
+            }
+          }
+        }
+      }
+    },
+    "end_at_the_start_of_the_game": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/end_at_the_start_of_the_game": true
+            }
+          }
+        }
+      }
+    },
+    "compact_base": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/compact_base": true
             }
           }
         }

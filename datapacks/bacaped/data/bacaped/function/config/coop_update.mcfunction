@@ -42,7 +42,6 @@ execute if score bacaped:adventure/water_dependent bac_obtained matches 1.. run 
 execute if score bacaped:adventure/water_team bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/water_team
 execute if score bacaped:adventure/we_are_fine_really bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/we_are_fine_really
 execute if score bacaped:animal/a_ewe_for_every_hue bac_obtained matches 1.. run advancement grant @a only bacaped:animal/a_ewe_for_every_hue
-execute if score bacaped:animal/accept_cookies bac_obtained matches 1.. run advancement grant @a only bacaped:animal/accept_cookies
 execute if score bacaped:animal/air_balloon bac_obtained matches 1.. run advancement grant @a only bacaped:animal/air_balloon
 execute if score bacaped:animal/baby_zoo bac_obtained matches 1.. run advancement grant @a only bacaped:animal/baby_zoo
 execute if score bacaped:animal/beezlebooster bac_obtained matches 1.. run advancement grant @a only bacaped:animal/beezlebooster
@@ -100,6 +99,7 @@ execute if score bacaped:bacap/enhanced_potion_milestone bac_obtained matches 1.
 execute if score bacaped:bacap/enhanced_redstone_milestone bac_obtained matches 1.. run advancement grant @a only bacaped:bacap/enhanced_redstone_milestone
 execute if score bacaped:bacap/enhanced_statistics_milestone bac_obtained matches 1.. run advancement grant @a only bacaped:bacap/enhanced_statistics_milestone
 execute if score bacaped:bacap/enhanced_weaponry_milestone bac_obtained matches 1.. run advancement grant @a only bacaped:bacap/enhanced_weaponry_milestone
+execute if score bacaped:biomes/accept_cookies bac_obtained matches 1.. run advancement grant @a only bacaped:biomes/accept_cookies
 execute if score bacaped:biomes/australia bac_obtained matches 1.. run advancement grant @a only bacaped:biomes/australia
 execute if score bacaped:biomes/coolgrill bac_obtained matches 1.. run advancement grant @a only bacaped:biomes/coolgrill
 execute if score bacaped:biomes/good_dreams bac_obtained matches 1.. run advancement grant @a only bacaped:biomes/good_dreams
@@ -355,6 +355,7 @@ execute if score bacaped:statistics/totem_adept bac_obtained matches 1.. run adv
 execute if score bacaped:statistics/totem_expert bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/totem_expert
 execute if score bacaped:statistics/totem_immortal bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/totem_immortal
 execute if score bacaped:statistics/totem_tinkerer bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/totem_tinkerer
+execute if score bacaped:statistics/true_submarine bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/true_submarine
 execute if score bacaped:statistics/vindicator_vanquisher bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/vindicator_vanquisher
 execute if score bacaped:statistics/wrath_of_the_western_frontier bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/wrath_of_the_western_frontier
 execute if score bacaped:statistics/your_legs_are_beat bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/your_legs_are_beat

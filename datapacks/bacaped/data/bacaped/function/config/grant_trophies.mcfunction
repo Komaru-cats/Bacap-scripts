@@ -169,6 +169,7 @@ execute as @s[advancements={bacaped:statistics/survival_saga=true}] run function
 execute as @s[advancements={bacaped:statistics/titan_of_olympian_gold_triumphs=true}] run function bacaped_rewards:trophy/statistics/titan_of_olympian_gold_triumphs
 execute as @s[advancements={bacaped:statistics/totem_expert=true}] run function bacaped_rewards:trophy/statistics/totem_expert
 execute as @s[advancements={bacaped:statistics/totem_immortal=true}] run function bacaped_rewards:trophy/statistics/totem_immortal
+execute as @s[advancements={bacaped:statistics/true_submarine=true}] run function bacaped_rewards:trophy/statistics/true_submarine
 execute as @s[advancements={bacaped:statistics/vindicator_vanquisher=true}] run function bacaped_rewards:trophy/statistics/vindicator_vanquisher
 execute as @s[advancements={bacaped:statistics/wrath_of_the_western_frontier=true}] run function bacaped_rewards:trophy/statistics/wrath_of_the_western_frontier
 execute as @s[advancements={bacaped:statistics/your_legs_are_beat=true}] run function bacaped_rewards:trophy/statistics/your_legs_are_beat

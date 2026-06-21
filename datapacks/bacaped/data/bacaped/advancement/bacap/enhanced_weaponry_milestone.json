@@ -15,54 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_monsters_milestone",
   "criteria": {
-    "air_battle": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:weaponry/air_battle": true
-            }
-          }
-        }
-      }
-    },
-    "cold_betrayal": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:weaponry/cold_betrayal": true
-            }
-          }
-        }
-      }
-    },
-    "dead-eye": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:weaponry/dead-eye": true
-            }
-          }
-        }
-      }
-    },
-    "deflector": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:weaponry/deflector": true
-            }
-          }
-        }
-      }
-    },
     "explosive_fisherman": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -87,18 +39,6 @@
         }
       }
     },
-    "glowball": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:weaponry/glowball": true
-            }
-          }
-        }
-      }
-    },
     "meet_the_snipe": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -106,6 +46,66 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:weaponry/meet_the_snipe": true
+            }
+          }
+        }
+      }
+    },
+    "cold_betrayal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:weaponry/cold_betrayal": true
+            }
+          }
+        }
+      }
+    },
+    "wind_burst_fox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:weaponry/wind_burst_fox": true
+            }
+          }
+        }
+      }
+    },
+    "dead-eye": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:weaponry/dead-eye": true
+            }
+          }
+        }
+      }
+    },
+    "air_battle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:weaponry/air_battle": true
+            }
+          }
+        }
+      }
+    },
+    "glowball": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:weaponry/glowball": true
             }
           }
         }
@@ -123,13 +123,13 @@
         }
       }
     },
-    "snow_fights": {
+    "deflector": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:weaponry/snow_fights": true
+              "bacaped:weaponry/deflector": true
             }
           }
         }
@@ -147,13 +147,13 @@
         }
       }
     },
-    "the_explosive_adventure": {
+    "snow_fights": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:weaponry/the_explosive_adventure": true
+              "bacaped:weaponry/snow_fights": true
             }
           }
         }
@@ -171,13 +171,13 @@
         }
       }
     },
-    "wind_burst_fox": {
+    "the_explosive_adventure": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:weaponry/wind_burst_fox": true
+              "bacaped:weaponry/the_explosive_adventure": true
             }
           }
         }
