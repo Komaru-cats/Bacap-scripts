@@ -55,6 +55,7 @@ overworld_mobs = [
     "spider",
     "squid",
     "stray",
+    "sulfur_cube",
     "tadpole",
     "trader_llama",
     "tropical_fish",
@@ -69,7 +70,7 @@ overworld_mobs = [
     "zombie",
     "zombie_horse",
     "zombie_nautilus",
-    "zombie_villager"
+    "zombie_villager",
 ]
 
 nether_mobs = [
@@ -84,78 +85,88 @@ nether_mobs = [
     "wither",
     "wither_skeleton",
     "zoglin",
-    "zombified_piglin"
+    "zombified_piglin",
 ]
 
-end_mobs = [
-    "ender_dragon",
-    "enderman",
-    "endermite",
-    "shulker"
-]
+end_mobs = ["ender_dragon", "enderman", "endermite", "shulker"]
 
-def iterateThroughMobList(world_mob_list):
+
+def generate_trigger_command(mobs, dimension_name):
+    conditions = " ".join(
+        [f"if entity @e[type=minecraft:{mob},distance=..128]" for mob in mobs]
+    )
+    return f"execute at @s {conditions} run advancement grant @s only bacaped:challenges/mob_universe {dimension_name}"
+
+
+def generate_mob_data_commands(mob_list: list[str]):
     COMPLETE_COLOR = "#00a523"
     INCOMPLETE_COLOR = "#c2c2c2"
-    output_mob_list = []
 
-    for mob in world_mob_list:
-        output_mob_list.append(f"{mob}Universe")
-        print(f'#{mob}')
-        print(
-            f'data modify storage bacaped_mob_universe_storage {mob}Universe set value {{"translate":"entity.minecraft.{mob}","color":"{INCOMPLETE_COLOR}"}}')
-        print(
-            f'execute at @s if entity @e[type=minecraft:{mob},distance=..128] run data modify storage bacaped_mob_universe_storage {mob}Universe set value {{"translate":"entity.minecraft.{mob}","color":"{COMPLETE_COLOR}"}}')
+    keys = []
+    commands = []
 
-    return output_mob_list
+    for mob in sorted(mob_list):
+        key = f"{mob}Universe"
+        keys.append(key)
+
+        commands.append(f"#{mob}")
+        commands.append(
+            f'data modify storage bacaped_mob_universe_storage {key} set value {{"translate":"entity.minecraft.{mob}","color":"{INCOMPLETE_COLOR}"}}'
+        )
+        commands.append(
+            f'execute at @s if entity @e[type=minecraft:{mob},distance=..128] run data modify storage bacaped_mob_universe_storage {key} set value {{"translate":"entity.minecraft.{mob}","color":"{COMPLETE_COLOR}"}}'
+        )
+
+    return keys, commands
+
+
+def build_tellraw_json(keys):
+    seperator_color = "#c2c2c2"
+    parts = []
+
+    for i, key in enumerate(keys):
+        storage_part = f'{{"storage":"bacaped_mob_universe_storage","nbt":"{key}","interpret":true}}'
+        if i == len(keys) - 1 and len(keys) > 1:
+            parts.append(f'{{"translate":"and ","color":"{seperator_color}"}}')
+            parts.append(storage_part)
+        else:
+            parts.append(storage_part)
+            if i < len(keys) - 1:
+                parts.append(f'{{"text":", ","color":"{seperator_color}"}}')
+
+    return ",".join(parts)
 
 
 def main():
-    SEPERATOR_COLOR = "#c2c2c2"
-    overworld_mob_list = iterateThroughMobList(sorted(overworld_mobs))
-    nether_mob_list = iterateThroughMobList(sorted(nether_mobs))
-    end_mob_list = iterateThroughMobList(sorted(end_mobs))
+    # Tellraw:
+    output_lines = []
 
-    overworld_colored_text_string = ""
-    nether_colored_text_string = ""
-    end_colored_text_string = ""
+    ow_keys, ow_cmds = generate_mob_data_commands(overworld_mobs)
+    nether_keys, nether_cmds = generate_mob_data_commands(nether_mobs)
+    end_keys, end_cmds = generate_mob_data_commands(end_mobs)
 
-    for mob in overworld_mob_list:
-        check_last_mob = overworld_mob_list[-1] if overworld_mob_list else None
-        if check_last_mob == mob:
-            overworld_colored_text_string += f'{{"translate":"and ","color":"{SEPERATOR_COLOR}"}}, {{"storage":"bacaped_mob_universe_storage","nbt":"{mob}","interpret":true}}'
-        else:
-            overworld_colored_text_string += f'{{"storage":"bacaped_mob_universe_storage","nbt":"{mob}","interpret":true}},{{"text":", ","color":"{SEPERATOR_COLOR}"}},'
+    output_lines.extend(ow_cmds)
+    output_lines.extend(nether_cmds)
+    output_lines.extend(end_cmds)
 
-    for mob in nether_mob_list:
-        check_last_mob = nether_mob_list[-1] if nether_mob_list else None
-        if check_last_mob == mob:
-            nether_colored_text_string += f'{{"translate":"and ","color":"{SEPERATOR_COLOR}"}}, {{"storage":"bacaped_mob_universe_storage","nbt":"{mob}","interpret":true}}'
-        else:
-            nether_colored_text_string += f'{{"storage":"bacaped_mob_universe_storage","nbt":"{mob}","interpret":true}},{{"text":", ","color":"{SEPERATOR_COLOR}"}},'
+    output_lines += [
+        r'tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}',
+        r'tellraw @s {"color":"gray","translate":"Mob list for the current dimension of the Mob Universe Advancement"}',
+        r'tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}',
+        f'execute at @s if dimension minecraft:overworld run tellraw @s [{{"translate":"Overworld: ","color":"green"}},{build_tellraw_json(ow_keys)}]',
+        f'execute at @s if dimension minecraft:the_nether run tellraw @s [{{"translate":"Nether: ","color":"red"}},{build_tellraw_json(nether_keys)}]',
+        f'execute at @s if dimension minecraft:the_end run tellraw @s [{{"translate":"End: ","color":"dark_purple"}},{build_tellraw_json(end_keys)}]',
+    ]
 
-    for mob in end_mob_list:
-        check_last_mob = end_mob_list[-1] if end_mob_list else None
-        if check_last_mob == mob:
-            end_colored_text_string += f'{{"translate":"and ","color":"{SEPERATOR_COLOR}"}}, {{"storage":"bacaped_mob_universe_storage","nbt":"{mob}","interpret":true}}'
-        else:
-            end_colored_text_string += f'{{"storage":"bacaped_mob_universe_storage","nbt":"{mob}","interpret":true}},{{"text":", ","color":"{SEPERATOR_COLOR}"}},'
+    output_lines.append("scoreboard players set @s bacaped_mob_universe 0")
 
-    print(
-        f'tellraw @s {{"text":"                                             ","color":"dark_gray","strikethrough":true}}')
-    print(
-        f'tellraw @s {{"color":"gray","translate":"Mob list for the current dimension of the Mob Universe Advancement"}}')
-    print(
-        f'tellraw @s {{"text":"                                             ","color":"dark_gray","strikethrough":true}}')
+    print("\n".join(output_lines))
 
-    print(
-        f'execute at @s if dimension minecraft:overworld run tellraw @s [{{"translate":"Overworld: ","color":"green"}},{overworld_colored_text_string}]')
-    print(
-        f'execute at @s if dimension minecraft:the_nether run tellraw @s [{{"translate":"Nether: ","color":"red"}},{nether_colored_text_string}]')
-    print(
-        f'execute at @s if dimension minecraft:the_end run tellraw @s [{{"translate":"End: ","color":"dark_purple"}},{end_colored_text_string}]')
-
-    print("scoreboard players set @s bacaped_mob_universe 0")
+    # Trigger command:
+    print("\n\nTRIGGER COMMAND:")
+    print(generate_trigger_command(overworld_mobs, "overworld"))
+    print(generate_trigger_command(nether_mobs, "nether"))
+    print(generate_trigger_command(end_mobs, "end"))
 
 
 if __name__ == "__main__":
