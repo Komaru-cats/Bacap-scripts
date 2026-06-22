@@ -40,7 +40,12 @@ class Criteria:
 
 
 class CriteriaList(list):
-    def __init__(self, adv_criteria: Union[dict, Criteria, list, "CriteriaList", None] = None, *args, **kwargs):
+    def __init__(
+        self,
+        adv_criteria: Union[dict, Criteria, list, "CriteriaList", None] = None,
+        *args,
+        **kwargs,
+    ):
         """
         :param adv_criteria: dict with parsed criteria JSON, list of Criteria, CriteriaList, single Criteria or None
         """
@@ -65,7 +70,9 @@ class CriteriaList(list):
             self.extend(adv_criteria)
 
         else:
-            raise TypeError("Argument must be a dict, Criteria object, or a list of Criteria objects")
+            raise TypeError(
+                "Argument must be a dict, Criteria object, or a list of Criteria objects"
+            )
 
     def is_all_impossible(self) -> bool:
         return all(criteria.is_impossible for criteria in self)
@@ -132,7 +139,10 @@ class CriteriaList(list):
         """
         if not isinstance(criteria, Criteria):
             raise TypeError("Element must be an instance of the Criteria class")
-        return any(crt.name == criteria.name and crt.trigger == criteria.trigger for crt in self)
+        return any(
+            crt.name == criteria.name and crt.trigger == criteria.trigger
+            for crt in self
+        )
 
     def __ne__(self, other: "CriteriaList") -> bool:
         return super().__ne__(other)
@@ -163,7 +173,9 @@ class CriteriaList(list):
         :return: New CriteriaList that contains elements that are in both lists
         """
         if not isinstance(other, self.__class__):
-            raise TypeError("Other element must be an instance of the CriteriaList class")
+            raise TypeError(
+                "Other element must be an instance of the CriteriaList class"
+            )
         new_list = CriteriaList()
         for crit in self:
             if crit in self and crit in other:
@@ -172,7 +184,9 @@ class CriteriaList(list):
 
     def __xor__(self, other: "CriteriaList"):
         if not isinstance(other, self.__class__):
-            raise TypeError("Other element must be an instance of the CriteriaList class")
+            raise TypeError(
+                "Other element must be an instance of the CriteriaList class"
+            )
         new_list = CriteriaList()
 
         for crit in self:

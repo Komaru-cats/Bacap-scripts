@@ -6,7 +6,6 @@ from .utils import get_adv_json
 
 
 class MilestonesGenerator:
-
     @staticmethod
     def generate_milestones(datapack: Datapack | Iterable[Datapack]) -> None:
 
@@ -16,7 +15,11 @@ class MilestonesGenerator:
             if not dp.milestone_advs_path:
                 continue
             adv_by_tab_no_hidden = AdvancementsManager.split_by_tabs(
-                [adv for adv in AdvancementsManager.filtered_iterator(datapack=dp) if not adv.hidden]
+                [
+                    adv
+                    for adv in AdvancementsManager.filtered_iterator(datapack=dp)
+                    if not adv.hidden
+                ]
             )
 
             for tab, milestone_path in dp.milestone_advs_path.items():
@@ -33,10 +36,14 @@ class MilestonesGenerator:
                             }
                         },
                     }
-                    criteria["conditions"]["player"]["minecraft:type_specific/player"]["advancements"][adv.mc_path] = True
+                    criteria["conditions"]["player"]["minecraft:type_specific/player"][
+                        "advancements"
+                    ][adv.mc_path] = True
                     adv_json["criteria"][adv.filename] = criteria
 
-                milestone_path.write_text(json.dumps(adv_json, indent=2), encoding=dp.encoding)
+                milestone_path.write_text(
+                    json.dumps(adv_json, indent=2), encoding=dp.encoding
+                )
                 AdvancementsManager.update_advancement(milestone_path, dp)
 
     @staticmethod
@@ -45,16 +52,18 @@ class MilestonesGenerator:
         datapack = datapack if isinstance(datapack, Iterable) else (datapack,)
 
         for dp in datapack:
-
             if not dp.legend_adv_mcpath:
                 continue
 
             adv_json = get_adv_json(dp.legend_adv_path)
-            adv_list_no_hidden = [adv for adv in AdvancementsManager.filtered_list(datapack=dp) if not adv.hidden]
+            adv_list_no_hidden = [
+                adv
+                for adv in AdvancementsManager.filtered_list(datapack=dp)
+                if not adv.hidden
+            ]
             adv_json["criteria"] = {}
 
             for adv in adv_list_no_hidden:
-
                 if adv.path == dp.legend_adv_path:
                     continue
 
@@ -64,12 +73,16 @@ class MilestonesGenerator:
                         "player": {
                             "minecraft:type_specific/player": {"advancements": {}}
                         }
-                    }
+                    },
                 }
-                criteria["conditions"]["player"]["minecraft:type_specific/player"]["advancements"][adv.mc_path] = True
+                criteria["conditions"]["player"]["minecraft:type_specific/player"][
+                    "advancements"
+                ][adv.mc_path] = True
                 adv_json["criteria"][adv.filename] = criteria
 
-            dp.legend_adv_path.write_text(json.dumps(adv_json, indent=2), encoding=dp.encoding)
+            dp.legend_adv_path.write_text(
+                json.dumps(adv_json, indent=2), encoding=dp.encoding
+            )
 
             AdvancementsManager.update_advancement(dp.legend_adv_path, dp)
 

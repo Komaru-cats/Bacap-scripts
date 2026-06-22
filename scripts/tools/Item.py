@@ -13,9 +13,10 @@ class PlayerHead:
     def __init__(self, profile: dict[str, str | dict | list[dict]]) -> None:
         self._profile = profile
         if self._profile is not None:
-            self._texture_url: str | None = \
-                nbt_decoder(base64.b64decode(self._profile["properties"][0]["value"]).decode())['textures']['SKIN']['url']
-            self._head_hash_value: str | None = self._texture_url.rsplit('/', 1)[-1]
+            self._texture_url: str | None = nbt_decoder(
+                base64.b64decode(self._profile["properties"][0]["value"]).decode()
+            )["textures"]["SKIN"]["url"]
+            self._head_hash_value: str | None = self._texture_url.rsplit("/", 1)[-1]
         else:
             self._texture_url = self._head_hash_value = None
 
@@ -23,7 +24,9 @@ class PlayerHead:
         self._avatar_size: int | None = 128
         self._avatar_direction: Literal["right", "left"] = "left"
 
-    def fetch_avatar(self, size: int = 128, player_head_direction: Literal["right", "left"] = "left") -> BytesIO:
+    def fetch_avatar(
+        self, size: int = 128, player_head_direction: Literal["right", "left"] = "left"
+    ) -> BytesIO:
         """
         :param size: icon size from 32 to 600 px, default is 128
         :param player_head_direction: right or left
@@ -37,7 +40,8 @@ class PlayerHead:
             raise ValueError("Head hash value is None")
 
         response = requests.get(
-            fr"https://mc-heads.net/head/{self._head_hash_value}/{self._avatar_size}/{self._avatar_direction}.png")
+            rf"https://mc-heads.net/head/{self._head_hash_value}/{self._avatar_size}/{self._avatar_direction}.png"
+        )
 
         if response.status_code == 200:
             self._avatar = BytesIO(response.content)
@@ -53,14 +57,20 @@ class PlayerHead:
         """
         return self._avatar
 
-    def get_or_fetch_avatar(self, size: int = 128, player_head_direction: Literal["right", "left"] = "left") -> BytesIO:
+    def get_or_fetch_avatar(
+        self, size: int = 128, player_head_direction: Literal["right", "left"] = "left"
+    ) -> BytesIO:
         """
         :param size: icon size from 32 to 600 px, default is 128
         :param player_head_direction: right or left
         :return:
         """
 
-        if not self._avatar or size != self._avatar_size or self._avatar_direction != player_head_direction:
+        if (
+            not self._avatar
+            or size != self._avatar_size
+            or self._avatar_direction != player_head_direction
+        ):
             self.fetch_avatar()
         return self._avatar
 
@@ -108,7 +118,9 @@ class Potion:
         self._id = potion_contents["potion"]
 
         if potion_contents.get("custom_color", None):
-            self._custom_color = Color(Color.int_to_hex(potion_contents["custom_color"]))
+            self._custom_color = Color(
+                Color.int_to_hex(potion_contents["custom_color"])
+            )
         else:
             self._custom_color = None
 
@@ -131,11 +143,18 @@ class Potion:
 
 
 class Item:
-    def __init__(self, /, item_data: dict[str, str | dict | list] = None,
-                 *, item_id: str = None, components: dict[str, str | dict | list] = None) -> None:
+    def __init__(
+        self,
+        /,
+        item_data: dict[str, str | dict | list] = None,
+        *,
+        item_id: str = None,
+        components: dict[str, str | dict | list] = None,
+    ) -> None:
         if item_data is None and item_id is None:
             raise ValueError(
-                "Either 'item_data' must be provided or both 'item_id' and 'components' must be specified.")
+                "Either 'item_data' must be provided or both 'item_id' and 'components' must be specified."
+            )
 
         if item_data:
             item_id = item_data["id"]
@@ -143,7 +162,9 @@ class Item:
         self._id = item_id
         self._components = components
         if cut_namespace(item_id) == "player_head" and self.components is not None:
-            profile = self._components.get("minecraft:profile") or self._components.get("profile")
+            profile = self._components.get("minecraft:profile") or self._components.get(
+                "profile"
+            )
             self._head_data = PlayerHead(profile)
         else:
             self._head_data = None
@@ -162,8 +183,11 @@ class Item:
 
     @property
     def has_enchantment_glint(self) -> bool:
-        enchantment_glint_override = get_with_multiple_values(self._components, "minecraft:enchantment_glint_override",
-                                                              "enchantment_glint_override")
+        enchantment_glint_override = get_with_multiple_values(
+            self._components,
+            "minecraft:enchantment_glint_override",
+            "enchantment_glint_override",
+        )
         if enchantment_glint_override is not None:
             return enchantment_glint_override
         else:
@@ -185,8 +209,13 @@ class Item:
 
 
 class RewardItem(Item):
-    def __init__(self, item_id: str, components: dict[str, str | dict | list] | None,
-                 item_type: Literal['item', 'block'], amount: str | int | None = 1) -> None:
+    def __init__(
+        self,
+        item_id: str,
+        components: dict[str, str | dict | list] | None,
+        item_type: Literal["item", "block"],
+        amount: str | int | None = 1,
+    ) -> None:
         super().__init__(item_id=item_id, components=components)
         self._type = item_type
         self._amount = int(amount)
@@ -216,8 +245,14 @@ class RewardItem(Item):
 
 
 class TrophyItem(Item):
-    def __init__(self, item_id: str, components: dict[str, str | dict | list], name: str, color: Color,
-                 lore: str) -> None:
+    def __init__(
+        self,
+        item_id: str,
+        components: dict[str, str | dict | list],
+        name: str,
+        color: Color,
+        lore: str,
+    ) -> None:
         super().__init__(item_id=item_id, components=components)
         self._name = name
         self._color = color
@@ -227,10 +262,11 @@ class TrophyItem(Item):
         """
         Regenerated trophy lore by data, parsed from a file.
         """
-        self._components["lore"] = (self._components["lore"][:-3] +
-                                    [{"text": " "},
-                                     {"translate": "Awarded for achieving", "color": "gray"},
-                                     {"translate": adv_title, "color": trophy_type_color.value, "italic": False}])
+        self._components["lore"] = self._components["lore"][:-3] + [
+            {"text": " "},
+            {"translate": "Awarded for achieving", "color": "gray"},
+            {"translate": adv_title, "color": trophy_type_color.value, "italic": False},
+        ]
 
     @property
     def name(self) -> str:

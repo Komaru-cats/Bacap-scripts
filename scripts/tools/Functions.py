@@ -103,13 +103,20 @@ class Main(FuncMixin):
         if not self._adv.datapack.generate_functions:
             return
         reward_path = cut_namespace(self.mc_path)
-        self._write_file(fill_pattern(FunctionsWritePatterns.main,
-                                      {"type": self._adv.type, "adv_path": self._adv.mc_path,
-                                       "adv_score_disabler": "#" if self._adv.hidden else "",
-                                       "reward_namespace": self._adv.datapack.reward_namespace,
-                                       "reward_path": reward_path,
-                                       "fanpacks_namespace": self._adv.datapack.fanpacks_namespace,
-                                       "bacap_reward_namespace": DatapackList.bacap.reward_namespace}))
+        self._write_file(
+            fill_pattern(
+                FunctionsWritePatterns.main,
+                {
+                    "type": self._adv.type,
+                    "adv_path": self._adv.mc_path,
+                    "adv_score_disabler": "#" if self._adv.hidden else "",
+                    "reward_namespace": self._adv.datapack.reward_namespace,
+                    "reward_path": reward_path,
+                    "fanpacks_namespace": self._adv.datapack.fanpacks_namespace,
+                    "bacap_reward_namespace": DatapackList.bacap.reward_namespace,
+                },
+            )
+        )
 
 
 class Exp(FuncMixin):
@@ -139,7 +146,9 @@ class Exp(FuncMixin):
             return
         if exp:
             self._exp = int(exp)
-            self._write_file(fill_pattern(FunctionsWritePatterns.exp, {"exp": str(self._exp)}))
+            self._write_file(
+                fill_pattern(FunctionsWritePatterns.exp, {"exp": str(self._exp)})
+            )
         else:
             self._write_file(self._adv.datapack.empty_file)
 
@@ -173,12 +182,12 @@ class Msg(FuncMixin):
         else:
             msg_type = self._adv.msg_type
 
-        name = self._adv.title.replace('"', r'\"')
-        desc = self._adv.description.replace('"', r'\"').replace('\n', r'\n')
+        name = self._adv.title.replace('"', r"\"")
+        desc = self._adv.description.replace('"', r"\"").replace("\n", r"\n")
 
         if msg_type == "milestone":
             for key, value in self._adv.datapack.msg_milestone_names.items():
-                if value['milestone'] == self._adv.title.title:
+                if value["milestone"] == self._adv.title.title:
                     tab = value["name"]
                     break
             else:
@@ -187,7 +196,11 @@ class Msg(FuncMixin):
             tab = self._adv.datapack.msg_milestone_names[self._adv.tab]["name"]
 
         self._write_file(
-            fill_pattern(self._adv.datapack.msg_patterns[msg_type], {"desc": desc, "name": name, "tab": tab}))
+            fill_pattern(
+                self._adv.datapack.msg_patterns[msg_type],
+                {"desc": desc, "name": name, "tab": tab},
+            )
+        )
 
 
 class Reward(FuncMixin):
@@ -204,7 +217,9 @@ class Reward(FuncMixin):
     def __parse_from_file(self):
         content = self.content
 
-        item_type_match = re.search(r"tellraw .*?{\"translate\":\"(item|block)", content)
+        item_type_match = re.search(
+            r"tellraw .*?{\"translate\":\"(item|block)", content
+        )
         item_type = item_type_match.group(1) if item_type_match else None
 
         match = re.search(FunctionsReadPatterns.give_command, content)
@@ -212,8 +227,14 @@ class Reward(FuncMixin):
             command_data = match.groupdict()
             self._command_type = "give"
 
-            components = item_components_decoder(command_data["components"]) if command_data.get("components") else None
-            self._item = RewardItem(command_data["item_id"], components, item_type, command_data["amount"])
+            components = (
+                item_components_decoder(command_data["components"])
+                if command_data.get("components")
+                else None
+            )
+            self._item = RewardItem(
+                command_data["item_id"], components, item_type, command_data["amount"]
+            )
             return
 
         match = re.search(FunctionsReadPatterns.summon_command, content)
@@ -221,11 +242,20 @@ class Reward(FuncMixin):
             nbt_data = nbt_decoder(match.groupdict()["nbt"])
             self._command_type = "summon"
 
-            self._item = RewardItem(nbt_data["Item"]["id"], nbt_data["Item"]["count"], item_type,
-                                    nbt_data["Item"].get("components"))
+            self._item = RewardItem(
+                nbt_data["Item"]["id"],
+                nbt_data["Item"]["count"],
+                item_type,
+                nbt_data["Item"].get("components"),
+            )
 
-    def generate(self, item_id: str | None, amount: str | int | None = "1",
-                 command: Literal["give", "summon"] = "give", components: Dict[str, Any] = None) -> str | None:
+    def generate(
+        self,
+        item_id: str | None,
+        amount: str | int | None = "1",
+        command: Literal["give", "summon"] = "give",
+        components: Dict[str, Any] = None,
+    ) -> str | None:
         """
         :param item_id: The id of item.
         If item_id is None, generate an empty file.
@@ -243,35 +273,43 @@ class Reward(FuncMixin):
 
         if components and "stored_enchantments" in components.keys():
             enchantments: dict[str, str] = components["stored_enchantments"]
-            enchantment_book = "enchantment.minecraft." + cut_namespace(list(enchantments.keys())[0])
+            enchantment_book = "enchantment.minecraft." + cut_namespace(
+                list(enchantments.keys())[0]
+            )
             enchantment_level = arabic_to_rims(int(list(enchantments.values())[0]))
-            enchantment_name = fill_pattern(FunctionsWritePatterns.enchantment_msg,
-                                            {"id": enchantment_book, "level": enchantment_level})
+            enchantment_name = fill_pattern(
+                FunctionsWritePatterns.enchantment_msg,
+                {"id": enchantment_book, "level": enchantment_level},
+            )
         else:
             enchantment_name = ""
         formated_amount = RewardItem.formatted_amount(amount)
-        replace_dict = {"formated_amount": formated_amount, "type": ItemProperties.dict[item_id]["type"],
-                        "enchantment_name": enchantment_name, "item_id": item_id}
+        replace_dict = {
+            "formated_amount": formated_amount,
+            "type": ItemProperties.dict[item_id]["type"],
+            "enchantment_name": enchantment_name,
+            "item_id": item_id,
+        }
         tellraw = fill_pattern(FunctionsWritePatterns.reward_msg, replace_dict)
         item_id = cut_namespace(item_id)
         if command == "give":
             components = item_components_encoder(components) if components else ""
             give_command = f"give @s {item_id}{components} {amount}\n"
         else:
-            nbt = {"Invulnerable": True,
-                   "Item":
-                       {
-                           "id": item_id,
-                           "count": amount,
-                           "components": components
-                       }
-                   }
+            nbt = {
+                "Invulnerable": True,
+                "Item": {"id": item_id, "count": amount, "components": components},
+            }
             give_command = ""
             while amount > 0:
                 nbt["Item"]["count"] = min(amount, 64)
                 give_command += f"summon minecraft:item ~ ~ ~ {nbt_encoder(nbt)}\n"
                 amount -= 64
-        summon_tellraw = "The reward appeared at the place of your death" if command == "summon" else ""
+        summon_tellraw = (
+            "The reward appeared at the place of your death"
+            if command == "summon"
+            else ""
+        )
         self._write_file(give_command + tellraw)
         self.__parse_from_file()
         return give_command + tellraw + summon_tellraw
@@ -308,7 +346,14 @@ class Trophy(FuncMixin):
             if isinstance(line, dict):
                 desc_list.append(get_with_multiple_values(line, "text", "translate"))
             elif isinstance(line, list):
-                desc_list.append("".join([get_with_multiple_values(element, "text", "translate") for element in line]))
+                desc_list.append(
+                    "".join(
+                        [
+                            get_with_multiple_values(element, "text", "translate")
+                            for element in line
+                        ]
+                    )
+                )
         return desc_list
 
     def __parse_from_file(self) -> None:
@@ -337,12 +382,25 @@ class Trophy(FuncMixin):
         if color:
             color = Color(color)
 
-        lore = "\n".join(x for x in self.__parse_description(components.get("lore", [])) if ".minecraft." not in x)
+        lore = "\n".join(
+            x
+            for x in self.__parse_description(components.get("lore", []))
+            if ".minecraft." not in x
+        )
 
-        self._item = TrophyItem(item_id=item_id, components=components, name=name, color=color, lore=lore)
+        self._item = TrophyItem(
+            item_id=item_id, components=components, name=name, color=color, lore=lore
+        )
 
-    def generate(self, item_id: str | None, name: str = None, description: Iterable[str] = None, color: str = None,
-                 command: Literal["give", "summon"] = "give", components: Dict[str, Any] = None) -> Optional[str]:
+    def generate(
+        self,
+        item_id: str | None,
+        name: str = None,
+        description: Iterable[str] = None,
+        color: str = None,
+        command: Literal["give", "summon"] = "give",
+        components: Dict[str, Any] = None,
+    ) -> Optional[str]:
         """
         Generate a trophy's file with args.
         :param item_id: The id of item.
@@ -369,42 +427,62 @@ class Trophy(FuncMixin):
             components["lore"] = []
 
         lore = [{"translate": part, "color": color} for part in description]
-        components["lore"] = lore + components["lore"] + [{"text": " "},
-                                                          {"translate": "Awarded for achieving", "color": "gray"},
-                                                          {"translate": self._adv.title,
-                                                           "color": self._adv.datapack.get_trophy_text_color_by_type(
-                                                               self._adv.type, self._adv.hidden), "italic": False}]
+        components["lore"] = (
+            lore
+            + components["lore"]
+            + [
+                {"text": " "},
+                {"translate": "Awarded for achieving", "color": "gray"},
+                {
+                    "translate": self._adv.title,
+                    "color": self._adv.datapack.get_trophy_text_color_by_type(
+                        self._adv.type, self._adv.hidden
+                    ),
+                    "italic": False,
+                },
+            ]
+        )
         self.item_id_counter[item_id] += 1
 
-        components.update({
-            "custom_name": {
-                "translate": name,
-                "color": color,
-                "bold": True,
-                "italic": False
-            },
-            "custom_model_data": {"floats": [self.item_id_counter[item_id] + self._adv.datapack.start_floats_num]},
-            "custom_data": {"Trophy": 1},
-        })
+        components.update(
+            {
+                "custom_name": {
+                    "translate": name,
+                    "color": color,
+                    "bold": True,
+                    "italic": False,
+                },
+                "custom_model_data": {
+                    "floats": [
+                        self.item_id_counter[item_id]
+                        + self._adv.datapack.start_floats_num
+                    ]
+                },
+                "custom_data": {"Trophy": 1},
+            }
+        )
 
         tellraw_msg = {"color": "gold", "text": " +1 ", "extra": [{"translate": name}]}
         if command == "give":
-            text_command = (f"give @s {item_id}{item_components_encoder(components)} 1\n"
-                            f"tellraw @s {json.dumps(tellraw_msg, ensure_ascii=False)}")
+            text_command = (
+                f"give @s {item_id}{item_components_encoder(components)} 1\n"
+                f"tellraw @s {json.dumps(tellraw_msg, ensure_ascii=False)}"
+            )
 
         elif command == "summon":
-            tellraw_msg_summon = {"color": "gray", "translate": " The trophy appeared at the place of your death"}
-            nbt = {"Invulnerable": True,
-                   "Item":
-                       {
-                           "id": item_id,
-                           "count": 1,
-                           "components": components
-                       }
-                   }
-            text_command = (f"summon minecraft:item ~ ~ ~ {nbt_encoder(nbt)}\n"
-                            f"tellraw @s {json.dumps(tellraw_msg, ensure_ascii=False)}\n"
-                            f"tellraw @s {json.dumps(tellraw_msg_summon, ensure_ascii=False)}")
+            tellraw_msg_summon = {
+                "color": "gray",
+                "translate": " The trophy appeared at the place of your death",
+            }
+            nbt = {
+                "Invulnerable": True,
+                "Item": {"id": item_id, "count": 1, "components": components},
+            }
+            text_command = (
+                f"summon minecraft:item ~ ~ ~ {nbt_encoder(nbt)}\n"
+                f"tellraw @s {json.dumps(tellraw_msg, ensure_ascii=False)}\n"
+                f"tellraw @s {json.dumps(tellraw_msg_summon, ensure_ascii=False)}"
+            )
         else:
             raise ValueError("Command may be only 'summon' or 'give'")
 
@@ -428,39 +506,56 @@ class Trophy(FuncMixin):
             self._write_file(self._adv.datapack.empty_file)
             return self._adv.datapack.empty_file
 
-        self._item.regenerate_award_lore(self._adv.title,
-                                         self._adv.datapack.get_trophy_text_color_by_type(self._adv.type,
-                                                                                          self._adv.hidden))
+        self._item.regenerate_award_lore(
+            self._adv.title,
+            self._adv.datapack.get_trophy_text_color_by_type(
+                self._adv.type, self._adv.hidden
+            ),
+        )
 
-        tellraw_msg = {"color": "gold", "text": " +1 ", "extra": [{"translate": self.item.name}]}
+        tellraw_msg = {
+            "color": "gold",
+            "text": " +1 ",
+            "extra": [{"translate": self.item.name}],
+        }
 
         components = self._item.components
-        components.update({
-            "custom_model_data": {"floats": [self.item_id_counter[self.item.id] + self._adv.datapack.start_floats_num]},
-        })
+        components.update(
+            {
+                "custom_model_data": {
+                    "floats": [
+                        self.item_id_counter[self.item.id]
+                        + self._adv.datapack.start_floats_num
+                    ]
+                },
+            }
+        )
 
         if cut_namespace(self.item.id) != "player_head":
             self.item_id_counter[cut_namespace(self.item.id)] += 1
 
         if self.command_type == "give":
-            file_content = (f"give @s {self.item.id}{item_components_encoder(components)} 1\n"
-                            f"tellraw @s {json.dumps(tellraw_msg, ensure_ascii=False)}")
+            file_content = (
+                f"give @s {self.item.id}{item_components_encoder(components)} 1\n"
+                f"tellraw @s {json.dumps(tellraw_msg, ensure_ascii=False)}"
+            )
 
         elif self.command_type == "summon":
-            tellraw_msg_summon = {"color": "gray", "text": " The trophy appeared at the place of your death"}
+            tellraw_msg_summon = {
+                "color": "gray",
+                "text": " The trophy appeared at the place of your death",
+            }
 
-            nbt = {"Invulnerable": True,
-                   "Item":
-                       {
-                           "id": self.item.id,
-                           "count": 1,
-                           "components": components
-                       }
-                   }
+            nbt = {
+                "Invulnerable": True,
+                "Item": {"id": self.item.id, "count": 1, "components": components},
+            }
 
-            file_content = (f"summon minecraft:item ~ ~ ~ {nbt_encoder(nbt)}\n"
-                            f"tellraw @s {json.dumps(tellraw_msg, ensure_ascii=False)}\n"
-                            f"tellraw @s {json.dumps(tellraw_msg_summon, ensure_ascii=False)}")
+            file_content = (
+                f"summon minecraft:item ~ ~ ~ {nbt_encoder(nbt)}\n"
+                f"tellraw @s {json.dumps(tellraw_msg, ensure_ascii=False)}\n"
+                f"tellraw @s {json.dumps(tellraw_msg_summon, ensure_ascii=False)}"
+            )
 
         else:
             raise ValueError("Command may be only 'summon' or 'give'")
@@ -488,6 +583,7 @@ class Functions:
     """
     Class to work with advancement's rewards
     """
+
     exist_mc_path = set()
 
     def __init__(self, adv: "Advancement"):
@@ -499,10 +595,18 @@ class Functions:
         self._trophy = None
         path_to_reward = cut_namespace(self._adv.reward_mcpath)
         self.main_path = adv.datapack.reward_path / (path_to_reward + ".mcfunction")
-        self.exp_path = adv.datapack.reward_path / ("exp/" + path_to_reward + ".mcfunction")
-        self.msg_path = adv.datapack.reward_path / ("msg/" + path_to_reward + ".mcfunction")
-        self.reward_path = adv.datapack.reward_path / ("reward/" + path_to_reward + ".mcfunction")
-        self.trophy_path = adv.datapack.reward_path / ("trophy/" + path_to_reward + ".mcfunction")
+        self.exp_path = adv.datapack.reward_path / (
+            "exp/" + path_to_reward + ".mcfunction"
+        )
+        self.msg_path = adv.datapack.reward_path / (
+            "msg/" + path_to_reward + ".mcfunction"
+        )
+        self.reward_path = adv.datapack.reward_path / (
+            "reward/" + path_to_reward + ".mcfunction"
+        )
+        self.trophy_path = adv.datapack.reward_path / (
+            "trophy/" + path_to_reward + ".mcfunction"
+        )
 
         self.mc_main_path = path_to_mc_path(self.main_path)
         self.mc_exp_path = path_to_mc_path(self.exp_path)
@@ -517,7 +621,7 @@ class Functions:
             (self.exp_path, self.mc_exp_path),
             (self.msg_path, self.mc_msg_path),
             (self.reward_path, self.mc_reward_path),
-            (self.trophy_path, self.mc_trophy_path)
+            (self.trophy_path, self.mc_trophy_path),
         ]
         for path, mc_path in paths:
             if path.exists():
@@ -536,11 +640,21 @@ class Functions:
         :return: None
         """
         path_to_reward = cut_namespace(self._adv.reward_mcpath)
-        new_main_path = self._adv.datapack.reward_path / (path_to_reward + ".mcfunction")
-        new_exp_path = self._adv.datapack.reward_path / ("exp/" + path_to_reward + ".mcfunction")
-        new_msg_path = self._adv.datapack.reward_path / ("msg/" + path_to_reward + ".mcfunction")
-        new_reward_path = self._adv.datapack.reward_path / ("reward/" + path_to_reward + ".mcfunction")
-        new_trophy_path = self._adv.datapack.reward_path / ("trophy/" + path_to_reward + ".mcfunction")
+        new_main_path = self._adv.datapack.reward_path / (
+            path_to_reward + ".mcfunction"
+        )
+        new_exp_path = self._adv.datapack.reward_path / (
+            "exp/" + path_to_reward + ".mcfunction"
+        )
+        new_msg_path = self._adv.datapack.reward_path / (
+            "msg/" + path_to_reward + ".mcfunction"
+        )
+        new_reward_path = self._adv.datapack.reward_path / (
+            "reward/" + path_to_reward + ".mcfunction"
+        )
+        new_trophy_path = self._adv.datapack.reward_path / (
+            "trophy/" + path_to_reward + ".mcfunction"
+        )
         if self.main_path.exists():
             self.main_path.rename(new_main_path)
         if self.exp_path.exists():

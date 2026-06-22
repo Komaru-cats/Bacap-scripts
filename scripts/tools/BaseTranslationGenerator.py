@@ -14,13 +14,17 @@ class BaseTranslationGenerator:
         datapack = datapack if isinstance(datapack, Iterable) else (datapack,)
         for dp in datapack:
             # Load the source JSON data (including comments)
-            source_json = cls._load_json_from_file(dp.main_translation_path, dp.encoding)
+            source_json = cls._load_json_from_file(
+                dp.main_translation_path, dp.encoding
+            )
 
             # Create a new base JSON structure with empty values
             base_json = cls._create_new_base_json(source_json)
 
             # Convert the base JSON structure to a string with a header
-            json_string = cls._add_header_to_base_translation(base_json, dp.base_translation_header)
+            json_string = cls._add_header_to_base_translation(
+                base_json, dp.base_translation_header
+            )
 
             # Write the new JSON string to the file, overwriting it completely
             dp.base_translation_path.write_text(data=json_string, encoding=dp.encoding)
@@ -45,6 +49,8 @@ class BaseTranslationGenerator:
         json_string = json.dumps(base_json, ensure_ascii=False, indent=4)
 
         brace_index = json_string.find("{") + 1
-        json_with_header = f"{json_string[:brace_index]}\n{header_text}\n{json_string[brace_index:]}"
+        json_with_header = (
+            f"{json_string[:brace_index]}\n{header_text}\n{json_string[brace_index:]}"
+        )
 
         return json_with_header

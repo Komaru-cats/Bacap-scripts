@@ -141,7 +141,7 @@ def build_tellraw_json(keys):
 
 def check_command(mobs: list[str]):
     return "\n".join(
-        f"execute at @p run summon minecraft:{mob} ~{i*3} ~ ~ {{NoAI:true}}"
+        f"execute at @p run summon minecraft:{mob} ~{i * 3} ~ ~ {{NoAI:true}}"
         for i, mob in enumerate(mobs)
     )
 

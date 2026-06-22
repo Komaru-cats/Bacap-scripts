@@ -16,7 +16,9 @@ class Config:
     pattern_name: str = "WB-Addon-[<version>]"
     types = {
         "Bacap": WBDataSet("bacap.db", [DatapackList.bacap], "bacap"),
-        "Bacaped": WBDataSet("bacaped.db", [DatapackList.bacap, DatapackList.default], "bacaped")
+        "Bacaped": WBDataSet(
+            "bacaped.db", [DatapackList.bacap, DatapackList.default], "bacaped"
+        ),
     }
 
 
@@ -25,7 +27,11 @@ class MI:
     @mi.register_func("Add missing", "a")
     def add_missing(self):
         datapack_set = Config.types[
-            eget_value(f"Select a datapack set [{"/".join(Config.types.keys())}]:", possible_value=Config.types.keys())]
+            eget_value(
+                f"Select a datapack set [{'/'.join(Config.types.keys())}]:",
+                possible_value=Config.types.keys(),
+            )
+        ]
         datapack_set.add_missing()
 
     @mi.register_func("Release", "r")
@@ -36,7 +42,9 @@ class MI:
         shutil.copytree(DATAPACK_PRESET_PATH, path, dirs_exist_ok=True)
 
         version_path = path / "data/bc_wb/function/version.mcfunction"
-        version_path.write_text(fill_pattern(version_path.read_text(), {"version": version}))
+        version_path.write_text(
+            fill_pattern(version_path.read_text(), {"version": version})
+        )
 
         for d_name, d_set in Config.types.items():
             try:
@@ -52,10 +60,7 @@ class MI:
             archive_path.unlink()
 
         shutil.make_archive(
-            base_name=str(path.resolve()),
-            format="zip",
-            root_dir=path,
-            base_dir='.'
+            base_name=str(path.resolve()), format="zip", root_dir=path, base_dir="."
         )
 
         shutil.rmtree(path)

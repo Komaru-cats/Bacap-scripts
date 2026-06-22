@@ -16,7 +16,7 @@ def cut_namespace(string_with_namespace: str) -> str:
 
 
 def escape_quotes(text):
-    return text.replace('\"', '\\\"')
+    return text.replace('"', '\\"')
 
 
 def path_to_mc_path(file_path: Path) -> str:
@@ -26,7 +26,7 @@ def path_to_mc_path(file_path: Path) -> str:
     """
     parts = file_path.parts[3:]
     namespace = parts[0]
-    return f"{namespace}:{"/".join(parts[2:]).partition(".")[0]}"
+    return f"{namespace}:{'/'.join(parts[2:]).partition('.')[0]}"
 
 
 def mc_path_to_path(path_to_datapack: Path, typification: str, mcpath: str) -> Path:
@@ -88,7 +88,9 @@ def fill_pattern(text: str, values: dict[str, str]) -> str:
     return re.sub(pattern, replace_pattern, text)
 
 
-def get_with_multiple_values(input_dict: dict, *args: str | int, default: Any = None) -> Any | None:
+def get_with_multiple_values(
+    input_dict: dict, *args: str | int, default: Any = None
+) -> Any | None:
     """
     Returns the value of the first key found in args within the input_dict.
     If none of the keys are found, return the default value.
@@ -105,8 +107,21 @@ def get_with_multiple_values(input_dict: dict, *args: str | int, default: Any = 
 
 
 def arabic_to_rims(value: int) -> str:
-    nums = {1000: "M", 900: "CM", 500: "D", 400: "CD", 100: "C", 90: "XC", 50: "L", 40: "XL", 10: "X", 9: "IX", 5: "V",
-            4: "IV", 1: "I"}
+    nums = {
+        1000: "M",
+        900: "CM",
+        500: "D",
+        400: "CD",
+        100: "C",
+        90: "XC",
+        50: "L",
+        40: "XL",
+        10: "X",
+        9: "IX",
+        5: "V",
+        4: "IV",
+        1: "I",
+    }
 
     if value <= 0:
         raise ValueError("Value must be positive")

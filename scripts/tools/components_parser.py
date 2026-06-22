@@ -12,12 +12,12 @@ def item_components_decoder(input_str: str) -> Dict[str, Any]:
     """
     input_str = input_str[1:-1]
     result = {}
-    current_key = ''
-    current_value = ''
+    current_key = ""
+    current_value = ""
     in_key = True
     in_value = False
     brace_counter = 0
-    signature = {"'": "'", "\"": "\"", "{": "}", "[": "]"}
+    signature = {"'": "'", '"': '"', "{": "}", "[": "]"}
     current_quote = None
     is_escaping = False
     i = 0
@@ -25,7 +25,7 @@ def item_components_decoder(input_str: str) -> Dict[str, Any]:
     while i < len(input_str):
         char = input_str[i]
         if in_key:
-            if char == '=':
+            if char == "=":
                 current_key = cut_namespace(current_key)
                 in_key = False
                 in_value = True
@@ -43,8 +43,8 @@ def item_components_decoder(input_str: str) -> Dict[str, Any]:
                     pass
                 elif char == ",":
                     result[current_key.strip()] = current_value.strip()
-                    current_key = ''
-                    current_value = ''
+                    current_key = ""
+                    current_value = ""
                     in_key = True
                     in_value = False
                     current_quote = None
@@ -59,8 +59,8 @@ def item_components_decoder(input_str: str) -> Dict[str, Any]:
                 brace_counter -= 1
                 if brace_counter == 0:
                     result[current_key.strip()] = current_value.strip()
-                    current_key = ''
-                    current_value = ''
+                    current_key = ""
+                    current_value = ""
                     in_key = True
                     in_value = False
                     current_quote = None

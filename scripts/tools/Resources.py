@@ -4,15 +4,19 @@ from typing import Dict, List
 
 
 class ItemProperties:
-    dict: Dict[str, Dict[str, str | int]] = json.loads(Path("resources/items.json").read_text())
+    dict: Dict[str, Dict[str, str | int]] = json.loads(
+        Path("resources/items.json").read_text()
+    )
     list: List[str] = list(dict.keys())
-    names_list = [item['display_name'].lower() for item in dict.values()]
+    names_list = [item["display_name"].lower() for item in dict.values()]
 
 
 class BlockProperties:
-    dict: Dict[str, Dict[str, str | int]] = json.loads(Path("resources/blocks.json").read_text())
+    dict: Dict[str, Dict[str, str | int]] = json.loads(
+        Path("resources/blocks.json").read_text()
+    )
     list: List[str] = list(dict.keys())
-    names_list = [block['display_name'].lower() for block in dict.values()]
+    names_list = [block["display_name"].lower() for block in dict.values()]
 
 
 class DyeColors:
@@ -47,12 +51,16 @@ class TrimList:
 
 
 class Potion:
-    dict: Dict[str, Dict[str, bool]] = json.loads(Path("resources/potion.json").read_text())
+    dict: Dict[str, Dict[str, bool]] = json.loads(
+        Path("resources/potion.json").read_text()
+    )
     list: List[str] = dict.keys()
 
 
 class TrimMaterialColor:
-    dict: Dict[str, str] = json.loads(Path("resources/trim_material_color.json").read_text())
+    dict: Dict[str, str] = json.loads(
+        Path("resources/trim_material_color.json").read_text()
+    )
     list: List[str] = dict.keys()
 
 

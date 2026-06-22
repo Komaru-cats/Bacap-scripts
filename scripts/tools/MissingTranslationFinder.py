@@ -12,7 +12,10 @@ from .Advancement import AdvancementsManager
 from .Datapack import Datapack
 from .Warnings import AdvWarning, AdvWarningType
 
-IGNORE_TRANSLATIONS: Set[str] = set(json.loads(Path("resources/spelling/ignore_missing_translations.json").read_text()))
+IGNORE_TRANSLATIONS: Set[str] = set(
+    json.loads(Path("resources/spelling/ignore_missing_translations.json").read_text())
+)
+
 
 @dataclass(frozen=True)
 class CachedTranslation:
@@ -32,25 +35,46 @@ class MissingTranslationFinder:
 
         if datapack.base_translation_path not in cls._cached_main_translation_files:
             main_translation = cls._read_lang_file(datapack.base_translation_path)
-            cls._cache_main_translation_file(datapack.base_translation_path, main_translation, last_modified)
+            cls._cache_main_translation_file(
+                datapack.base_translation_path, main_translation, last_modified
+            )
 
-        elif last_modified != cls._cached_main_translation_files[datapack.base_translation_path].last_modified:
+        elif (
+            last_modified
+            != cls._cached_main_translation_files[
+                datapack.base_translation_path
+            ].last_modified
+        ):
             main_translation = cls._read_lang_file(datapack.base_translation_path)
-            cls._cache_main_translation_file(datapack.base_translation_path, main_translation, last_modified)
+            cls._cache_main_translation_file(
+                datapack.base_translation_path, main_translation, last_modified
+            )
 
         return cls._cached_main_translation_files[datapack.base_translation_path]
 
     @classmethod
-    def _cache_main_translation_file(cls, main_translation_path: Path, translations: dict[str, str],
-                                     last_modified: float):
-        cls._cached_main_translation_files[main_translation_path] = CachedTranslation(last_modified, translations,
-                                                                                      set(translations.keys()))
+    def _cache_main_translation_file(
+        cls,
+        main_translation_path: Path,
+        translations: dict[str, str],
+        last_modified: float,
+    ):
+        cls._cached_main_translation_files[main_translation_path] = CachedTranslation(
+            last_modified, translations, set(translations.keys())
+        )
 
     @staticmethod
     def _is_valid_translation_line(line: str) -> bool:
         if not any(char.isalpha() for char in line):
             return False
-        if any(substring in line for substring in ["entity.minecraft.", "block.minecraft.", "item.minecraft."]):
+        if any(
+            substring in line
+            for substring in [
+                "entity.minecraft.",
+                "block.minecraft.",
+                "item.minecraft.",
+            ]
+        ):
             return False
         return True
 
@@ -60,7 +84,9 @@ class MissingTranslationFinder:
         adv_translations = cls._search_in_dict(adv.json["display"])
         trophy_translations = []
         if adv.functions.trophy.item:
-            trophy_translations = [adv.functions.trophy.item.name] + adv.functions.trophy.item.lore.split("\n")
+            trophy_translations = [
+                adv.functions.trophy.item.name
+            ] + adv.functions.trophy.item.lore.split("\n")
 
         for adv_translate in adv_translations:
             if adv_translate in IGNORE_TRANSLATIONS:
@@ -68,40 +94,62 @@ class MissingTranslationFinder:
             if not cls._is_valid_translation_line(adv_translate):
                 continue
 
-            if adv_translate not in cls._fetch_translation(adv.datapack).translation_keys_set:
-                warnings.append(AdvWarning(AdvWarningType.MISSING_TRANSLATION, f"\"{adv_translate.strip("\n")}\" is missing in translation"))
+            if (
+                adv_translate
+                not in cls._fetch_translation(adv.datapack).translation_keys_set
+            ):
+                warnings.append(
+                    AdvWarning(
+                        AdvWarningType.MISSING_TRANSLATION,
+                        f'"{adv_translate.strip("\n")}" is missing in translation',
+                    )
+                )
 
         for trophy_translate in trophy_translations:
             if not cls._is_valid_translation_line(trophy_translate):
                 continue
 
-            if trophy_translate not in cls._fetch_translation(adv.datapack).translation_keys_set:
-                warnings.append(AdvWarning(AdvWarningType.MISSING_TRANSLATION, f"\"{trophy_translate.strip("\n")}\" is missing in translation in trophy"))
+            if (
+                trophy_translate
+                not in cls._fetch_translation(adv.datapack).translation_keys_set
+            ):
+                warnings.append(
+                    AdvWarning(
+                        AdvWarningType.MISSING_TRANSLATION,
+                        f'"{trophy_translate.strip("\n")}" is missing in translation in trophy',
+                    )
+                )
         return warnings
 
     @classmethod
-    def find_all_missing_translations(cls, datapack: Datapack | Iterable[Datapack]) -> list[str]:
+    def find_all_missing_translations(
+        cls, datapack: Datapack | Iterable[Datapack]
+    ) -> list[str]:
 
         datapack = (datapack,) if isinstance(datapack, Datapack) else datapack
 
         missing_translations = list()
 
         for dp in datapack:
-
             main_translation = cls._fetch_translation(dp)
 
             translation_lines = cls._find_all_datapack_translation_keys(datapack=dp)
-            cls._filter_missing_translations(translation_lines, main_translation.translation_keys_set)
+            cls._filter_missing_translations(
+                translation_lines, main_translation.translation_keys_set
+            )
 
-            for filtered_line in cls._filter_missing_translations(translation_lines,
-                                                                  main_translation.translation_keys_set):
+            for filtered_line in cls._filter_missing_translations(
+                translation_lines, main_translation.translation_keys_set
+            ):
                 if filtered_line not in missing_translations:
                     missing_translations.append(filtered_line)
 
         return missing_translations
 
     @classmethod
-    def _filter_missing_translations(cls, translation_lines: Iterable[str], main_translation: Set[str]) -> list[str]:
+    def _filter_missing_translations(
+        cls, translation_lines: Iterable[str], main_translation: Set[str]
+    ) -> list[str]:
         missing_translations = list()
 
         for translation_line in translation_lines:
@@ -111,7 +159,9 @@ class MissingTranslationFinder:
         return missing_translations
 
     @classmethod
-    def _is_missing_translation(cls, translation_line: str, main_translation: Set[str]) -> bool:
+    def _is_missing_translation(
+        cls, translation_line: str, main_translation: Set[str]
+    ) -> bool:
         if translation_line in IGNORE_TRANSLATIONS:
             return False
 
@@ -154,7 +204,11 @@ class MissingTranslationFinder:
         return list(reversed(translations))
 
     @classmethod
-    def _read_lang_file(cls, lang_file_path: Path | str, encoding: str = "utf-8") -> dict:
+    def _read_lang_file(
+        cls, lang_file_path: Path | str, encoding: str = "utf-8"
+    ) -> dict:
         with open(lang_file_path, encoding=encoding) as file:
-            json_data = cls._jsoncomment_parser.load(file)  # Use jsoncomment because of the comments in the land_file
+            json_data = cls._jsoncomment_parser.load(
+                file
+            )  # Use jsoncomment because of the comments in the land_file
         return json_data

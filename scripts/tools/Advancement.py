@@ -17,7 +17,15 @@ class BaseAdvancement:
     InvalidAdvancement, TechnicalAdvancement and Advancement.
     """
 
-    def __init__(self, path: Path, datapack: Datapack, adv_json: dict, reward_mcpath: str = None, *args, **kwargs):
+    def __init__(
+        self,
+        path: Path,
+        datapack: Datapack,
+        adv_json: dict,
+        reward_mcpath: str = None,
+        *args,
+        **kwargs,
+    ):
         """
         Initializes a new instance of the BaseAdvancement class.
         :param path: The file path to the advancement JSON file.
@@ -51,7 +59,9 @@ class BaseAdvancement:
         Writes correct reward function inside JSON and updates an advancement file.
         """
         if not self._reward_mcpath:
-            self._reward_mcpath = f"{self.datapack.reward_namespace}:{cut_namespace(self._mc_path)}"
+            self._reward_mcpath = (
+                f"{self.datapack.reward_namespace}:{cut_namespace(self._mc_path)}"
+            )
 
         self._adv_json["rewards"] = {"function": self._reward_mcpath}
         self._path.write_text(json.dumps(self._adv_json, indent=2))
@@ -74,9 +84,13 @@ class BaseAdvancement:
         self._path = path
         self._filename = path.stem
         self._mc_path = path_to_mc_path(path)
-        self._reward_mcpath = f"{self.datapack.reward_namespace}:{cut_namespace(self._mc_path)}"
+        self._reward_mcpath = (
+            f"{self.datapack.reward_namespace}:{cut_namespace(self._mc_path)}"
+        )
         self.json["rewards"]["function"] = self._reward_mcpath
-        self._path.write_text(json.dumps(self.json, indent=2), encoding=self.datapack.encoding)
+        self._path.write_text(
+            json.dumps(self.json, indent=2), encoding=self.datapack.encoding
+        )
 
     @property
     def datapack(self) -> Datapack:
@@ -126,7 +140,9 @@ class BaseAdvancement:
         """
         self._parent = parent
         self.json["parent"] = parent
-        self._path.write_text(json.dumps(self.json, indent=2), encoding=self.datapack.encoding)
+        self._path.write_text(
+            json.dumps(self.json, indent=2), encoding=self.datapack.encoding
+        )
 
     @property
     def mc_path(self) -> str:
@@ -180,7 +196,14 @@ class InvalidAdvancement(BaseAdvancement):
     Inherits from BaseAdvancement.
     """
 
-    def __init__(self, path: Path, datapack: Datapack, adv_json, reason: AdvWarning, reward_mcpath: str = None):
+    def __init__(
+        self,
+        path: Path,
+        datapack: Datapack,
+        adv_json,
+        reason: AdvWarning,
+        reward_mcpath: str = None,
+    ):
         """
         Initializes a new instance of the InvalidAdvancement class.
         :param path: The file path to the advancement JSON file.
@@ -230,16 +253,38 @@ class Advancement(BaseAdvancement):
     Class representing normal advancement.
     Inherits from BaseAdvancement.
     """
-    tab_names = {"adventure": "Adventure", "animal": "Animals", "bacap": "B&C Advancements", "biomes": "Biomes",
-                 "building": "Building",
-                 "challenges": "Super Challenges", "enchanting": "Enchanting", "end": "The End", "farming": "Farming",
-                 "mining": "Mining",
-                 "monsters": "Monsters", "nether": "Nether", "potion": "Potions", "redstone": "Redstone",
-                 "statistics": "Statistics", "weaponry": "Weaponry"}
 
-    def __init__(self, path: Path, datapack: Datapack, adv_json: dict, reward_mcpath: str, tab: str, color: str,
-                 frame: str, adv_type: str,
-                 hidden: bool):
+    tab_names = {
+        "adventure": "Adventure",
+        "animal": "Animals",
+        "bacap": "B&C Advancements",
+        "biomes": "Biomes",
+        "building": "Building",
+        "challenges": "Super Challenges",
+        "enchanting": "Enchanting",
+        "end": "The End",
+        "farming": "Farming",
+        "mining": "Mining",
+        "monsters": "Monsters",
+        "nether": "Nether",
+        "potion": "Potions",
+        "redstone": "Redstone",
+        "statistics": "Statistics",
+        "weaponry": "Weaponry",
+    }
+
+    def __init__(
+        self,
+        path: Path,
+        datapack: Datapack,
+        adv_json: dict,
+        reward_mcpath: str,
+        tab: str,
+        color: str,
+        frame: str,
+        adv_type: str,
+        hidden: bool,
+    ):
         """
         Creates a new instance of the Advancement class
 
@@ -277,7 +322,10 @@ class Advancement(BaseAdvancement):
         for item in self._adv_json["display"]["description"].get("extra", []):
             text_value = get_with_multiple_values(item, "text", "translate", default="")
             if isinstance(item, dict) and (
-                    item.get("color") == self._color.value or text_value == "\n" or text_value.strip("\n") == ""):
+                item.get("color") == self._color.value
+                or text_value == "\n"
+                or text_value.strip("\n") == ""
+            ):
                 self._description += text_value
         self._description = self._description.rstrip("\n")
 
@@ -297,7 +345,10 @@ class Advancement(BaseAdvancement):
         :return: None
         """
         self._adv_json["display"]["announce_to_chat"] = True
-        if not can_access_keypath(self.json, ("rewards", "function")) and self.datapack in DatapackList.work_with:
+        if (
+            not can_access_keypath(self.json, ("rewards", "function"))
+            and self.datapack in DatapackList.work_with
+        ):
             self._adv_json["rewards"] = {"function": self.reward_mcpath}
         self._path.write_text(json.dumps(self.json, indent=2))
 
@@ -323,7 +374,9 @@ class Advancement(BaseAdvancement):
         :return: None
         """
         self.json["display"]["title"]["translate"] = value
-        self._path.write_text(json.dumps(self.json, indent=2), encoding=self.datapack.encoding)
+        self._path.write_text(
+            json.dumps(self.json, indent=2), encoding=self.datapack.encoding
+        )
         self._title = value
         self.functions.msg.generate()
         self.functions.trophy.gen_from_selfdata()
@@ -343,7 +396,9 @@ class Advancement(BaseAdvancement):
         :return: None
         """
         self.json["display"]["description"]["translate"] = value
-        self._path.write_text(json.dumps(self.json, indent=2), encoding=self.datapack.encoding)
+        self._path.write_text(
+            json.dumps(self.json, indent=2), encoding=self.datapack.encoding
+        )
         self._description = value
         self.functions.msg.generate()
 
@@ -365,11 +420,17 @@ class Advancement(BaseAdvancement):
         """
         json_adv = self.json
 
-        json_adv["display"]["description"]["color"] = self.datapack.adv_default_type_data[value]["color"]
-        json_adv["display"]["frame"] = self.datapack.adv_default_type_data[value]["frame"]
+        json_adv["display"]["description"]["color"] = (
+            self.datapack.adv_default_type_data[value]["color"]
+        )
+        json_adv["display"]["frame"] = self.datapack.adv_default_type_data[value][
+            "frame"
+        ]
         self._type = value
 
-        self._path.write_text(json.dumps(json_adv, indent=2), encoding=self.datapack.encoding)
+        self._path.write_text(
+            json.dumps(json_adv, indent=2), encoding=self.datapack.encoding
+        )
         self.functions.main.generate()
         self.functions.msg.generate()
         self.functions.trophy.gen_from_selfdata()
@@ -396,11 +457,15 @@ class Advancement(BaseAdvancement):
         self._path = path
         self._filename = path.stem
         self._mc_path = path_to_mc_path(path)
-        self._reward_mcpath = f"{self.datapack.reward_namespace}:{cut_namespace(self._mc_path)}"
+        self._reward_mcpath = (
+            f"{self.datapack.reward_namespace}:{cut_namespace(self._mc_path)}"
+        )
         self.json["rewards"]["function"] = self._reward_mcpath
         self.functions.update_paths()
         self._tab = cut_namespace(self._reward_mcpath).split("/")[0]
-        self._path.write_text(json.dumps(self.json, indent=2), encoding=self.datapack.encoding)
+        self._path.write_text(
+            json.dumps(self.json, indent=2), encoding=self.datapack.encoding
+        )
 
     @property
     def tab(self) -> str:
@@ -433,13 +498,19 @@ class Advancement(BaseAdvancement):
     @hidden.setter
     def hidden(self, value: bool) -> None:
         if value:
-            self._adv_json["display"]["description"]["color"] = self.datapack.default_hidden_color
+            self._adv_json["display"]["description"]["color"] = (
+                self.datapack.default_hidden_color
+            )
         else:
-            self._adv_json["display"]["description"]["color"] = self.datapack.adv_default_type_data[self._type]["color"]
+            self._adv_json["display"]["description"]["color"] = (
+                self.datapack.adv_default_type_data[self._type]["color"]
+            )
 
         self._adv_json["display"]["hidden"] = value
 
-        self._path.write_text(json.dumps(self._adv_json, indent=2), encoding=self.datapack.encoding)
+        self._path.write_text(
+            json.dumps(self._adv_json, indent=2), encoding=self.datapack.encoding
+        )
         self.functions.main.generate()
         self.functions.msg.generate()
         self.functions.trophy.gen_from_selfdata()
@@ -478,32 +549,52 @@ class Advancement(BaseAdvancement):
 
 class AdvancementFactory:
     @classmethod
-    def load_advancement(cls, advancement_path: Path, datapack: Datapack,
-                         force: bool = False) -> Advancement | InvalidAdvancement | TechnicalAdvancement:
+    def load_advancement(
+        cls, advancement_path: Path, datapack: Datapack, force: bool = False
+    ) -> Advancement | InvalidAdvancement | TechnicalAdvancement:
 
         # Check, if advancement with this path already has been created,
         # return a cached object, else create and add to the cache
-        if not force and advancement_path in AdvancementsManager and not cls._is_modified(advancement_path):
+        if (
+            not force
+            and advancement_path in AdvancementsManager
+            and not cls._is_modified(advancement_path)
+        ):
             return AdvancementsManager.adv_dict()[advancement_path]
         adv_json = get_adv_json(advancement_path)
 
         if cls._is_not_parsable_json(adv_json):
-            return InvalidAdvancement(advancement_path, datapack, adv_json,
-                                      AdvWarning(AdvWarningType.CANT_PARSE_JSON, "Invalid JSON"))
+            return InvalidAdvancement(
+                advancement_path,
+                datapack,
+                adv_json,
+                AdvWarning(AdvWarningType.CANT_PARSE_JSON, "Invalid JSON"),
+            )
 
         if datapack.is_technical(advancement_path):
             return TechnicalAdvancement(advancement_path, datapack, adv_json)
 
         if cls._is_invalid_reward(adv_json):
-            return InvalidAdvancement(advancement_path, datapack, adv_json,
-                                      AdvWarning(AdvWarningType.REWARD_FUNCTION_DOESNT_SET,
-                                                 "Can't get reward function"))
+            return InvalidAdvancement(
+                advancement_path,
+                datapack,
+                adv_json,
+                AdvWarning(
+                    AdvWarningType.REWARD_FUNCTION_DOESNT_SET,
+                    "Can't get reward function",
+                ),
+            )
 
         reward_mcpath = adv_json["rewards"]["function"]
 
         if cls._is_invalid_translation(adv_json):
-            return InvalidAdvancement(advancement_path, datapack, adv_json,
-                                      AdvWarning(AdvWarningType.NO_TRANSLATE, "Can't get translation"), reward_mcpath)
+            return InvalidAdvancement(
+                advancement_path,
+                datapack,
+                adv_json,
+                AdvWarning(AdvWarningType.NO_TRANSLATE, "Can't get translation"),
+                reward_mcpath,
+            )
 
         tab = cls._get_tab(reward_mcpath)
 
@@ -511,19 +602,38 @@ class AdvancementFactory:
         frame: str | None = adv_json["display"].get("frame")
         hidden: bool = adv_json["display"].get("hidden", False)
 
-        adv_type = datapack.resolve_adv_type(advancement_path.stem, tab, color, frame, hidden)
+        adv_type = datapack.resolve_adv_type(
+            advancement_path.stem, tab, color, frame, hidden
+        )
 
         if not adv_type:
-            return InvalidAdvancement(advancement_path, datapack, adv_json,
-                                      AdvWarning(AdvWarningType.UNKNOWN_TYPE, "Can't get type"), reward_mcpath)
+            return InvalidAdvancement(
+                advancement_path,
+                datapack,
+                adv_json,
+                AdvWarning(AdvWarningType.UNKNOWN_TYPE, "Can't get type"),
+                reward_mcpath,
+            )
 
         color = color or datapack.adv_default_type_data[adv_type]["color"]
 
-        return Advancement(advancement_path, datapack, adv_json, reward_mcpath, tab, color, frame, adv_type, hidden)
+        return Advancement(
+            advancement_path,
+            datapack,
+            adv_json,
+            reward_mcpath,
+            tab,
+            color,
+            frame,
+            adv_type,
+            hidden,
+        )
 
     @classmethod
     def _is_modified(cls, advancement_path: Path) -> bool:
-        return AdvancementsManager.adv_dict()[advancement_path].last_modified != os.path.getmtime(advancement_path)
+        return AdvancementsManager.adv_dict()[
+            advancement_path
+        ].last_modified != os.path.getmtime(advancement_path)
 
     @staticmethod
     def _get_tab(reward_mcpath: str) -> str:
@@ -537,9 +647,11 @@ class AdvancementFactory:
     def _is_invalid_translation(advancement_json: dict) -> bool:
         required_keys = (
             ("display", "title", "translate"),
-            ("display", "description", "translate")
+            ("display", "description", "translate"),
         )
-        return not all(can_access_keypath(advancement_json, keys) for keys in required_keys)
+        return not all(
+            can_access_keypath(advancement_json, keys) for keys in required_keys
+        )
 
     @staticmethod
     def _is_invalid_reward(advancement_json: dict) -> bool:
@@ -565,7 +677,9 @@ class AdvManagerMeta(type):
     _advancements_list = None
     _advancements_dict = None
 
-    def __getitem__(cls, key) -> InvalidAdvancement | TechnicalAdvancement | Advancement:
+    def __getitem__(
+        cls, key
+    ) -> InvalidAdvancement | TechnicalAdvancement | Advancement:
         if isinstance(key, int):
             return cls._advancements_dict[key]
         elif isinstance(key, Path):
@@ -590,8 +704,12 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
     Contains advancement's list and iterator, append, remove and update methods
     """
 
-    _advancements_dict: dict[Path, Advancement | InvalidAdvancement | TechnicalAdvancement] = {}
-    _advancements_list: list[Advancement | InvalidAdvancement | TechnicalAdvancement] = []
+    _advancements_dict: dict[
+        Path, Advancement | InvalidAdvancement | TechnicalAdvancement
+    ] = {}
+    _advancements_list: list[
+        Advancement | InvalidAdvancement | TechnicalAdvancement
+    ] = []
 
     @classmethod
     def _generate_adv(cls):
@@ -599,7 +717,9 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
             for adv_paths in datapack.advancement_paths:
                 for adv_path in adv_paths.rglob("*.json"):
                     if adv_path.is_file() and not datapack.is_excluded(adv_path):
-                        cls._advancements_dict[adv_path] = AdvancementFactory.load_advancement(adv_path, datapack)
+                        cls._advancements_dict[adv_path] = (
+                            AdvancementFactory.load_advancement(adv_path, datapack)
+                        )
         cls._advancements_list = list(cls._advancements_dict.values())
 
     @classmethod
@@ -607,34 +727,47 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
         return cls._advancements_list
 
     @classmethod
-    def adv_dict(cls) -> dict[Path, Advancement | InvalidAdvancement | TechnicalAdvancement]:
+    def adv_dict(
+        cls,
+    ) -> dict[Path, Advancement | InvalidAdvancement | TechnicalAdvancement]:
         return cls._advancements_dict
 
     @classmethod
     def filtered_list(
-            cls,
-            datapack: Iterable[Datapack] | Datapack,
-            skip_invalid: bool = True, skip_technical: bool = True, skip_normal: bool = False) -> list[Advancement | InvalidAdvancement | TechnicalAdvancement]:
+        cls,
+        datapack: Iterable[Datapack] | Datapack,
+        skip_invalid: bool = True,
+        skip_technical: bool = True,
+        skip_normal: bool = False,
+    ) -> list[Advancement | InvalidAdvancement | TechnicalAdvancement]:
         """
         Returns list of advancements by parameters.
         """
-        return list(cls.filtered_iterator(datapack, skip_invalid, skip_technical, skip_normal))
+        return list(
+            cls.filtered_iterator(datapack, skip_invalid, skip_technical, skip_normal)
+        )
 
     @staticmethod
-    def __advancement_type_skip_check(adv: Advancement | InvalidAdvancement | TechnicalAdvancement, skip_invalid: bool,
-                                      skip_technical: bool, skip_normal: bool):
+    def __advancement_type_skip_check(
+        adv: Advancement | InvalidAdvancement | TechnicalAdvancement,
+        skip_invalid: bool,
+        skip_technical: bool,
+        skip_normal: bool,
+    ):
         valid_advancement = not skip_invalid or not isinstance(adv, InvalidAdvancement)
-        technical_advancement = not skip_technical or not isinstance(adv, TechnicalAdvancement)
+        technical_advancement = not skip_technical or not isinstance(
+            adv, TechnicalAdvancement
+        )
         normal_advancement = not skip_normal or not isinstance(adv, Advancement)
         return valid_advancement and technical_advancement and normal_advancement
 
     @classmethod
     def filtered_iterator(
-            cls,
-            datapack: Iterable[Datapack] | Datapack,
-            skip_invalid: bool = True,
-            skip_technical: bool = True,
-            skip_normal: bool = False
+        cls,
+        datapack: Iterable[Datapack] | Datapack,
+        skip_invalid: bool = True,
+        skip_technical: bool = True,
+        skip_normal: bool = False,
     ) -> Iterator[Advancement | InvalidAdvancement | TechnicalAdvancement]:
         """
         Return Iterator of advancements by parameters.
@@ -643,13 +776,22 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
         for adv in cls._advancements_list:
             if datapack and (adv.datapack not in datapack):
                 continue
-            if cls.__advancement_type_skip_check(adv, skip_invalid, skip_technical, skip_normal):
+            if cls.__advancement_type_skip_check(
+                adv, skip_invalid, skip_technical, skip_normal
+            ):
                 yield adv
 
     @classmethod
-    def find(cls, criteria: dict[str, Any], datapack: Iterable[Datapack] | Datapack, limit: int = None,
-             skip_invalid: bool = True, skip_technical: bool = True, skip_normal: bool = False,
-             invert: bool = False) -> list[Advancement | InvalidAdvancement | TechnicalAdvancement]:
+    def find(
+        cls,
+        criteria: dict[str, Any],
+        datapack: Iterable[Datapack] | Datapack,
+        limit: int = None,
+        skip_invalid: bool = True,
+        skip_technical: bool = True,
+        skip_normal: bool = False,
+        invert: bool = False,
+    ) -> list[Advancement | InvalidAdvancement | TechnicalAdvancement]:
         """
         Returns list of advancements by search parameters.
         :param skip_normal: Skip normal Advancement if True.
@@ -662,7 +804,9 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
         If True, advancement, which fits the criteria, doesn't be added.
         :return: Instance of Advancement
         """
-        iterator = cls.filtered_iterator(datapack, skip_invalid, skip_technical, skip_normal)
+        iterator = cls.filtered_iterator(
+            datapack, skip_invalid, skip_technical, skip_normal
+        )
         advancement_list = []
         count = 0
         for adv in iterator:
@@ -676,9 +820,16 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
         return advancement_list
 
     @classmethod
-    def deep_find(cls, criteria: dict[str, Any], datapack: Iterable[Datapack] | Datapack, limit: int = None,
-                  skip_invalid: bool = True, skip_technical: bool = True, skip_normal: bool = False,
-                  invert: bool = False) -> list[Advancement | InvalidAdvancement | TechnicalAdvancement]:
+    def deep_find(
+        cls,
+        criteria: dict[str, Any],
+        datapack: Iterable[Datapack] | Datapack,
+        limit: int = None,
+        skip_invalid: bool = True,
+        skip_technical: bool = True,
+        skip_normal: bool = False,
+        invert: bool = False,
+    ) -> list[Advancement | InvalidAdvancement | TechnicalAdvancement]:
         """
         Returns list of advancements by search parameters.
         :param skip_normal: Skip normal Advancement if True.
@@ -695,9 +846,11 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
         """
 
         def iterative_getattr(obj, attr):
-            return reduce(getattr, attr.split('.'), obj)
+            return reduce(getattr, attr.split("."), obj)
 
-        iterator = cls.filtered_iterator(datapack, skip_invalid, skip_technical, skip_normal)
+        iterator = cls.filtered_iterator(
+            datapack, skip_invalid, skip_technical, skip_normal
+        )
         advancement_list = []
         count = 0
         for adv in iterator:
@@ -717,7 +870,10 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
         return advancement_list
 
     @classmethod
-    def remove(cls, adv: Advancement | InvalidAdvancement | TechnicalAdvancement | BaseAdvancement) -> None:
+    def remove(
+        cls,
+        adv: Advancement | InvalidAdvancement | TechnicalAdvancement | BaseAdvancement,
+    ) -> None:
         """
         Remove advancement from Advancement's list.
         :param adv: Advancement to remove
@@ -738,7 +894,9 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
         cls._generate_adv()
 
     @classmethod
-    def update_advancement(cls, path: Path, datapack: Datapack, force: bool = False) -> None:
+    def update_advancement(
+        cls, path: Path, datapack: Datapack, force: bool = False
+    ) -> None:
         """
         Update only one advancement from a path
         :param datapack: Datapack class of the advancement
@@ -746,11 +904,15 @@ class AdvancementsManager(metaclass=AdvManagerMeta):
         :param force: Force Advancementlist to re-create the advancement and ignore caching (useful if you update only reward/trophy files)
         :return: None
         """
-        cls._advancements_dict[path] = AdvancementFactory.load_advancement(path, datapack, force)
+        cls._advancements_dict[path] = AdvancementFactory.load_advancement(
+            path, datapack, force
+        )
         cls._advancements_list = list(cls._advancements_dict.values())
 
     @classmethod
-    def split_by_tabs(cls, advancements: Iterable[Advancement] = None) -> dict[str, list[Advancement]]:
+    def split_by_tabs(
+        cls, advancements: Iterable[Advancement] = None
+    ) -> dict[str, list[Advancement]]:
         """
         Split advancements to tabs.
         :param advancements: Some Iterable type of Advancement.
