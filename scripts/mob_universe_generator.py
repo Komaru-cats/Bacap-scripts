@@ -1,3 +1,5 @@
+import pyperclip
+
 overworld_mobs = [
     "allay",
     "armadillo",
@@ -137,6 +139,13 @@ def build_tellraw_json(keys):
     return ",".join(parts)
 
 
+def check_command(mobs: list[str]):
+    return "\n".join(
+        f"execute at @p run summon minecraft:{mob} ~{i*3} ~ ~ {{NoAI:true}}"
+        for i, mob in enumerate(mobs)
+    )
+
+
 def main():
     # Tellraw:
     output_lines = []
@@ -171,3 +180,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print("[0] for overworld, [1] for nether and [2] for end")
+    while True:
+        inp = input("[>]: ")
+        if inp == "0":
+            pyperclip.copy(check_command(overworld_mobs))
+            print("overworld mobs copied to clipboard")
+        if inp == "1":
+            pyperclip.copy(check_command(nether_mobs))
+            print("nether mobs copied to clipboard")
+        if inp == "2":
+            pyperclip.copy(check_command(end_mobs))
+            print("end mobs copied to clipboard")
