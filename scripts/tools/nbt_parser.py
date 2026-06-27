@@ -5,9 +5,27 @@ from .Color import Color
 from .utils import cut_namespace
 
 
-def is_decimal(num):
-    pattern = re.compile(r"^-?\d+$")
-    return re.search(pattern, num)
+is_decimal_pattern = re.compile(r"(-?\d+)s?")
+is_like_enum_pattern = re.compile(r"\w+")
+is_float_pattern = re.compile(r"(-?\d*.?\d*)[fd]")
+
+
+def get_decimal(s: str) -> str | None:
+    match = re.fullmatch(is_decimal_pattern, s)
+    if not match:
+        return None
+    return match.group(1)
+
+
+def get_float(s: str) -> str | None:
+    match = re.fullmatch(is_float_pattern, s)
+    if not match:
+        return None
+    return match.group(1)
+
+
+def is_like_enum(s: str) -> bool:
+    return re.fullmatch(is_like_enum_pattern, s) is not None
 
 
 def nbt_decoder(input_str: str) -> Any:
@@ -46,12 +64,12 @@ def nbt_decoder(input_str: str) -> Any:
                 return bool(int(value[:-1]))
             elif value.lower() in ("false", "true"):
                 return True if value == "true" else False
-            elif value[-1] in ("f", "d"):
-                return float(value[:-1])
-            elif value[-1] in ("s",):
-                return int(value[:-1])
-            elif is_decimal(value):
-                return int(value)
+            elif v := get_float(value):
+                return float(v)
+            elif v := get_decimal(value):
+                return int(v)
+            elif is_like_enum(value):
+                return str(value)
             else:
                 raise ValueError(f"Undefined type: {value}")
 
