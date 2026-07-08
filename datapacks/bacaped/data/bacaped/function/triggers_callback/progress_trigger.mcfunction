@@ -1,2 +1,6 @@
-tellraw @s [{"text":"\n"},{"color":"#d9d8cf","translate":"Enhanced Discoveries:"},{"text":"\n"}]
-tellraw @s {"color":"white","translate":"Cookies eaten today","extra":[{"text":": "},{"color":"gold","score":{"name":"@s","objective":"bacaped_cookies_eaten_today"}}]}
+tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
+tellraw @s {"color":"gray","translate":"Enhanced Discoveries"}
+tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
+
+execute if score @s[advancements={bacaped:farming/cookie_eater=false}] bacaped_cookies_eaten_today matches 1.. run tellraw @a {"color":"white","translate":"Cookie Eater","extra":[{"text":": "},{"color":"yellow","score":{"name":"@s","objective":"bacaped_cookies_eaten_today"}},{"color":"gold","text":"/200"}]}
+tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
