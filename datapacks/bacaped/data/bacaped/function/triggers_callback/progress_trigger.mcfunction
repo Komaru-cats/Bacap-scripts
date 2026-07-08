@@ -1,0 +1,2 @@
+tellraw @s [{"text":"\n"},{"color":"#d9d8cf","translate":"Enhanced Discoveries:"},{"text":"\n"}]
+tellraw @s {"color":"white","translate":"Cookies eaten today","extra":[{"text":": "},{"color":"gold","score":{"name":"@s","objective":"bacaped_cookies_eaten_today"}}]}
