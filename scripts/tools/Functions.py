@@ -107,13 +107,9 @@ class Main(FuncMixin):
             fill_pattern(
                 FunctionsWritePatterns.main,
                 {
-                    "type": self._adv.type,
-                    "adv_path": self._adv.mc_path,
-                    "adv_score_disabler": "#" if self._adv.hidden else "",
-                    "reward_namespace": self._adv.datapack.reward_namespace,
-                    "reward_path": reward_path,
-                    "fanpacks_namespace": self._adv.datapack.fanpacks_namespace,
-                    "bacap_reward_namespace": DatapackList.bacap.reward_namespace,
+                    "adv_type": self._adv.msg_type,
+                    "reward_id_without_namespace": reward_path,
+                    "adv_path_in_mc": self._adv.mc_path,
                 },
             )
         )
