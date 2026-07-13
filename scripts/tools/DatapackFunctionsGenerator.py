@@ -3,7 +3,7 @@ from collections.abc import Iterable
 from pathlib import Path
 from typing import List
 
-from .Advancement import AdvancementsManager
+from .Advancement import AdvancementsManager, Advancement
 from .Datapack import DatapackList, Datapack
 from .Patterns import DatapackFunctionsWritePatterns
 from .utils import fill_pattern, cut_namespace
@@ -68,6 +68,29 @@ class DatapackFunctionsGenerator:
             )
 
             dp_update_score_path.write_text(dp_update_score, encoding=dp.encoding)
+
+    @classmethod
+    def generate_update_points(cls, datapack: Datapack | Iterable[Datapack]):
+
+        datapack = datapack if isinstance(datapack, Iterable) else (datapack,)
+
+        for dp in datapack:
+            dp_update_points_path = dp.reward_path / "update_points.mcfunction"
+
+            dp_update_score = ""
+
+            for adv in AdvancementsManager.filtered_iterator(datapack=dp):
+                adv: Advancement
+                dp_update_score += f"{fill_pattern(DatapackFunctionsWritePatterns.update_points, {'adv_path_in_mc': adv.mc_path, 'adv_type': adv.type})}\n"
+
+            cls._update_function_tag(
+                tag_path=dp.path
+                         / f"data/{DatapackList.bacap.fanpacks_namespace}/tags/function/update_points.json",
+                function_mc_path=f"{dp.reward_namespace}:update_points",
+                encoding=dp.encoding,
+            )
+
+            dp_update_points_path.write_text(dp_update_score, encoding=dp.encoding)
 
     @classmethod
     def generate_coop_update(cls, datapack: Datapack | Iterable[Datapack]):
@@ -182,3 +205,4 @@ class DatapackFunctionsGenerator:
         cls.generate_coop_update(datapack)
         cls.generate_coop_update_team(datapack)
         cls.generate_grant_trophies(datapack)
+        cls.generate_update_points(datapack)
