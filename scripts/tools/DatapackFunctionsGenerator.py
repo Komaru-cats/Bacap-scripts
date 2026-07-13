@@ -77,11 +77,11 @@ class DatapackFunctionsGenerator:
         for dp in datapack:
             dp_update_points_path = dp.reward_path / "update_points.mcfunction"
 
-            dp_update_score = ""
+            dp_update_points = ""
 
             for adv in AdvancementsManager.filtered_iterator(datapack=dp):
                 adv: Advancement
-                dp_update_score += f"{fill_pattern(DatapackFunctionsWritePatterns.update_points, {'adv_path_in_mc': adv.mc_path, 'adv_type': adv.type})}\n"
+                dp_update_points += f"{fill_pattern(DatapackFunctionsWritePatterns.update_points, {'adv_path_in_mc': adv.mc_path, 'adv_type': adv.type})}\n"
 
             cls._update_function_tag(
                 tag_path=dp.path
@@ -90,7 +90,7 @@ class DatapackFunctionsGenerator:
                 encoding=dp.encoding,
             )
 
-            dp_update_points_path.write_text(dp_update_score, encoding=dp.encoding)
+            dp_update_points_path.write_text(dp_update_points, encoding=dp.encoding)
 
     @classmethod
     def generate_coop_update(cls, datapack: Datapack | Iterable[Datapack]):
