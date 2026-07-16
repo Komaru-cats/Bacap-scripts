@@ -26,9 +26,9 @@ execute as @a[advancements={bacaped:technical/pvd_5_kill_dragon=true}] run advan
 
 # Dragon vs Warden VI
 execute as @a[predicate=bacaped:wear_dragon_vs_warden_vi] run execute as @s at @s unless entity @n[type=minecraft:player,distance=0.01..32] run execute at @n[type=minecraft:warden,distance=..6] if entity @e[distance=0,nbt={Health:500.0f}] run function bacaped:dragon_vs_warden_vi/start
-execute as @a[scores={bacaped_dvw6=1}] run function bacaped:dragon_vs_warden_vi/fail_check
 execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true},scores={bacaped_dvw6=1}] run advancement grant @s only bacaped:challenges/dragon_vs_warden_vi
 execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true}] run advancement revoke @s only bacaped:technical/kill_full_hp_warden
+execute as @a[scores={bacaped_dvw6=1}] run function bacaped:dragon_vs_warden_vi/fail_check
 
 # Camel Adventure
 execute as @a[advancements={bacaped:animal/camel_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_camel] run advancement revoke @s only bacaped:animal/camel_adventure
