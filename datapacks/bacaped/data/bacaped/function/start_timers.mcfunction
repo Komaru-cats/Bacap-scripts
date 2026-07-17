@@ -45,6 +45,7 @@ scoreboard objectives add bacaped_in_struct_summary dummy
 
 # Triggers
 scoreboard objectives add bacaped_mob_universe trigger
+scoreboard objectives add bacaped_baby_zoo trigger
 
 # Fanpacks Handling
 function #bacaped_fanpacks:start_timers

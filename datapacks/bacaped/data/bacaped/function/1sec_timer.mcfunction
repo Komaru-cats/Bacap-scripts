@@ -84,6 +84,10 @@ execute as @a[gamemode=!spectator, advancements={bacaped:weaponry/air_battle=fal
 scoreboard players enable @a bacaped_mob_universe
 execute as @a if score @s bacaped_mob_universe matches 1.. run function bacaped:triggers_callback/mob_universe_trigger
 
+# Trigger to get a list of mobs for Baby Zoo
+scoreboard players enable @a bacaped_baby_zoo
+execute as @a if score @s bacaped_baby_zoo matches 1.. run function bacaped:triggers_callback/baby_zoo_trigger
+
 # Fanpacks Handling
 function #bacaped_fanpacks:1sec_timer
 
