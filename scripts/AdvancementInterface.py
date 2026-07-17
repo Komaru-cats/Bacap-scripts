@@ -27,6 +27,7 @@ from tools.MissingTranslationFinder import MissingTranslationFinder
 from tools.Release import Release
 from tools.Validator import Validator, SpellingValidator
 from tools.utils import cut_namespace, multi_replace, user_config
+from tools.ChecklistGenerators import BaseChecklistGenerator, MobUniverseGenerator, BabyZooGenerator
 
 change_type_mi = MenuInterface(input_icon=Icon("[>]", color="cyan"))
 adv_mi = MenuInterface(input_icon=Icon("[>]", color="purple"))
@@ -44,14 +45,14 @@ class Renaming:
         adv_path_folder = adv.datapack.default_advancements_path
         path = adv_path_folder / f"{path}.json"
         if (
-            (not path.parent.exists())
-            or (not path.is_relative_to(adv_path_folder))
-            or (path.resolve() == adv_path_folder.resolve())
+                (not path.parent.exists())
+                or (not path.is_relative_to(adv_path_folder))
+                or (path.resolve() == adv_path_folder.resolve())
         ):
             print_warning(f"Can't find folder {path.parent}")
             return
         if not eget_bool(
-            f"Continue with '{path.relative_to(adv_path_folder).with_suffix('').as_posix()}' [y/n]:"
+                f"Continue with '{path.relative_to(adv_path_folder).with_suffix('').as_posix()}' [y/n]:"
         ):
             return
         adv.path = path
@@ -154,7 +155,7 @@ class AdvancementInterface:
 
             if split_hidden:
                 for adv in AdvancementsManager.find(
-                    criteria={"hidden": False}, datapack=datapack
+                        criteria={"hidden": False}, datapack=datapack
                 ):
                     adv_types[adv.type].append(adv)
 
@@ -208,6 +209,10 @@ class AdvancementInterface:
     @adv_mi.register_func("Update", "u")
     def update_advancements(self):
         AdvancementsManager.generate()  # Updating the list in the interface
+        MobUniverseGenerator(DatapackList.default.default_adv_namespace_path).generate_all_files()
+        output("Mob Universe created", indent=3)
+        BabyZooGenerator(DatapackList.default.default_adv_namespace_path).generate_all_files()
+        output("Baby Zoo created", indent=3)
         output("Update is done", indent=3)
 
     @adv_mi.register_func("Add", "a")
@@ -232,8 +237,8 @@ class AdvancementInterface:
             )
             if parent_adv:
                 folder = (
-                    DatapackList.default.default_advancements_path
-                    / cut_namespace(parent_adv[0].reward_mcpath)
+                        DatapackList.default.default_advancements_path
+                        / cut_namespace(parent_adv[0].reward_mcpath)
                 ).parent
                 path = folder / f"{name}.json"
             else:
@@ -249,7 +254,7 @@ class AdvancementInterface:
                     break
                 elif not cont:
                     path = DatapackList.default.default_advancements_path / (
-                        eget_value(f"Path (with filename):") + ".json"
+                            eget_value(f"Path (with filename):") + ".json"
                     )
 
                 if not advancement_json.get("rewards"):
@@ -433,7 +438,7 @@ class FuncInterface:
         for adv in AdvancementsManager.filtered_iterator(datapack=DatapackList.default):
             functions = adv.functions
             if adv.datapack.generate_functions and not any(
-                (functions.exp.empty, functions.reward.empty, functions.trophy.empty)
+                    (functions.exp.empty, functions.reward.empty, functions.trophy.empty)
             ):
                 continue
             print_adv_data(adv)
@@ -487,6 +492,11 @@ class MainInterface:
         DatapackFunctionsGenerator.generate_all(DatapackList.default)
         output("Datapack Functions created")
 
+        MobUniverseGenerator(DatapackList.default.default_adv_namespace_path).generate_all_files()
+        output("Mob Universe created")
+        BabyZooGenerator(DatapackList.default.default_adv_namespace_path).generate_all_files()
+        output("Baby Zoo created")
+
         Release.format_datapack_json(DatapackList.work_with)
         output("All Advancements formatted")
 
@@ -494,10 +504,10 @@ class MainInterface:
             output(datapack, icon=Icon("[D]"))
             if count := Release.check(datapack):
                 if not get_bool(
-                    f"You have {count} {'problem' if count == 1 else 'problems'}\n"
-                    f"Do you want to continue create release [y/n]:",
-                    icon=Icon("[>]", color="yellow", bold=True),
-                    indent=3,
+                        f"You have {count} {'problem' if count == 1 else 'problems'}\n"
+                        f"Do you want to continue create release [y/n]:",
+                        icon=Icon("[>]", color="yellow", bold=True),
+                        indent=3,
                 ):
                     return
             version = get_value("Version:", indent=3)

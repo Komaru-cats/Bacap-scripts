@@ -11,7 +11,7 @@ from .Functions import *
 from .Item import *
 from .Patterns import *
 from .Resources import *
-
+from .ChecklistGenerators import MobUniverseGenerator, BabyZooGenerator
 __all__ = [
     "AdvancementsManager",
     "AdvancementFactory",
@@ -27,4 +27,6 @@ __all__ = [
     "Item",
     "RewardItem",
     "TrophyItem",
+    "MobUniverseGenerator",
+    "BabyZooGenerator",
 ]
