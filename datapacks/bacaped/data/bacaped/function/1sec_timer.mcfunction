@@ -78,6 +78,10 @@ execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}
 # Air Battle
 execute as @a[gamemode=!spectator, advancements={bacaped:weaponry/air_battle=false}] at @s if predicate bacaped:reset_air_battle run scoreboard players set @s bacaped_air_battle 0
 
+# Exemplary_worker
+execute as @a[gamemode=!spectator, advancements={bacaped:farming/exemplary_worker=false}] at @s if entity @e[type=minecraft:bee,distance=..16,nbt={CropsGrownSincePollination:10}] run advancement grant @s only bacaped:farming/exemplary_worker
+
+
 # Triggers
 
 # Trigger to get a list of mobs for Mob Universe
