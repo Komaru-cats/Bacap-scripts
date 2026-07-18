@@ -1346,5 +1346,12 @@
     "Ride 50km on a Nautilus": "骑乘鹦鹉螺行进50公里",
     "Lost Ancient Technology": "失落的远古科技",
     "You ignored the simplest and most reliable": "你放着最简单、最可靠的",
-    "watercraft just to float around on a... shell": "船只不用，非要骑着个……壳在水上到处漂"
+    "watercraft just to float around on a... shell": "船只不用，非要骑着个……壳在水上到处漂" // dont forget ","
+    // All of these should be translated
+    //"Totems used": "",
+    //"Baby Zoo list": "",
+    //"Addon!": "",
+    //"You have completed ": "",
+    //"BACAP Enhanced Discoveries Hardcore Addon": "",
+    //"Time since last totem usage":""
 }

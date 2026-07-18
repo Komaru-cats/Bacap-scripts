@@ -1336,5 +1336,13 @@
 "Renowned Armament": "Armamento de Renombre",
 "Slay a mob using a legendary weapon": "Mata a un mob con una arma legendaria",
 "Excalibur": "Excalibur",
-"The original": "El original"
+"The original": "El original" // dont forget ","
+
+// All of these should be translated
+//"Totems used": "",
+//"Baby Zoo list": "",
+//"Addon!": "",
+//"You have completed ": "",
+//"BACAP Enhanced Discoveries Hardcore Addon": "",
+//"Time since last totem usage":""
 }
