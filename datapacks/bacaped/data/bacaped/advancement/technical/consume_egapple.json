@@ -3,7 +3,7 @@
     "function": "bacaped:consume_egapple"
   },
   "criteria": {
-    "consume_spider_eye": {
+    "consume_egapple": {
       "trigger": "consume_item",
       "conditions": {
         "item": {
