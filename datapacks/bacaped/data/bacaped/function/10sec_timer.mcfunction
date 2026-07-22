@@ -49,11 +49,14 @@ execute as @a[gamemode=!spectator,advancements={bacaped:challenges/mounted_menac
 # Cookie Eater
 function bacaped:cookie_eater/reset
 
+# Day count is increased by 1 at each sunrise
+execute if score time bac_current_time matches 0..200 run function bacaped:increase_day
 
 # Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`, `bacaped_cookie_eaten_today`
 execute as @a unless score @s bacaped_ignite_tnt matches 1.. run scoreboard players add @s bacaped_ignite_tnt 0
 execute as @a unless score @s bacaped_totems_used matches 1.. run scoreboard players add @s bacaped_totems_used 0
 execute as @a unless score @s bacaped_cookies_eaten_today matches 1.. run scoreboard players add @s bacaped_cookies_eaten_today 0
+execute as @a unless score @s bacaped_egapple_days matches 1.. run scoreboard players add @s bacaped_egapple_days 0
 
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer

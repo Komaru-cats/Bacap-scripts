@@ -22,6 +22,7 @@ scoreboard objectives add bacaped_totems_used dummy
 scoreboard objectives add bacaped_ghast_passenger_count dummy
 scoreboard objectives add bacaped_current_day dummy
 scoreboard objectives add bacaped_cookies_eaten_today dummy
+scoreboard objectives add bacaped_egapple_days dummy
 
 # In Structures
 scoreboard objectives add bacaped_in_struct_ancient_city dummy
@@ -46,6 +47,7 @@ scoreboard objectives add bacaped_in_struct_summary dummy
 # Triggers
 scoreboard objectives add bacaped_mob_universe trigger
 scoreboard objectives add bacaped_baby_zoo trigger
+scoreboard objectives add bacaped_egapple_a_day trigger
 
 # Fanpacks Handling
 function #bacaped_fanpacks:start_timers

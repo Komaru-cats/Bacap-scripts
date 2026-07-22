@@ -92,6 +92,10 @@ execute as @a if score @s bacaped_mob_universe matches 1.. run function bacaped:
 scoreboard players enable @a bacaped_baby_zoo
 execute as @a if score @s bacaped_baby_zoo matches 1.. run function bacaped:triggers_callback/baby_zoo_trigger
 
+# Trigger to get an info about "Doctors Hate This Simple Trick" advancement
+scoreboard players enable @a bacaped_egapple_a_day
+execute as @a if score @s bacaped_egapple_a_day matches 1.. run function bacaped:triggers_callback/egapple_a_day
+
 # Fanpacks Handling
 function #bacaped_fanpacks:1sec_timer
 
