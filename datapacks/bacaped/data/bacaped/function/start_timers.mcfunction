@@ -23,7 +23,7 @@ scoreboard objectives add bacaped_ghast_passenger_count dummy
 scoreboard objectives add bacaped_current_day dummy
 scoreboard objectives add bacaped_cookies_eaten_today dummy
 scoreboard objectives add bacaped_egapple_days dummy
-
+scoreboard objectives add bacaped_you_goat_me_to_an_end_timer dummy
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel
