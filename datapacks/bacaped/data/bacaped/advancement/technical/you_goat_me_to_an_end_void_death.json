@@ -17,7 +17,7 @@
           "type": {
             "tags": [
               {
-                "id": "bacaped:is_void",
+                "id": "minecraft:always_most_significant_fall",
                 "expected": true
               }
             ]
