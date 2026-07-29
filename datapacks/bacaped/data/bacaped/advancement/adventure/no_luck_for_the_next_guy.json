@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/minecraft_trials_edition",
+  "parent": "minecraft:adventure/minecraft_trials_edition",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",
