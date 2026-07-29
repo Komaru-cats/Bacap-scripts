@@ -57,6 +57,30 @@ execute as @a unless score @s bacaped_ignite_tnt matches 1.. run scoreboard play
 execute as @a unless score @s bacaped_totems_used matches 1.. run scoreboard players add @s bacaped_totems_used 0
 execute as @a unless score @s bacaped_cookies_eaten_today matches 1.. run scoreboard players add @s bacaped_cookies_eaten_today 0
 execute as @a unless score @s bacaped_egapple_days matches 1.. run scoreboard players add @s bacaped_egapple_days 0
+execute as @a unless score @s bacaped_villager_profession_blocks_mined matches 1.. run scoreboard players add @s bacaped_villager_profession_blocks_mined 0
+
+
+# Workstations statistics
+execute as @a run scoreboard players set @s bacaped_villager_profession_blocks_mined 0
+
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_barrel_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_blast_furnace_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_brewing_stand_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_cartography_table_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_cauldron_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_composter_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_fletching_table_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_grindstone_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_lectern_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_loom_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_smithing_table_mined
+execute as @a run scoreboard players operation @s bacaped_villager_profession_blocks_mined += @s bacaped_stonecutter_mined
+
+execute as @a[gamemode=!spectator, advancements={bacaped:statistics/avid_trader=false}] as @s if score @s bacaped_villager_profession_blocks_mined matches 50.. run advancement grant @s only bacaped:statistics/avid_trader
+execute as @a[gamemode=!spectator, advancements={bacaped:statistics/frustrated_trader=false}] as @s if score @s bacaped_villager_profession_blocks_mined matches 250.. run advancement grant @s only bacaped:statistics/frustrated_trader
+execute as @a[gamemode=!spectator, advancements={bacaped:statistics/did_you_get_mending_yet=false}] as @s if score @s bacaped_villager_profession_blocks_mined matches 1000.. run advancement grant @s only bacaped:statistics/did_you_get_mending_yet
+execute as @a[gamemode=!spectator, advancements={bacaped:statistics/hr_manager_of_the_year=false}] as @s if score @s bacaped_villager_profession_blocks_mined matches 5000.. run advancement grant @s only bacaped:statistics/hr_manager_of_the_year
+
 
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer
