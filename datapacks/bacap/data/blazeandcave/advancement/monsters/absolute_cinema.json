@@ -17,9 +17,9 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "chicken",
+					"entity_type": "chicken",
 					"passenger": {
-						"type": "minecraft:zombie",
+						"entity_type": "minecraft:zombie",
 						"flags": {
 							"is_baby": true
 						}
@@ -34,12 +34,12 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:zombie",
+					"entity_type": "minecraft:zombie",
 					"flags": {
 						"is_baby": true
 					},
 					"vehicle": {
-						"type": "chicken"
+						"entity_type": "chicken"
 					},
 					"location": {
 						"structures": "minecraft:mansion"

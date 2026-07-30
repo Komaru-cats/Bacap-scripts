@@ -1,13 +1,13 @@
 {
 	"rewards": {
-		"function": "blazeandcave:whack_a_mole_count"
+		"function": "blazeandcave:advancement/count/whack_a_mole"
 	},
 	"criteria": {
 		"whack_a_mole": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "armadillo"
+					"entity_type": "armadillo"
 				},
 				"damage": {
 					"type": {

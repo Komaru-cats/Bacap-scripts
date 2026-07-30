@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:riddle/third_line"
+		"function": "blazeandcave:advancement/riddle/third_line"
 	},		
 	"criteria": {
 		"dinnerbone": {
@@ -11,8 +11,8 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
+
 								"advancements": {
 									"blazeandcave:technical/riddle_second_line": true
 								}

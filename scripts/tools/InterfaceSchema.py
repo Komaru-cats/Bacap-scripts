@@ -10,10 +10,13 @@ format_type_data = {
     dict: {"color": "white", "bold": False, "italic": False},
     Advancement: {"color": "green", "bold": False, "italic": False},
     InvalidAdvancement: {"color": "red", "bold": True, "italic": False},
-    TechnicalAdvancement: {"color": "cyan", "bold": False, "italic": False}}
+    TechnicalAdvancement: {"color": "cyan", "bold": False, "italic": False},
+}
 
 interface = Interface(format_type_data=format_type_data)
-print_warning = Interface(output_icon=Icon.warning, format_type_data=format_type_data).output
+print_warning = Interface(
+    output_icon=Icon.warning, format_type_data=format_type_data
+).output
 
 output = interface.output
 get_value = interface.get_value
@@ -37,10 +40,17 @@ def print_adv_data(adv: Advancement):
     if (exp := adv.functions.exp).value:
         output(text(exp.value) + " exp", indent=3, icon=Icon("[e]", color="purple"))
     if (reward := adv.functions.reward).item:
-        output(text(reward.item.amount) + " " + text(cut_namespace(reward.item.id), color="yellow"), indent=3,
-               icon=Icon("[r]", color="purple"))
+        output(
+            text(reward.item.amount)
+            + " "
+            + text(cut_namespace(reward.item.id), color="yellow"),
+            indent=3,
+            icon=Icon("[r]", color="purple"),
+        )
     if (trophy := adv.functions.trophy).item:
-        output(trophy.item.name, indent=3, icon=Icon("[t]", color="purple"), color="blue")
+        output(
+            trophy.item.name, indent=3, icon=Icon("[t]", color="purple"), color="blue"
+        )
         output(trophy.item.lore, indent=4, icon=Icon("[l]", color="blue"))
         output(trophy.item.color, indent=4, icon=Icon("[c]", color="blue"))
         output(cut_namespace(trophy.item.id), indent=4, icon=Icon("[i]", color="blue"))

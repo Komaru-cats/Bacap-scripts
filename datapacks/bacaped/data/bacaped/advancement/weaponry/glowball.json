@@ -20,7 +20,7 @@
         "damage": {
           "type": {
             "direct_entity": {
-              "type": "minecraft:snowball"
+              "minecraft:entity_type": "minecraft:snowball"
             }
           }
         },
@@ -29,7 +29,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:glow_squid",
+              "entity_type": "minecraft:glow_squid",
               "flags": {
                 "is_on_ground": false
               }

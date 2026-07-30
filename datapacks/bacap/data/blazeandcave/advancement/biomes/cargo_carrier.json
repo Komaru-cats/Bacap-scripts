@@ -20,7 +20,7 @@
 						"condition": "minecraft:entity_properties",
 						"predicate": {
 							"vehicle": {
-								"type": "#blazeandcave:chest_boats"
+								"entity_type": "#blazeandcave:chest_boats"
 							}
 						},
 						"entity": "this"

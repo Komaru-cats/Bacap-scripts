@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:frog"
+					"entity_type": "minecraft:frog"
 				},
 				"partner": {
-					"type": "minecraft:frog"
+					"entity_type": "minecraft:frog"
 				}
 			}
 		}

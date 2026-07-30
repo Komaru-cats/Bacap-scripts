@@ -36,7 +36,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -54,7 +54,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -72,7 +72,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -90,7 +90,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -108,7 +108,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -126,7 +126,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -144,7 +144,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -162,7 +162,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -180,7 +180,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -198,7 +198,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -216,7 +216,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -234,7 +234,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -252,7 +252,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -270,7 +270,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -288,7 +288,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -306,7 +306,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -324,7 +324,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -342,7 +342,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "minecraft:netherite_helmet",
@@ -365,7 +365,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -383,7 +383,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -401,7 +401,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -419,7 +419,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -437,7 +437,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -455,7 +455,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -473,7 +473,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -491,7 +491,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -509,7 +509,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -527,7 +527,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -545,7 +545,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -563,7 +563,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -581,7 +581,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -599,7 +599,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -617,7 +617,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -635,7 +635,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -653,7 +653,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -671,7 +671,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "minecraft:netherite_chestplate",
@@ -694,7 +694,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -712,7 +712,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -730,7 +730,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -748,7 +748,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -766,7 +766,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -784,7 +784,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -802,7 +802,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -820,7 +820,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -838,7 +838,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -856,7 +856,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -874,7 +874,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -892,7 +892,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -910,7 +910,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -928,7 +928,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -946,7 +946,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -964,7 +964,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -982,7 +982,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -1000,7 +1000,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "minecraft:netherite_leggings",
@@ -1023,7 +1023,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1041,7 +1041,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1059,7 +1059,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1077,7 +1077,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1095,7 +1095,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1113,7 +1113,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1131,7 +1131,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1149,7 +1149,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1167,7 +1167,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1185,7 +1185,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1203,7 +1203,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1221,7 +1221,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1239,7 +1239,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1257,7 +1257,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1275,7 +1275,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1293,7 +1293,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1311,7 +1311,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",
@@ -1329,7 +1329,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "minecraft:netherite_boots",

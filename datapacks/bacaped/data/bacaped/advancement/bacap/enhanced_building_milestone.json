@@ -19,8 +19,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/artificial_forest": true
             }
@@ -32,8 +31,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/art_lover": true
             }
@@ -45,8 +43,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/bee_design": true
             }
@@ -58,8 +55,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/chromatic_completion": true
             }
@@ -71,8 +67,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/potception": true
             }
@@ -84,8 +79,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/pot_on_a_pot": true
             }
@@ -97,8 +91,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/smoke_signal": true
             }
@@ -110,8 +103,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/statue": true
             }
@@ -123,8 +115,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/stickman": true
             }

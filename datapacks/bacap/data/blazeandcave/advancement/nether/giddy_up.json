@@ -17,12 +17,12 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "hoglin",
+					"entity_type": "hoglin",
 					"flags": {
 						"is_baby": true
 					},
 					"passenger": {
-						"type": "minecraft:piglin",
+						"entity_type": "minecraft:piglin",
 						"flags": {
 							"is_baby": true
 						}

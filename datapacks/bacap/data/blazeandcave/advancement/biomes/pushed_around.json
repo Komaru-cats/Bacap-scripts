@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Enter a bubble column"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/echolocation",
+	"parent": "blazeandcave:biomes/the_sea_calls_you",
 	"rewards": {
 		"function": "bacap_rewards:biomes/pushed_around"
 	},

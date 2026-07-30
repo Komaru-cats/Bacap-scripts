@@ -17,7 +17,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "blaze"
+					"entity_type": "blaze"
 				},
 				"killing_blow": {
 					"tags": [
@@ -27,7 +27,7 @@
 							}
 						],
 					"direct_entity": {
-						"type": "minecraft:snowball"
+						"entity_type": "minecraft:snowball"
 					}
 				}
 			}

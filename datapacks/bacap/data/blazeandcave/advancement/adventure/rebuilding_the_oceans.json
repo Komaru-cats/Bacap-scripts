@@ -22,7 +22,7 @@
 					]
 				},
 				"villager": {
-					"type": "wandering_trader"
+					"entity_type": "wandering_trader"
 				}
 			}
 		},
@@ -35,7 +35,7 @@
 					]
 				},
 				"villager": {
-					"type": "wandering_trader"
+					"entity_type": "wandering_trader"
 				}
 			}
 		},
@@ -48,7 +48,7 @@
 					]
 				},
 				"villager": {
-					"type": "wandering_trader"
+					"entity_type": "wandering_trader"
 				}
 			}
 		},
@@ -61,7 +61,7 @@
 					]
 				},
 				"villager": {
-					"type": "wandering_trader"
+					"entity_type": "wandering_trader"
 				}
 			}
 		},
@@ -74,7 +74,7 @@
 					]
 				},
 				"villager": {
-					"type": "wandering_trader"
+					"entity_type": "wandering_trader"
 				}
 			}
 		}		

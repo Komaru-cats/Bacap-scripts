@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:sniffer"
+					"entity_type": "minecraft:sniffer"
 				},
 				"partner": {
-					"type": "minecraft:sniffer"
+					"entity_type": "minecraft:sniffer"
 				}
 			}
 		}

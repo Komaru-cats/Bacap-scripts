@@ -26,7 +26,7 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "minecraft:goat",
+							"entity_type": "minecraft:goat",
 							"nbt": "{IsScreamingGoat:1b}"
 						}
 					}

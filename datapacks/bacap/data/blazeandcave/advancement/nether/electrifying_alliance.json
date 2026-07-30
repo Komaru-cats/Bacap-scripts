@@ -18,7 +18,7 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:ghast"
+						"entity_type": "minecraft:ghast"
 					}				
 				]
 			}

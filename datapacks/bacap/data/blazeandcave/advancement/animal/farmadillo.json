@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:armadillo"
+					"entity_type": "minecraft:armadillo"
 				},
 				"partner": {
-					"type": "minecraft:armadillo"
+					"entity_type": "minecraft:armadillo"
 				}
 			}
 		}

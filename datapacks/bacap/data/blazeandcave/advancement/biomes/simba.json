@@ -17,10 +17,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:ocelot"
+					"entity_type": "minecraft:ocelot"
 				},
 				"partner": {
-					"type": "minecraft:ocelot"
+					"entity_type": "minecraft:ocelot"
 				}
 			}
 		}

@@ -30,25 +30,24 @@
   },
   "parent": "bacaped:adventure/do_you_see_this",
   "criteria": {
-    "kill_100_villagers": {
-      "trigger": "minecraft:player_killed_entity",
+    "trigger": {
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
                 "stat": "minecraft:villager",
                 "value": {
-                  "min": 99
+                  "min": 100
                 }
               }
             ]
           }
         },
         "entity": {
-          "type": "minecraft:villager"
+          "entity_type": "minecraft:villager"
         }
       }
     }

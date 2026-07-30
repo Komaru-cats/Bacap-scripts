@@ -17,7 +17,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "#blazeandcave:hostile_monsters"
+					"entity_type": "#blazeandcave:hostile_monsters"
 				},
 				"killing_blow": {
 					"tags": [
@@ -29,7 +29,7 @@
 				},
 				"player": {
 					"vehicle": {
-						"type": "camel"
+						"entity_type": "camel"
 					}
 				}
 			}

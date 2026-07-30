@@ -17,7 +17,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "hoglin"
+					"entity_type": "hoglin"
 				}
 			}
 		}

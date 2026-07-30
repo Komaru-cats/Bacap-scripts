@@ -17,7 +17,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "polar_bear"
+					"entity_type": "polar_bear"
 				}
 			}
 		}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "Accept Cookies"
+    },
+    "description": {
+      "translate": "Feed a Parrot a cookie and see what happens next",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/chatterbox",
+  "criteria": {
+    "use_cookie_on_parrot": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie"
+        },
+        "entity": {
+          "entity_type": "minecraft:parrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/accept_cookies"
+  }
+}

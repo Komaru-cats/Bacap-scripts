@@ -7,7 +7,7 @@
 		"description": {"color":"green","translate":"Swing (or climb) on some vines"},
 		"announce_to_chat": true
 	},
-	"parent": "blazeandcave:biomes/the_mighty_jungle",
+	"parent": "blazeandcave:biomes/for_you_my_sweet",
 	"rewards": {
 		"function": "bacap_rewards:biomes/tarzan"
 	},

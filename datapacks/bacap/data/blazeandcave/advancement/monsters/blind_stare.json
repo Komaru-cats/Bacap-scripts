@@ -19,10 +19,10 @@
 					{
 						"condition": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
+
 								"looking_at": {
-									"type": "minecraft:warden"
+									"entity_type": "minecraft:warden"
 								}
 							}
 						},

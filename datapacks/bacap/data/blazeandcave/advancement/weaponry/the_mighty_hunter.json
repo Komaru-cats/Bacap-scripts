@@ -24,12 +24,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "chicken"
+					"entity_type": "chicken"
 				}
 			}
 		},	
@@ -44,12 +44,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "cow"
+					"entity_type": "cow"
 				}
 			}
 		},
@@ -64,12 +64,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "pig"
+					"entity_type": "pig"
 				}
 			}
 		},
@@ -84,12 +84,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "sheep"
+					"entity_type": "sheep"
 				}
 			}
 		},
@@ -104,12 +104,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "rabbit"
+					"entity_type": "rabbit"
 				}
 			}
 		},
@@ -124,12 +124,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "mooshroom"
+					"entity_type": "mooshroom"
 				}
 			}
 		},
@@ -144,12 +144,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "polar_bear"
+					"entity_type": "polar_bear"
 				}
 			}
 		},
@@ -164,12 +164,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "horse"
+					"entity_type": "horse"
 				}
 			}
 		},
@@ -184,12 +184,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "donkey"
+					"entity_type": "donkey"
 				}
 			}
 		},
@@ -204,12 +204,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "mule"
+					"entity_type": "mule"
 				}
 			}
 		},
@@ -224,12 +224,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "llama"
+					"entity_type": "llama"
 				}
 			}
 		},
@@ -244,12 +244,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "wolf"
+					"entity_type": "wolf"
 				}
 			}
 		},
@@ -264,12 +264,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "ocelot"
+					"entity_type": "ocelot"
 				}
 			}
 		},
@@ -284,12 +284,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "parrot"
+					"entity_type": "parrot"
 				}
 			}
 		},
@@ -304,12 +304,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "cat"
+					"entity_type": "cat"
 				}
 			}
 		},
@@ -324,12 +324,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "panda"
+					"entity_type": "panda"
 				}
 			}
 		},
@@ -344,12 +344,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "fox"
+					"entity_type": "fox"
 				}
 			}
 		},
@@ -364,12 +364,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "bee"
+					"entity_type": "bee"
 				}
 			}
 		},
@@ -384,12 +384,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "hoglin"
+					"entity_type": "hoglin"
 				}
 			}
 		},
@@ -404,12 +404,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "strider"
+					"entity_type": "strider"
 				}
 			}
 		},
@@ -424,12 +424,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "bat"
+					"entity_type": "bat"
 				}
 			}
 		},
@@ -444,12 +444,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "trader_llama"
+					"entity_type": "trader_llama"
 				}
 			}
 		},
@@ -464,12 +464,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "turtle"
+					"entity_type": "turtle"
 				}
 			}
 		},
@@ -484,12 +484,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "goat"
+					"entity_type": "goat"
 				}
 			}
 		},
@@ -504,12 +504,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "frog"
+					"entity_type": "frog"
 				}
 			}
 		},
@@ -524,12 +524,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "camel"
+					"entity_type": "camel"
 				}
 			}
 		},
@@ -544,12 +544,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "sniffer"
+					"entity_type": "sniffer"
 				}
 			}
 		},
@@ -564,12 +564,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "armadillo"
+					"entity_type": "armadillo"
 				}
 			}
 		},
@@ -584,12 +584,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "skeleton_horse"
+					"entity_type": "skeleton_horse"
 				}
 			}
 		},
@@ -604,12 +604,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "zoglin"
+					"entity_type": "zoglin"
 				}
 			}
 		},
@@ -624,12 +624,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "zombie_horse"
+					"entity_type": "zombie_horse"
 				}
 			}
 		},
@@ -644,12 +644,12 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows",
+						"entity_type": "#blazeandcave:arrows",
 						"nbt": "{weapon:{id:\"minecraft:bow\"}}"
 					}
 				},
 				"entity": {
-					"type": "camel_husk"
+					"entity_type": "camel_husk"
 				}
 			}
 		}

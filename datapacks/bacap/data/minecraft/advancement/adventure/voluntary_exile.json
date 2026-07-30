@@ -57,9 +57,8 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "#minecraft:raiders",
-							"type_specific": {
-								"type": "raider",
+							"entity_type": "#minecraft:raiders",
+							"minecraft:type_specific/raider": {
 								"is_captain": true
 							}
 						}

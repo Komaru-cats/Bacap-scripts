@@ -51,7 +51,7 @@
 					},
 					"blocked": true,
 					"source_entity": {
-						"type": "drowned"
+						"entity_type": "drowned"
 					}
 				}
 			}

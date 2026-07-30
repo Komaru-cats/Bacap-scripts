@@ -24,11 +24,11 @@
 						}
 					],
 					"direct_entity": {
-						"type": "#blazeandcave:arrows"
+						"entity_type": "#blazeandcave:arrows"
 					}
 				},
 				"entity": {
-					"type": "phantom",
+					"entity_type": "phantom",
 					"distance": {
 						"absolute": {
 							"min": 30

@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:horse"
+					"entity_type": "minecraft:horse"
 				},
 				"partner": {
-					"type": "minecraft:horse"
+					"entity_type": "minecraft:horse"
 				}
 			}
 		}

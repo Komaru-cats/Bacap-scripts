@@ -17,7 +17,7 @@
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
 				"entity": {
-					"type": "goat"
+					"entity_type": "goat"
 				}
 			}
 		}

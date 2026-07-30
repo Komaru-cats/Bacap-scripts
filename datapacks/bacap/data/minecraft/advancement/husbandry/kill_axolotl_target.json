@@ -19,7 +19,7 @@
 					{
 						"condition": "minecraft:entity_properties",
 						"predicate": {
-							"type": "minecraft:axolotl"
+							"entity_type": "minecraft:axolotl"
 						},
 						"entity": "this"
 					}

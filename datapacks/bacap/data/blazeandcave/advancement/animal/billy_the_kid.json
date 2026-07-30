@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:goat"
+					"entity_type": "minecraft:goat"
 				},
 				"partner": {
-					"type": "minecraft:goat"
+					"entity_type": "minecraft:goat"
 				}
 			}
 		}

@@ -24,7 +24,7 @@
 							}
 						],
 						"direct_entity": {
-							"type": "minecraft:snowball"
+							"entity_type": "minecraft:snowball"
 						}
 					}
 				}

@@ -4535,6 +4535,30 @@
 					}
 				]
 			}
+		},
+		"sulfur_cube_bucket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sulfur_cube_bucket"
+						]
+					}
+				]
+			}
+		},
+		"music_disc_bounce": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disc_bounce"
+						]
+					}
+				]
+			}
 		}
 	}
 }

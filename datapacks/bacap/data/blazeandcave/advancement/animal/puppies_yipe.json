@@ -16,10 +16,10 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"parent": {
-					"type": "minecraft:wolf"
+					"entity_type": "minecraft:wolf"
 				},
 				"partner": {
-					"type": "minecraft:wolf"
+					"entity_type": "minecraft:wolf"
 				}
 			}
 		}

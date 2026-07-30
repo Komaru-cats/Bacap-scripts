@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:multishot_crossbow_check"
+		"function": "blazeandcave:advancement/check/multishot_crossbow"
 	},
 	"criteria": {
 		"killed_by_multishot": {

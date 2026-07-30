@@ -143,8 +143,12 @@ class ConfigDict(dict):
 
 
 class Config:
-    def __init__(self, path: Path | str = DEFAULT_PATH, encoding: str = ENCODING,
-                 can_object_change_config: bool = True):
+    def __init__(
+        self,
+        path: Path | str = DEFAULT_PATH,
+        encoding: str = ENCODING,
+        can_object_change_config: bool = True,
+    ):
         """
         Initializes a Config object by loading a JSON configuration file.
 
@@ -175,7 +179,9 @@ class Config:
                 if json_obj is None:
                     raise KeyError(f"Key {keys} does not exist in {self.path}: {key}")
             else:
-                raise KeyError(f"Key {keys} contains a path to non-dict objects in {self.path}: {key}")
+                raise KeyError(
+                    f"Key {keys} contains a path to non-dict objects in {self.path}: {key}"
+                )
         return json_obj
 
     def update_config(self, keys: Sequence, value) -> None:
@@ -273,7 +279,9 @@ class Config:
         return str(self.config)
 
 
-def get_config(key: str = None, path: str | Path = DEFAULT_PATH, encoding: str = ENCODING) -> Any:
+def get_config(
+    key: str = None, path: str | Path = DEFAULT_PATH, encoding: str = ENCODING
+) -> Any:
     """
     Retrieves a value from the configuration file.
 
@@ -293,5 +301,7 @@ def get_config(key: str = None, path: str | Path = DEFAULT_PATH, encoding: str =
             if not json_obj:
                 raise KeyError(f"Key {key} does not exist in {path}: {i}")
         else:
-            raise KeyError(f"Key {key} contains a path to non-dict objects in {path}: {i}")
+            raise KeyError(
+                f"Key {key} contains a path to non-dict objects in {path}: {i}"
+            )
     return json_obj

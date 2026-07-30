@@ -34,7 +34,7 @@
     "No-Water Team": "Sponge Swabbin’ Crew",
     "Place 250 sponges": "Lay down 250 water-soppin’ sponges, me hearties!",
     "Not Profitable Transportation": "Terracotta Trader",
-    "Buy any type of terracota from a Villager in any badlands biome": "Exchange yer shinies fer baked clay in the dusty lands!",
+    "Buy any type of terracotta from a Villager in any badlands biome": "Exchange yer shinies fer baked clay in the dusty lands!",
     "Oh, You Again?": "Pesky Peddler Greeting",
     "Open a door for a Wandering Trader": "Swing the hatch fer that pesky wanderer!",
     "On Site Sale": "Brick Buyin’ in Th’ Wild",
@@ -217,7 +217,7 @@
     "The Boatman": "Ice Drifter",
     "Take a boat ride on blue ice": "Glide ‘cross the slippery sea of blue ice in yer craft!",
     "The Infernal Cauldron": "Lava Soaker",
-    "Spend a day in lava a cauldron": "Soak in a lava cauldron fer a full day—ye toasty soul!",
+    "Spend a day in a lava cauldron": "Soak in a lava cauldron fer a full day—ye toasty soul!",
     "Underwater Pirates": "Sunken Sailor",
     "Travel on a sunken boat": "Sail the depths aboard a sunken vessel, if ye can call it sailin’!",
     "Ready for Everything": "Prepared Pioneer",
@@ -530,7 +530,7 @@
     "Your Legs Are Beat": "Trail Blazer",
     "Sprint 1000km": "Dash like the wind fer 1000 kilometers on foot!",
     "Navigator of the Infinite Waters": "Mariner's Pride",
-    "Sail 500km in a boat": "Voyage 500 kilometers afloat, a true sea-dog’s test!",
+    "Sail 250km in a boat": "Voyage 250 kilometers afloat, a true sea-dog’s test!",
     "Jetsetter of the Skies": "Sky Glider",
     "Fly 10,000km with elytra": "Soar 10,000 kilometers ‘cross the heavens with wings of glory!",
     "Epic Capital Conqueror": "Villager Tycoon",
@@ -624,7 +624,7 @@
     "Vindicator Vanquisher": "Ravager Slayer",
     "Win 100 Raids": "Earn 100 triumphant raid victories—glory awaits!",
     "Ravager Repeller": "Raid Conqueror",
-    "Win 2000 Raids": "Prove yerself unstoppable with 2000 successful defenses!",
+    "Win 1000 Raids": "Prove yerself unstoppable with 1000 successful defenses!",
     "Novice Scout": "Speedy Rider",
     "Ride a Horse that moves faster than 9 blocks per second": "Find a sprightly steed ‘n gallop at 9 blocks a second or more!",
     "Swift Herder": "Quick Galloper",
@@ -632,7 +632,7 @@
     "Speed Master": "Lightning Rider",
     "Ride a Horse that moves faster than 13 blocks per second": "Command the horse o’ lightning with unstoppable speed!",
     "Legend of the Races": "Racing Champion",
-    "Ride a Horse that moves faster than 14.1 blocks per second": "Claim yer crown as the fastest rider in the land!",
+    "Ride a Horse that moves faster than 14.4 blocks per second": "Claim yer crown as the fastest rider in the land!",
     "More Shields!": "Armor Hoarder",
     "Fill your inventory with shields": "Carry a hold full o’ sturdy bucklers, just in case!",
     "Snow Fights!": "Frosty Duel",
@@ -1232,7 +1232,7 @@
 //    "Healed by Pain": "",
 //    "Take damage from an arrow with a strong healing effect": "",
 //    "Trial Potions": "",
-//    "Be under the effects of Trial Omen, Oozing, Infested, Wing Charged and Weaving at the same time": "",
+//    "Be under the effects of Trial Omen, Oozing, Infested, Wind Charged and Weaving at the same time": "",
 //    "Crafting Lockdown": "",
 //    "Open a crafter with all slots disabled": "",
 //    "Craft Me ALL!": "",
@@ -1262,7 +1262,7 @@
 //    "Surface-to-Air Missile": "",
 //    "Give a Charged Creeper the levitation effect and set it on fire while it's airborne": "",
 //    "Wind Burst Fox": "",
-//    "Give a Wind Burst 3 Mace to the Fox": ""
+//    "Give a Wind Burst 3 Mace to a Fox": ""
 //"Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT, before the levitation runs out": "Put on a levitatin’ Enderman act, rename it to \"Circus\", then blow it sky-high back home!"
 //"Overworld: ": "",
 //"Nether: ": "",
@@ -1327,7 +1327,7 @@
 //"Using a Bow, a Bow, a Bow, a Bow": "",
 //"Open a Dispenser with a bow inside it while holding a bow in your mainhand and offhand": "",
 //"Ligmifitation": "",
-//"Ride a Horse that moves 14.22 blocks per second": ""
+//"Ride a Horse that moves 14.56 blocks per second": ""
 //"Fake Copper Armor": "",
 //"Have an Allay deliver you all the Swords, Spears and Axes, as well as a Trident, Bow, Crossbow and Mace": "",
 //"Find a Woodland Mansion in the Pale Garden": "",
@@ -1346,5 +1346,11 @@
 //"Renowned Armament": "",
 //"Slay a mob using a legendary weapon": "",
 //"Excalibur": "",
-//"The original": ""
+//"The original": "",
+//"Totems used": "",
+//"Baby Zoo list": "",
+//"Addon!": "",
+//"You have completed ": "",
+//"BACAP Enhanced Discoveries Hardcore Addon": "",
+//"Time since last totem usage":""
 }

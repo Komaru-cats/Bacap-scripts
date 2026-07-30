@@ -22,7 +22,9 @@ class Release:
             return
 
         filename = fill_pattern(datapack.release_name_pattern, {"version": version})
-        install_text = fill_pattern(datapack.install_mcfunc_pattern, {"version": version, "filename": filename})
+        install_text = fill_pattern(
+            datapack.install_mcfunc_pattern, {"version": version, "filename": filename}
+        )
         datapack.install_path.write_text(install_text, encoding=datapack.encoding)
 
     @staticmethod
@@ -32,15 +34,12 @@ class Release:
         """
         output_path = os.path.join(
             os.getcwd(),
-            'releases',
-            fill_pattern(datapack.release_name_pattern, values={"version": version})
+            "releases",
+            fill_pattern(datapack.release_name_pattern, values={"version": version}),
         )
 
         make_archive(
-            base_name=output_path,
-            format="zip",
-            root_dir=datapack.path,
-            base_dir='.'
+            base_name=output_path, format="zip", root_dir=datapack.path, base_dir="."
         )
 
     @staticmethod
@@ -49,17 +48,13 @@ class Release:
         Create zipped language pack
         """
 
-        output_path = os.path.join(
-            os.getcwd(),
-            'releases',
-            datapack.language_pack
-        )
+        output_path = os.path.join(os.getcwd(), "releases", datapack.language_pack)
 
         make_archive(
             base_name=output_path,
             format="zip",
             root_dir=datapack.language_pack,
-            base_dir='.'
+            base_dir=".",
         )
 
     @staticmethod
@@ -76,7 +71,9 @@ class Release:
         warnings_type_dict: dict[str, list[Tuple[Advancement, AdvWarning]]] = {}
         warnings_count = 0
 
-        for adv in AdvancementsManager.filtered_iterator(datapack=datapack, skip_invalid=False):
+        for adv in AdvancementsManager.filtered_iterator(
+            datapack=datapack, skip_invalid=False
+        ):
             warnings = Validator.validate_advancement(adv)
             if not isinstance(adv, InvalidAdvancement):
                 warnings.extend(MissingTranslationFinder.find_missing_translations(adv))
@@ -98,7 +95,10 @@ class Release:
                 cls.show_adv_warning(*adv_and_warnings[0])
                 continue
 
-            print_warning(text(warning_type) + f": {n}", icon=Icon(f"[{warning_type_count}]", color="yellow"))
+            print_warning(
+                text(warning_type) + f": {n}",
+                icon=Icon(f"[{warning_type_count}]", color="yellow"),
+            )
             warning_type_count += 1
 
             if n <= 3 and warnings_count < 10:
@@ -138,6 +138,8 @@ class Release:
             adv.functions.main.generate()
             adv.functions.msg.generate()
 
-        for adv in AdvancementsManager.filtered_iterator(datapack=datapack, skip_invalid=False, skip_normal=True):
+        for adv in AdvancementsManager.filtered_iterator(
+            datapack=datapack, skip_invalid=False, skip_normal=True
+        ):
             if adv.reason.warning_type == AdvWarningType.REWARD_FUNCTION_DOESNT_SET:
                 adv.create_reward_function()

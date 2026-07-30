@@ -18,7 +18,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "minecraft:trader_llama"
+						"entity_type": "minecraft:trader_llama"
 					}
 				}
 			}

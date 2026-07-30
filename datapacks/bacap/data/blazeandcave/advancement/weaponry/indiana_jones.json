@@ -16,7 +16,7 @@
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"entity": {
-					"type": "#blazeandcave:hostile_monsters"
+					"entity_type": "#blazeandcave:hostile_monsters"
 				}
 			}
 		}

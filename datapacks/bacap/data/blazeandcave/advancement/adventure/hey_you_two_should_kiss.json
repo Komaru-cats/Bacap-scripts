@@ -20,10 +20,9 @@
 					{
 						"condition": "minecraft:entity_properties",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"looking_at": {
-									"type": "#minecraft:boat",
+									"entity_type": "#minecraft:boat",
 									"nbt": "{Passengers:[{id:\"minecraft:villager\"},{id:\"minecraft:villager\"}]}",
 									"distance": {
 										"absolute": {

@@ -16,7 +16,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "glow_squid"
+					"entity_type": "glow_squid"
 				}
 			}
 		}

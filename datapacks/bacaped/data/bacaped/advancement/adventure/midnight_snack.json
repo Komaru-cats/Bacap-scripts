@@ -21,6 +21,7 @@
         "player": [
           {
             "condition": "minecraft:time_check",
+            "clock": "minecraft:overworld",
             "value": {
               "min": 18000,
               "max": 19000

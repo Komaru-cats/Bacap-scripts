@@ -28,14 +28,14 @@
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"type": "minecraft:item_frame"
+									"entity_type": "minecraft:item_frame"
 								}
 							},
 							{
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"type": "minecraft:glow_item_frame"
+									"entity_type": "minecraft:glow_item_frame"
 								}
 							}
 						]

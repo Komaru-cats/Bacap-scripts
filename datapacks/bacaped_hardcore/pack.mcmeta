@@ -1,7 +1,8 @@
 {
   "pack": {
-	"min_format": [88, 0],
-	"max_format": [88, 0],
-    "description": "\"Enhanced Discoveries Hardcore Addon\""
+        "min_format": [107.1],
+        "max_format": [107.1],
+        "description": [{"text":"\"Enhanced discoveries ","color":"#74B021"},{"text":"Hardcore Addon\"","color":"dark_red"}]
   }
-}d
+}
+

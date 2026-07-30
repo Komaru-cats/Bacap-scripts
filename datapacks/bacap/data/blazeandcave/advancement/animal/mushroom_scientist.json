@@ -18,7 +18,7 @@
 			"conditions": {
 				"victims": [
 						{
-						"type": "minecraft:mooshroom"
+						"entity_type": "minecraft:mooshroom"
 					}
 				]
 			}

@@ -22,7 +22,7 @@
 				"damage": {
 					"blocked": false,
 					"source_entity": {
-						"type": "warden"
+						"entity_type": "warden"
 					}
 				},
 				"player": [

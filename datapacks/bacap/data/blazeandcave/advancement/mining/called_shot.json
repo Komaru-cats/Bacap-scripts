@@ -22,17 +22,14 @@
 						"predicate": {
 							"distance": {
 								"absolute": {
-									"max": 2
+									"max": 2.0
 								}
 							},
-							"entity_struck": [
-								{
-									"condition": "minecraft:entity_properties",
-									"predicate": {
-										"type": "minecraft:player"
-									}
+							"minecraft:type_specific/lightning": {
+								"entity_struck": {
+									"entity_type": "minecraft:player"
 								}
-							]
+							}
 						},
 						"entity": "this"
 					}
@@ -40,6 +37,7 @@
 				"player": [
 					{
 						"condition": "minecraft:entity_properties",
+						"entity": "this",
 						"predicate": {
 							"stepping_on": {
 								"block": {
@@ -55,8 +53,7 @@
 									]
 								}
 							}
-						},
-						"entity": "this"
+						}
 					}
 				]
 			}

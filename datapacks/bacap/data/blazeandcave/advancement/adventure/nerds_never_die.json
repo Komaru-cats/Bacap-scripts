@@ -29,7 +29,7 @@
 					{
 						"condition": "minecraft:entity_properties",
 						"predicate": {
-							"type": "minecraft:piglin_brute"
+							"entity_type": "minecraft:piglin_brute"
 						},
 						"entity": "this"
 					}

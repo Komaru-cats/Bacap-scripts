@@ -19,24 +19,23 @@
   "parent": "blazeandcave:mining/nananananananana",
   "criteria": {
     "shield": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
                 "stat": "minecraft:bat",
                 "value": {
-                  "min": 63
+                  "min": 64
                 }
               }
             ]
           }
         },
         "entity": {
-          "type": "minecraft:bat"
+          "entity_type": "minecraft:bat"
         }
       }
     }

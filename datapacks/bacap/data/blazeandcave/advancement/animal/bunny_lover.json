@@ -17,7 +17,7 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:rabbit",
+					"entity_type": "minecraft:rabbit",
 					"nbt": "{RabbitType:0}"
 				}
 			}
@@ -26,7 +26,7 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:rabbit",
+					"entity_type": "minecraft:rabbit",
 					"nbt": "{RabbitType:1}"
 				}
 			}
@@ -35,7 +35,7 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:rabbit",
+					"entity_type": "minecraft:rabbit",
 					"nbt": "{RabbitType:2}"
 				}
 			}
@@ -44,7 +44,7 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:rabbit",
+					"entity_type": "minecraft:rabbit",
 					"nbt": "{RabbitType:3}"
 				}
 			}
@@ -53,7 +53,7 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:rabbit",
+					"entity_type": "minecraft:rabbit",
 					"nbt": "{RabbitType:4}"
 				}
 			}
@@ -62,7 +62,7 @@
 			"trigger": "minecraft:bred_animals",
 			"conditions": {
 				"child": {
-					"type": "minecraft:rabbit",
+					"entity_type": "minecraft:rabbit",
 					"nbt": "{RabbitType:5}"
 				}
 			}

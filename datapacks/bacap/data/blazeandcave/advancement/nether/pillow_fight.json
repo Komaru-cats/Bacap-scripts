@@ -17,7 +17,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "ghast"
+					"entity_type": "ghast"
 				},
 				"player": [
 					{
@@ -25,7 +25,7 @@
 						"entity": "this",
 						"predicate": {
 							"vehicle": {
-								"type": "happy_ghast"
+								"entity_type": "happy_ghast"
 							}
 						}
 					}

@@ -17,7 +17,8 @@
       "color": "dark_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:adventure/omniscient",
   "criteria": {

@@ -1,6 +1,6 @@
 {
 	"rewards": {
-		"function": "blazeandcave:riddle/fourth_line"
+		"function": "blazeandcave:advancement/riddle/fourth_line"
 	},
 	"criteria": {
 		"pot_on_a_pot": {
@@ -35,8 +35,8 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
+
 								"advancements": {
 									"blazeandcave:technical/riddle_third_line": true
 								}
@@ -76,8 +76,8 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
+
 								"advancements": {
 									"blazeandcave:technical/riddle_third_line": true
 								}
@@ -117,8 +117,8 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
+
 								"advancements": {
 									"blazeandcave:technical/riddle_third_line": true
 								}

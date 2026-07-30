@@ -19,7 +19,7 @@
 			"conditions": {
 				"victims": [
 					{
-						"type": "minecraft:turtle",
+						"entity_type": "minecraft:turtle",
 						"flags": {
 							"is_baby": true
 						},
@@ -28,25 +28,25 @@
 						}
 					},
 					{
-						"type": "minecraft:witch",
+						"entity_type": "minecraft:witch",
 						"location": {
 							"dimension": "the_end"
 						}
 					},
 					{
-						"type": "minecraft:phantom",
+						"entity_type": "minecraft:phantom",
 						"location": {
 							"dimension": "the_end"
 						}
 					},
 					{
-						"type": "minecraft:elder_guardian",
+						"entity_type": "minecraft:elder_guardian",
 						"location": {
 							"dimension": "the_end"
 						}
 					},
 					{
-						"type": "minecraft:piglin_brute",
+						"entity_type": "minecraft:piglin_brute",
 						"location": {
 							"dimension": "the_end"
 						}
