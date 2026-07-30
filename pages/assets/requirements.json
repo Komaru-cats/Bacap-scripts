@@ -38,7 +38,6 @@
   "bacaped:adventure/wardens_thrust": "",
   "bacaped:adventure/water_dependent": "Stand on a pot and throw the splash potion into it",
   "bacaped:adventure/water_team": "",
-  "bacaped:animal/accept_cookies": "",
   "bacaped:animal/air_balloon": "",
   "bacaped:animal/a_ewe_for_every_hue": "",
   "bacaped:animal/baby_zoo": "Have a baby Axolotl, Cat, Chicken, Cow, Donkey, Fox, Horse, Mooshroom, Mule, Ocelot, Pig, Rabbit, Sheep, Strider, Turtle, Bee, Goat, Llama, Panda, Polar Bear, Wolf, Hoglin, Happy Ghast, Camel, Sniffer, Armadillo, Dolphin, Squid, Glow Squid, Nautilus within 32 blocks of you",
@@ -375,9 +374,9 @@
   "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": "",
   "bacaped:statistics/ligmifitation": "",
   "bacaped:biomes/australia": "",
-  "bacaped:nether/happy_ghast_silencer": "",
   "bacaped:redstone/oppositional_position": "",
   "bacaped:statistics/true_submarine": "",
   "bacaped:biomes/accept_cookies": "",
+  "bacaped:nether/happy_ghast_silencer": "",
   "bacaped:weaponry/renowned_armament": ""
 }

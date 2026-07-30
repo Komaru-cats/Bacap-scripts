@@ -4,7 +4,7 @@
       "id": "minecraft:lingering_potion",
       "components": {
         "minecraft:potion_contents": {
-          "custom_color": 3325906
+          "potion": "minecraft:swiftness"
         }
       }
     },
@@ -87,6 +87,19 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:potion/master_of_effects": true
+            }
+          }
+        }
+      }
+    },
+    "real_immortal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/real_immortal": true
             }
           }
         }

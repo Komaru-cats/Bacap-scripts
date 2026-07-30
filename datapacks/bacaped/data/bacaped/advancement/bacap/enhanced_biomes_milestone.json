@@ -159,6 +159,19 @@
         }
       }
     },
+    "team_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:biomes/team_water": true
+            }
+          }
+        }
+      }
+    },
     "the_boatman": {
       "trigger": "minecraft:location",
       "conditions": {

@@ -1,5 +1,8 @@
 # Advancements
 
+# Random Function
+execute as @a[gamemode=!spectator] at @s store result score @s bacaped_random run random value 1..1000000
+
 # Sniffer-sniff-event
 execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..8] if entity @e[type=sniffer,distance=..8] run advancement grant @s only bacaped:animal/sniffer-sniff-event
 

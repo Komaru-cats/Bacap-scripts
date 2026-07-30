@@ -12,7 +12,7 @@
       "translate": "Speed of Light"
     },
     "description": {
-      "translate": "Reach a horizontal speed of over 120 blocks per second",
+      "translate": "Reach a horizontal speed of over 150 blocks per second",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -27,7 +27,7 @@
         "player": {
           "movement": {
             "horizontal_speed": {
-              "min": 120
+              "min": 150
             }
           }
         }

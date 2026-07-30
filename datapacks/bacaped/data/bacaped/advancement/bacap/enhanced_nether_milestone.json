@@ -19,7 +19,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/a_long_journey": true
             }
@@ -31,7 +32,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/bastion_robber": true
             }
@@ -43,7 +45,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/bastion_sweet_bastion": true
             }
@@ -55,7 +58,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/beyond_the_rings": true
             }
@@ -67,7 +71,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/blaze3d": true
             }
@@ -79,7 +84,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/diamond_beacon": true
             }
@@ -91,7 +97,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/emerald_beacon": true
             }
@@ -103,7 +110,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/firefox": true
             }
@@ -115,7 +123,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/flap_dont_fall": true
             }
@@ -127,7 +136,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/give_them_everything_they_want": true
             }
@@ -139,7 +149,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/gold_beacon": true
             }
@@ -151,7 +162,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/happy_ghast_silencer": true
             }
@@ -163,7 +175,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/herbarium_to_my_friend": true
             }
@@ -175,7 +188,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/high_pitch": true
             }
@@ -187,7 +201,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/hot_combat": true
             }
@@ -199,7 +214,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/hot_lake": true
             }
@@ -211,7 +227,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/impostor": true
             }
@@ -223,7 +240,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/inside_out": true
             }
@@ -235,7 +253,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/iron_beacon": true
             }
@@ -247,7 +266,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/never_careful_enough": true
             }
@@ -259,7 +279,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/rainbow": true
             }
@@ -271,7 +292,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/show_the_wither_his_home": true
             }
@@ -283,7 +305,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/the_last_deal": true
             }
@@ -295,7 +318,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/the_new_swamp_wont_be_here": true
             }
@@ -307,7 +331,8 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
+          "type_specific": {
+            "type": "player",
             "advancements": {
               "bacaped:nether/withering_depths": true
             }

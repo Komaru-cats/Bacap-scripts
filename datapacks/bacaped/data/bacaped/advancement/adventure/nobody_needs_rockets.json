@@ -19,7 +19,7 @@
   },
   "parent": "minecraft:adventure/who_needs_rockets",
   "criteria": {
-    "who_needs_rockets": {
+    "wind_charge_50_blocks_up": {
       "trigger": "minecraft:fall_after_explosion",
       "conditions": {
         "distance": {
