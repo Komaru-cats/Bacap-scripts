@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Water-Dependent"
+    },
+    "description": {
+      "translate": "Water a potted flower with a Splash Potion while standing atop it",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:building/pot_on_a_pot",
+  "criteria": {
+    "splash_potted_flower": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "looking_at": {
+                      "type": [
+                        "minecraft:lingering_potion",
+                        "minecraft:splash_potion"
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "blocks": "#bacaped:flower_pots"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/water_dependent"
+  }
+}

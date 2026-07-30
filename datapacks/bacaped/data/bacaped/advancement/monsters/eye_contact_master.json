@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Eye Contact Master"
+    },
+    "description": {
+      "translate": "Look at an Enderman very closely through a Spyglass",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/tele_morph",
+  "criteria": {
+    "look_at_enderman_through_spyglass": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "looking_at": {
+              "type": "minecraft:enderman",
+              "distance": {
+                "absolute": {
+                  "max": 1
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:monsters/eye_contact_master"
+  }
+}

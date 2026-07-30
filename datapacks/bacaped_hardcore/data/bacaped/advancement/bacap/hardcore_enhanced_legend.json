@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots",
+      "components": {
+        "minecraft:dyed_color": 11546150,
+        "minecraft:trim": {
+          "material": "minecraft:redstone",
+          "pattern": "minecraft:silence"
+        }
+      }
+    },
+    "title": {
+      "translate": "Hardcore Enhanced Legend"
+    },
+    "description": {
+      "translate": "Complete every single advancement in Enhanced Discoveries, in Hardcore",
+      "color": "gold"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_legend",
+  "criteria": {
+    "hardcore": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:bacap/hardcore_enhanced_legend"
+  }
+}
