@@ -15,7 +15,7 @@
   },
   "parent": "blazeandcave:adventure/house_of_psychos",
   "criteria": {
-    "mansion_in_pale_garden": {
+    "trigger": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {

@@ -14,7 +14,7 @@
   },
   "parent": "bacaped:adventure/oops",
   "criteria": {
-    "break_sus_block_stack": {
+    "trigger": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [

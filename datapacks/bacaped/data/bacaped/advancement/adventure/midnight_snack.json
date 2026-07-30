@@ -15,7 +15,7 @@
   },
   "parent": "minecraft:adventure/trade",
   "criteria": {
-    "trade_cookies_at_3am": {
+    "trigger": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "player": [

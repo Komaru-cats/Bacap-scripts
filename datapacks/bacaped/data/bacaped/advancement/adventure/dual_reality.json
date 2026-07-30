@@ -15,7 +15,7 @@
   },
   "parent": "blazeandcave:adventure/raidin_master",
   "criteria": {
-    "two_structures_at_once": {
+    "trigger": {
       "trigger": "minecraft:impossible"
     }
   },

@@ -14,7 +14,7 @@
   },
   "parent": "bacaped:adventure/thorny_prices",
   "criteria": {
-    "villager_wearing_netherite": {
+    "villager": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {

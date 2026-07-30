@@ -22,7 +22,7 @@
   },
   "parent": "blazeandcave:adventure/chromatic_armory",
   "criteria": {
-    "green_leather_armor_with_emerald_trims": {
+    "leather_armor_with_emerald_trims": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [

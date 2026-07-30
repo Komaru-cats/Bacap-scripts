@@ -31,7 +31,7 @@
   },
   "parent": "blazeandcave:adventure/your_daily_fix",
   "criteria": {
-    "repair_golem": {
+    "save_golem": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {

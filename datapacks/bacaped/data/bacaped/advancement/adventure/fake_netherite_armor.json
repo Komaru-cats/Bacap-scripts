@@ -22,7 +22,7 @@
   },
   "parent": "blazeandcave:adventure/chromatic_armory",
   "criteria": {
-    "black_leather_armor_with_netherite_trims": {
+    "leather_armor_with_netherite_trims": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [

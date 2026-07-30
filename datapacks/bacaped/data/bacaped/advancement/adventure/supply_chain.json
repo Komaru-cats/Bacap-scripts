@@ -16,7 +16,7 @@
   },
   "parent": "bacaped:adventure/unprofitable_transportation",
   "criteria": {
-    "dripstone_block": {
+    "buy_dripstone": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {

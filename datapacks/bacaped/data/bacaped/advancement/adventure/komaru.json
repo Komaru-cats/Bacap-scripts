@@ -32,7 +32,7 @@
   },
   "parent": "bacaped:adventure/placeholder",
   "criteria": {
-    "komaru": {
+    "Komaru": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {

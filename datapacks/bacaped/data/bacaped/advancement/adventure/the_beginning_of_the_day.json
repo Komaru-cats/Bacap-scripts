@@ -15,7 +15,7 @@
   },
   "parent": "blazeandcave:adventure/oh_look_it_dings",
   "criteria": {
-    "ring_bell_at_6am": {
+    "trigger": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
         "player": [

@@ -15,7 +15,7 @@
   },
   "parent": "minecraft:adventure/trade",
   "criteria": {
-    "brick": {
+    "buy_brick": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {

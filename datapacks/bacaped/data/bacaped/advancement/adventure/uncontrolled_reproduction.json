@@ -15,7 +15,7 @@
   },
   "parent": "blazeandcave:adventure/and_make_it_double",
   "criteria": {
-    "allay_amethyst_note_block": {
+    "trigger": {
       "trigger": "minecraft:allay_drop_item_on_block",
       "conditions": {
         "location": [

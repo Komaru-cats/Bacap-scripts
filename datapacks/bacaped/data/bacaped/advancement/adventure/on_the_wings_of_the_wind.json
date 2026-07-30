@@ -19,7 +19,7 @@
   },
   "parent": "bacaped:adventure/nobody_needs_rockets",
   "criteria": {
-    "wind_charge_150_blocks_up": {
+    "who_needs_rockets": {
       "trigger": "minecraft:fall_after_explosion",
       "conditions": {
         "distance": {

@@ -15,7 +15,7 @@
   },
   "parent": "blazeandcave:adventure/murderer",
   "criteria": {
-    "villager_thorns_kills_player": {
+    "villager": {
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "entity": {
