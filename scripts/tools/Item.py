@@ -12,7 +12,7 @@ from .nbt_parser import nbt_decoder
 class PlayerHead:
     def __init__(self, profile: dict[str, str | dict | list[dict]]) -> None:
         self._profile = profile
-        if self._profile is not None:
+        if self._profile is not None and "properties" in self._profile:
             self._texture_url: str | None = nbt_decoder(
                 base64.b64decode(self._profile["properties"][0]["value"]).decode()
             )["textures"]["SKIN"]["url"]
