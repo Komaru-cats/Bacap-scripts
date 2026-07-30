@@ -38,9 +38,9 @@
             }
           },
           {
-            "type": "minecraft:salmon",
-            "components": {
-              "minecraft:salmon/size": "small"
+            "type": "minecraft:chicken",
+            "flags": {
+              "is_baby": true
             }
           },
           {

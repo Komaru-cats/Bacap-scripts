@@ -1,2 +1,2 @@
-
-
+give @s filled_map[enchantment_glint_override=true,lore=[{"color":"#701000","translate":"Forged in war"},{text:" "},{"color":"gray","translate":"Awarded for achieving"},{"color":"light_purple","italic":false,"translate":"My Personal Slave"}],custom_name={"bold":true,"color":"#701000","italic":false,"translate":"Blood Contract"},custom_model_data={floats:[15501]},custom_data={Trophy:1b},map_color=12741452] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Blood Contract"}]}

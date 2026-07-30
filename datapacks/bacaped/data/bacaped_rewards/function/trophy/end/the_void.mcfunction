@@ -1,2 +1,2 @@
-
-
+give @s echo_shard[enchantment_glint_override=true, lore=[{translate:"All of your exploits to destroy Bedrock have",color:"#2F2F38"},{translate:"yielded only a single fragment",color:"#2F2F38"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"The V O I D",color:"#FFAEFF",italic:false}], custom_name={translate:"Bedrock Shard",color:"#2F2F38",bold:true,italic:false}, custom_model_data={floats:[15500]}, custom_data={Trophy:1b}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Bedrock Shard"}]}

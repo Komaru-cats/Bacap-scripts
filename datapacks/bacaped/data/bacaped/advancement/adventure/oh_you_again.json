@@ -15,7 +15,7 @@
   },
   "parent": "blazeandcave:adventure/shady_deals",
   "criteria": {
-    "oh_you_again": {
+    "open_door_for_trader": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
         "player": {

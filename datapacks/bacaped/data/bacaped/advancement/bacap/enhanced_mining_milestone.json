@@ -158,6 +158,19 @@
         }
       }
     },
+    "the_cult_of_the_spyglass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/the_cult_of_the_spyglass": true
+            }
+          }
+        }
+      }
+    },
     "the_master_of_falls": {
       "trigger": "minecraft:location",
       "conditions": {

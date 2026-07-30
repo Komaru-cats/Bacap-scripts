@@ -28,9 +28,9 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:adventure/thorny_prices",
+  "parent": "bacaped:adventure/do_you_see_this",
   "criteria": {
-    "trigger": {
+    "kill_100_villagers": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {

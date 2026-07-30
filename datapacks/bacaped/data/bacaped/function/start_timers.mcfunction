@@ -25,6 +25,7 @@ scoreboard objectives add bacaped_distance_from_0_0 dummy
 scoreboard objectives add bacaped_ghast_passenger_count dummy
 scoreboard objectives add bacaped_current_day dummy
 scoreboard objectives add bacaped_cookies_eaten_today dummy
+scoreboard objectives add bacaped_random dummy
 
 # In Structures
 scoreboard objectives add bacaped_in_struct_ancient_city dummy

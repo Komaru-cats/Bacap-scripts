@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:crafter"
+      "id": "minecraft:redstone_torch"
     },
     "title": {
       "translate": "Enh. Redstone Milestone"
@@ -93,14 +93,14 @@
         }
       }
     },
-    "more_optimisations": {
+    "more_optimizations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "type_specific": {
             "type": "player",
             "advancements": {
-              "bacaped:redstone/more_optimisations": true
+              "bacaped:redstone/more_optimizations": true
             }
           }
         }
@@ -119,14 +119,14 @@
         }
       }
     },
-    "old_optimisations": {
+    "old_optimizations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "type_specific": {
             "type": "player",
             "advancements": {
-              "bacaped:redstone/old_optimisations": true
+              "bacaped:redstone/old_optimizations": true
             }
           }
         }
@@ -145,14 +145,14 @@
         }
       }
     },
-    "using_a_bow_a_bow_a_bow_a_bow": {
+    "using_a_bow_using_a_bow": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "type_specific": {
             "type": "player",
             "advancements": {
-              "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
+              "bacaped:redstone/using_a_bow_using_a_bow": true
             }
           }
         }
