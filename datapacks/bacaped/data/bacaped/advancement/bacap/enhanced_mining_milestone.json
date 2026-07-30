@@ -151,8 +151,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:mining/the_cult_of_the_spyglass": true
             }

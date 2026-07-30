@@ -43,8 +43,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:monsters/eye_contact_master": true
             }
@@ -200,8 +199,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:monsters/wardens_thrust": true
             }
