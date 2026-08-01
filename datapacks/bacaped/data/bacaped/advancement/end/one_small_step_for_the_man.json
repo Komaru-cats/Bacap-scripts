@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "textures",
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg2MmE3ODRmN2ExMWU3ZTg5NzAyYTNkODAxMDEzZDNiNWYyNmYzYTlhYzQ3NGI5YjdlNjQwMzRmNTcyNmM0MCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "One Small Step for the Man"
+    },
+    "description": {
+      "translate": "Stand on a shulker above Y=350",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/youre_doing_it_wrong",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
