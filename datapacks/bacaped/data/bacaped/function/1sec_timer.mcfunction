@@ -82,7 +82,7 @@ execute as @a[gamemode=!spectator, advancements={bacaped:weaponry/air_battle=fal
 execute as @a[gamemode=!spectator, advancements={bacaped:farming/exemplary_worker=false}] at @s if entity @e[type=minecraft:bee,distance=..16,nbt={CropsGrownSincePollination:10}] run advancement grant @s only bacaped:farming/exemplary_worker
 
 # One Small Step for the Man
-execute as @a[gamemode=!spectator, advancements={bacaped:end/one_small_step_for_the_man=false}] at @s if predicate bacaped:min_y_350 positioned ~-0.5 ~-0.1 ~-0.5 if entity @e[type=shulker,dx=0,dy=0,dz=0] run advancement grant @s only bacaped:end/one_small_step_for_the_man
+execute as @a[gamemode=!spectator, advancements={bacaped:end/one_small_step_for_man=false}] at @s if predicate bacaped:min_y_350 positioned ~-0.5 ~-0.1 ~-0.5 if entity @e[type=shulker,dx=0,dy=0,dz=0] run advancement grant @s only bacaped:end/one_small_step_for_man
 
 # Triggers
 
