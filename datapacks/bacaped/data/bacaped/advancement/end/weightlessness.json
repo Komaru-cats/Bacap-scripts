@@ -44,5 +44,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/weightlessness"
   }
 }

@@ -87,6 +87,18 @@
         }
       }
     },
+    "exemplary_worker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/exemplary_worker": true
+            }
+          }
+        }
+      }
+    },
     "golems": {
       "trigger": "minecraft:location",
       "conditions": {

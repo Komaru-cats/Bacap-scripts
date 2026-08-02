@@ -18,5 +18,8 @@
     "trigger": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/advanced_horse_transport"
   }
 }

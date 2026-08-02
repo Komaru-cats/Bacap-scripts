@@ -29,5 +29,8 @@
     "trigger": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/one_small_step_for_man"
   }
 }

@@ -18,5 +18,8 @@
     "trigger": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/you_goat_me_to_an_end"
   }
 }

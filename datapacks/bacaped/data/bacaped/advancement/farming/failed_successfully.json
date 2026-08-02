@@ -36,5 +36,8 @@
         ]
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:farming/failed_successfully"
   }
 }

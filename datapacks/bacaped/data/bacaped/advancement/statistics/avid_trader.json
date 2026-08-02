@@ -17,5 +17,8 @@
     "trigger": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/avid_trader"
   }
 }

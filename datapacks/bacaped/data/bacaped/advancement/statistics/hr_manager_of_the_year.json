@@ -19,5 +19,8 @@
     "trigger": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/hr_manager_of_the_year"
   }
 }
