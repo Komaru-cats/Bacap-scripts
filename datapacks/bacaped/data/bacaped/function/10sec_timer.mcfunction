@@ -49,6 +49,11 @@ execute as @a[gamemode=!spectator,advancements={bacaped:challenges/mounted_menac
 # Cookie Eater
 function bacaped:cookie_eater/reset
 
+# Advanced Horse Transport
+scoreboard players set @a[gamemode=!spectator, advancements={bacaped:animal/advanced_horse_transport=false}] bacaped_leashed_horses 0
+execute as @e[type=horse] on leasher run scoreboard players add @s bacaped_leashed_horses 1
+execute as @a[gamemode=!spectator, advancements={bacaped:animal/advanced_horse_transport=false}, scores={bacaped_leashed_horses=3..}] at @s if biome ~ ~ ~ #minecraft:is_ocean if predicate bacaped:has_dolphins_grace run advancement grant @s only bacaped:animal/advanced_horse_transport
+
 # Day count is increased by 1 at each sunrise
 execute if score time bac_current_time matches 0..200 run function bacaped:increase_day
 
