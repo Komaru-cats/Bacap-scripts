@@ -7,7 +7,7 @@
       "translate": "Exemplary Worker"
     },
     "description": {
-      "translate": "Stand near a bee with 10 successful pollinations in a single journey"
+      "translate": "Stand near a Bee with 10 successful pollinations in a single journey"
     },
     "frame": "challenge",
     "announce_to_chat": true
