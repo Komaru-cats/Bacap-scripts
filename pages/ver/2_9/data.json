@@ -496,7 +496,7 @@
   },
   {
     "title": "Advanced Horse Transport",
-    "description": "Swim in the ocean with 3 or more Horses on a lead under the Dolphins grace effect",
+    "description": "Swim in an ocean with 3 or more Horses on a lead under the Dolphins grace effect",
     "color": "#AA00AA",
     "tab": "Animals",
     "type": "Challenge",
@@ -2267,7 +2267,7 @@
   },
   {
     "title": "One Small Step for Man",
-    "description": "Stand on a Shulker above Y=350",
+    "description": "Stand on a Shulker 350 blocks above the world",
     "color": "#AA00AA",
     "tab": "The End",
     "type": "Challenge",
@@ -2421,7 +2421,7 @@
   },
   {
     "title": "Exemplary Worker",
-    "description": "Stand near a Bee with 10 successful pollinations in a single journey",
+    "description": "Be near a Bee with 10 successful pollinations in a single journey",
     "color": "#AA00AA",
     "tab": "Farming",
     "type": "Challenge",

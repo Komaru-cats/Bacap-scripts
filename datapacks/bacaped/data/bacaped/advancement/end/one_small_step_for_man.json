@@ -18,7 +18,7 @@
       "translate": "One Small Step for Man"
     },
     "description": {
-      "translate": "Stand on a Shulker above Y=350",
+      "translate": "Stand on a Shulker 350 blocks above the world",
       "color": "dark_purple"
     },
     "frame": "challenge",
