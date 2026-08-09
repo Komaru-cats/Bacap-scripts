@@ -107,7 +107,7 @@ class Main(FuncMixin):
             fill_pattern(
                 FunctionsWritePatterns.main,
                 {
-                    "adv_type": self._adv.msg_type,
+                    "adv_type": self._adv.adv_macro_type,
                     "reward_id_without_namespace": reward_path,
                     "adv_path_in_mc": self._adv.mc_path,
                 },

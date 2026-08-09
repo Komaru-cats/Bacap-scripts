@@ -443,6 +443,15 @@ class Advancement(BaseAdvancement):
         return self._type
 
     @property
+    def adv_macro_type(self) -> str:
+        """
+        Returns the type of the advancement for advancement macro ONLY.
+        """
+        if self.hidden:
+            return "hidden"
+        return self._type
+
+    @property
     def tab_display(self):
         return self.tab_names.get(self._tab, "Undefined Tab")
 
