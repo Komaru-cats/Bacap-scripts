@@ -1379,12 +1379,8 @@
     "HR Manager of the Year": "",
     "Break workstation blocks 5000 times": "",
     "Workstations broken": "",
-
-    # This should be translated in the same way as it is done in BACAP for /trigger bac_apple_a_day (An Apple A Day advancement).
     "You have eaten an Enchanted Golden Apple every day for": "",
     "You have eaten an Enchanted Golden Apple today.": "",
     "You have not eaten an Enchanted Golden Apple today.": "",
     "If you have just slept, and it says you have eaten an enchanted golden apple when you actually haven't yet, try running this trigger again in 10 seconds.": ""
-
-
 }

@@ -382,7 +382,6 @@
   "bacaped:weaponry/renowned_armament": "",
   "bacaped:adventure/no_luck_for_the_next_guy": "",
   "bacaped:adventure/ominous_vault_hunter": "",
-  "bacaped:animal/advanced_horse_transport": "",
   "bacaped:end/one_small_step_for_man": "",
   "bacaped:end/weightlessness": "",
   "bacaped:end/you_goat_me_to_an_end": "",
@@ -392,5 +391,6 @@
   "bacaped:statistics/avid_trader": "",
   "bacaped:statistics/did_you_get_mending_yet": "",
   "bacaped:statistics/frustrated_trader": "",
-  "bacaped:statistics/hr_manager_of_the_year": ""
+  "bacaped:statistics/hr_manager_of_the_year": "",
+  "bacaped:biomes/advanced_horse_transport": ""
 }
