@@ -1,0 +1,1 @@
+execute at @r[gamemode=!spectator,gamemode=!creative] run setblock ~ ~3 ~ minecraft:barrel[facing=north,open=false]{LootTable:"bacap_wb_addon:chests/starter_kit"}

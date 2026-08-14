@@ -1,0 +1,1 @@
+$tellraw @a {"translate": "Worldborder fully unlocked! (+$(size_whole) Blocks)", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "$(adv_title)", "color": "$(adv_title_color)"}, {"text": "\n"}, {"translate": "$(adv_desc)", "color": "$(adv_desc_color)"}, {"text": "\n\n"}, {"translate": "$(adv_tab) tab", "color": "gray", "italic": true}]}}

@@ -1,0 +1,94 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "Tier Blocks Configuration"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "Specify the number of blocks for each tier (e.g., 1.5, 10, 6000)\n\n The value must be 0 or between 0.01 and 21,474,837."
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "label": {
+        "translate": "Task"
+      },
+      "label_visible": true,
+      "width": 80,
+      "initial": "1",
+      "max_length": 10,
+      "key": "task"
+    },
+    {
+      "type": "minecraft:text",
+      "label": {
+        "translate": "Goal"
+      },
+      "label_visible": true,
+      "width": 80,
+      "initial": "5",
+      "max_length": 10,
+      "key": "goal"
+    },
+    {
+      "type": "minecraft:text",
+      "label": {
+        "translate": "Challenge"
+      },
+      "label_visible": true,
+      "width": 80,
+      "initial": "15",
+      "max_length": 10,
+      "key": "challenge"
+    },
+    {
+      "type": "minecraft:text",
+      "label": {
+        "translate": "Super Challenge"
+      },
+      "label_visible": true,
+      "width": 80,
+      "initial": "50",
+      "max_length": 10,
+      "key": "super_challenge"
+    },
+    {
+      "type": "minecraft:text",
+      "label": {
+        "translate": "Milestone"
+      },
+      "label_visible": true,
+      "width": 80,
+      "initial": "100",
+      "max_length": 10,
+      "key": "milestone"
+    },
+    {
+      "type": "minecraft:text",
+      "label": {
+        "translate": "Hidden"
+      },
+      "label_visible": true,
+      "width": 80,
+      "initial": "0",
+      "max_length": 10,
+      "key": "hidden"
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "Save"
+    },
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "/function bacap_wb_addon:config/set_tiers {task:$(task), goal:$(goal), challenge:$(challenge), super_challenge:$(super_challenge), milestone:$(milestone), hidden:$(hidden)}"
+    }
+  },
+  "pause": false,
+  "can_close_with_escape": true,
+  "after_action": "close"
+}

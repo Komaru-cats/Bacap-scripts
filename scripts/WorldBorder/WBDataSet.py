@@ -1,5 +1,6 @@
+import json
 from pathlib import Path
-from typing import Sequence
+from typing import Sequence, Tuple, Optional, Literal
 
 from sqlalchemy import create_engine, exists
 from sqlalchemy.orm import sessionmaker
@@ -13,20 +14,13 @@ from .Types import (
     DATAPACK_PRESET_PATH,
     Base,
     WBSQL,
-    desc_color_dict,
+    DESC_COLORS,
     FileRewardData,
-    RewardPattern,
-    NotAdvRewardFound,
-    AdvFunctionCommands,
+    REWARD_PATTERN,
+    NoAdvancementReward,
+    BACAP_TIER_OVERRIDES,
+    BACAPED_TIER_OVERRIDES
 )
-
-
-def time_formula(x: float):
-    if x < 0:
-        raise ValueError("Time must be positive")
-    if x == 0:
-        return 1
-    return max(1, int((x / x**0.6 * 2) * 20))
 
 
 def escape_quotes(string: str) -> str:
@@ -35,158 +29,208 @@ def escape_quotes(string: str) -> str:
 
 class WBDataSet:
     def __init__(
-        self, db_name: str, adv_datapacks: Sequence[Datapack], reward_folder_name: str
+            self, db_bacap_name: str, db_bacaped_name: str, adv_datapacks: Sequence[Datapack]
     ):
         self.adv_datapacks = adv_datapacks
-        self.reward_folder_name = reward_folder_name
-        self.engine = create_engine(f"sqlite:///wb/{db_name}")
-        Base.metadata.create_all(self.engine)
-        self.Session = sessionmaker(bind=self.engine)
-        self.session = self.Session()
 
-    def check_excluded(self, adv: Advancement):
-        """
-        This check is needed because some advancements are excluded from the wb
-        Checking path without 'vanilla' subdivision now.
-        """
+        self.engine_bacap = create_engine(f"sqlite:///wb/{db_bacap_name}")
+        Base.metadata.create_all(self.engine_bacap)
+        self.session_bacap = sessionmaker(bind=self.engine_bacap)()
+
+        self.engine_bacaped = create_engine(f"sqlite:///wb/{db_bacaped_name}")
+        Base.metadata.create_all(self.engine_bacaped)
+        self.session_bacaped = sessionmaker(bind=self.engine_bacaped)()
+
+    @staticmethod
+    def check_excluded(adv: Advancement):
         adv_path = cut_namespace(adv.mc_path)
         if (
-            DATAPACK_PRESET_PATH
-            / f"data/bc_wb/function/rewards/{self.reward_folder_name}/normal/{adv_path}.mcfunction"
+                DATAPACK_PRESET_PATH
+                / f"data/bacap_wb_addon/function/rewards/{adv_path}.mcfunction"
         ).exists():
             return True
         return False
 
-    def add_missing(self):
-        for adv in AdvancementsManager.filtered_iterator(datapack=self.adv_datapacks):
+    def add_missing(self, target: str, target_datapacks: Sequence[Datapack]):
+        for adv in AdvancementsManager.filtered_iterator(datapack=target_datapacks):
+            adv: Advancement
             adv_path = cut_namespace(adv.mc_path)
             if self.check_excluded(adv):
                 output(f"Skip: {adv.mc_path} as it was excluded")
                 continue
-            if not self.session.query(exists().where(WBSQL.path == adv_path)).scalar():
-                self.set_blocks(adv)
+
+            if target == "Bacaped":
+                if not self.session_bacaped.query(exists().where(WBSQL.path == adv_path)).scalar():
+                    output(f"--- Missing in BACAPED ---")
+                    self.set_blocks(adv, self.session_bacaped)
+
+            elif target == "Bacap":
+                if not self.session_bacap.query(exists().where(WBSQL.path == adv_path)).scalar():
+                    output(f"--- Missing in BACAP ---")
+                    cmd_type, blocks = self.set_blocks_return(adv)
+                    if blocks > 0 or cmd_type == "set":
+                        self.session_bacap.add(
+                            WBSQL(
+                                path=adv_path,
+                                command_type=cmd_type,
+                                blocks=blocks,
+                            )
+                        )
+                        self.session_bacap.commit()
 
     @exit_on_empty_input
-    def set_blocks(self, adv: Advancement):
+    def set_blocks(self, adv: Advancement, session):
         print_adv_data(adv)
-        self.session.add(
-            WBSQL(
-                path=cut_namespace(adv.mc_path),
-                command_type="add",
-                blocks=eget_value("Blocks:", value_type=float),
-            )
-        )
-        self.session.commit()
+        cmd_input = eget_value("Command type [a=add, s=set]:", possible_value=["a", "s"])
+        cmd_type = "add" if cmd_input == "a" else "set"
+
+        while True:
+            blocks = eget_value("Blocks:", value_type=float)
+            # Лимит 21.4 млн работает только для 'add', так как 'set' не умножается на 100
+            if cmd_type == "add" and blocks > 21474836:
+                print_warning("Limit exceeded! Maximum allowed blocks per 'add' advancement is 21,474,836.")
+            else:
+                session.add(
+                    WBSQL(
+                        path=cut_namespace(adv.mc_path),
+                        command_type=cmd_type,
+                        blocks=blocks,
+                    )
+                )
+                session.commit()
+                break
+
+    @exit_on_empty_input
+    def set_blocks_return(self, adv: Advancement) -> Tuple[Literal['set', 'add'], float]:
+        print_adv_data(adv)
+        cmd_input = eget_value("Command type [a=add, s=set]:", possible_value=["a", "s"])
+        cmd_type: Literal['set', 'add'] = "set" if cmd_input == "s" else "add"
+
+
+        while True:
+            blocks = eget_value("Blocks:", value_type=float)
+            if cmd_type == "add" and blocks > 21474836:
+                print_warning("Limit exceeded! Maximum allowed blocks per 'add' advancement is 21,474,836.")
+            else:
+                return cmd_type, blocks
 
     def generate(self, datapack_path: Path):
-        """
-        If all advancements are found, it will generate the data into `datapack_path` for every advancement in DataSet.
-        """
-        advFC_list: list[AdvFunctionCommands] = []
+        bacap_init_lines = []
+        bacaped_init_lines = []
+
         for adv in AdvancementsManager.filtered_iterator(datapack=self.adv_datapacks):
+            adv: Advancement
             try:
-                advFC_list.append(self.generate_adv_func_commands(adv))
-            except NotAdvRewardFound:
-                raise NotAdvRewardFound(
+                bacap_line, bacaped_line = self.generate_adv_func_commands(adv, datapack_path)
+                if bacap_line:
+                    bacap_init_lines.append(bacap_line)
+                if bacaped_line:
+                    bacaped_init_lines.append(bacaped_line)
+            except NoAdvancementReward:
+                raise NoAdvancementReward(
                     f"Can't find reward in wb database for adv: {adv.mc_path}, canceled"
                 )
 
-        normal_lines = ""
-        fast_lines = ""
+        init_blocks_path = datapack_path / "data/bacap_wb_addon/function/init_blocks"
+        init_blocks_path.mkdir(parents=True, exist_ok=True)
 
-        for advFC in advFC_list:
-            normal_lines += advFC.normal.line + "\n"
-            fast_lines += advFC.fast.line + "\n"
-            advFC.write_all_rewards(datapack_path)
+        if bacap_init_lines:
+            (init_blocks_path / "bacap.mcfunction").write_text("\n".join(bacap_init_lines) + "\n", encoding="UTF-8")
+        if bacaped_init_lines:
+            (init_blocks_path / "bacaped.mcfunction").write_text("\n".join(bacaped_init_lines) + "\n", encoding="UTF-8")
 
-        path_to_checkers = (
-            datapack_path
-            / f"data/bc_wb/function/complete_checkers/{self.reward_folder_name}"
-        )
-        checkers = [
-            ("normal.mcfunction", normal_lines),
-            ("fast.mcfunction", fast_lines),
-        ]
-
-        for relative_path, content in checkers:
-            full_path = path_to_checkers / relative_path
-            full_path.parent.mkdir(parents=True, exist_ok=True)
-            full_path.write_text(content, encoding="UTF-8")
-
-    def generate_adv_func_commands(self, adv: Advancement) -> AdvFunctionCommands:
-        """
-        This function is used to generate the adv_func_commands for one advancement.
-        """
+    def generate_adv_func_commands(self, adv: Advancement, datapack_path: Path) -> Tuple[Optional[str], Optional[str]]:
         excluded = False
         data = {}
 
+        adv_path_clean = cut_namespace(adv.mc_path)
+
+        bacap_init_line = None
+        bacaped_init_line = None
+
         if self.check_excluded(adv):
             excluded = True
-            # Для исключенных используем путь из самого достижения
-            reward_path_base = cut_namespace(adv.mc_path)
+            in_bacap = True
+            in_bacaped = True
         else:
-            wb_db = (
-                self.session.query(WBSQL)
-                .filter_by(path=cut_namespace(adv.mc_path))
+            wb_db_bacap = (
+                self.session_bacap.query(WBSQL)
+                .filter_by(path=adv_path_clean)
                 .first()
             )
-            if not wb_db:
-                raise NotAdvRewardFound("Can't find reward in wb database")
 
-            reward_path_base = wb_db.path
-
-            color = (
-                adv.color.value or adv.datapack.adv_default_type_data[adv.type]["color"]
+            wb_db_bacaped = (
+                self.session_bacaped.query(WBSQL)
+                .filter_by(path=adv_path_clean)
+                .first()
             )
+
+            if not wb_db_bacaped and not wb_db_bacap:
+                raise NoAdvancementReward(f"Can't find reward in wb database for {adv.mc_path}")
+
+            color = adv.color.value or adv.datapack.adv_default_type_data[adv.type]["color"]
+
+            # Определяем тип (по умолчанию add)
+            cmd_type = "add"
+            bacap_blocks = 0
+
+            if wb_db_bacap:
+                cmd_type = wb_db_bacap.command_type
+                # If SET, take the exact value; if ADD, multiply by 100
+                bacap_blocks = int(wb_db_bacap.blocks) if cmd_type == "set" else int(wb_db_bacap.blocks * 100)
+
+            bacaped_blocks = 0
+            if wb_db_bacaped:
+                cmd_type = wb_db_bacaped.command_type # Can override the type from the base bacap
+                bacaped_blocks = int(wb_db_bacaped.blocks) if cmd_type == "set" else int(wb_db_bacaped.blocks * 100)
+
+            in_bacap = wb_db_bacap is not None
+            in_bacaped = wb_db_bacaped is not None
+
+            if in_bacap:
+                bacap_init_line = f"scoreboard players set {adv.mc_path} wb_adv_blocks {bacap_blocks}"
+            if in_bacaped:
+                bacaped_init_line = f"scoreboard players set {adv.mc_path} wb_adv_blocks {bacaped_blocks}"
+
+            tier = adv.adv_macro_type
+
+            if in_bacap and adv.mc_path in BACAP_TIER_OVERRIDES:
+                tier = BACAP_TIER_OVERRIDES[adv.mc_path]
+            elif in_bacaped and adv.mc_path in BACAPED_TIER_OVERRIDES:
+                tier = BACAPED_TIER_OVERRIDES[adv.mc_path]
+
             data = {
-                "blocks": str(wb_db.blocks),
-                "time": str(time_formula(wb_db.blocks)),
-                "blocks_d2": str(wb_db.blocks / 2),
-                "title": escape_quotes(adv.title),
-                "description": adv.description.replace('"', r"\"").replace("\n", r"\n"),
-                "color": color,
+                "adv_id": adv.mc_path,
+                "adv_title": escape_quotes(adv.title),
+                "title_color": color,
+                "desc": adv.description.replace('"', r"\"").replace("\n", r"\n"),
+                "desc_color": DESC_COLORS[color],
                 "tab": adv.datapack.msg_milestone_names[adv.tab]["name"],
-                "desc_color": desc_color_dict[color],
-                "adv_mc_path": adv.mc_path,
+                "type": cmd_type,
+                "tier": tier
             }
 
-        base_path = Path(f"data/bc_wb/function/rewards/{self.reward_folder_name}")
+        base_path = Path("data/bacap_wb_addon/function/rewards")
+        rel_path = f"{adv_path_clean}.mcfunction"
 
-        line_pattern = (
-            f"execute if score [<adv_mc_path>] bac_obtained matches 1.. "
-            f"unless score [<adv_mc_path>] wb matches 1 "
-            f"if score is_wb_run wb matches 1 "
-            f"run function bc_wb:rewards/{self.reward_folder_name}/[<reward_path>]"
-        )
-
-        # Normal
-        normal_rel_path = f"normal/{cut_namespace(adv.mc_path)}.mcfunction"
-        normal = FileRewardData(
-            path=base_path / normal_rel_path if not excluded else None,
-            content=fill_pattern(RewardPattern.normal, data) if not excluded else None,
-            line=fill_pattern(
-                line_pattern,
-                {
-                    "adv_mc_path": adv.mc_path,
-                    "reward_path": f"normal/{reward_path_base}",
-                },
-            ),
+        reward_file = FileRewardData(
+            path=base_path / rel_path if not excluded else None,
+            content=fill_pattern(REWARD_PATTERN, data) if not excluded else None,
             excluded=excluded,
         )
+        reward_file.write_reward(datapack_path)
 
-        # Fast
-        fast_rel_path = f"fast/{cut_namespace(adv.mc_path)}.mcfunction"
-        fast = FileRewardData(
-            path=base_path / fast_rel_path if not excluded else None,
-            content=fill_pattern(RewardPattern.fast, data) if not excluded else None,
-            line=fill_pattern(
-                line_pattern,
-                {
-                    "adv_mc_path": adv.mc_path,
-                    "reward_path": f"fast/{reward_path_base}",
-                },
-            ),
-            excluded=excluded,
-        )
+        reward_func_path = f"bacap_wb_addon:rewards/{adv_path_clean}"
+        tag_content = json.dumps({"values": [reward_func_path]}, indent=2)
 
-        return AdvFunctionCommands(normal, fast)
+        if in_bacap:
+            tag_path = datapack_path / f"data/bacap_fanpacks/tags/function/{adv_path_clean}.json"
+            tag_path.parent.mkdir(parents=True, exist_ok=True)
+            tag_path.write_text(tag_content, encoding="UTF-8")
+
+        if in_bacaped:
+            tag_path = datapack_path / f"data/bacaped_fanpacks/tags/function/{adv_path_clean}.json"
+            tag_path.parent.mkdir(parents=True, exist_ok=True)
+            tag_path.write_text(tag_content, encoding="UTF-8")
+
+        return bacap_init_line, bacaped_init_line

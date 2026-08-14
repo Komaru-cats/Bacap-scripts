@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:notice",
+  "title": "",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": " "
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "Specify the multiplier for the worldborder expansion blocks granted upon advancement completion"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:barrier",
+        "count": 1
+      },
+      "show_decoration": true,
+      "show_tooltip": false
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "label": {
+        "translate": "e.g., 1.15"
+      },
+      "label_visible": true,
+      "width": 50,
+      "initial": "1",
+      "max_length": 6,
+      "key": "input"
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "Done"
+    },
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "/function bacap_wb_addon:config/set_multiplier {value:$(input)}"
+    }
+  },
+  "pause": false,
+  "can_close_with_escape": true,
+  "after_action": "close"
+}

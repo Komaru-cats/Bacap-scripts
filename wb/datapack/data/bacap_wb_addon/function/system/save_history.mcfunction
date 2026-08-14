@@ -1,0 +1,2 @@
+# Dynamically create a key using the current gametime and save the entire history_data object
+$data modify storage bacap_wb_addon:history "$(gametime)" set from storage bacap_wb_addon:temp history_data
