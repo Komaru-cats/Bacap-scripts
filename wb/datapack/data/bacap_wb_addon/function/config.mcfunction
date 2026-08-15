@@ -9,7 +9,7 @@ tellraw @s [{"text":"[ "},{"text":"☄","color":"#FF874B"},{"text":" ] "},{"tran
 tellraw @s {"text": ""}
 
 # Global Multiplier Configuration
-tellraw @s [{"text":"[ "},{"text":"✖","color":"green"},{"text":" ] "},{"translate":"Configure Global Multiplier","color":"#8CD8FF","click_event":{"action":"run_command","command":"/dialog show @s bacap_wb_addon:config/set_multiplier"},"hover_event":{"action": "show_text", "value":{"translate":"Specify the global multiplier for the blocks granted upon advancement completion.","color":"gold"}}}]
+tellraw @s [{"text":"[ "},{"text":"×","color":"green"},{"text":" ] "},{"translate":"Configure Global Multiplier","color":"#8CD8FF","click_event":{"action":"run_command","command":"/dialog show @s bacap_wb_addon:config/set_multiplier"},"hover_event":{"action": "show_text", "value":{"translate":"Specify the global multiplier for the blocks granted upon advancement completion.","color":"gold"}}}]
 
 # Tier Blocks Configuration
 tellraw @s [{"text":"[ "},{"text":"❖","color":"aqua"},{"text":" ] "},{"translate":"Configure Tier Rewards","color":"#8CD8FF","click_event":{"action":"run_command","command":"/dialog show @s bacap_wb_addon:config/set_tiers"},"hover_event":{"action": "show_text", "value":{"translate":"Set fixed block rewards for tasks, goals, challenges, etc.","color":"gold"}}}]
