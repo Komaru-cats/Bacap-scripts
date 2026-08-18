@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "death.fell.accident.water"
+    },
+    "description": {
+      "translate": "Take fall damage in water"
+    },
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:biomes/just_keep_swimming",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "location": {
+            "fluid": {
+              "fluids": "minecraft:water"
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_fall",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
