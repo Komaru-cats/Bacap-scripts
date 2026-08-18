@@ -55,7 +55,11 @@ execute as @e[type=horse] on leasher run scoreboard players add @s bacaped_leash
 execute as @a[gamemode=!spectator, advancements={bacaped:animal/advanced_horse_transport=false}, scores={bacaped_leashed_horses=3..}] at @s if biome ~ ~ ~ #minecraft:is_ocean if predicate bacaped:has_dolphins_grace run advancement grant @s only bacaped:animal/advanced_horse_transport
 
 # Day count is increased by 1 at each sunrise
-execute if score time bac_current_time matches 0..200 run function bacaped:increase_day
+execute store result score #game_day bacaped_current_day run time query day repetition
+
+execute unless score #saved_day bacaped_current_day = #game_day bacaped_current_day run function bacaped:increase_day
+
+execute unless score #saved_day bacaped_current_day = #game_day bacaped_current_day run scoreboard players operation #saved_day bacaped_current_day = #game_day bacaped_current_day
 
 # Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`, `bacaped_cookie_eaten_today`
 execute as @a unless score @s bacaped_ignite_tnt matches 1.. run scoreboard players add @s bacaped_ignite_tnt 0
