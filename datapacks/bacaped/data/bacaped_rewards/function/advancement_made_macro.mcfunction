@@ -172,4 +172,4 @@ $execute if score coop bac_settings matches 2 if entity @s[team=bac_team_yellow]
 $execute if score coop bac_settings matches 2 if entity @s[team=bac_team_white] run advancement grant @a[team=bac_team_white] only $(adv_id)
 
 # Additional commands run by fanpacks
-$function #bacaped_fanpacks:$(reward_id) {adv_id: $(adv_id), reward_id: $(reward_id), tier: $(tier)}
+$function #bacaped_fanpacks:$(reward_id) {adv_id:"$(adv_id)", reward_id:"$(reward_id)", tier:"$(tier)"}
