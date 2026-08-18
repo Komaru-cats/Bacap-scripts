@@ -1,0 +1,4 @@
+tellraw @s {"text":" "}
+tellraw @s [{"translate":"Q: How do I complete distance advancements if the border expands so slowly?","color":"#8CD8FF"}]
+tellraw @s [{"translate":"A: ","color":"yellow"},{"translate":"That's by design! You need to earn enough blocks through regular gameplay to reach the first distance milestones (10,000 blocks). Completing these specific distance advancements will grant you a massive block reward, allowing you to reach the next milestone, and so on. Even in \"Fixed Tiers\" mode, these advancements ignore their tier and grant the huge reward!","color":"white"}]
+tellraw @s {"text":" "}

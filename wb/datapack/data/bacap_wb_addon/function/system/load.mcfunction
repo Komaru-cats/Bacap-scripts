@@ -6,6 +6,7 @@ scoreboard objectives add wb_world_size trigger
 scoreboard objectives add wb_math_temp dummy
 scoreboard objectives add wb_block_multiplier dummy
 scoreboard objectives add wb_base_contrib dummy
+scoreboard objectives add wb_custom_contrib dummy
 scoreboard objectives add wb_real_contrib dummy {"text":"First Advancement Blocks","color":"white"}
 
 # Constants for Newton's formula and conversion to ticks

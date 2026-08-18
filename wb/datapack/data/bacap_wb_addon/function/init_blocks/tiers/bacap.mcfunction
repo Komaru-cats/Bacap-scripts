@@ -11,9 +11,9 @@
 
 execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #task wb_tier_blocks 100
 execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #goal wb_tier_blocks 500
-execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #challenge wb_tier_blocks 1500
-execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #super_challenge wb_tier_blocks 5000
-execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #milestone wb_tier_blocks 10000
+execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #challenge wb_tier_blocks 3000
+execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #super_challenge wb_tier_blocks 30000
+execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #milestone wb_tier_blocks 100000
 execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #hidden wb_tier_blocks 0
 
 # SET COMMANDS

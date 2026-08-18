@@ -6,18 +6,19 @@ from scripts.WorldBorder.WBDataSet import WBDataSet
 from scripts.tools import DatapackList
 from scripts.tools.Advancement import AdvancementsManager
 from scripts.tools.Interface import MenuInterface
-from scripts.tools.InterfaceSchema import *
-from scripts.tools.utils import fill_pattern
+from scripts.tools.InterfaceSchema import eget_value, print_warning
+from tools import fill_pattern
 
 mi = MenuInterface()
 
-
 class Config:
     pattern_name: str = "WB-Addon-[<version>]"
-
-    dataset = WBDataSet(db_bacap_name="bacap.db", db_bacaped_name="bacaped.db", adv_datapacks=[DatapackList.bacap, DatapackList.default])
-
     db_targets = ["Bacap", "Bacaped"]
+
+    dataset = WBDataSet(
+        db_name="wb_addon.db",
+        adv_datapacks=[DatapackList.bacap, DatapackList.default]
+    )
 
 
 @mi.register_class()
@@ -30,7 +31,6 @@ class MI:
         )
 
         target_datapacks = [DatapackList.bacap] if target == "Bacap" else [DatapackList.bacap, DatapackList.default]
-
         Config.dataset.add_missing(target, target_datapacks)
 
     @mi.register_func("Release", "r")
@@ -49,7 +49,7 @@ class MI:
             Config.dataset.generate(datapack_path=path)
         except NoAdvancementReward as e:
             print_warning("Error occurred while generating unified rewards")
-            print_warning(e.args[0])
+            print_warning(str(e))
             return
 
         archive_path = path.with_suffix(".zip")
@@ -61,6 +61,5 @@ class MI:
         )
 
         shutil.rmtree(path)
-
 
 AdvancementsManager.generate(force=True)

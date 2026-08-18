@@ -9,10 +9,14 @@ scoreboard players operation #wb_diff wb_math_temp -= #wb_current wb_math_temp
 execute if score #wb_diff wb_math_temp matches ..0 run return 0
 
 # Saving values for macros
-# For the worldborder set command, we need the final size (#wb_target)
+# Final target size for the worldborder command
 execute store result storage bacap_wb_addon:macro size double 1 run scoreboard players get #wb_target wb_math_temp
 
-# For the chat message we need the difference (how many blocks were added)
-execute store result storage bacap_wb_addon:macro size_whole int 1 run scoreboard players get #wb_diff wb_math_temp
-data modify storage bacap_wb_addon:macro size_frac set value 0
-data modify storage bacap_wb_addon:macro size_pad set value "0"
+# Since wb_diff is in whole blocks, we multiply by 100 before formatting
+scoreboard players operation #format_val wb_math_temp = #wb_diff wb_math_temp
+scoreboard players operation #format_val wb_math_temp *= #wb_100 wb_math_temp
+function bacap_wb_addon:math/format_value
+
+data modify storage bacap_wb_addon:macro size_whole set from storage bacap_wb_addon:temp display_format.w
+data modify storage bacap_wb_addon:macro size_frac set from storage bacap_wb_addon:temp display_format.f
+data modify storage bacap_wb_addon:macro size_pad set from storage bacap_wb_addon:temp display_format.p

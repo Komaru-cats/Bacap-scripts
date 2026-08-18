@@ -1,0 +1,2 @@
+scoreboard objectives setdisplay below_name wb_real_contrib
+function bacap_wb_addon:ui/config/scoreboard_menu
