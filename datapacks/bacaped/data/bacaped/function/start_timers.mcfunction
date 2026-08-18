@@ -61,6 +61,7 @@ scoreboard objectives add bacaped_in_struct_trail_ruins dummy
 scoreboard objectives add bacaped_in_struct_trial_chambers dummy
 scoreboard objectives add bacaped_in_struct_village dummy
 scoreboard objectives add bacaped_in_struct_summary dummy
+scoreboard objectives add bacaped_ominous_vault_hunter_count dummy
 
 
 # Triggers

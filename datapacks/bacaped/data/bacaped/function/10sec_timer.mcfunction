@@ -61,11 +61,13 @@ execute unless score #saved_day bacaped_current_day = #game_day bacaped_current_
 
 execute unless score #saved_day bacaped_current_day = #game_day bacaped_current_day run scoreboard players operation #saved_day bacaped_current_day = #game_day bacaped_current_day
 
-# Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`, `bacaped_cookie_eaten_today`
+# Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`, `bacaped_cookie_eaten_today`, etc
 execute as @a unless score @s bacaped_ignite_tnt matches 1.. run scoreboard players add @s bacaped_ignite_tnt 0
 execute as @a unless score @s bacaped_totems_used matches 1.. run scoreboard players add @s bacaped_totems_used 0
 execute as @a unless score @s bacaped_cookies_eaten_today matches 1.. run scoreboard players add @s bacaped_cookies_eaten_today 0
 execute as @a unless score @s bacaped_egapple_days matches 1.. run scoreboard players add @s bacaped_egapple_days 0
+execute as @a unless score @s bacaped_ominous_vault_hunter_count matches 1.. run scoreboard players add @s bacaped_cookies_eaten_today 0
+
 
 # Workstations statistics
 execute as @a run scoreboard players set @s bacaped_villager_profession_blocks_mined 0
