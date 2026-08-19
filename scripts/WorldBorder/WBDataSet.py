@@ -139,7 +139,6 @@ class WBDataSet:
 
 
     def _fetch_db_records(self, mc_path: str):
-        """Извлекает все необходимые записи из базы данных."""
         ind_block = self.session.query(IndividualBlock).filter_by(path=mc_path).first()
         t_custom = self.session.query(TierCustomBlock).filter_by(mc_path=mc_path).first()
         t_over = self.session.query(TierOverride).filter_by(mc_path=mc_path).first()
