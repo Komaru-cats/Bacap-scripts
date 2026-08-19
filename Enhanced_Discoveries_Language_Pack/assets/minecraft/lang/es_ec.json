@@ -1,5 +1,5 @@
 {
-# Enhanced Discoveries Language File
+  # Enhanced Discoveries Language File
 
 # How to use: Name and descriptions of advancement to left of: and put translation to right of:, inside the speech marks "" like this: "Advancement Description"
 # Some advancement titles make use of puns that would work in English but probably not in other languages. Be creative if you wish if you can find any puns in foreign languages.
@@ -8,6 +8,7 @@
 
 # Language: Spanish
 # Authors: Marco Herrera SickJtx, coolgirlomega
+
 
 "Advancement Info": "Información de los Avances",
 "This mod can be useful for completing advancements": "Este mod puede ser útil para completar logros",
@@ -259,7 +260,7 @@
 "Five Birds, One Stone": "Cinco Pájaros, Una Flecha",
 "Kill 5 Vexes with a single piercing shot": "Mata 5 Vexes con un solo disparo perforante",
 "5G Connectivity": "Conectividad 5G",
-"Kill 5 Glow Squids with a single piercing arrow shot": "Mata 5 calamares brillantes con un solo disparo de flecha perforante",
+"Kill 5 Glow Squids with a single piercing shot": "Mata 5 calamares brillantes con un solo disparo de flecha perforante",
 "Astronomer": "Astrónomo",
 "Look at an anvil that is 325 blocks high using a Spyglass": "Mira un yunque que esté a 325 bloques de altura usando un catalejo",
 "Big Horse Adventure": "Gran Aventura Ecuestre",
@@ -273,7 +274,7 @@
 "Explosive Elixir": "Elixir Explosivo",
 "Have every max possible level effect applied at the same time": "Aplica todos los efectos posibles al nivel máximo al mismo tiempo",
 "Extinction": "Extinción",
-"Kill a strength 5 Llama, a black Rabbit, a brown Panda, a blue Axolotl and a jungle Nitwit with a single piercing arrow shot in the End": "Mata a una llama fuerza 5, un conejo negro, un panda marrón, un ajolote azul y un tonto de la jungla con un solo disparo de flecha perforante en el End",
+"Kill a strength 5 Llama, a black Rabbit, a brown Panda, a blue Axolotl and a jungle Nitwit with a single piercing shot in the End": "Mata a una llama fuerza 5, un conejo negro, un panda marrón, un ajolote azul y un tonto de la jungla con un solo disparo de flecha perforante en el End",
 "Happy Anniversary": "Feliz Aniversario",
 "Kill 300 Withers during your life": "Mata 300 Withers durante tu vida",
 "Happy Minecraft Year": "Feliz Año Minecraft",
@@ -327,7 +328,7 @@
 "From the Underworld": "Desde el inframundo",
 "Buy Glowstone from a Wandering Trader in the Nether": "Compra piedra luminosa a un comerciante errante en el Nether",
 "Sandwich": "Sándwich",
-"Kill 5 Wardens with a single piercing arrow shot": "Mata a 5 Wardens con un solo disparo de flecha perforante",
+"Kill 5 Wardens with a single piercing shot": "Mata a 5 Wardens con un solo disparo de flecha perforante",
 "Jump for Joy": "Salta de alegría",
 "Kill every jumping mob while both you and it have the jump boost effect": "Mata a cada mob saltador mientras tú y ellos tienen el efecto de aumento de salto",
 "Monstrous Rocket": "Cohete monstruoso",
@@ -363,7 +364,7 @@
 "Useless": "Inútil",
 "Craft a book with two curses": "Fabrica un libro con dos maldiciones",
 "Elementals": "Elementales",
-"Kill Bogged, Stray, Husk and Drowned with a single piercing arrow shot": "Mata a Bogged, Husco, Ahogado y Stray con un solo disparo perforante",
+"Kill Bogged, Stray, Husk and Drowned with a single piercing shot": "Mata a Bogged, Husco, Ahogado y Stray con un solo disparo perforante",
 "Small Targets": "Blancos pequeños",
 "Kill a baby Turtle, a baby Chicken, a baby Rabbit, a baby Cat, a baby Axolotl with a single piercing arrow shot": "Mata una tortuga bebé, un pollo bebé, un conejo bebé, un gato bebé y un ajolote bebé con un solo disparo perforante",
 "Bee Colonist": "Colono de abejas",
@@ -477,7 +478,7 @@
 "Withering Depths": "Profundidades marchitas",
 "Summon and kill the Wither in an ancient city": "Invoca y mata al Wither en una ciudad ancestral",
 "Blaze3D": "Blaze3D",
-"Kill three Blazes with a single piercing arrow shot": "Mata a tres Blazes con un solo disparo perforante",
+"Kill three Blazes with a single piercing shot": "Mata a tres Blazes con un solo disparo perforante",
 "Suspicious Duel": "Duelo sospechoso",
 "Look at a Skeleton who decided to have a duel with another Skeleton using a spyglass": "Observa a un esqueleto que decidió tener un duelo con otro esqueleto usando un catalejo",
 "A Long Journey": "Un largo viaje",
@@ -488,7 +489,7 @@
 "Hot Lake": "Lago caliente",
 "Use a fishing rod to hook a Salmon from the lava in the Nether": "Usa una caña de pescar para atrapar un salmón de la lava en el Nether",
 "The New Swamp Won't Be Here": "El nuevo pantano no estará aquí",
-"Bring all kinds of Frogs, a Bogged and Slime to Basalt Deltas and then kill them all with a single piercing arrow shot": "Lleva todas las variantes de ranas, un Bogged y un Slime a las Deltas de Basalto y mátalos a todos con un solo disparo perforante",
+"Bring all kinds of Frogs, a Bogged and Slime to Basalt Deltas and then kill them all with a single piercing shot": "Lleva todas las variantes de ranas, un Bogged y un Slime a las Deltas de Basalto y mátalos a todos con un solo disparo perforante",
 "Herbarium to My Friend": "Herbario para mi amigo",
 "Give a baby Piglin all kinds of flowers": "Dale a un Piglin bebé todos los tipos de flores",
 "High Pitch": "Tono alto",
@@ -1371,5 +1372,11 @@
 "Frustrated Trader": "Comerciante Frustrado",
 "Break workstation blocks 250 times": "Rompe bloques de trabajo",
 "HR Manager of the Year": "Administrador HR del año",
-"Break workstation blocks 5000 times": "Rompe bloques de trabajo 5000 veces"
+"Break workstation blocks 5000 times": "Rompe bloques de trabajo 5000 veces" // <---  dont forget ","
+// Missed translations:
+//"True Submarine": "",
+//"Ride 125km on a Nautilus": "",
+//"Lost Ancient Technology": "",
+//"You ignored the simplest and most reliable": "",
+//"watercraft just to float around on a... shell": ""
 }
