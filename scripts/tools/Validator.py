@@ -245,6 +245,10 @@ class SpellingValidator:
         json.loads(Path("resources/spelling/with_the_ignore.json").read_text())
     )
 
+    with_dots_ignore: Set[str] = set(
+        json.loads(Path("resources/spelling/with_dots_ignore.json").read_text())
+    )
+
     max_title_length: int = 32
 
     @classmethod
@@ -376,7 +380,7 @@ class SpellingValidator:
                     )
                 )
 
-        if stripped_string.endswith(".") and not stripped_string.endswith("..."):
+        if stripped_string not in cls.with_dots_ignore and stripped_string.endswith(".") and not stripped_string.endswith("..."):
             warnings.append(
                 AdvWarning(
                     AdvWarningType.MISSPELLING_ERROR,

@@ -1,0 +1,2 @@
+execute as @a[gamemode=!spectator] if score @s bacaped_random matches ..499999 run function bacaped_rewards:trophy/adventure/dual_reality/alive
+execute as @a[gamemode=!spectator] if score @s bacaped_random matches 500000.. run function bacaped_rewards:trophy/adventure/dual_reality/dead

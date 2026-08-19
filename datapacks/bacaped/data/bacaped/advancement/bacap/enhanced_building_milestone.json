@@ -122,6 +122,18 @@
           }
         }
       }
+    },
+    "water_dependent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:building/water_dependent": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

@@ -18,25 +18,25 @@
   },
   "parent": "bacaped:bacap/enhanced_challenges_milestone",
   "criteria": {
-    "copper_armor": {
+    "advancement_info": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/copper_armor": true
+              "bacaped:adventure/advancement_info": true
             }
           }
         }
       }
     },
-    "din_don": {
+    "ding_dong": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/din_don": true
+              "bacaped:adventure/ding_dong": true
             }
           }
         }
@@ -78,13 +78,13 @@
         }
       }
     },
-    "eye_contact_master": {
+    "fake_copper_armor": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/eye_contact_master": true
+              "bacaped:adventure/fake_copper_armor": true
             }
           }
         }
@@ -186,18 +186,6 @@
         }
       }
     },
-    "no_luck_for_the_next_guy": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/no_luck_for_the_next_guy": true
-            }
-          }
-        }
-      }
-    },
     "no_water_team": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -270,6 +258,18 @@
         }
       }
     },
+    "oops": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/oops": true
+            }
+          }
+        }
+      }
+    },
     "placeholder": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -277,18 +277,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:adventure/placeholder": true
-            }
-          }
-        }
-      }
-    },
-    "real_immortal": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/real_immortal": true
             }
           }
         }
@@ -306,13 +294,25 @@
         }
       }
     },
-    "restoring_population": {
+    "restoring_the_population": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/restoring_population": true
+              "bacaped:adventure/restoring_the_population": true
+            }
+          }
+        }
+      }
+    },
+    "sandpicious": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/sandpicious": true
             }
           }
         }
@@ -366,13 +366,13 @@
         }
       }
     },
-    "sus_miner": {
+    "team_waterless": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/sus_miner": true
+              "bacaped:adventure/team_waterless": true
             }
           }
         }
@@ -402,18 +402,6 @@
         }
       }
     },
-    "the_cult_of_the_spyglass": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/the_cult_of_the_spyglass": true
-            }
-          }
-        }
-      }
-    },
     "thorny_prices": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -438,49 +426,25 @@
         }
       }
     },
-    "wandering_caravane": {
+    "unprofitable_transportation": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/wandering_caravane": true
+              "bacaped:adventure/unprofitable_transportation": true
             }
           }
         }
       }
     },
-    "wardens_thrust": {
+    "wandering_chariot": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/wardens_thrust": true
-            }
-          }
-        }
-      }
-    },
-    "water_dependent": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/water_dependent": true
-            }
-          }
-        }
-      }
-    },
-    "water_team": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/water_team": true
+              "bacaped:adventure/wandering_chariot": true
             }
           }
         }
@@ -1314,6 +1278,18 @@
         }
       }
     },
+    "team_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/team_water": true
+            }
+          }
+        }
+      }
+    },
     "the_boatman": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1477,6 +1453,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:building/stickman": true
+            }
+          }
+        }
+      }
+    },
+    "water_dependent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:building/water_dependent": true
             }
           }
         }
@@ -1825,6 +1813,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:challenges/pooch_purge_pilot": true
+            }
+          }
+        }
+      }
+    },
+    "pottery_collector": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:challenges/pottery_collector": true
             }
           }
         }
@@ -2454,30 +2454,6 @@
         }
       }
     },
-    "exemplary_worker": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:farming/exemplary_worker": true
-            }
-          }
-        }
-      }
-    },
-    "failed_successfully": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:farming/failed_successfully": true
-            }
-          }
-        }
-      }
-    },
     "golems": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -2718,6 +2694,18 @@
         }
       }
     },
+    "the_cult_of_the_spyglass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/the_cult_of_the_spyglass": true
+            }
+          }
+        }
+      }
+    },
     "the_master_of_falls": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -2761,6 +2749,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:monsters/born_to_spawn": true
+            }
+          }
+        }
+      }
+    },
+    "eye_contact_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/eye_contact_master": true
             }
           }
         }
@@ -2905,6 +2905,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:monsters/the_undertakers_revenge": true
+            }
+          }
+        }
+      }
+    },
+    "wardens_thrust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/wardens_thrust": true
             }
           }
         }
@@ -3282,6 +3294,18 @@
         }
       }
     },
+    "real_immortal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:potion/real_immortal": true
+            }
+          }
+        }
+      }
+    },
     "trial_potions": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -3390,13 +3414,13 @@
         }
       }
     },
-    "more_optimisations": {
+    "more_optimizations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:redstone/more_optimisations": true
+              "bacaped:redstone/more_optimizations": true
             }
           }
         }
@@ -3414,13 +3438,13 @@
         }
       }
     },
-    "old_optimisations": {
+    "old_optimizations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:redstone/old_optimisations": true
+              "bacaped:redstone/old_optimizations": true
             }
           }
         }
@@ -3450,13 +3474,13 @@
         }
       }
     },
-    "using_a_bow_a_bow_a_bow_a_bow": {
+    "using_a_bow_using_a_bow": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
+              "bacaped:redstone/using_a_bow_using_a_bow": true
             }
           }
         }
@@ -3469,6 +3493,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:redstone/what_do_you_know_about_pistons": true
+            }
+          }
+        }
+      }
+    },
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:statistics/1": true
             }
           }
         }

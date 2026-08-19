@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:large_fern"
+      "id": "minecraft:tall_grass"
     },
     "title": {
-      "translate": "Herbalist's Dream"
+      "translate": "Herbalist\u2019s Dream"
     },
     "description": {
       "translate": "Gather a stack of Large Ferns or Tall Grass",

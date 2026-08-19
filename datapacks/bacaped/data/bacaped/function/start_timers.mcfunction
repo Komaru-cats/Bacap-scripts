@@ -26,6 +26,7 @@ scoreboard objectives add bacaped_egapple_days dummy
 scoreboard objectives add bacaped_you_goat_me_to_an_end_timer dummy
 scoreboard objectives add bacaped_leashed_horses dummy
 scoreboard objectives add bacaped_current_day dummy
+scoreboard objectives add bacaped_random dummy
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel

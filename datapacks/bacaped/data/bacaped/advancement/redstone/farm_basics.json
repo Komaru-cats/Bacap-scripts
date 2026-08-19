@@ -8,10 +8,11 @@
     },
     "description": {
       "translate": "Place an observer facing sugarcane or bamboo",
-      "color": "#75E1FF"
+      "color": "green"
     },
-    "frame": "goal",
-    "announce_to_chat": true
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:redstone/observer_buddy",
   "criteria": {

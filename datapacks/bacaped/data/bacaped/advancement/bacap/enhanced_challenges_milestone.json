@@ -363,6 +363,18 @@
         }
       }
     },
+    "pottery_collector": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:challenges/pottery_collector": true
+            }
+          }
+        }
+      }
+    },
     "professional_assassin": {
       "trigger": "minecraft:location",
       "conditions": {

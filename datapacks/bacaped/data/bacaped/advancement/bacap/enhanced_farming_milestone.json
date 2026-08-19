@@ -99,30 +99,6 @@
         }
       }
     },
-    "exemplary_worker": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:farming/exemplary_worker": true
-            }
-          }
-        }
-      }
-    },
-    "failed_successfully": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:farming/failed_successfully": true
-            }
-          }
-        }
-      }
-    },
     "golems": {
       "trigger": "minecraft:location",
       "conditions": {
