@@ -97,6 +97,11 @@ $execute if entity @s[team=bac_team_light_purple] unless score $(tier) bac_dont_
 $execute if entity @s[team=bac_team_yellow] unless score $(tier) bac_dont_count matches 1 run scoreboard players add Yellow_Team bac_advancements_team 1
 $execute if entity @s[team=bac_team_white] unless score $(tier) bac_dont_count matches 1 run scoreboard players add White_Team bac_advancements_team 1
 
+# ED Exclusive count scores
+scoreboard players add @s bacaped_all_advancements 1
+$execute unless score $(tier) bac_dont_count matches 1 run scoreboard players add @s bacaped_advancements 1
+$execute if score $(tier) bacaped_is_hidden matches 1 run scoreboard players add @s bacaped_advancements_only_hiddens 1
+
 # Points scores
 $scoreboard players operation @s bac_advancements_points += $(tier) bac_points
 $execute if entity @s[team=bac_team_black] run scoreboard players operation Black_Team bac_advancements_team_points += $(tier) bac_points
