@@ -1,5 +1,5 @@
 {
-  # Enhanced Discoveries Language File
+# Enhanced Discoveries Language File
 
 # How to use: Name and descriptions of advancement to left of: and put translation to right of:, inside the speech marks "" like this: "Advancement Description"
 # Some advancement titles make use of puns that would work in English but probably not in other languages. Be creative if you wish if you can find any puns in foreign languages.
@@ -8,7 +8,6 @@
 
 # Language: Spanish
 # Authors: Marco Herrera SickJtx, coolgirlomega
-
 
 "Advancement Info": "Información de los Avances",
 "This mod can be useful for completing advancements": "Este mod puede ser útil para completar logros",
@@ -1279,8 +1278,8 @@
 "Puzzle": "Rompecabezas",
 "Now try it without a guide": "Ahora intentalo sin un guia",
 "Warden's Head": "Cabeza del Warden",
-"and ": "y "
-"Mob list for the current dimension of the Mob Universe Advancement": "Lista de mobs para la dimension actual del progreso Universo de Mobs"
+"and ": "y ",
+"Mob list for the current dimension of the Mob Universe Advancement": "Lista de mobs para la dimension actual del progreso Universo de Mobs",
 "Ghastonaut": "Ghastronauta",
 "Ride 50km on a Happy Ghast": "Recorre 50km en un Happy Ghast",
 "Diamond Harness": "Árnes de Diamante",
