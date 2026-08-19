@@ -19,30 +19,23 @@
     "sponge": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "player",
-                "stats": [
-                  {
-                    "type": "minecraft:used",
-                    "stat": "minecraft:sponge",
-                    "value": {
-                      "min": 249
-                    }
-                  }
-                ]
+        "player": {
+          "minecraft:type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:sponge",
+                "value": {
+                  "min": 250
+                }
               }
-            }
+            ]
           }
-        ]
+        }
       }
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:adventure/team_waterless"
+    "function": "bacaped_rewards:adventure/no_water_team"
   }
 }

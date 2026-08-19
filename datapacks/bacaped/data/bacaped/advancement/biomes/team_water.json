@@ -19,26 +19,19 @@
     "trigger": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "player",
-                "stats": [
-                  {
-                    "type": "minecraft:used",
-                    "stat": "minecraft:water_bucket",
-                    "value": {
-                      "min": 499
-                    }
-                  }
-                ]
+        "player": {
+          "minecraft:type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:water_bucket",
+                "value": {
+                  "min": 500
+                }
               }
-            }
+            ]
           }
-        ]
+        }
       }
     }
   },

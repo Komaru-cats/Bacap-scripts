@@ -33,5 +33,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/no_luck_for_the_next_guy"
   }
 }

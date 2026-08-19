@@ -1,0 +1,4 @@
+scoreboard objectives setdisplay list
+scoreboard objectives setdisplay sidebar
+scoreboard objectives setdisplay below_name
+function bacap_wb_addon:ui/config/scoreboard_menu

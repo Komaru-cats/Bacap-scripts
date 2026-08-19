@@ -1,4 +1,5 @@
 import json
+import logging
 from collections.abc import Iterable
 from pathlib import Path
 
@@ -32,7 +33,11 @@ class BaseTranslationGenerator:
     @staticmethod
     def _load_json_from_file(file_path: Path, encoding: str):
         """Loads JSON data from a file, preserving comments using jsoncomment."""
-        return jsoncomment.JsonComment().loads(file_path.read_text(encoding=encoding))
+        try:
+            return jsoncomment.JsonComment().loads(file_path.read_text(encoding=encoding))
+        except json.JSONDecodeError:
+            print(f"Failed to decode JSON file {file_path}")
+            exit()
 
     @classmethod
     def _create_new_base_json(cls, source_json: dict[str, str]) -> dict[str, str]:

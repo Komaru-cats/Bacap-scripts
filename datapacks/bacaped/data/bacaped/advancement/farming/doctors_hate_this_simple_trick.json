@@ -32,5 +32,8 @@
     "an_egapple_a_day": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:farming/doctors_hate_this_simple_trick"
   }
 }

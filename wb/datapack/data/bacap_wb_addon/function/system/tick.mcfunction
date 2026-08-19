@@ -1,0 +1,1 @@
+execute if score is_wb_run wb matches 1 if data storage bacap_wb_addon:queue pending[0] run function bacap_wb_addon:queue/pop_queue

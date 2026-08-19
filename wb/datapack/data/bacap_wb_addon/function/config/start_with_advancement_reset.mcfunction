@@ -1,0 +1,21 @@
+function bacap_wb_addon:config
+execute run scoreboard objectives remove wb
+execute run scoreboard objectives add wb dummy
+
+execute run advancement revoke @a everything
+execute run scoreboard objectives remove bac_obtained
+
+execute run scoreboard objectives add bac_obtained dummy
+
+execute run scoreboard players set is_wb_run wb 1
+
+function bacap_wb_addon:start/reset_worldborder_size
+
+function bacap_wb_addon:start/player_tp
+
+schedule function bacap_wb_addon:start/get_start_kit 8s
+
+execute run function bacap_wb_addon:system/1_second_timer
+
+
+

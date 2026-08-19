@@ -1,1 +1,0 @@
-execute at @r[gamemode=!spectator,gamemode=!creative] run setblock ~ ~3 ~ minecraft:barrel[facing=north,open=false]{LootTable:"bc_wb:chests/starter_kit"}

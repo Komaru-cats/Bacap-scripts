@@ -9,7 +9,6 @@ import pyperclip
 
 import tools.data_writer as dw
 from tools import (
-    Advancement,
     AdvancementsManager,
     AdvancementFactory,
     DatapackList,
@@ -27,7 +26,7 @@ from tools.MissingTranslationFinder import MissingTranslationFinder
 from tools.Release import Release
 from tools.Validator import Validator, SpellingValidator
 from tools.utils import cut_namespace, multi_replace, user_config
-from tools.ChecklistGenerators import BaseChecklistGenerator, MobUniverseGenerator, BabyZooGenerator
+from tools.ChecklistGenerators import MobUniverseGenerator, BabyZooGenerator
 
 change_type_mi = MenuInterface(input_icon=Icon("[>]", color="cyan"))
 adv_mi = MenuInterface(input_icon=Icon("[>]", color="purple"))
@@ -150,7 +149,7 @@ class AdvancementInterface:
         from collections import defaultdict
 
         split_hidden = get_bool("See hidden separately [y/n]:")
-        for datapack in DatapackList.work_with:
+        for datapack in DatapackList.available:
             adv_types = defaultdict(list)
 
             if split_hidden:
@@ -171,10 +170,8 @@ class AdvancementInterface:
                 sorted(adv_type_count.items(), key=lambda item: item[1], reverse=True)
             )
             output(f"{datapack}: {sum(x for x in adv_type_count.values())}")
-            output(
-                "\n".join(f"{adv_type}: {n}" for adv_type, n in adv_type_count.items()),
-                indent=3,
-            )
+            for adv_type, n in adv_type_count.items():
+                output(f"{adv_type}: {n}", indent=3)
 
     @adv_mi.register_func("Rename", "r")
     @exit_on_empty_input

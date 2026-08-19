@@ -1,0 +1,16 @@
+tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
+tellraw @s {"text":" "}
+tellraw @s {"text":"  Frequently Asked Questions (FAQ)","color":"gold","bold":true}
+tellraw @s {"text":" "}
+
+# Question 1
+tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help/faq/q1"},"hover_event":{"action":"show_text","value":{"text":"Click to read the answer","color":"gold"}}},{"text":"?","color":"yellow","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help/faq/q1"},"hover_event":{"action":"show_text","value":{"text":"Click to read the answer","color":"gold"}}},{"text":" ] ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help/faq/q1"},"hover_event":{"action":"show_text","value":{"text":"Click to read the answer","color":"gold"}}},{"text":"Is it possible to complete BACAP(ED) with this Addon?","color":"#8CD8FF","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help/faq/q1"},"hover_event":{"action":"show_text","value":{"text":"Click to read the answer","color":"gold"}}}]
+
+# Question 2
+tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help/faq/q2"},"hover_event":{"action":"show_text","value":{"text":"Click to read the answer","color":"gold"}}},{"text":"?","color":"yellow","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help/faq/q2"},"hover_event":{"action":"show_text","value":{"text":"Click to read the answer","color":"gold"}}},{"text":" ] ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help/faq/q2"},"hover_event":{"action":"show_text","value":{"text":"Click to read the answer","color":"gold"}}},{"text":"How do I complete distance advancements?","color":"#8CD8FF","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help/faq/q2"},"hover_event":{"action":"show_text","value":{"text":"Click to read the answer","color":"gold"}}}]
+
+tellraw @s {"text":" "}
+
+# Back button (Возврат в Help Menu)
+tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"text":"Return to the Help menu.","color":"gray"}}},{"text":" ","color":"yellow","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"text":"Return to the Help menu.","color":"gray"}}},{"text":" ] ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"text":"Return to the Help menu.","color":"white"}}},{"text":"Go back to Help Menu","color":"gray","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"text":"Return to the Help menu.","color":"gold"}}}]
+tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
