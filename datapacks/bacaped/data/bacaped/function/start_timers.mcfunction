@@ -67,6 +67,9 @@ scoreboard objectives add bacaped_ominous_vault_hunter_count dummy
 scoreboard objectives add bacaped_advancements dummy {"translate":"ED Advancements","color":"white"}
 scoreboard objectives add bacaped_all_advancements dummy {"translate":"All ED Advancements","color":"white"}
 scoreboard objectives add bacaped_advancements_only_hiddens dummy {"translate":"Hidden ED Advancements","color":"white"}
+scoreboard objectives modify bacaped_advancements numberformat styled {"color":"green"}
+scoreboard objectives modify bacaped_all_advancements numberformat styled {"color":"green"}
+scoreboard objectives modify bacaped_advancements_only_hiddens numberformat styled {"color":"green"}
 # For eq. check in advancement_made_macro
 scoreboard objectives add bacaped_is_hidden dummy
 scoreboard players set hidden bacaped_is_hidden 1
