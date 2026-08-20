@@ -127,8 +127,6 @@ function bacap_wb_addon:queue/process_reward with storage bacap_wb_addon:temp cu
        }
        ```
 
-### How to change existing individual rewards
-The process is the same as adding new ones, but since the file containing the advancement information already exists, you only need to add your own file that overrides existing rewards to the `data/bacap_wb_addon/tags/function/init_blocks.json` function tag.
 
 ### How to change existing individual rewards
 The process is exactly the same as adding new ones. However, since the file containing the advancement information already exists, you only need to create your own function to override the existing rewards and inject it into the `data/bacap_wb_addon/tags/function/init_blocks.json` function tag.
