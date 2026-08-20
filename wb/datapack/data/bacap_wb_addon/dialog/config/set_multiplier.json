@@ -11,7 +11,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "translate": "Specify the multiplier for the worldborder expansion blocks granted upon advancement completion"
+        "translate": "Specify the multiplier for the worldborder expansion blocks granted upon advancement completion (0.80 to 10.00, rounded to 2 decimal places)."
       }
     },
     {
@@ -31,9 +31,9 @@
         "translate": "e.g., 1.15"
       },
       "label_visible": true,
-      "width": 50,
-      "initial": "1",
-      "max_length": 6,
+      "width": 70,
+      "initial": "1.00",
+      "max_length": 5,
       "key": "input"
     }
   ],

@@ -50,7 +50,8 @@ class WBDataSet:
                 output(f"Skip: {adv.mc_path} (Excluded)")
                 continue
 
-            record = self.session.query(IndividualBlock).filter_by(path=adv.mc_path).first()
+            search_path = cut_namespace(adv.reward_mcpath)
+            record = self.session.query(IndividualBlock).filter_by(path=search_path).first()
             is_missing = False
 
             if target == "Bacap" and (not record or record.blocks_bacap is None):
@@ -60,7 +61,7 @@ class WBDataSet:
 
             if is_missing:
                 output(f"--- Missing in {target.upper()} ---")
-                self._prompt_and_save_blocks(adv, target, record)  # убрали adv_path из аргументов
+                self._prompt_and_save_blocks(adv, target, record)
 
     @exit_on_empty_input
     def _prompt_and_save_blocks(self, adv: Advancement, target: str, record: Optional[IndividualBlock]):
@@ -78,7 +79,8 @@ class WBDataSet:
                 continue
 
             if not record:
-                record = IndividualBlock(path=adv.mc_path, command_type=cmd_type)
+                new_path = cut_namespace(adv.reward_mcpath)
+                record = IndividualBlock(path=new_path, command_type=cmd_type)
                 self.session.add(record)
 
             if target == "Bacap":
@@ -100,7 +102,7 @@ class WBDataSet:
             except NoAdvancementReward as e:
                 raise NoAdvancementReward(f"Can't find reward for {adv.mc_path} | {e}")
 
-        init_path = datapack_path / "data/bacap_wb_addon/function/init_blocks"
+        init_path = datapack_path / "data/bacap_wb_addon/function/init_blocks/individual"
         init_path.mkdir(parents=True, exist_ok=True)
 
         if bacap_init_lines:
@@ -114,10 +116,10 @@ class WBDataSet:
 
 
     def generate_adv_func_commands(self, adv: Advancement, datapack_path: Path) -> Tuple[Optional[str], Optional[str]]:
-        adv_path_clean = cut_namespace(adv.mc_path)
+        search_path = cut_namespace(adv.reward_mcpath)
         excluded = self.check_excluded(adv)
 
-        ind_block, t_custom, t_over = self._fetch_db_records(adv.mc_path)
+        ind_block, t_custom, t_over = self._fetch_db_records(search_path)
 
         in_bacap, in_bacaped = self._check_availability(ind_block, excluded)
         if not in_bacap and not in_bacaped:
@@ -126,14 +128,14 @@ class WBDataSet:
         cmd_type = ind_block.command_type if ind_block else "add"
 
         bacap_init, bacaped_init, tier, custom_blocks = self._calculate_init_lines_and_tiers(
-            adv, ind_block, t_custom, t_over, cmd_type, in_bacap, in_bacaped, excluded
+            adv, search_path, ind_block, t_custom, t_over, cmd_type, in_bacap, in_bacaped, excluded
         )
 
         self._generate_and_write_reward(
-            adv, adv_path_clean, datapack_path, cmd_type, tier, custom_blocks, excluded
+            adv, search_path, datapack_path, cmd_type, tier, custom_blocks, excluded
         )
 
-        self._write_function_tags(adv_path_clean, datapack_path, in_bacap, in_bacaped)
+        self._write_function_tags(search_path, datapack_path, in_bacap, in_bacaped)
 
         return bacap_init, bacaped_init
 
@@ -150,14 +152,14 @@ class WBDataSet:
         in_bacaped = (ind_block and ind_block.blocks_bacaped is not None) or excluded
         return in_bacap, in_bacaped
 
-    def _calculate_init_lines_and_tiers(self, adv, ind_block, t_custom, t_over, cmd_type, in_bacap, in_bacaped, excluded):
+    def _calculate_init_lines_and_tiers(self, adv, search_path, ind_block, t_custom, t_over, cmd_type, in_bacap, in_bacaped, excluded):
         bacap_init_line, bacaped_init_line = None, None
         tier = adv.adv_macro_type
         custom_blocks_value = None
 
         if in_bacap and not excluded:
             blocks = self._calc_blocks(ind_block.blocks_bacap, cmd_type)
-            bacap_init_line = f"scoreboard players set {adv.mc_path} wb_adv_blocks {blocks}"
+            bacap_init_line = f"scoreboard players set {search_path} wb_adv_blocks {blocks}"
             if t_over and t_over.bacap:
                 tier = t_over.bacap
             if t_custom and t_custom.bacap:
@@ -165,7 +167,8 @@ class WBDataSet:
 
         if in_bacaped and not excluded:
             blocks = self._calc_blocks(ind_block.blocks_bacaped, cmd_type)
-            bacaped_init_line = f"scoreboard players set {adv.mc_path} wb_adv_blocks {blocks}"
+
+            bacaped_init_line = f"scoreboard players set {search_path} wb_adv_blocks {blocks}"
             if t_over and t_over.bacaped:
                 tier = t_over.bacaped
             if t_custom and t_custom.bacaped:
@@ -177,7 +180,7 @@ class WBDataSet:
     def _generate_and_write_reward(adv: Advancement, adv_path_clean: str, datapack_path: Path, cmd_type: str, tier: str, custom_blocks_value: Optional[int], excluded: bool) -> None:
         color = adv.color.value or adv.datapack.adv_default_type_data[adv.type]["color"]
         data = {
-            "adv_id": adv.mc_path,
+            "adv_id": adv_path_clean,
             "adv_title": escape_quotes(adv.title),
             "title_color": color,
             "desc": adv.description.replace('"', r"\"").replace("\n", r"\n"),
