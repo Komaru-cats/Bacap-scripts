@@ -1,4 +1,3 @@
-
 # One-time per datapack init
 
 # We use a unique initialization flag (#wb_bacap_tiers_init) for the base datapack.

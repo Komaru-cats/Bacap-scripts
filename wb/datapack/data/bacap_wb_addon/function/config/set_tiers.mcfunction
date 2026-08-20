@@ -34,12 +34,12 @@ execute if score #val wb_math_temp matches ..0 unless data storage bacap_wb_addo
 execute store result score #val wb_math_temp run data get storage bacap_wb_addon:temp ui_tiers.hidden 100
 execute if score #val wb_math_temp matches ..0 unless data storage bacap_wb_addon:temp {ui_tiers:{hidden:0.0d}} run scoreboard players set #is_valid wb_math_temp 0
 # Handle Invalid Input (Abort everything)
-execute if score #is_valid wb_math_temp matches 0 run tellraw @s {"text": "All tier values must be between 0.01 and 21,474,836 (or exactly 0)! Changes cancelled.", "color": "red"}
+execute if score #is_valid wb_math_temp matches 0 run tellraw @s {"translate": "All tier values must be between 0.01 and 21,474,836 (or exactly 0)! Changes cancelled.", "color": "red"}
 execute if score #is_valid wb_math_temp matches 0 run return 0
 
 
 # Handle Invalid Input (Abort everything)
-execute if score #is_valid wb_math_temp matches 0 run tellraw @s {"text": "All tier values must be between 0.01 and 21,474,836! Changes cancelled.", "color": "red"}
+execute if score #is_valid wb_math_temp matches 0 run tellraw @s {"translate": "All tier values must be between 0.01 and 21,474,836! Changes cancelled.", "color": "red"}
 execute if score #is_valid wb_math_temp matches 0 run return 0
 
 # Apply Valid Inputs to the Scoreboards (Scale by 100)

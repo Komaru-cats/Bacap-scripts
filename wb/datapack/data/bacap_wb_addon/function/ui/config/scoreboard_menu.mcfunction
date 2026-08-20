@@ -1,7 +1,7 @@
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 tellraw @s {"text":" "}
-tellraw @s {"text":"          Scoreboard Display Settings","color":"gold","bold":true}
-tellraw @s {"text":"  How to display 'First Advancement Blocks' scoreboard?","color":"#C1C1C1"}
+tellraw @s {"translate":"          Scoreboard Display Settings","color":"gold","bold":true}
+tellraw @s {"translate":"  How to display 'First Advancement Blocks' scoreboard?","color":"#C1C1C1"}
 tellraw @s {"text":" "}
 
 # On tab list

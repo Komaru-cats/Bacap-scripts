@@ -1,7 +1,7 @@
-# 1. Capture the passed number in a temporary variable #wb_base
+# Capture the passed number in a temporary variable #wb_base
 $scoreboard players set #wb_base wb_math_temp $(blocks)
 
-# 2. Applying a multiplier
+# Applying a multiplier
 execute store result score #wb_mult wb_math_temp run data get storage bacap_wb_addon:settings mult_int 1
 
 # Step A: Get the whole part and multiply it

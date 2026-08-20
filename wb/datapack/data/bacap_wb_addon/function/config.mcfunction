@@ -1,6 +1,6 @@
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 tellraw @s {"text":" "}
-tellraw @s {"text":"        WB Addon Main Configuration","color":"gold","bold":true}
+tellraw @s {"translate":"        WB Addon Main Configuration","color":"gold","bold":true}
 tellraw @s {"text":" "}
 
 # Start button (Keep Advancements)
@@ -32,7 +32,7 @@ tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","
 tellraw @s {"text":" "}
 
 # Help Menu Button
-tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"text":"Open the Help Menu","color":"gold"}}},{"text":"?","color":"yellow","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"text":"Open the Help Menu","color":"gold"}}},{"text":" ] ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"text":"Open the Help Menu","color":"gold"}}},{"text":"Help","color":"#8CD8FF","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"text":"Open the Help Menu","color":"gold"}}}]
+tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"translate":"Open the Help Menu","color":"gold"}}},{"text":"?","color":"yellow","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"translate":"Open the Help Menu","color":"gold"}}},{"text":" ] ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"translate":"Open the Help Menu","color":"gold"}}},{"translate":"Help","color":"#8CD8FF","click_event":{"action":"run_command","command":"/function bacap_wb_addon:ui/config/help_menu"},"hover_event":{"action":"show_text","value":{"translate":"Open the Help Menu","color":"gold"}}}]
 
 tellraw @s {"text": ""}
 tellraw @s [{"translate":"Tip: Players can check the World Size anytime using /trigger wb_world_size","color":"#C1C1C1","italic":true}]

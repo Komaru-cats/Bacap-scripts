@@ -1,7 +1,6 @@
 scoreboard players operation #format_whole wb_math_temp = #format_val wb_math_temp
 scoreboard players operation #format_whole wb_math_temp /= #wb_100 wb_math_temp
 
-
 scoreboard players operation #format_frac wb_math_temp = #format_val wb_math_temp
 scoreboard players operation #format_frac wb_math_temp %= #wb_100 wb_math_temp
 

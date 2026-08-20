@@ -7,7 +7,7 @@ scoreboard objectives add wb_math_temp dummy
 scoreboard objectives add wb_block_multiplier dummy
 scoreboard objectives add wb_base_contrib dummy
 scoreboard objectives add wb_custom_contrib dummy
-scoreboard objectives add wb_real_contrib dummy {"text":"First Advancement Blocks","color":"white"}
+scoreboard objectives add wb_real_contrib dummy {"translate":"First Advancement Blocks","color":"white"}
 scoreboard objectives modify wb_real_contrib numberformat styled {"color":"#70F8FF"}
 
 # Constants for Newton's formula and conversion to ticks
