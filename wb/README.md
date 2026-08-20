@@ -55,10 +55,10 @@ Allows you to display a scoreboard tracking exactly how many blocks each player 
 - [Komaru Cats Discord](https://discord.gg/j9VKsyXPhz)
 - [Komaru Cats GitHub](https://github.com/Komaru-cats/)
 
-## For Contributors
+# For Contributors
 If you wanna suggest a feature, report a bug etc. you can make it either in [Komaru Cats Discord](https://discord.gg/j9VKsyXPhz), [Create an issue](https://github.com/Komaru-cats/WB-Addon-for-BACAP/issues) or [Pull request](https://github.com/Komaru-cats/WB-Addon-for-BACAP/pulls) on GitHub.
 
-## For Fanpack developers
+# For Fanpack developers
 The addon is built with modularity in mind, allowing community fanpacks to seamlessly integrate their own rewards without breaking the core logic.
 
 There are several function tags that can help you integrate your features into the pack (you can find them in `bacap_wb_addon/tags/function`):
