@@ -39,7 +39,7 @@ Allows you to display a scoreboard tracking exactly how many blocks each player 
     - Yes! The datapack is mathematically balanced so that, with enough effort, it is entirely possible to complete 100% of the advancements even on the lowest multiplier on most world seeds.
 - How do I complete distance advancements if the border expands so slowly?
     - That's by design! You need to earn enough blocks through regular gameplay to reach the first distance milestones (10,000 blocks). Completing these specific distance advancements will grant you a massive block reward, allowing you to reach the next milestone, and so on. Even in "Tier rewards" mode, these advancements ignore their tier and grant the huge reward!
-- What are the standard rewards for advancements in each tier? How many blocks can be obtained by completing all the advancement in a tier?
+- What are the standard rewards for advancements in each tier? How many blocks can be obtained by completing all the advancements in a tier?
 
     | Tier            | BACAP (adv. count × blocks = total) | BACAPED (adv. count × blocks = total) |
     |:----------------|:------------------------------------|:--------------------------------------|
@@ -99,6 +99,7 @@ That is all you need for tier block rewards.
 **Note: If you want a specific advancement to be exempt from the tier rules, you can do the following**
 
 Add `custom_tier_blocks: <your amount of blocks>` tag to the advancement reward information and change `tier` to `custom`
+
 *Example file for the "Ten Thousand Blocks" advancement (it will increase the world for 70k blocks):*
 ```mcfunction
 execute if score biomes/ten_thousand_blocks wb matches 1 run return 0
