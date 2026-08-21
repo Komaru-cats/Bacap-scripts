@@ -9,7 +9,7 @@ $execute if score reward_mode wb_config matches 1 unless data storage bacap_wb_a
 
 # CUSTOM OVERRIDE (Highest priority)
 # Uses the exact value from the advancement pattern NBT
-execute if data storage bacap_wb_addon:temp current_adv{tier: "custom"} run execute store result score #current_reward wb_math_temp run data get storage bacap_wb_addon:temp current_adv.custom_tier_blocks
+execute if data storage bacap_wb_addon:temp current_adv{tier: "custom"} store result score #current_reward wb_math_temp run data get storage bacap_wb_addon:temp current_adv.custom_tier_blocks
 
 # Save the final calculated blocks into the NBT object
 execute store result storage bacap_wb_addon:temp current_adv.blocks int 1 run scoreboard players get #current_reward wb_math_temp
