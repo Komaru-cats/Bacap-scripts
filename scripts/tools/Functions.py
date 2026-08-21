@@ -353,40 +353,45 @@ class Trophy(FuncMixin):
         return desc_list
 
     def __parse_from_file(self) -> None:
-        give_pattern = FunctionsReadPatterns.give_command_trophy
-        summon_pattern = FunctionsReadPatterns.summon_command_trophy
+        try:
+            give_pattern = FunctionsReadPatterns.give_command_trophy
+            summon_pattern = FunctionsReadPatterns.summon_command_trophy
 
-        give_search = re.search(give_pattern, self.content)
-        if give_search:
-            self._command_type = "give"
-            item_id = give_search["item_id"]
-            components = item_components_decoder(give_search.groupdict()["components"])
-        else:
-            summon_search = re.search(summon_pattern, self.content)
-            if not summon_search:
-                return  # Ни одна команда не найдена, выходим
+            give_search = re.search(give_pattern, self.content)
+            if give_search:
+                self._command_type = "give"
+                item_id = give_search["item_id"]
+                components = item_components_decoder(give_search.groupdict()["components"])
+            else:
+                summon_search = re.search(summon_pattern, self.content)
+                if not summon_search:
+                    return  # Ни одна команда не найдена, выходим
 
-            self._command_type = "summon"
-            nbt = nbt_decoder(summon_search.groupdict()["nbt"])
-            item_id = nbt["Item"]["id"]
-            components = nbt["Item"]["components"]
+                self._command_type = "summon"
+                nbt = nbt_decoder(summon_search.groupdict()["nbt"])
+                item_id = nbt["Item"]["id"]
+                components = nbt["Item"]["components"]
 
-        custom_name = get_with_multiple_values(components, "custom_name", "item_name")
-        name = get_with_multiple_values(custom_name, "text", "translate")
-        color = custom_name.get("color", None)
+            custom_name = get_with_multiple_values(components, "custom_name", "item_name")
+            name = get_with_multiple_values(custom_name, "text", "translate")
+            color = custom_name.get("color", None)
 
-        if color:
-            color = Color(color)
+            if color:
+                color = Color(color)
 
-        lore = "\n".join(
-            x
-            for x in self.__parse_description(components.get("lore", []))
-            if ".minecraft." not in x
-        )
+            lore = "\n".join(
+                x
+                for x in self.__parse_description(components.get("lore", []))
+                if ".minecraft." not in x
+            )
 
-        self._item = TrophyItem(
-            item_id=item_id, components=components, name=name, color=color, lore=lore
-        )
+            self._item = TrophyItem(
+                item_id=item_id, components=components, name=name, color=color, lore=lore
+            )
+        except Exception as e:
+            print("SHIT HAPPENS")
+            print(e)
+            print(self.content)
 
     def generate(
         self,
