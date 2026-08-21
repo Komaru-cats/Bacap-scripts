@@ -30,7 +30,7 @@
     "hidden": true,
     "announce_to_chat": true
   },
-  "parent": "bacaped:nether/emerald_beacon",
+  "parent": "bacaped:nether/diamond_beacon",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:placed_block",
