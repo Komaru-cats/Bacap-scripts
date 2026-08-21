@@ -26,6 +26,7 @@ scoreboard objectives add bacaped_egapple_days dummy
 scoreboard objectives add bacaped_you_goat_me_to_an_end_timer dummy
 scoreboard objectives add bacaped_leashed_horses dummy
 scoreboard objectives add bacaped_current_day dummy
+scoreboard objectives add bacaped_ominous_vault_hunter_count dummy
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel
@@ -61,7 +62,7 @@ scoreboard objectives add bacaped_in_struct_trail_ruins dummy
 scoreboard objectives add bacaped_in_struct_trial_chambers dummy
 scoreboard objectives add bacaped_in_struct_village dummy
 scoreboard objectives add bacaped_in_struct_summary dummy
-scoreboard objectives add bacaped_ominous_vault_hunter_count dummy
+
 
 # Display Scoreboards
 scoreboard objectives add bacaped_advancements dummy {"translate":"ED Advancements","color":"white"}
