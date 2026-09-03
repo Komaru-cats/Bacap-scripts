@@ -7,8 +7,8 @@ Because people want to know what exactly you can and can’t do
 
 ### The conditions of receiving the role in general are:
 
-Achieve the Advancement Legend advancement in Blaze and Caves Advancement Pack.
-As for the versions, at the moment any version above and including 6.0-beta1 is suitable. Later the criteria may change.
+Achieve the Advancement Legend advancement in Blaze and Caves Advancement Pack with WB Addon.
+As for the versions, at the moment any version above and including 6.0 is suitable. Later the criteria may change.
 
 ## YOU CAN:
 
