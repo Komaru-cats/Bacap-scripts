@@ -45,11 +45,11 @@ Allows you to display a scoreboard tracking exactly how many blocks each player 
     |:----------------|:------------------------------------|:--------------------------------------|
     | Task            | 606 × 1 = 606                       | 645 × 1 = 645                         |
     | Goal            | 349 × 4 = 1396                      | 453 × 3 = 1359                        |
-    | Challenge       | 213 × 25 = 5325                     | 213 × 15 = 3195                       |
+    | Challenge       | 213 × 25 = 5325                     | 332 × 10 = 3320                       |
     | Super Challenge | 38 × 250 = 9500                     | 87 × 100 = 8700                       |
     | Milestone       | 14 × 800 = 11200                    | 29 × 500 = 14500                      |
     | Hiddens         | 13 × 0 = 0                          | 52 × 0 = 0                            |
-    | **Sum**         | **28027**                           | **28399**                             |
+    | **Sum**         | **28027**                           | **28524**                             |
 
 ### Links
 - [Komaru Cats Discord](https://discord.gg/j9VKsyXPhz)

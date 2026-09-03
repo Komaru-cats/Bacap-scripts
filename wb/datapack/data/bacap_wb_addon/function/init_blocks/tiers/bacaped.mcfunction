@@ -10,7 +10,7 @@
 
 execute unless score #wb_bacaped_tiers_init wb matches 1 run scoreboard players set #task wb_tier_blocks 100
 execute unless score #wb_bacaped_tiers_init wb matches 1 run scoreboard players set #goal wb_tier_blocks 300
-execute unless score #wb_bacaped_tiers_init wb matches 1 run scoreboard players set #challenge wb_tier_blocks 1500
+execute unless score #wb_bacaped_tiers_init wb matches 1 run scoreboard players set #challenge wb_tier_blocks 1000
 execute unless score #wb_bacaped_tiers_init wb matches 1 run scoreboard players set #super_challenge wb_tier_blocks 10000
 execute unless score #wb_bacaped_tiers_init wb matches 1 run scoreboard players set #milestone wb_tier_blocks 50000
 execute unless score #wb_bacaped_tiers_init wb matches 1 run scoreboard players set #hidden wb_tier_blocks 0
