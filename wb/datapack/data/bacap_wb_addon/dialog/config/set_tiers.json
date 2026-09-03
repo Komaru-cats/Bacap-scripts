@@ -30,7 +30,7 @@
       },
       "label_visible": true,
       "width": 80,
-      "initial": "5",
+      "initial": "4",
       "max_length": 10,
       "key": "goal"
     },
@@ -41,7 +41,7 @@
       },
       "label_visible": true,
       "width": 80,
-      "initial": "15",
+      "initial": "25",
       "max_length": 10,
       "key": "challenge"
     },
@@ -52,7 +52,7 @@
       },
       "label_visible": true,
       "width": 80,
-      "initial": "50",
+      "initial": "250",
       "max_length": 10,
       "key": "super_challenge"
     },
@@ -63,7 +63,7 @@
       },
       "label_visible": true,
       "width": 80,
-      "initial": "100",
+      "initial": "800",
       "max_length": 10,
       "key": "milestone"
     },
