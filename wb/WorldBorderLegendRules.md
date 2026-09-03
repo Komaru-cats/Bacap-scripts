@@ -51,7 +51,7 @@ As for the versions, at the moment any version above and including 6.0-beta1 is 
 
 These things do kind of disrupt the balance but may be allowed by Komaru Cats Admin's discretion
 
-- Cooperative mode is allowed only if there are less then 5 people on the server or in one team, if you are using `Team Co-op`
+- Cooperative mode is **enabled by default in WB** but there must be less than 5 people on the server
 
 ## How to prove you are worthy:
 
