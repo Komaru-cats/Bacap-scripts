@@ -25,7 +25,7 @@ As for the versions, at the moment any version above and including 6.0 is suitab
 - Use `/function bacap_rewards` or `bacaped_rewards:trophy/<internal tab name>/`<internal advancement name>` if you lose your trophy
 - If you update to a newer version of the datapack, and it causes certain advancements to COMPLETELY reset, you may use commands to give back these advancements.
 - ### Reward Settings Limitations
-    - **Max Reward Multiplier:** `1.25x`
+    - **Max Reward Multiplier:** `1.15x`
     - **Max Block Rewards per Tier (if you aren't using Individual Rewards):**
 
       | Tier                | BACAP | BACAP + ED |
