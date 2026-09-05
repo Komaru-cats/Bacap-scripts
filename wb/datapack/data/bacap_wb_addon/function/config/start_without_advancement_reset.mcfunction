@@ -3,6 +3,9 @@ function bacap_wb_addon:config
 scoreboard objectives remove wb
 scoreboard objectives add wb dummy
 
+# Set first time
+scoreboard players set first_time wb 1
+
 scoreboard players set is_wb_run wb 1
 
 function bacap_wb_addon:start/reset_worldborder_size
