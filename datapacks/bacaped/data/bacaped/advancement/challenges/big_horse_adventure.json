@@ -32,6 +32,23 @@
         }
       }
     },
+    "dappled_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:dappled_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
+          }
+        }
+      }
+    },
     "swamp": {
       "trigger": "minecraft:location",
       "conditions": {
