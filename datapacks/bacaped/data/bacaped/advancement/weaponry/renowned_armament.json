@@ -20,16 +20,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:iron_sword"
-              ],
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    15500
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_sword",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      15500
+                    ]
+                  }
                 }
               }
             }
@@ -41,16 +43,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:ward_armor_trim_smithing_template"
-              ],
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    15500
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:ward_armor_trim_smithing_template",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      15500
+                    ]
+                  }
                 }
               }
             }
@@ -62,16 +66,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:golden_sword"
-              ],
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    15500
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:golden_sword",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      15500
+                    ]
+                  }
                 }
               }
             }
@@ -83,16 +89,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:golden_hoe"
-              ],
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    15500
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:golden_hoe",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      15500
+                    ]
+                  }
                 }
               }
             }
@@ -104,16 +112,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:iron_shovel"
-              ],
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    15500
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_shovel",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      15500
+                    ]
+                  }
                 }
               }
             }
@@ -125,16 +135,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:iron_sword"
-              ],
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    15501
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_sword",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      15501
+                    ]
+                  }
                 }
               }
             }
@@ -146,16 +158,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:iron_axe"
-              ],
-              "components": {
-                "minecraft:custom_model_data": {
-                  "floats": [
-                    15500
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_axe",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      15500
+                    ]
+                  }
                 }
               }
             }
