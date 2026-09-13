@@ -152,6 +152,23 @@
                   "stats": [
                     {
                       "type": "minecraft:used",
+                      "stat": "minecraft:poplar_sapling",
+                      "value": {
+                        "min": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:used",
                       "stat": "minecraft:pale_oak_sapling",
                       "value": {
                         "min": 99
