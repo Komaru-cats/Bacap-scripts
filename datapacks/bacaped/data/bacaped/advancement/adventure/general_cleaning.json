@@ -66,6 +66,28 @@
         }
       }
     },
+    "abandoned_camp": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "#minecraft:abandoned_camp"
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        }
+      }
+    },
     "desert_pyramid": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
