@@ -2594,22 +2594,6 @@
         }
       }
     },
-    "silence_is_loud_here": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/silence_is_loud_here": true
-              }
-            }
-          }
-        }
-      }
-    },
     "so_bright": {
       "trigger": "minecraft:location",
       "conditions": {
