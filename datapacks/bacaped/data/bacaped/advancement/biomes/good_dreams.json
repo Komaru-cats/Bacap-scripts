@@ -372,6 +372,39 @@
         }
       }
     },
+    "dappled_forest": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:location": {
+                  "biomes": "minecraft:dappled_forest"
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "gamemode": [
+                      "spectator"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
     "dark_forest": {
       "trigger": "minecraft:slept_in_bed",
       "conditions": {
