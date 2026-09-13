@@ -26,20 +26,32 @@
 			"conditions": {
 				"victims": [
 					{
-						"entity_type": "minecraft:husk",
-						"vehicle": {
-							"entity_type": "minecraft:camel_husk"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:husk",
+							"vehicle": {
+								"entity_type": "minecraft:camel_husk"
+							}
 						}
 					},
 					{
-						"entity_type": "minecraft:parched",
-						"vehicle": {
-							"entity_type": "minecraft:camel_husk"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:parched",
+							"vehicle": {
+								"entity_type": "minecraft:camel_husk"
+							}
 						}
 					},
 					{
-						"entity_type": "minecraft:camel_husk",
-						"nbt": "{Passengers:[{id:\"minecraft:husk\"},{id:\"minecraft:parched\"}]}"
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "minecraft:camel_husk",
+							"nbt": "{Passengers:[{id:\"minecraft:husk\"},{id:\"minecraft:parched\"}]}"
+						}
 					}
 				],
 				"fired_from_weapon": {

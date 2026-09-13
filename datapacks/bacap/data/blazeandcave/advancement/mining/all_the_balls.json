@@ -19,18 +19,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/bouncy"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"bouncy_direct": {
@@ -39,18 +37,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/bouncy"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"slow_flat": {
@@ -59,18 +55,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/slow_flat"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"slow_flat_direct": {
@@ -79,18 +73,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/slow_flat"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"fast_flat": {
@@ -99,18 +91,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/fast_flat"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"fast_flat_direct": {
@@ -119,18 +109,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/fast_flat"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"light": {
@@ -139,18 +127,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/light"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"light_direct": {
@@ -159,18 +145,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/light"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"fast_sliding": {
@@ -179,18 +163,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/fast_sliding"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"fast_sliding_direct": {
@@ -199,18 +181,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/fast_sliding"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"slow_sliding": {
@@ -219,18 +199,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/slow_sliding"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"slow_sliding_direct": {
@@ -239,18 +217,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/slow_sliding"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"high_resistance": {
@@ -259,18 +235,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/high_resistance"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"high_resistance_direct": {
@@ -279,18 +253,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/high_resistance"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"sticky": {
@@ -299,18 +271,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/sticky"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"sticky_direct": {
@@ -319,18 +289,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/sticky"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"regular": {
@@ -339,18 +307,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/regular"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"regular_direct": {
@@ -359,18 +325,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/regular"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"explosive": {
@@ -379,18 +343,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/explosive"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"explosive_direct": {
@@ -399,18 +361,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/explosive"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"hot": {
@@ -419,18 +379,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/hot"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"hot_direct": {
@@ -439,18 +397,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/hot"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"slow_bouncy": {
@@ -459,18 +415,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/slow_bouncy"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"slow_bouncy_direct": {
@@ -479,18 +433,16 @@
 				"item": {
 					"items": "#minecraft:sulfur_cube_archetype/slow_bouncy"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		}
 	},

@@ -42,25 +42,6 @@ scoreboard objectives add bacaped_loom_mined minecraft.mined:minecraft.loom
 scoreboard objectives add bacaped_smithing_table_mined minecraft.mined:minecraft.smithing_table
 scoreboard objectives add bacaped_stonecutter_mined minecraft.mined:minecraft.stonecutter
 scoreboard objectives add bacaped_villager_profession_blocks_mined dummy
-
-
-# In Structures
-scoreboard objectives add bacaped_in_struct_ancient_city dummy
-scoreboard objectives add bacaped_in_struct_bastion dummy
-scoreboard objectives add bacaped_in_struct_desert_pyramid dummy
-scoreboard objectives add bacaped_in_struct_fortress dummy
-scoreboard objectives add bacaped_in_struct_igloo dummy
-scoreboard objectives add bacaped_in_struct_mansion dummy
-scoreboard objectives add bacaped_in_struct_mineshaft dummy
-scoreboard objectives add bacaped_in_struct_monument dummy
-scoreboard objectives add bacaped_in_struct_ocean_ruin dummy
-scoreboard objectives add bacaped_in_struct_pillager_outpost dummy
-scoreboard objectives add bacaped_in_struct_ruined_portal dummy
-scoreboard objectives add bacaped_in_struct_stronghold dummy
-scoreboard objectives add bacaped_in_struct_swamp_hut dummy
-scoreboard objectives add bacaped_in_struct_trail_ruins dummy
-scoreboard objectives add bacaped_in_struct_trial_chambers dummy
-scoreboard objectives add bacaped_in_struct_village dummy
 scoreboard objectives add bacaped_in_struct_summary dummy
 
 

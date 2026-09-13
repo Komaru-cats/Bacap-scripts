@@ -19,7 +19,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -29,7 +29,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "chicken"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:chicken"
+					}
 				}
 			}
 		},	
@@ -39,7 +43,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -49,7 +53,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "cow"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cow"
+					}
 				}
 			}
 		},
@@ -59,7 +67,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -69,7 +77,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "pig"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:pig"
+					}
 				}
 			}
 		},
@@ -79,7 +91,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -89,7 +101,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "sheep"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sheep"
+					}
 				}
 			}
 		},
@@ -99,7 +115,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -109,7 +125,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "rabbit"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:rabbit"
+					}
 				}
 			}
 		},
@@ -119,7 +139,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -129,7 +149,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "mooshroom"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:mooshroom"
+					}
 				}
 			}
 		},
@@ -139,7 +163,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -149,7 +173,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "polar_bear"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:polar_bear"
+					}
 				}
 			}
 		},
@@ -159,7 +187,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -169,7 +197,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "horse"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:horse"
+					}
 				}
 			}
 		},
@@ -179,7 +211,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -189,7 +221,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "donkey"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:donkey"
+					}
 				}
 			}
 		},
@@ -199,7 +235,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -209,7 +245,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "mule"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:mule"
+					}
 				}
 			}
 		},
@@ -219,7 +259,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -229,7 +269,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "llama"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:llama"
+					}
 				}
 			}
 		},
@@ -239,7 +283,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -249,7 +293,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "wolf"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf"
+					}
 				}
 			}
 		},
@@ -259,7 +307,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -269,7 +317,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "ocelot"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:ocelot"
+					}
 				}
 			}
 		},
@@ -279,7 +331,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -289,7 +341,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "parrot"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:parrot"
+					}
 				}
 			}
 		},
@@ -299,7 +355,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -309,7 +365,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "cat"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cat"
+					}
 				}
 			}
 		},
@@ -319,7 +379,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -329,7 +389,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "panda"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:panda"
+					}
 				}
 			}
 		},
@@ -339,7 +403,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -349,7 +413,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "fox"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:fox"
+					}
 				}
 			}
 		},
@@ -359,7 +427,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -369,7 +437,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "bee"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:bee"
+					}
 				}
 			}
 		},
@@ -379,7 +451,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -389,7 +461,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "hoglin"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:hoglin"
+					}
 				}
 			}
 		},
@@ -399,7 +475,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -409,7 +485,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "strider"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:strider"
+					}
 				}
 			}
 		},
@@ -419,7 +499,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -429,7 +509,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "bat"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:bat"
+					}
 				}
 			}
 		},
@@ -439,7 +523,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -449,7 +533,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "trader_llama"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:trader_llama"
+					}
 				}
 			}
 		},
@@ -459,7 +547,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -469,7 +557,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "turtle"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:turtle"
+					}
 				}
 			}
 		},
@@ -479,7 +571,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -489,7 +581,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "goat"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:goat"
+					}
 				}
 			}
 		},
@@ -499,7 +595,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -509,7 +605,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "frog"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:frog"
+					}
 				}
 			}
 		},
@@ -519,7 +619,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -529,7 +629,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "camel"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:camel"
+					}
 				}
 			}
 		},
@@ -539,7 +643,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -549,7 +653,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "sniffer"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sniffer"
+					}
 				}
 			}
 		},
@@ -559,7 +667,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -569,7 +677,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "armadillo"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:armadillo"
+					}
 				}
 			}
 		},
@@ -579,7 +691,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -589,7 +701,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "skeleton_horse"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:skeleton_horse"
+					}
 				}
 			}
 		},
@@ -599,7 +715,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -609,7 +725,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "zoglin"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zoglin"
+					}
 				}
 			}
 		},
@@ -619,7 +739,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -629,7 +749,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "zombie_horse"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie_horse"
+					}
 				}
 			}
 		},
@@ -639,7 +763,7 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_projectile",
+							"id": "#minecraft:is_projectile",
 							"expected": true
 						}
 					],
@@ -649,7 +773,11 @@
 					}
 				},
 				"entity": {
-					"entity_type": "camel_husk"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:camel_husk"
+					}
 				}
 			}
 		}

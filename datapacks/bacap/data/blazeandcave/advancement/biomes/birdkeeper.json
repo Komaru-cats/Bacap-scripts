@@ -16,81 +16,71 @@
 		"red": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"components": {
-								"minecraft:parrot/variant": "red_blue"
-							}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"components": {
+							"minecraft:parrot/variant": "red_blue"
 						}
 					}
-				]
+				}
 			}
 		},
 		"blue": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"components": {
-								"minecraft:parrot/variant": "blue"
-							}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"components": {
+							"minecraft:parrot/variant": "blue"
 						}
 					}
-				]
+				}
 			}
 		},
 		"green": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"components": {
-								"minecraft:parrot/variant": "green"
-							}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"components": {
+							"minecraft:parrot/variant": "green"
 						}
 					}
-				]
+				}
 			}
 		},
 		"cyan": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"components": {
-								"minecraft:parrot/variant": "yellow_blue"
-							}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"components": {
+							"minecraft:parrot/variant": "yellow_blue"
 						}
 					}
-				]
+				}
 			}
 		},
 		"gray": {
 			"trigger": "minecraft:tame_animal",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"components": {
-								"minecraft:parrot/variant": "gray"
-							}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"components": {
+							"minecraft:parrot/variant": "gray"
 						}
 					}
-				]
+				}
 			}
 		}
 	}

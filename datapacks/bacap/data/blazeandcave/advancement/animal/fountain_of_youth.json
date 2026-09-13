@@ -19,18 +19,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:armadillo",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:armadillo",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"axolotl": {
@@ -39,18 +39,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:axolotl",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"bee": {
@@ -59,18 +59,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:bee",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:bee",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"camel": {
@@ -79,18 +79,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:camel",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:camel",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"cat": {
@@ -99,18 +99,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:cat",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cat",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"chicken": {
@@ -119,18 +119,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:chicken",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:chicken",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"cow": {
@@ -139,18 +139,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:cow",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:cow",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"dolphin": {
@@ -159,18 +159,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:dolphin",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:dolphin",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"donkey": {
@@ -179,18 +179,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:donkey",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:donkey",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"fox": {
@@ -199,18 +199,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:fox",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:fox",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"tadpole": {
@@ -219,15 +219,15 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:tadpole"
-						}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:tadpole"
 					}
-				]
+
+				}
 			}
 		},
 		"happy_ghast": {
@@ -236,18 +236,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:happy_ghast",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:happy_ghast",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"glow_squid": {
@@ -256,18 +256,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:glow_squid",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:glow_squid",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"goat": {
@@ -276,18 +276,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:goat",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:goat",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"horse": {
@@ -296,18 +296,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:horse",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:horse",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"llama": {
@@ -316,18 +316,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:llama",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:llama",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"mooshroom": {
@@ -336,18 +336,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:mooshroom",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:mooshroom",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"mule": {
@@ -356,18 +356,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:mule",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:mule",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"nautilus": {
@@ -376,18 +376,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:nautilus",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:nautilus",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"ocelot": {
@@ -396,18 +396,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:ocelot",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:ocelot",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"panda": {
@@ -416,18 +416,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:panda",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:panda",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"pig": {
@@ -436,18 +436,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:pig",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:pig",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"polar_bear": {
@@ -456,18 +456,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:polar_bear",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:polar_bear",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"rabbit": {
@@ -476,18 +476,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:rabbit",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:rabbit",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"sheep": {
@@ -496,18 +496,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:sheep",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sheep",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"sniffer": {
@@ -516,18 +516,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:sniffer",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sniffer",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"squid": {
@@ -536,18 +536,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:squid",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:squid",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"strider": {
@@ -556,18 +556,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:strider",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:strider",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"trader_llama": {
@@ -576,18 +576,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:trader_llama",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:trader_llama",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"turtle": {
@@ -596,18 +596,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:turtle",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:turtle",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"wolf": {
@@ -616,18 +616,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:wolf",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:wolf",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"hoglin": {
@@ -636,18 +636,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:hoglin",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:hoglin",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"sulfur_cube": {
@@ -656,18 +656,18 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"flags": {
-								"is_baby": true
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"flags": {
+							"is_baby": true
 						}
 					}
-				]
+
+				}
 			}
 		}
 	}

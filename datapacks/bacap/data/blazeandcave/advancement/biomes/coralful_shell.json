@@ -16,18 +16,16 @@
 		"zombie_nautilus": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "minecraft:zombie_nautilus",
-								"nbt": "{variant:\"minecraft:warm\"}"
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "minecraft:zombie_nautilus",
+							"nbt": "{variant:\"minecraft:warm\"}"
+						}
+					},
+					"entity": "this"
+				}
 			}
 		}
 	}

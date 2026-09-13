@@ -15,35 +15,34 @@
 		"sulfur_cube": {
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"sulfur_cube_directly": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"entity_type": "minecraft:sulfur_cube",
-							"minecraft:flags": {
-								"is_baby": false
-							}
-						},
-						"entity": "this"
-					}
-				]
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"entity_type": "minecraft:sulfur_cube",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					},
+					"entity": "this"
+				},
+				"item": {
+					"items": "#minecraft:sulfur_cube_swallowable"
+				}
 			}
 		}
 	},

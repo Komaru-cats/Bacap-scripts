@@ -16,9 +16,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "zombie_nautilus",
-					"passenger": {
-						"entity_type": "drowned"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:zombie_nautilus",
+						"passenger": {
+							"entity_type": "drowned"
+						}
 					}
 				}
 			}
@@ -27,9 +31,13 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "drowned",
-					"vehicle": {
-						"entity_type": "zombie_nautilus"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:drowned",
+						"vehicle": {
+							"entity_type": "zombie_nautilus"
+						}
 					}
 				}
 			}

@@ -19,23 +19,27 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "blazeandcave:spear",
+							"id": "#blazeandcave:spear",
 							"expected": true
 						}
 					]
 				},			
 				"player": {
-					"equipment": {
-						"mainhand": {
-							"items": "#blazeandcave:spears"
-						}
-					},
-					"vehicle": {
-						"entity_type": "minecart"
-					},
-					"movement": {
-						"speed": {
-							"min": 8.0
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "#blazeandcave:spears"
+							}
+						},
+						"vehicle": {
+							"entity_type": "minecart"
+						},
+						"movement": {
+							"speed": {
+								"min": 8.0
+							}
 						}
 					}
 				}
@@ -47,23 +51,27 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "blazeandcave:spear",
+							"id": "#blazeandcave:spear",
 							"expected": true
 						}
 					]
 				},
 				"player": {
-					"equipment": {
-						"offhand": {
-							"items": "#blazeandcave:spears"
-						}
-					},
-					"vehicle": {
-						"entity_type": "minecart"
-					},
-					"movement": {
-						"speed": {
-							"min": 8.0
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"offhand": {
+								"items": "#blazeandcave:spears"
+							}
+						},
+						"vehicle": {
+							"entity_type": "minecart"
+						},
+						"movement": {
+							"speed": {
+								"min": 8.0
+							}
 						}
 					}
 				}
