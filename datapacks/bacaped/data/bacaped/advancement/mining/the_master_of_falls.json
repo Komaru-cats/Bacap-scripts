@@ -94,6 +94,22 @@
         }
       }
     },
+    "shelf_mushroom": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:shelf_mushroom"
+              }
+            }
+          }
+        }
+      }
+    },
     "hay_block": {
       "trigger": "minecraft:fall_from_height",
       "conditions": {
