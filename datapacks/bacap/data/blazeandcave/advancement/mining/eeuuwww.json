@@ -15,7 +15,7 @@
 		"cobweb": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:cobweb"
+				"blocks": "minecraft:cobweb"
 			}
 		}
 	}

@@ -22,18 +22,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:speed": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:speed": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"slowness": {
@@ -45,18 +45,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:slowness": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:slowness": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"strength": {
@@ -68,18 +68,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:strength": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:strength": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"weakness": {
@@ -91,18 +91,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:weakness": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:weakness": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"jump_boost": {
@@ -114,18 +114,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:jump_boost": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:jump_boost": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"regeneration": {
@@ -137,18 +137,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:regeneration": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:regeneration": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"resistance": {
@@ -160,18 +160,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:resistance": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:resistance": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"fire_resistance": {
@@ -183,18 +183,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:fire_resistance": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:fire_resistance": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"water_breathing": {
@@ -206,18 +206,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:water_breathing": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:water_breathing": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"invisibility": {
@@ -229,18 +229,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:invisibility": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:invisibility": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"night_vision": {
@@ -252,18 +252,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:night_vision": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:night_vision": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"poison": {
@@ -275,18 +275,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:poison": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:poison": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"wither": {
@@ -298,18 +298,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:wither": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:wither": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"glowing": {
@@ -321,18 +321,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:glowing": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:glowing": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"levitation": {
@@ -344,18 +344,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:levitation": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:levitation": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"slow_falling": {
@@ -367,18 +367,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:slow_falling": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:slow_falling": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"oozing": {
@@ -390,18 +390,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:oozing": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:oozing": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"weaving": {
@@ -413,18 +413,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:weaving": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:weaving": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"infested": {
@@ -436,18 +436,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:infested": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:infested": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"wind_charged": {
@@ -459,18 +459,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:wind_charged": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:wind_charged": {}
 						}
 					}
-				]
+
+				}
 			}
 		},
 		"nausea": {
@@ -482,18 +482,18 @@
 						"minecraft:fire_charge"
 					]
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:creeper",
-							"effects": {
-								"minecraft:nausea": {}
-							}
+				"entity": {
+
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:creeper",
+						"effects": {
+							"minecraft:nausea": {}
 						}
 					}
-				]
+
+				}
 			}
 		}
 	}

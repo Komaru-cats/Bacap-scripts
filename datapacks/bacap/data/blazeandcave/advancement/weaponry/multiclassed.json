@@ -27,7 +27,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -49,7 +49,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -71,7 +71,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -93,7 +93,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -115,7 +115,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -130,7 +130,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
@@ -149,7 +149,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
@@ -189,7 +189,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#blazeandcave:is_player_hit",
 								"expected": true
 							}
 						]
@@ -204,7 +204,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
@@ -222,7 +222,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_explosion",
+								"id": "#minecraft:is_explosion",
 								"expected": true
 							}
 						],
@@ -240,7 +240,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
@@ -258,7 +258,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
@@ -272,18 +272,16 @@
 		"fishing_rod": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"entity_type": "#blazeandcave:non_mob_entities"
-							}
+				"entity": {
+					"type": "minecraft:inverted",
+					"term": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "#blazeandcave:non_mob_entities"
 						}
 					}
-				]
+				}
 			}
 		},
 		"splash_potion": {
@@ -327,8 +325,12 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
+							},
+							{
+								"id": "#blazeandcave:spear",
+								"expected": false
 							}
 						]
 					}
@@ -364,7 +366,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
@@ -389,7 +391,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -411,7 +413,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
@@ -433,7 +435,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]

@@ -16,29 +16,25 @@
 		"kill_axolotl_target": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
-				"source": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_type": "minecraft:axolotl",
-							"location": {
-								"structures": "monument"
-							}
+				"source": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:axolotl",
+						"location": {
+							"structures": "monument"
 						}
 					}
-				],
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"structures": "monument"
-							}
+				},
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"structures": "monument"
 						}
 					}
-				]
+				}
 			}
 		}
 	}

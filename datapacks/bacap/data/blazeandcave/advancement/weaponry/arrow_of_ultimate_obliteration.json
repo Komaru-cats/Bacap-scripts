@@ -20,24 +20,28 @@
 					"type": {
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
 					}
 				},
 				"player": {
-					"equipment": {
-						"mainhand": {
-							"items": "#blazeandcave:spears"
-						}
-					},
-					"flags": {
-						"is_fall_flying": true
-					},
-					"movement": {
-						"speed": {
-							"min": 70.0
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": "#blazeandcave:spears"
+							}
+						},
+						"flags": {
+							"is_fall_flying": true
+						},
+						"movement": {
+							"speed": {
+								"min": 70.0
+							}
 						}
 					}
 				}
@@ -50,24 +54,28 @@
 					"type": {
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
 					}
 				},
 				"player": {
-					"equipment": {
-						"offhand": {
-							"items": "#blazeandcave:spears"
-						}
-					},
-					"flags": {
-						"is_fall_flying": true
-					},
-					"movement": {
-						"speed": {
-							"min": 70.0
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"offhand": {
+								"items": "#blazeandcave:spears"
+							}
+						},
+						"flags": {
+							"is_fall_flying": true
+						},
+						"movement": {
+							"speed": {
+								"min": 70.0
+							}
 						}
 					}
 				}

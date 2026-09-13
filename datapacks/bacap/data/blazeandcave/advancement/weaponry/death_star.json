@@ -18,17 +18,21 @@
 				"killing_blow": {
 					"tags": [
 						{
-							"id": "minecraft:is_player_attack",
+							"id": "#blazeandcave:is_player_hit",
 							"expected": true
 						}
 					]
 				},
 				"player": {
-					"equipment": {
-						"mainhand": {
-							"items": [
-								"minecraft:nether_star"
-							]
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:nether_star"
+								]
+							}
 						}
 					}
 				}

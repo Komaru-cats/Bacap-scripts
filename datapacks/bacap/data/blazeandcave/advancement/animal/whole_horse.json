@@ -16,127 +16,115 @@
 		"leather_horse_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#minecraft:can_wear_horse_armor",
-								"equipment": {
-									"body": {
-										"items": "minecraft:leather_horse_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#minecraft:can_wear_horse_armor",
+							"equipment": {
+								"body": {
+									"items": "minecraft:leather_horse_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"copper_horse_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#minecraft:can_wear_horse_armor",
-								"equipment": {
-									"body": {
-										"items": "minecraft:copper_horse_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#minecraft:can_wear_horse_armor",
+							"equipment": {
+								"body": {
+									"items": "minecraft:copper_horse_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"iron_horse_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#minecraft:can_wear_horse_armor",
-								"equipment": {
-									"body": {
-										"items": "minecraft:iron_horse_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#minecraft:can_wear_horse_armor",
+							"equipment": {
+								"body": {
+									"items": "minecraft:iron_horse_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"golden_horse_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#minecraft:can_wear_horse_armor",
-								"equipment": {
-									"body": {
-										"items": "minecraft:golden_horse_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#minecraft:can_wear_horse_armor",
+							"equipment": {
+								"body": {
+									"items": "minecraft:golden_horse_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"diamond_horse_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#minecraft:can_wear_horse_armor",
-								"equipment": {
-									"body": {
-										"items": "minecraft:diamond_horse_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#minecraft:can_wear_horse_armor",
+							"equipment": {
+								"body": {
+									"items": "minecraft:diamond_horse_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"netherite_horse_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#minecraft:can_wear_horse_armor",
-								"equipment": {
-									"body": {
-										"items": "minecraft:netherite_horse_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#minecraft:can_wear_horse_armor",
+							"equipment": {
+								"body": {
+									"items": "minecraft:netherite_horse_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		}
 	}

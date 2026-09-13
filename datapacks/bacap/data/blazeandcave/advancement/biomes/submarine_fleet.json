@@ -16,106 +16,96 @@
 		"copper_nautilus_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#blazeandcave:nautiluses",
-								"equipment": {
-									"body": {
-										"items": "minecraft:copper_nautilus_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#blazeandcave:nautiluses",
+							"equipment": {
+								"body": {
+									"items": "minecraft:copper_nautilus_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"iron_nautilus_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#blazeandcave:nautiluses",
-								"equipment": {
-									"body": {
-										"items": "minecraft:iron_nautilus_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#blazeandcave:nautiluses",
+							"equipment": {
+								"body": {
+									"items": "minecraft:iron_nautilus_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"golden_nautilus_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#blazeandcave:nautiluses",
-								"equipment": {
-									"body": {
-										"items": "minecraft:golden_nautilus_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#blazeandcave:nautiluses",
+							"equipment": {
+								"body": {
+									"items": "minecraft:golden_nautilus_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"diamond_nautilus_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#blazeandcave:nautiluses",
-								"equipment": {
-									"body": {
-										"items": "minecraft:diamond_nautilus_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#blazeandcave:nautiluses",
+							"equipment": {
+								"body": {
+									"items": "minecraft:diamond_nautilus_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		},
 		"netherite_nautilus_armor": {
 			"trigger": "minecraft:started_riding",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"vehicle": {
-								"entity_type": "#blazeandcave:nautiluses",
-								"equipment": {
-									"body": {
-										"items": "minecraft:netherite_nautilus_armor"
-									}
+				"player": {
+					"type": "minecraft:entity_properties",
+					"predicate": {
+						"vehicle": {
+							"entity_type": "#blazeandcave:nautiluses",
+							"equipment": {
+								"body": {
+									"items": "minecraft:netherite_nautilus_armor"
 								}
 							}
-						},
-						"entity": "this"
-					}
-				]
+						}
+					},
+					"entity": "this"
+				}
 			}
 		}
 	}

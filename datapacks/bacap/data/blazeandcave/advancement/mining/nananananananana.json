@@ -16,7 +16,11 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "bat"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:bat"
+					}
 				}
 			}
 		}

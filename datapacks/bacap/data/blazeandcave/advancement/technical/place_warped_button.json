@@ -6,22 +6,24 @@
 		"place_warped_button": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"blocks": [
-									"minecraft:warped_button"
-								]
-							}
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:warped_button"
+							]
 						}
 					}
-				],
+				},
 				"player":  {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"blazeandcave:technical/riddle_ninth_line": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:technical/riddle_ninth_line": true
+							}
 						}
 					}
 				}

@@ -13,9 +13,33 @@
 	},
 	"criteria": {
 		"enter_vine": {
-			"trigger": "minecraft:enter_block",
+			"trigger": "minecraft:location",
 			"conditions": {
-				"block": "minecraft:vine"
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "minecraft:vine"
+								}
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:type_specific/player": {
+										"gamemode": ["spectator"]
+									}
+								}
+							}
+						}
+					]
+				}
 			}
 		}
 	}
