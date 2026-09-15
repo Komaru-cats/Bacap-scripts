@@ -25,17 +25,51 @@
 						]
 				},
 				"entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"location": {
-							"position": {
-								"y": {
-									"max": -59.5
+					"type": "minecraft:any_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"location": {
+									"position": {
+										"y": {
+											"max": -59.5
+										}
+									},
+									"dimension": "minecraft:overworld"
+								}
+							}
+						},
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"location": {
+									"position": {
+										"y": {
+											"max": 5.5
+										}
+									},
+									"dimension": "minecraft:the_nether"
+								}
+							}
+						},
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"location": {
+									"position": {
+										"y": {
+											"max": 1.5
+										}
+									},
+									"dimension": "minecraft:the_end"
 								}
 							}
 						}
-					}
+					]
 				},
 				"player": {
 					"type": "minecraft:any_of",

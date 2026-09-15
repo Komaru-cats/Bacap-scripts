@@ -192,6 +192,21 @@
 					}
 				}
 			}
+		},
+		"poplar_sapling": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": [
+								"minecraft:poplar_sapling"
+							]
+						}
+					}
+				}
+			}
 		}
 	}
 }

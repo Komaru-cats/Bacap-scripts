@@ -6221,6 +6221,35 @@
 				}
 			}
 		},
+		"poplar_shelf": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"minecraft:poplar_shelf"
+									]
+								}
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:flint_and_steel",
+									"minecraft:fire_charge"
+								]
+							}
+						}
+					]
+				}
+			}
+		},
 		"red_poplar_leaves": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
@@ -6349,35 +6378,6 @@
 								"block": {
 									"blocks": [
 										"minecraft:shelf_mushroom"
-									]
-								}
-							}
-						},
-						{
-							"type": "minecraft:match_tool",
-							"predicate": {
-								"items": [
-									"minecraft:flint_and_steel",
-									"minecraft:fire_charge"
-								]
-							}
-						}
-					]
-				}
-			}
-		},
-		"straw_bed": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"type": "minecraft:all_of",
-					"terms": [
-						{
-							"type": "minecraft:location_check",
-							"predicate": {
-								"block": {
-									"blocks": [
-										"minecraft:straw_bed"
 									]
 								}
 							}

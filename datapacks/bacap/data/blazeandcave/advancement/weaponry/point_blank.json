@@ -24,7 +24,7 @@
 							}
 						],
 						"direct_entity": {
-							"entity_type": "minecraft:arrow"
+							"entity_type": "#blazeandcave:arrows"
 						}
 					}
 				},
