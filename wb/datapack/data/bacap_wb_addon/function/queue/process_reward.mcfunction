@@ -15,11 +15,12 @@ execute if data storage bacap_wb_addon:temp current_adv{tier: "custom"} store re
 execute store result storage bacap_wb_addon:temp current_adv.blocks int 1 run scoreboard players get #current_reward wb_math_temp
 
 # We give points to the player ONLY if it is the "add" command.
-execute if data storage bacap_wb_addon:temp current_adv{type:"add"} unless data storage bacap_wb_addon:temp current_adv{tier:"custom"} run scoreboard players operation @s wb_base_contrib += #current_reward wb_math_temp
+# DISABLED DUE TO BUG IN BACAP: https://discord.com/channels/419383460600348673/1549433950748024832
+# execute if data storage bacap_wb_addon:temp current_adv{type:"add"} unless data storage bacap_wb_addon:temp current_adv{tier:"custom"} run scoreboard players operation @s wb_base_contrib += #current_reward wb_math_temp
 
-execute if data storage bacap_wb_addon:temp current_adv{type:"add"} if data storage bacap_wb_addon:temp current_adv{tier:"custom"} run scoreboard players operation @s wb_custom_contrib += #current_reward wb_math_temp
+# execute if data storage bacap_wb_addon:temp current_adv{type:"add"} if data storage bacap_wb_addon:temp current_adv{tier:"custom"} run scoreboard players operation @s wb_custom_contrib += #current_reward wb_math_temp
 
-execute if data storage bacap_wb_addon:temp current_adv{type:"add"} run function bacap_wb_addon:math/recalc_contrib
+# execute if data storage bacap_wb_addon:temp current_adv{type:"add"} run function bacap_wb_addon:math/recalc_contrib
 
 # Move the finished object to the end of the queue
 data modify storage bacap_wb_addon:queue pending append from storage bacap_wb_addon:temp current_adv
