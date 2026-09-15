@@ -18,10 +18,41 @@
 					"blocked": false,
                     "source_entity": {
 						"entity_type": "falling_block",
-						"nbt": "{BlockState:{Name:\"minecraft:anvil\"}}"
+						"nbt": "{BlockState:{id:\"minecraft:anvil\"}}"
+					}
+                }
+            }
+        },
+        "falling_chipped_anvil": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+					"blocked": false,
+                    "source_entity": {
+						"entity_type": "falling_block",
+						"nbt": "{BlockState:{id:\"minecraft:chipped_anvil\"}}"
+					}
+                }
+            }
+        },
+        "falling_damaged_anvil": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+					"blocked": false,
+                    "source_entity": {
+						"entity_type": "falling_block",
+						"nbt": "{BlockState:{id:\"minecraft:damaged_anvil\"}}"
 					}
                 }
             }
         }
-    }
+    },
+    "requirements": [
+        [
+            "falling_anvil",
+            "falling_chipped_anvil",
+            "falling_damaged_anvil"
+        ]
+    ]
 }

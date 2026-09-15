@@ -16,7 +16,11 @@
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "dolphin"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "dolphin"
+					}
 				}
 			}
 		}

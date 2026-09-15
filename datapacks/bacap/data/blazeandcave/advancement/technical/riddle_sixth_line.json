@@ -7,16 +7,20 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "chicken",
-					"flags": {
-						"is_on_ground": false
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:chicken",
+						"flags": {
+							"is_on_ground": false
+						}
 					}
 				},
 				"damage": {
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],
@@ -26,10 +30,13 @@
 					}
 				},
 				"player":  {
-					"minecraft:type_specific/player": {
-
-						"advancements": {
-							"blazeandcave:technical/riddle_fifth_line": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:technical/riddle_fifth_line": true
+							}
 						}
 					}
 				}

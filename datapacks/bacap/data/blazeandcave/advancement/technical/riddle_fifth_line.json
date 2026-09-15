@@ -11,10 +11,13 @@
 					"minecraft:glowing": {}
 				},
 				"player":  {
-					"minecraft:type_specific/player": {
-
-						"advancements": {
-							"blazeandcave:technical/riddle_fourth_line": true
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"blazeandcave:technical/riddle_fourth_line": true
+							}
 						}
 					}
 				}

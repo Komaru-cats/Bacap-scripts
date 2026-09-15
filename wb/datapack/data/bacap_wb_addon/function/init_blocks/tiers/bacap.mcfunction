@@ -1,4 +1,3 @@
-
 # One-time per datapack init
 
 # We use a unique initialization flag (#wb_bacap_tiers_init) for the base datapack.
@@ -10,10 +9,10 @@
 # (e.g., 1 block = 100, 5.5 blocks = 550, 10 blocks = 1000).
 
 execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #task wb_tier_blocks 100
-execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #goal wb_tier_blocks 500
-execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #challenge wb_tier_blocks 3000
-execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #super_challenge wb_tier_blocks 30000
-execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #milestone wb_tier_blocks 100000
+execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #goal wb_tier_blocks 400
+execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #challenge wb_tier_blocks 2500
+execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #super_challenge wb_tier_blocks 25000
+execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #milestone wb_tier_blocks 80000
 execute unless score #wb_bacap_tiers_init wb matches 1 run scoreboard players set #hidden wb_tier_blocks 0
 
 # SET COMMANDS

@@ -20,24 +20,28 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:cat",
-              "nbt": "{Sitting: 1b}",
-              "stepping_on": {
-                "block": {
-                  "blocks": [
-                    "minecraft:chest",
-                    "minecraft:trapped_chest",
-                    "minecraft:copper_chest",
-                    "minecraft:exposed_copper_chest",
-                    "minecraft:weathered_copper_chest",
-                    "minecraft:oxidized_copper_chest",
-                    "minecraft:waxed_copper_chest",
-                    "minecraft:waxed_exposed_copper_chest",
-                    "minecraft:waxed_weathered_copper_chest",
-                    "minecraft:waxed_oxidized_copper_chest"
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:cat",
+                "minecraft:nbt": "{Sitting: 1b}",
+                "stepping_on": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:chest",
+                      "minecraft:trapped_chest",
+                      "minecraft:copper_chest",
+                      "minecraft:exposed_copper_chest",
+                      "minecraft:weathered_copper_chest",
+                      "minecraft:oxidized_copper_chest",
+                      "minecraft:waxed_copper_chest",
+                      "minecraft:waxed_exposed_copper_chest",
+                      "minecraft:waxed_weathered_copper_chest",
+                      "minecraft:waxed_oxidized_copper_chest"
+                    ]
+                  }
                 }
               }
             }

@@ -17,7 +17,7 @@ scoreboard players set @a bac_quit 0
 # Day count is increased by 1 at each sunrise
 scoreboard players operation previous bac_current_time = time bac_current_time
 execute store result score time bac_current_time run time query minecraft:day
-execute if score time bac_current_time matches 0..200 run function blazeandcave:increase_day
+execute if score time bac_current_time matches 0..199 run function blazeandcave:increase_day
 
 # If it is just before a sunrise players gain "The First Night"
 execute if score time bac_current_time matches 23000..23200 run advancement grant @a[gamemode=!spectator] only blazeandcave:statistics/the_first_night

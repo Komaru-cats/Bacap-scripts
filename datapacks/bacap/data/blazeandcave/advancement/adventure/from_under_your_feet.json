@@ -16,9 +16,13 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"stepping_on": {
-						"block": {
-							"blocks": "#minecraft:trapdoors"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"stepping_on": {
+							"block": {
+								"blocks": "#minecraft:trapdoors"
+							}
 						}
 					}
 				},
@@ -26,7 +30,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:is_projectile",
+								"id": "#minecraft:is_projectile",
 								"expected": true
 							}
 						],

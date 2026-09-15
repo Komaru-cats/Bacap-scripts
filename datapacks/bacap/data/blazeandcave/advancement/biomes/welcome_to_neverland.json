@@ -18,18 +18,16 @@
 				"item": {
 					"items": "minecraft:golden_dandelion"
 				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"flags": {
-								"is_baby": true
-							},
-							"nbt": "{AgeLocked:1b}"
-						}
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"flags": {
+							"is_baby": true
+						},
+						"nbt": "{AgeLocked:1b}"
 					}
-				]
+				}
 			}
 		}
 	}

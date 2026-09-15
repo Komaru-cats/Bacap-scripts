@@ -1,7 +1,7 @@
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}
 tellraw @s {"text":" "}
-tellraw @s {"text":"          Scoreboard Display Settings","color":"gold","bold":true}
-tellraw @s {"text":"  How to display 'First Advancement Blocks' scoreboard?","color":"#C1C1C1"}
+tellraw @s {"translate":"          Scoreboard Display Settings","color":"gold","bold":true}
+tellraw @s {"translate":"  How to display 'First Advancement Blocks' scoreboard?","color":"#C1C1C1"}
 tellraw @s {"text":" "}
 
 # On tab list
@@ -19,6 +19,6 @@ tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","
 tellraw @s {"text":" "}
 
 # Back button
-tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:config"},"hover_event":{"action":"show_text","value":{"translate":"Return to the main configuration menu.","color":"white"}}},{"text":"««","color":"yellow","click_event":{"action":"run_command","command":"/function bacap_wb_addon:config"},"hover_event":{"action":"show_text","value":{"translate":"Return to the main configuration menu.","color":"gold"}}},{"text":" ] ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:config"},"hover_event":{"action":"show_text","value":{"translate":"Return to the main configuration menu.","color":"gold"}}},{"translate":"Back to Main Config","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:config"},"hover_event":{"action":"show_text","value":{"translate":"Return to the main configuration menu.","color":"white"}}}]
+tellraw @s [{"text":"[ ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:config"},"hover_event":{"action":"show_text","value":{"translate":"Return to the main configuration menu.","color":"gold"}}},{"text":"««","color":"yellow","click_event":{"action":"run_command","command":"/function bacap_wb_addon:config"},"hover_event":{"action":"show_text","value":{"translate":"Return to the main configuration menu.","color":"gold"}}},{"text":" ] ","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:config"},"hover_event":{"action":"show_text","value":{"translate":"Return to the main configuration menu.","color":"gold"}}},{"translate":"Back to Main Config","color":"white","click_event":{"action":"run_command","command":"/function bacap_wb_addon:config"},"hover_event":{"action":"show_text","value":{"translate":"Return to the main configuration menu.","color":"gold"}}}]
 
 tellraw @s {"text":"                                             ","color":"dark_gray","strikethrough":true}

@@ -1,4 +1,5 @@
 import shutil
+import threading
 from pathlib import Path
 
 from scripts.WorldBorder.Types import DATAPACK_PRESET_PATH, NoAdvancementReward
@@ -7,7 +8,7 @@ from scripts.tools import DatapackList
 from scripts.tools.Advancement import AdvancementsManager
 from scripts.tools.Interface import MenuInterface
 from scripts.tools.InterfaceSchema import eget_value, print_warning
-from tools import fill_pattern
+from tools import fill_pattern, user_config
 
 mi = MenuInterface()
 
@@ -61,5 +62,42 @@ class MI:
         )
 
         shutil.rmtree(path)
+
+    @mi.register_func("Save to mc", "s")
+    def save_to_mc(self):
+        # Запрашиваем версию до старта потока
+        version = eget_value("Version (e.g., 'dev'):")
+
+        def save_operation():
+            datapack_path = Path(user_config["wb_addon_path"])
+
+            if datapack_path.exists():
+                has_mcmeta = any(file.name == "pack.mcmeta" for file in datapack_path.iterdir())
+                if not has_mcmeta:
+                    print_warning(
+                        "The wb_addon_path in user's config is invalid. Can't find pack.mcmeta\n"
+                        "If it's correct path - add pack.mcmeta",
+                        color="yellow",
+                    )
+                    return
+
+                shutil.rmtree(datapack_path)
+
+            shutil.copytree(DATAPACK_PRESET_PATH, datapack_path, dirs_exist_ok=True)
+
+            version_path = datapack_path / "data/bacap_wb_addon/function/config/version.mcfunction"
+            if version_path.exists():
+                version_path.write_text(
+                    fill_pattern(version_path.read_text(), {"version": version})
+                )
+
+            try:
+                Config.dataset.generate(datapack_path=datapack_path)
+            except NoAdvancementReward as e:
+                print_warning("Error occurred while generating unified rewards")
+                print_warning(str(e))
+                return
+
+        threading.Thread(target=save_operation).start()
 
 AdvancementsManager.generate(force=True)

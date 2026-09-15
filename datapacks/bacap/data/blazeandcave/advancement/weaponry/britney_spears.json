@@ -29,7 +29,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -53,7 +53,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -77,7 +77,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -101,7 +101,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -125,7 +125,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -149,7 +149,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -173,7 +173,7 @@
 						},
 						"tags": [
 							{
-								"id": "minecraft:is_player_attack",
+								"id": "#minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -197,7 +197,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
@@ -221,7 +221,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
@@ -245,7 +245,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
@@ -269,7 +269,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
@@ -293,7 +293,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
@@ -317,7 +317,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]
@@ -341,7 +341,7 @@
 						},
 						"tags": [
 							{
-								"id": "blazeandcave:spear",
+								"id": "#blazeandcave:spear",
 								"expected": true
 							}
 						]

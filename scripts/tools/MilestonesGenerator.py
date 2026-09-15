@@ -1,14 +1,19 @@
 import json
 from collections.abc import Iterable
 
-from . import Datapack, AdvancementsManager
+from . import AdvancementsManager, Datapack
 from .utils import get_adv_json
 
 
 class MilestonesGenerator:
     @staticmethod
     def generate_milestones(datapack: Datapack | Iterable[Datapack]) -> None:
+        """Generates milestone advancements criteria based on non-hidden advancements in each tab.
 
+        :param datapack: Single Datapack instance or an iterable of Datapack
+            instances.
+        :return: None
+        """
         datapack = datapack if isinstance(datapack, Iterable) else (datapack,)
 
         for dp in datapack:
@@ -17,7 +22,9 @@ class MilestonesGenerator:
             adv_by_tab_no_hidden = AdvancementsManager.split_by_tabs(
                 [
                     adv
-                    for adv in AdvancementsManager.filtered_iterator(datapack=dp)
+                    for adv in AdvancementsManager.filtered_iterator(
+                    datapack=dp
+                )
                     if not adv.hidden
                 ]
             )
@@ -28,18 +35,20 @@ class MilestonesGenerator:
                 adv_json["criteria"] = {}
 
                 for adv in adv_by_tab_no_hidden.get(tab, []):
-                    criteria = {
+                    adv_json["criteria"][adv.filename] = {
                         "trigger": "minecraft:location",
                         "conditions": {
                             "player": {
-                                "minecraft:type_specific/player": {"advancements": {}}
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:type_specific/player": {
+                                        "advancements": {adv.mc_path: True}
+                                    }
+                                },
                             }
                         },
                     }
-                    criteria["conditions"]["player"]["minecraft:type_specific/player"][
-                        "advancements"
-                    ][adv.mc_path] = True
-                    adv_json["criteria"][adv.filename] = criteria
 
                 milestone_path.write_text(
                     json.dumps(adv_json, indent=2), encoding=dp.encoding
@@ -47,8 +56,15 @@ class MilestonesGenerator:
                 AdvancementsManager.update_advancement(milestone_path, dp)
 
     @staticmethod
-    def generate_advancement_legend(datapack: Datapack | Iterable[Datapack]):
+    def generate_advancement_legend(
+            datapack: Datapack | Iterable[Datapack],
+    ) -> None:
+        """Generates criteria for the legendary advancement tracking all non-hidden advancements.
 
+        :param datapack: Single Datapack instance or an iterable of Datapack
+            instances.
+        :return: None
+        """
         datapack = datapack if isinstance(datapack, Iterable) else (datapack,)
 
         for dp in datapack:
@@ -67,18 +83,20 @@ class MilestonesGenerator:
                 if adv.path == dp.legend_adv_path:
                     continue
 
-                criteria = {
+                adv_json["criteria"][adv.filename] = {
                     "trigger": "minecraft:location",
                     "conditions": {
                         "player": {
-                            "minecraft:type_specific/player": {"advancements": {}}
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "advancements": {adv.mc_path: True}
+                                }
+                            },
                         }
                     },
                 }
-                criteria["conditions"]["player"]["minecraft:type_specific/player"][
-                    "advancements"
-                ][adv.mc_path] = True
-                adv_json["criteria"][adv.filename] = criteria
 
             dp.legend_adv_path.write_text(
                 json.dumps(adv_json, indent=2), encoding=dp.encoding
@@ -88,5 +106,11 @@ class MilestonesGenerator:
 
     @classmethod
     def generate_all(cls, datapack: Datapack | Iterable[Datapack]) -> None:
+        """Generates all milestone and legend advancement criteria.
+
+        :param datapack: Single Datapack instance or an iterable of Datapack
+            instances.
+        :return: None
+        """
         cls.generate_milestones(datapack)
         cls.generate_advancement_legend(datapack)

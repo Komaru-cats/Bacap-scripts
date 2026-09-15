@@ -23,7 +23,6 @@ $execute if data storage bacap_wb_addon:queue current_task{type:"add"} if score 
 execute if data storage bacap_wb_addon:queue current_task{type:"add"} if score fast_wb wb_config matches 0 run function bacap_wb_addon:border/apply_worldborder with storage bacap_wb_addon:macro
 execute if data storage bacap_wb_addon:queue current_task{type:"add"} if score fast_wb wb_config matches 1 run function bacap_wb_addon:border/apply_worldborder_fast with storage bacap_wb_addon:macro
 
-
 # Apply barrier expansion (type: set)
 $execute if data storage bacap_wb_addon:queue current_task{type:"set"} if score fast_wb wb_config matches 0 run function bacap_wb_addon:math/border_calculator_set {target_blocks: $(blocks)}
 $execute if data storage bacap_wb_addon:queue current_task{type:"set"} if score fast_wb wb_config matches 1 run function bacap_wb_addon:math/border_calculator_set_fast {target_blocks: $(blocks)}

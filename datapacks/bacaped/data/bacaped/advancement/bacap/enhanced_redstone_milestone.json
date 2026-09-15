@@ -87,13 +87,13 @@
         }
       }
     },
-    "more_optimizations": {
+    "more_optimisations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:redstone/more_optimizations": true
+              "bacaped:redstone/more_optimisations": true
             }
           }
         }
@@ -111,13 +111,13 @@
         }
       }
     },
-    "old_optimizations": {
+    "old_optimisations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:redstone/old_optimizations": true
+              "bacaped:redstone/old_optimisations": true
             }
           }
         }
@@ -147,13 +147,13 @@
         }
       }
     },
-    "using_a_bow_using_a_bow": {
+    "using_a_bow_a_bow_a_bow_a_bow": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:redstone/using_a_bow_using_a_bow": true
+              "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
             }
           }
         }

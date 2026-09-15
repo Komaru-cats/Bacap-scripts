@@ -45,3 +45,5 @@ bossbar set bacap_wb_addon:world_size players @a
 scoreboard players set first_time wb 1
 
 function bacap_wb_addon:system/1_second_timer
+
+function #bacap_wb_addon:install
