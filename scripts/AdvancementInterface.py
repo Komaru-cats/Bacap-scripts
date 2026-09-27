@@ -480,8 +480,8 @@ class MainInterface:
     def release(self):
         AdvancementsManager.generate()  # Updates all the advancement before release
 
-        BaseTranslationGenerator.update(DatapackList.default)
-        output("Base Translation updated")
+        # BaseTranslationGenerator.update(DatapackList.default)
+        # output("Base Translation updated")
 
         MilestonesGenerator.generate_all(DatapackList.default)
         output("Milestones created")
