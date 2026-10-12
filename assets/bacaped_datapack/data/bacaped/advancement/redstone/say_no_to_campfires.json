@@ -7,12 +7,11 @@
       "translate": "Say NO to Campfires"
     },
     "description": {
-      "translate": "Place a Dispenser next to a Beehive to automate the Bees\u2019 work",
+      "translate": "Place a Dispenser next to a Beehive to automate the Bees' work",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:redstone/using_a_bow_using_a_bow",
   "criteria": {

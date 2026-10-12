@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:tipped_arrow",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:strong_healing"
-        }
+        "minecraft:potion_contents": "minecraft:strong_healing"
       }
     },
     "title": {

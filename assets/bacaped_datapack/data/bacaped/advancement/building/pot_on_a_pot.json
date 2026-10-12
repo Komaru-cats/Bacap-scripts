@@ -11,7 +11,6 @@
       "color": "green"
     },
     "frame": "task",
-    "hidden": false,
     "announce_to_chat": true
   },
   "parent": "blazeandcave:building/pot_planter",

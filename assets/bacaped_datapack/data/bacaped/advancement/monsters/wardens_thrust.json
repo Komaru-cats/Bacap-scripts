@@ -20,15 +20,14 @@
       }
     },
     "title": {
-      "translate": "Warden\u2019s Thrust"
+      "translate": "Warden's Thrust"
     },
     "description": {
-      "translate": "Soar with an Elytra from a Warden\u2019s Sonic Boom attack",
+      "translate": "Soar with an Elytra from a Warden's Sonic Boom attack",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:monsters/now_thats_a_lot_of_damage",
   "criteria": {

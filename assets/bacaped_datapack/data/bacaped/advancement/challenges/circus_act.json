@@ -27,8 +27,7 @@
       "color": "#FF2A2A"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:challenges/red_plus_red_equals_brown",
   "criteria": {

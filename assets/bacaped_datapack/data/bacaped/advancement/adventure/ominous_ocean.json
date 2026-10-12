@@ -4,9 +4,7 @@
       "id": "minecraft:potion",
       "components": {
         "minecraft:enchantment_glint_override": true,
-        "minecraft:potion_contents": {
-          "potion": "minecraft:harming"
-        }
+        "minecraft:potion_contents": "minecraft:harming"
       }
     },
     "title": {
@@ -17,8 +15,7 @@
       "color": "dark_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:adventure/omniscient",
   "criteria": {

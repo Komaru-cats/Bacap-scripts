@@ -7,28 +7,28 @@
         "minecraft:base_color": "blue",
         "minecraft:banner_patterns": [
           {
-            "pattern": "minecraft:rhombus",
-            "color": "lime"
+            "color": "lime",
+            "pattern": "minecraft:rhombus"
           },
           {
-            "pattern": "minecraft:cross",
-            "color": "blue"
+            "color": "blue",
+            "pattern": "minecraft:cross"
           },
           {
-            "pattern": "minecraft:globe",
-            "color": "lime"
+            "color": "lime",
+            "pattern": "minecraft:globe"
           },
           {
-            "pattern": "minecraft:triangle_bottom",
-            "color": "yellow"
+            "color": "yellow",
+            "pattern": "minecraft:triangle_bottom"
           },
           {
-            "pattern": "minecraft:stripe_middle",
-            "color": "blue"
+            "color": "blue",
+            "pattern": "minecraft:stripe_middle"
           },
           {
-            "pattern": "minecraft:circle",
-            "color": "brown"
+            "color": "brown",
+            "pattern": "minecraft:circle"
           }
         ]
       }

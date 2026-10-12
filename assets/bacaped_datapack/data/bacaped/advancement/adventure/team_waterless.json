@@ -11,8 +11,7 @@
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:adventure/sponge_miner",
   "criteria": {
@@ -40,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:adventure/no_water_team"
+    "function": "bacaped_rewards:adventure/team_waterless"
   }
 }

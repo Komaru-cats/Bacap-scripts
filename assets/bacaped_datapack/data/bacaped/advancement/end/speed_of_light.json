@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:tipped_arrow",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:swiftness"
-        }
+        "minecraft:potion_contents": "minecraft:swiftness"
       }
     },
     "title": {
@@ -16,8 +14,7 @@
       "color": "dark_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:end/uh_houston_we_have_a_problem",
   "criteria": {

@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:skull_banner_pattern",
-      "components": {}
+      "id": "minecraft:skull_banner_pattern"
     },
     "title": {
       "translate": "Wither Aboard!"
