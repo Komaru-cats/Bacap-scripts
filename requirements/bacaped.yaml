@@ -1,0 +1,1188 @@
+bacaped:adventure/do_you_see_this:
+  default:
+
+bacaped:adventure/my_personal_slave:
+  default:
+
+bacaped:adventure/the_beginning_of_the_day:
+  default: "Ring a Bell between 6 a.m. and 6:30 a.m."
+
+bacaped:animal/air_balloon:
+  default:
+
+bacaped:animal/dinner_time:
+  default:
+
+bacaped:animal/horse_to_honse:
+  default: "Sit on a horse with {Temper:100} NBT tag"
+
+bacaped:animal/telefoxing:
+  default:
+
+bacaped:animal/youre_part_of_a_hive_mind_now:
+  default:
+
+bacaped:bacap/enhanced_potion_milestone:
+  default:
+
+bacaped:bacap/enhanced_redstone_milestone:
+  default:
+
+bacaped:biomes/unite_storm:
+  default:
+
+bacaped:building/artificial_forest:
+  default:
+
+bacaped:challenges/dragon_vs_warden_vi:
+  default:
+
+bacaped:challenges/dragon_vs_wither_iv:
+  default:
+
+bacaped:challenges/what_are_the_chances:
+  default:
+
+bacaped:challenges/what_a_stupid_purchase:
+  default:
+
+bacaped:end/one_small_step_for_man:
+  default:
+
+bacaped:end/speed_of_light:
+  default:
+
+bacaped:farming/its_midnight_already:
+  default:
+
+bacaped:farming/more_more_cookies:
+  default:
+
+bacaped:monsters/more_impossible:
+  default: "Kill the Wither while handing any type of arrow in the mainhand"
+
+bacaped:monsters/not_that_impossible:
+  default:
+  Hardcore:
+
+bacaped:nether/inside_out:
+  default:
+
+bacaped:nether/iron_beacon:
+  default:
+
+bacaped:statistics/ancient_sorcerer_sage:
+  default:
+
+bacaped:statistics/artisan_adept:
+  default:
+
+bacaped:statistics/ascension_ace:
+  default:
+
+bacaped:statistics/avid_trader:
+  default:
+
+bacaped:statistics/survivors_hour:
+  default:
+  Hardcore:
+
+bacaped:statistics/swift_herder:
+  default:
+
+bacaped:statistics/titan_of_olympian_gold_triumphs:
+  default:
+
+bacaped:statistics/totem_adept:
+  default:
+
+bacaped:adventure/fake_netherite_armor:
+  default:
+
+bacaped:adventure/oh_you_again:
+  default: "Open a door looking at a Wandering Trader through it"
+
+bacaped:adventure/save_me:
+  default:
+
+bacaped:adventure/wardens_thrust:
+  default:
+
+bacaped:animal/echoing_call:
+  default:
+
+bacaped:animal/live_salmon:
+  default:
+
+bacaped:animal/the_invisible_turtle:
+  default:
+
+bacaped:bacap/enhanced_monsters_milestone:
+  default:
+
+bacaped:biomes/icy_pirates:
+  default:
+
+bacaped:biomes/lost_ruin:
+  default:
+
+bacaped:challenges/5g_connectivity:
+  default:
+
+bacaped:challenges/5_birds_1_stone:
+  default:
+
+bacaped:challenges/happy_anniversary:
+  default:
+
+bacaped:challenges/happy_minecraft_year:
+  default:
+
+bacaped:nether/bastion_sweet_bastion:
+  default:
+
+bacaped:nether/beyond_the_rings:
+  default:
+
+bacaped:potion/worst_cleric_in_the_world:
+  default: "Fill your inventory with Mundane or Thick potions"
+
+bacaped:potion/youre_not_the_zillager:
+  default: "Have Weakness, Absorption and Regeneration 2 effects at the same time"
+
+bacaped:statistics/bedrock_breaker:
+  default:
+
+bacaped:statistics/chests_aficionado:
+  default:
+
+bacaped:statistics/my_chest:
+  default:
+
+bacaped:statistics/navigator_of_the_infinite_waters:
+  default:
+
+bacaped:statistics/totem_expert:
+  default:
+
+bacaped:statistics/totem_immortal:
+  default:
+
+bacaped:adventure/emerald_armor:
+  default:
+
+bacaped:adventure/ominous_vault_hunter:
+  default:
+
+bacaped:adventure/uncontrolled_reproduction:
+  default:
+
+bacaped:animal/crab_should_win:
+  default:
+
+bacaped:animal/sniffer-sniff-event:
+  default: "Have a Warden and a Sniffer within 8 blocks of you"
+
+bacaped:bacap/enhanced_adventure_milestone:
+  default:
+
+bacaped:biomes/accept_cookies:
+  default:
+
+bacaped:biomes/ready_for_everything:
+  default:
+
+bacaped:biomes/treasure_compass:
+  default: "Generate a buried treasure or shipwreck treasure while there is a dolphin at a distance of no more than 32 blocks from you, which leads to some kind of treasure"
+
+bacaped:biomes/underwater_pirates:
+  default: "Be in a boat under the water"
+
+bacaped:challenges/celestial_protocol:
+  default:
+
+bacaped:challenges/circus_act:
+  default:
+
+bacaped:challenges/oh_my_broken_legs:
+  default: "Fall over 1000 blocks and sit on any possible mob (This is only 1 of the ways to do it)"
+
+bacaped:challenges/one_in_a_million_steed:
+  default:
+
+bacaped:enchanting/elementals:
+  default:
+
+bacaped:enchanting/fully_charged:
+  default:
+
+bacaped:farming/doctors_hate_this_simple_trick:
+  default:
+
+bacaped:farming/eco_warrior:
+  default:
+
+bacaped:mining/pointy_problems:
+  default:
+
+bacaped:mining/redstoner:
+  default:
+
+bacaped:nether/blaze3d:
+  default:
+
+bacaped:nether/diamond_beacon:
+  default:
+
+bacaped:redstone/old_optimisations:
+  default:
+
+bacaped:redstone/oppositional_position:
+  default:
+
+bacaped:statistics/intermediate_fisher:
+  default:
+
+bacaped:statistics/jetsetter_of_the_skies:
+  default:
+
+bacaped:statistics/jungle_gymnast:
+  default:
+
+bacaped:statistics/ladder_legend:
+  default:
+
+bacaped:statistics/your_legs_are_beat:
+  default:
+
+bacaped:adventure/copper_armor:
+  default:
+
+bacaped:adventure/nobody_needs_rockets:
+  default:
+
+bacaped:adventure/real_immortal:
+  default:
+
+bacaped:adventure/the_hardest_and_unfairest_one_yet:
+  default:
+
+bacaped:animal/blind_friend:
+  default:
+
+bacaped:animal/extraordinary_duel:
+  default:
+
+bacaped:animal/pie-fox_fest:
+  default:
+
+bacaped:animal/what_are_you_doing_in_my_swamp:
+  default: "Have a Cat, Parrot, Wolf and Warm, Temperate and Cold Frog within 16 blocks of you in the swamp biome"
+
+bacaped:bacap/enhanced_statistics_milestone:
+  default:
+
+bacaped:bacap/enhanced_weaponry_milestone:
+  default:
+
+bacaped:challenges/monstrous_rocket:
+  default:
+
+bacaped:challenges/mounted_menace:
+  default:
+
+bacaped:challenges/star_fisherman:
+  default:
+
+bacaped:challenges/the_apocalyptic_decalogy:
+  default:
+
+bacaped:enchanting/heavy_catch:
+  default:
+
+bacaped:enchanting/master_shearer:
+  default: "Enchant Shears with Efficiency 5, Mending, Unbreaking 3"
+
+bacaped:end/end_at_the_start_of_the_game:
+  default:
+
+bacaped:end/interdimensional_travel:
+  default: "Teleport from the Nether to the End by using a pearl Stasis or throw an ender pearl through Nether and End portals"
+
+bacaped:farming/not_fireflies:
+  default:
+
+bacaped:farming/overpayment:
+  default:
+
+bacaped:monsters/born_to_spawn:
+  default: "Stand on a Blaze, Spider, Zombie, Skeleton, Silverfish, Cave Spider, and Magma Cube spawners"
+
+bacaped:monsters/frozen_heart:
+  default:
+
+bacaped:nether/give_them_everything_they_want:
+  default: "Give these items to the Piglin: Bell, Block of Gold, Block of Raw Gold, Clock, Deepslate Gold Ore, Enchanted Golden Apple, Glistering Melon Slice, Gilded Blackstone, Gold Ingot, Gold Ore, Golden Apple, Golden Axe, Golden Boots, Golden Carrot, Golden Chestplate, Golden Helmet, Golden Hoe, Golden Horse Armor, Golden Nautilus Armor, Golden Leggings, Golden Pickaxe, Golden Shovel, Golden Sword, Golden Spear, Light Weighted Pressure Plate, Nether Gold Ore, Raw Gold, Gold Nugget, Golden Dandelion"
+
+bacaped:nether/gold_beacon:
+  default:
+
+bacaped:redstone/heavy_steps:
+  default:
+
+bacaped:redstone/light_touch:
+  default:
+
+bacaped:redstone/more_optimisations:
+  default:
+
+bacaped:redstone/night_shift:
+  default:
+
+bacaped:statistics/ravager_repeller:
+  default:
+
+bacaped:statistics/resilient_centenarian:
+  default:
+  Hardcore:
+
+bacaped:statistics/shulker_explorer:
+  default:
+
+bacaped:statistics/shulker_maestro:
+  default:
+
+bacaped:adventure/advancement_info:
+  default: "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the cobblestone stairs"
+
+bacaped:adventure/ominous_ocean:
+  default:
+
+bacaped:adventure/silent_armor:
+  default:
+
+bacaped:animal/beezlebooster:
+  default:
+  Hardcore:
+
+bacaped:animal/furry_fury:
+  default:
+
+bacaped:animal/poisoned_ball:
+  default:
+
+bacaped:animal/whats_the_best_transport:
+  default: "Have a Skeleton Horse, Strider, Camel, Camel Husk, Mule, Donkey, any Chest Boat, Horse, Happy Ghast, Zombie Horse, Pig, any Boat, Minecart, Nautilus and Zombie Nautilus within 20 blocks of you"
+
+bacaped:bacap/enhanced_biomes_milestone:
+  default:
+
+bacaped:biomes/advanced_horse_transport:
+  default:
+
+bacaped:biomes/australia:
+  default:
+
+bacaped:building/chromatic_completion:
+  default:
+
+bacaped:building/potception:
+  default:
+
+bacaped:challenges/end_of_the_world_as_we_know_it:
+  default:
+
+bacaped:challenges/explosive_elexir:
+  default: "Have all the effects of a certain level or higher at the same time: Speed 2, Slowness 6, Strength 2, Jump Boost 2, Regeneration 2, Fire Resistance 1, Water Breathing 1, Invisibility 1, Night Vision 1, Weakness 1, Poison 2, Wither 2, Haste 2, Mining Fatigue 3, Levitation 1, Glowing 1, Absorption 4, Hunger 3, Nausea 1, Resistance 4, Slow Falling 1, Conduit Power 1, Dolphins Grace 1, Blindness 1, Hero of the Village 5, Darkness 1, Oozing 1, Weaving 1, Infested 1, Wind Charged 1, Raid Omen 5, Bad Omen 5, Trial Omen 1, Breath of the Nautilus 1, Saturation 1"
+
+bacaped:challenges/pyrotechnic_vs_dragon_v:
+  default:
+
+bacaped:challenges/raise_the_stakes:
+  default:
+
+bacaped:enchanting/master_shieldman:
+  default: "Enchant Shield with Mending, Unbreaking 3"
+
+bacaped:enchanting/master_sweeper:
+  default: "Enchant Brush with Mending, Unbreaking 3"
+
+bacaped:end/intergalactic_journey:
+  default:
+
+bacaped:end/last_hit:
+  default:
+
+bacaped:farming/exemplary_worker:
+  default:
+
+bacaped:farming/failed_successfully:
+  default:
+
+bacaped:mining/reinforced_miner:
+  default:
+
+bacaped:mining/the_master_of_falls:
+  default: "Fall on a Sweet Berry Bush, Water, Cobweb, Lava, Slime Block, Hay Block, Honey Block, any type of Bed, Scaffolding, Powder Snow"
+
+bacaped:nether/emerald_beacon:
+  default:
+
+bacaped:nether/firefox:
+  default: "Have a red Fox within 16 blocks of you in the Nether"
+
+bacaped:nether/flap_dont_fall:
+  default:
+
+bacaped:nether/ghast_squad:
+  default:
+
+bacaped:statistics/happy_1000_days:
+  default:
+
+bacaped:statistics/happy_chest_year:
+  default:
+
+bacaped:statistics/hr_manager_of_the_year:
+  default:
+
+bacaped:statistics/intercontinental_rail_nexus:
+  default:
+
+bacaped:adventure/general_cleaning:
+  default: "Use a brush on a spawner and inside Igloo, Desert Pyramid, Jungle Pyramid, Swamp Hut, desert Villager's House, plains Villager's House, savanna Villager's House, snowy Villager's House, taiga Villager's House, Mineshaft, Mesa Mineshaft, Stronghold, Fortress, End City, Monument, Mansion, cold Ocean Ruin, warm Ocean Ruin, Shipwreck, Buried Treasure, Pillager Outpost, Ruined Portal, Bastion, Trial Chambers, Trail Ruins, Abandoned Camp"
+
+bacaped:adventure/no_luck_for_the_next_guy:
+  default:
+
+bacaped:adventure/restoring_population:
+  default:
+
+bacaped:adventure/thorny_prices:
+  default:
+  Hardcore:
+
+bacaped:animal/buff_axolotl:
+  default:
+
+bacaped:animal/fox_poses:
+  default: "Look at a fox through the spyglass while it is crouching, sitting, and sleeping"
+
+bacaped:animal/ok_i_pull_up:
+  default:
+
+bacaped:animal/the_wool_magnate:
+  default:
+
+bacaped:bacap/enhanced_legend:
+  default:
+
+bacaped:bacap/enhanced_mining_milestone:
+  default:
+
+bacaped:challenges/extincion:
+  default:
+
+bacaped:challenges/from_the_underworld:
+  default:
+
+bacaped:challenges/sandwich:
+  default:
+
+bacaped:challenges/shield_of_achilles:
+  default:
+
+bacaped:enchanting/thin_line:
+  default: "Hold an item with \"minecraft:repair_cost\": 63 value"
+
+bacaped:enchanting/useless:
+  default: "Enchant a book with Curse of Binding and Vanishing"
+
+bacaped:end/universal_solitude:
+  default:
+
+bacaped:end/weightlessness:
+  default:
+
+bacaped:mining/chief_spide:
+  default:
+
+bacaped:mining/complete_orellection:
+  default:
+
+bacaped:monsters/one_minute_wardens_hugs:
+  default:
+
+bacaped:monsters/phantom_rider:
+  default:
+
+bacaped:nether/rainbow:
+  default:
+
+bacaped:nether/show_the_wither_his_home:
+  default: "Kill the Wither in Crimson Forest, Warped Forest, Soul Sand Valley, Basalt Deltas and Nether Wastes"
+
+bacaped:statistics/chest_lover:
+  default:
+
+bacaped:statistics/climb_expert:
+  default:
+
+bacaped:statistics/craftsman_novice:
+  default:
+
+bacaped:statistics/culinary_delight_maestro:
+  default:
+
+bacaped:statistics/shulker_seeker:
+  default:
+
+bacaped:statistics/shulker_voyager:
+  default:
+
+bacaped:statistics/skyward_legs:
+  default:
+
+bacaped:statistics/sovereign_of_martial_shifting:
+  default:
+
+bacaped:adventure/i_hate_all_of_you:
+  default:
+
+bacaped:adventure/on_site_sale:
+  default:
+
+bacaped:adventure/supply_chain:
+  default:
+
+bacaped:adventure/wandering_caravane:
+  default:
+
+bacaped:animal/camel_adventure:
+  default:
+
+bacaped:animal/i_love_salmons:
+  default:
+
+bacaped:animal/what_about_mooblooms:
+  default:
+
+bacaped:biomes/stop_there_youre_tall_enough:
+  default:
+
+bacaped:building/art_lover:
+  default:
+
+bacaped:building/bee_design:
+  default: "Make a 3x3 platform out of beehives and stand in the center"
+
+bacaped:challenges/dead_carnaval:
+  default: "Kill a Bogged, Zombie, Zombie Horse, Zombie Nautilus, Drowned, Husk, Camel Husk, Phantom, Skeleton, Skeleton Horse, Stray, Parched, Wither Skeleton, Zombie Villager, Zombified Piglin and Zoglin with a single firework rocket"
+
+bacaped:challenges/definitely_not_raid_farming:
+  default:
+
+bacaped:challenges/red_plus_red_equals_brown:
+  default:
+
+bacaped:challenges/riddle_me_that:
+  default: |-
+    1. Heal a zombie villager so that at the moment of transformation, at least one iron bar is within a 2-block radius around it
+    2. While on fire, sit in a cauldron with powder snow
+    3. Craft a decorated pot using burn, flow, angler, and miner pottery sherds
+    4. Fill every inventory slot with one light gray stained glass pane
+    5. Press Forward, Back, Right, and Left simultaneously
+    6. Collect a creeper head, creeper banner pattern, chiseled sandstone, cyan glazed terracotta, danger pottery sherd, banner with creeper pattern,shield with creeper banner, firework with creeper shape, and firework star with creeper shape in your inventory
+    7. Place a wool or moss carpet on grass by aiming at a side block, then place a pointed dripstone underneath it so that it hangs from the carpet
+    8.Kill a Stray on a horse while it's fighting a Stray on a spider, or vice versa
+    9. Kill cats of the same variant 9 times in a row
+    10. Trade with a villager sitting on a chicken, after healing a small zombie villager on a chicken
+
+bacaped:enchanting/pyromaniac:
+  default: "Enchant Flint and Steel with Mending, Unbreaking 3"
+
+bacaped:enchanting/small_targets:
+  default:
+
+bacaped:end/you_goat_me_to_an_end:
+  default:
+  Hardcore:
+
+bacaped:farming/apple_addiction:
+  default:
+
+bacaped:mining/flint_and_steal:
+  default:
+
+bacaped:mining/light_at_the_end_of_the_tunnel:
+  default: "Place a lantern on a block with light level 0"
+
+bacaped:monsters/spiders_liar:
+  default:
+
+bacaped:monsters/suspicious_duel:
+  default:
+
+bacaped:potion/cowabunga_it_is:
+  default:
+
+bacaped:potion/flashlight:
+  default:
+
+bacaped:redstone/say_no_to_campfires:
+  default:
+
+bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow:
+  default:
+
+bacaped:redstone/what_do_you_know_about_pistons:
+  default:
+
+bacaped:statistics/absolutely_ablaze_journey:
+  default:
+
+bacaped:statistics/speed_master:
+  default:
+
+bacaped:statistics/stone_cutter:
+  default:
+
+bacaped:statistics/storm_hog_pilgrim:
+  default:
+
+bacaped:statistics/survival_saga:
+  default:
+
+bacaped:adventure/dual_reality:
+  default:
+
+bacaped:adventure/komaru:
+  default:
+
+bacaped:adventure/suspicious_miner:
+  default:
+
+bacaped:animal/a_ewe_for_every_hue:
+  default:
+
+bacaped:animal/driven_to_death:
+  default:
+
+bacaped:animal/more_colorful_wool:
+  default:
+
+bacaped:animal/the_sugar_cane_diet:
+  default:
+
+bacaped:bacap/enhanced_animal_milestone:
+  default:
+
+bacaped:biomes/coolgrill:
+  default:
+
+bacaped:biomes/good_dreams:
+  default: "Sleep in Snowy Plains, Ice Spikes, Snowy Taiga, Windswept Hills or Gravely Hills or Forest, Taiga, Old Growth Pine or Spruce Taiga, Plains or Sunflower Plains, Forest or Flower Forest, Birch Forest or Old Growth Birch Forest, Dark Forest, Pale Garden, Swamp or Mangrove Swamp, Jungle or Sparse Jungle or Bamboo Jungle, River or Frozen River, Beach or Snowy Beach or Stony Shore, Mushroom Fields, Desert, Savanna or Savanna Plateau or Windswept Savanna, Badlands or Wooded Badlands or Eroded Badlands, Warm Ocean, Lukewarm Ocean or Deep Lukewarm Ocean, Ocean or Deep Ocean, Cold Ocean or Deep Cold Ocean, Frozen Ocean or Deep Frozen Ocean, Meadow, Snowy Slopes or Grove, Frozen Peaks or Jagged Peaks or Stony Peaks and Cherry Grove"
+
+bacaped:challenges/airborne_annihilator:
+  default:
+
+bacaped:challenges/astronomer:
+  default:
+
+bacaped:challenges/magic_kingdom:
+  default:
+
+bacaped:challenges/mob_universe:
+  default: |-
+    Collect all types of mobs from their dimension in each dimension within 128 blocks of you. Overworld Mobs: Allay, Armadillo, Axolotl, Bat, Camel, Cat, Chicken, Cod, Cow, Donkey, Frog, Glow Squid, Horse, Mooshroom, Mule, Ocelot, Parrot, Pig, Pufferfish, Rabbit, Salmon, Sheep, Skeleton Horse, Sniffer, Snow Golem, Squid, Tadpole, Tropical Fish, Turtle, Villager, Wandering Trader, Bee, Cave Spider, Dolphin, Drowned, Fox, Goat, Iron Golem, Llama, Panda, Polar Bear, Spider, Trader Llama, Wolf, Bogged, Breeze, Creeper, Elder Guardian, Evoker, Guardian, Husk, Phantom, Pillager, Ravager, Silverfish, Skeleton, Slime, Stray, Vex, Vindicator, Warden, Witch, Zombie, Zombie Villager, Creaking
+    Nether Mobs: Strider, Zombified Piglin, Blaze, Magma Cube, Piglin Brute, Wither Skeleton, Zoglin, Hoglin, Wither
+    End Mobs: Enderman, Endermite, Shulker, Ender Dragon
+
+bacaped:challenges/silence_is_loud_here:
+  default:
+
+bacaped:challenges/so_bright:
+  default:
+
+bacaped:challenges/wither_aboard:
+  default:
+
+bacaped:challenges/yes:
+  default:
+
+bacaped:end/the_lockbox:
+  default:
+
+bacaped:end/the_void:
+  default:
+
+bacaped:farming/raising_canes:
+  default: "Plant Sugarcane on Grass Block, Dirt, Coarse Dirt, Rooted Dirt, Podzol, Mycelium, Sand, Red Sand, Suspicious Sand, Moss Block, Mud"
+
+bacaped:mining/batman:
+  default:
+
+bacaped:monsters/get_out_of_my_sky:
+  default:
+  Hardcore:
+
+bacaped:monsters/high_explosives:
+  default:
+
+bacaped:nether/high_pitch:
+  default:
+
+bacaped:nether/hot_combat:
+  default:
+  Hardcore:
+
+bacaped:nether/hot_lake:
+  default:
+
+bacaped:nether/impostor:
+  default:
+
+bacaped:statistics/eternal_vanguard:
+  default:
+  Hardcore:
+
+bacaped:statistics/experienced_angler:
+  default:
+
+bacaped:statistics/frustrated_trader:
+  default:
+
+bacaped:statistics/ghastonaut:
+  default:
+
+bacaped:statistics/totem_tinkerer:
+  default:
+
+bacaped:statistics/true_submarine:
+  default:
+
+bacaped:statistics/vindicator_vanquisher:
+  default:
+
+bacaped:statistics/wrath_of_the_western_frontier:
+  default:
+
+bacaped:adventure/jurassic_park:
+  default:
+
+bacaped:adventure/on_the_wings_of_the_wind:
+  default:
+
+bacaped:adventure/the_cult_of_the_spyglass:
+  default:
+
+bacaped:animal/baby_zoo:
+  default: "Have a baby Axolotl, Cat, Chicken, Cow, Donkey, Fox, Horse, Mooshroom, Mule, Ocelot, Pig, Rabbit, Sheep, Strider, Turtle, Bee, Goat, Llama, Panda, Polar Bear, Wolf, Hoglin, Happy Ghast, Camel, Sniffer, Armadillo, Dolphin, Squid, Glow Squid, Nautilus within 32 blocks of you"
+
+bacaped:animal/horse_health_hunter:
+  default:
+
+bacaped:animal/skill_issue:
+  default:
+  Hardcore:
+
+bacaped:animal/what_a_mess_this_horse_is:
+  default:
+
+bacaped:bacap/enhanced_nether_milestone:
+  default:
+
+bacaped:biomes/my_mountains:
+  default: "Drink milk in any of these biomes: Frozen Peaks, Grove, Jagged Peaks, Meadow, Snowy Slopes, Stony Peaks, Windswept Forest, Windswept Gravelly Hills, Windswept Hills while looking at the Goat"
+
+bacaped:biomes/pandas_express:
+  default:
+
+bacaped:building/statue:
+  default:
+
+bacaped:building/stickman:
+  default:
+
+bacaped:challenges/how_did_you_end_up_here:
+  default:
+
+bacaped:challenges/interspecific_adventure:
+  default:
+
+bacaped:challenges/shopaholic:
+  default:
+
+bacaped:challenges/show_the_nether_to_a_silverfish:
+  default:
+
+bacaped:end/bee_colonist:
+  default: "Place a bee nest with 3 bees inside in the End"
+
+bacaped:end/compact_base:
+  default:
+
+bacaped:farming/auto_cactus:
+  default:
+
+bacaped:farming/christmas_spirit:
+  default:
+
+bacaped:mining/deepslate_master:
+  default: "Mine 16 blocks of: Reinforced Deepslate, Deepslate, Cobbled Deepslate, Cobbled Deepslate Wall, Chiseled Deepslate, Cobbled Deepslate Stairs, Cobbled Deepslate Slab, Polished Deepslate, Polished Deepslate Stairs, Polished Deepslate Slab, Polished Deepslate Wall, Deepslate Bricks, Cracked Deepslate Bricks, Deepslate Brick Stairs, Deepslate Brick Slab, Deepslate Brick Wall, Deepslate Tiles, Cracked Deepslate Tiles, Deepslate Tile Stairs, Deepslate Tile Slab, Deepslate Tile Wall"
+
+bacaped:mining/distorted_cave_maze:
+  default: "Be in the Deep Dark, Dripstone or Lush Caves biome or under y=20 without seeing the sky light for one hour"
+
+bacaped:monsters/the_inquisition:
+  default: "Hit a Witch and then kill it by using a campfire"
+
+bacaped:monsters/the_undertakers_revenge:
+  default: "Kill Phantom on y < -60 with an iron shovel"
+
+bacaped:nether/the_last_deal:
+  default:
+
+bacaped:nether/the_new_swamp_wont_be_here:
+  default:
+
+bacaped:nether/withering_depths:
+  default:
+
+bacaped:potion/armor_in_a_bottle:
+  default:
+
+bacaped:statistics/legendary_artisan:
+  default:
+
+bacaped:statistics/legend_of_the_races:
+  default:
+
+bacaped:statistics/ligmifitation:
+  default:
+
+bacaped:statistics/master_artificer:
+  default:
+
+bacaped:weaponry/air_battle:
+  default:
+
+bacaped:weaponry/cold_betrayal:
+  default:
+
+bacaped:weaponry/dead-eye:
+  default:
+
+bacaped:weaponry/deflector:
+  default:
+
+bacaped:adventure/eye_contact_master:
+  default: "Look at an Enderman less than 1 block away"
+
+bacaped:adventure/midnight_snack:
+  default: "Buy cookies from a Villager between 3 a.m. and 4 a.m."
+
+bacaped:adventure/placeholder:
+  default:
+
+bacaped:adventure/sus_miner:
+  default:
+
+bacaped:adventure/water_dependent:
+  default: "Stand on a pot and throw the splash potion into it"
+
+bacaped:animal/cheers:
+  default: "Use shears on a Sheep, Red and Brown Mooshrooms, Snow Golem, Bogged, Wolf, Beehive, Bee Nest, Pumpkin, Cave Vines, Kelp, Weeping Vines, Twisting Vines, Horse Horse Armor, Horse Saddle, Zombie Horse Horse Armor, Zombie Horse Saddle, Nautilus Nautilus Armor, Nautilus Saddle, Zombie Nautilus Nautilus Armor, Zombie Nautilus Saddle, Skeleton Horse, Donkey, Mule, Camel, Camel Husk, Happy Ghast, Pig, Strider, Llama, Copper Golem, Sulfur Cube"
+
+bacaped:animal/scared_box:
+  default:
+
+bacaped:animal/youre_bald:
+  default:
+
+bacaped:bacap/enhanced_end_milestone:
+  default:
+
+bacaped:bacap/enhanced_farming_milestone:
+  default:
+
+bacaped:biomes/the_boatman:
+  default:
+
+bacaped:biomes/the_infernal_cauldron:
+  default: "Spend 20 minutes in a lava cauldron"
+
+bacaped:challenges/big_horse_adventure:
+  default:
+
+bacaped:challenges/big_pig_adventure:
+  default: "Visit Fortress, Ruined Portal, Bastion, Nether Wastes, Crimson Forest, Warped Forest, Soul Sand Valley, Basalt Deltas without dismounting from the Pig"
+
+bacaped:challenges/professional_assassin:
+  default: "Kill these mobs 25 times: Bat, Armadillo, Breeze, Bogged, Chicken, Cod, Cow, Mooshroom, Pig, Rabbit, Sheep, Salmon, Squid, Tropical Fish, Turtle, Villager, Pufferfish, Cave Spider, Enderman, Panda, Polar Bear, Spider, Zombified Piglin, Blaze, Creeper, Drowned, Elder Guardian, Endermite, Evoker, Ghast, Guardian, Husk, Magma Cube, Phantom, Pillager, Ravager, Shulker, Silverfish, Skeleton, Slime, Stray, Vex, Vindicator, Witch, Wither Skeleton, Zombie Villager, Zombie, Cat, Donkey, Horse, Llama, Mule, Parrot, Trader Llama, Wolf, Dolphin, Fox, Ocelot, Iron Golem, Snow Golem, Wither, Bee, Piglin, Hoglin, Strider, Zoglin, Piglin Brute, Axolotl, Glow Squid, Goat, Frog, Tadpole, Allay, Warden, Camel, Sniffer, Ender Dragon, Creaking and kill a Wandering Trader and Skeleton Horse at least once"
+
+bacaped:challenges/pulse_detonation_engine:
+  default:
+
+bacaped:challenges/zero_coordinates_magnet:
+  default: "Kill a blue Axolotl at coordinates x: [-1; 1] z: [-1; 1] y: [-1; 1] in the End"
+
+bacaped:enchanting/all_the_netherite_tools:
+  default: "Enchant all of these Netherite items: 3 Swords with Unbreaking 3, Mending, Fire Aspect 2, Looting 3, Knockback 2, Sweeping Edge 3 with Sharpness 5, Smite 5 and Bane of Arthropods 5; Pickaxes, Shovels and Hoes with Unbreaking 3, Mending, Efficiency 5 with Silk Touch and Fortune 3; Axes with Unbreaking 3, Efficiency 5, Mending, Fortune 3 with Sharpness 5, Smite 5 and Bane of Arthropods 5 and Axes with Unbreaking 3, Efficiency 5, Mending, Silk Touch with Sharpness 5, Smite 5 and Bane of Arthropods 5; 3 Spears with Unbreaking 3, Mending, Fire Aspect 2, Looting 3, Knockback 2, Lunge 3 with Sharpness 5, Smite 5 and Bane of Arthropods 5"
+
+bacaped:farming/cookie_eater:
+  default:
+
+bacaped:farming/delicious:
+  default: "Feed a brown Mooshroom with Azure Bluet, Allium, Blue Archid, Dandelion, Golden Dandelion, Lily of the Valley, Corn Flower, Red Tulip, White Tulip, Pink Tulip, Orange Tulip, Poppy, Torchflower, Wither Rose, Oxeye Daisy"
+
+bacaped:mining/copper_king:
+  default:
+
+bacaped:mining/deepslated_miner:
+  default:
+
+bacaped:nether/a_long_journey:
+  default:
+
+bacaped:nether/bastion_robber:
+  default:
+
+bacaped:potion/healed_by_pain:
+  default:
+
+bacaped:potion/jump_for_joy:
+  default: "Kill a Rabbit, Slime, Magma Cube, Sulfur Cube, Frog, Goat while both you and them have a Jump Boost Effect"
+
+bacaped:potion/master_of_effects:
+  default: "Have all the effects of a certain level or higher not at the same time: Speed 2, Slowness 6, Strength 2, Jump Boost 2, Regeneration 2, Fire Resistance 1, Water Breathing 1, Invisibility 1, Night Vision 1, Weakness 1, Poison 2, Wither 2, Haste 2, Mining Fatigue 3, Levitation 1, Glowing 1, Absorption 4, Hunger 3, Nausea 1, Resistance 4, Slow Falling 1, Conduit Power 1, Dolphins Grace 1, Blindness 1, Hero of the Village 5, Darkness 1, Oozing 1, Weaving 1, Infested 1, Wind Charged 1, Raid Omen 5, Bad Omen 5, Trial Omen 1, Breath of the Nautilus 1"
+
+bacaped:potion/trial_potions:
+  default:
+
+bacaped:statistics/master_fisherman:
+  default:
+
+bacaped:statistics/master_of_survival:
+  default:
+  Hardcore:
+
+bacaped:statistics/metal_miner:
+  default:
+
+bacaped:statistics/mr_chester:
+  default:
+
+bacaped:weaponry/explosive_fisherman:
+  default:
+
+bacaped:weaponry/frightening_fishing:
+  default:
+
+bacaped:weaponry/glowball:
+  default:
+
+bacaped:weaponry/meet_the_snipe:
+  default:
+
+bacaped:adventure/herbalists_dream:
+  default:
+
+bacaped:adventure/no_water_team:
+  default:
+
+bacaped:adventure/real_netherite_armor:
+  default:
+
+bacaped:adventure/we_are_fine_really:
+  default:
+
+bacaped:animal/full_catch:
+  default: "Catch small, medium, large salmon with a water bucket"
+
+bacaped:animal/one_more_frog:
+  default: "Breed two frog while wearing a player head given as a trophy for the advancement \"When the Squad Hops into Town\""
+
+bacaped:animal/turtle_bowl:
+  default:
+
+bacaped:bacap/enhanced_enchanting_milestone:
+  default:
+
+bacaped:biomes/hydrodynamic:
+  default: "Get hit by a Polar Bear in the water"
+
+bacaped:biomes/ice_sculptor:
+  default:
+
+bacaped:challenges/baron_munchausen:
+  default:
+
+bacaped:challenges/big_end_adventure:
+  default: "Kill the Ender Dragon, visit End City and this biomes: The End, End Highlands, End Midlands, End Barrens, Small End Islands without dismounting from the Strider"
+
+bacaped:challenges/my_little_pig:
+  default:
+
+bacaped:challenges/no_shield_please:
+  default:
+
+bacaped:challenges/the_king_of_the_redskins:
+  default:
+
+bacaped:challenges/the_world_is_actually_ending_2:
+  default:
+
+bacaped:end/dragon_blitz:
+  default:
+
+bacaped:end/endergardener:
+  default:
+
+bacaped:farming/plant_enthusiast:
+  default:
+
+bacaped:farming/preventive_conversation:
+  default: "Kill the rabbit within 1 second after it has eaten the carrots from the farmland"
+
+bacaped:monsters/i_uh_forgot_a_composter:
+  default:
+
+bacaped:monsters/live_cactus:
+  default:
+
+bacaped:nether/netherite_beacon:
+  default:
+
+bacaped:nether/never_careful_enough:
+  default: "Stand on a Magma block with frost walker enchantment on the boots and fire resistance effect"
+
+bacaped:statistics/diamond_digger:
+  default:
+
+bacaped:statistics/did_you_get_mending_yet:
+  default:
+
+bacaped:statistics/duo_dynamo:
+  default:
+
+bacaped:statistics/epic_capital_conqueror:
+  default:
+
+bacaped:weaponry/the_explosive_adventure:
+  default:
+
+bacaped:weaponry/unlucky:
+  default:
+  Hardcore:
+
+bacaped:weaponry/wind_burst_fox:
+  default:
+
+bacaped:adventure/din_don:
+  default:
+
+bacaped:adventure/not_profitable_transportation:
+  default:
+
+bacaped:adventure/pottery_collector:
+  default:
+
+bacaped:adventure/thats_a_new_style:
+  default:
+
+bacaped:adventure/water_team:
+  default:
+
+bacaped:animal/desert_warrior:
+  default:
+
+bacaped:animal/hot:
+  default:
+
+bacaped:animal/the_foxs_banquet:
+  default: "Feed the fox with this types of food: Apple, Mushroom Stew, Bread, Golden Apple, Enchanted Golden Apple, Melon, Carrot, Potato, Baked Potato, Poisonous Potato, Golden Carrot, Pumpkin Pie, Chorus Fruit, Beetroot, Beetroot Soup, Dried Kelp, Suspicious Stew, Sweet Berries, Honey Bottle, Glow Berries, Cookie, Raw Porkchop, Cooked Porkchop, Raw Fish, Salmon, Tropical Fish, Pufferfish, Cooked Fish, Cooked Salmon, Raw Beef, Steak, Raw Chicken, Cooked Chicken, Rotten Flesh, Spider Eye, Rabbit, Cooked Rabbit, Rabbit Stew, Mutton, Cooked Mutton, Ominous Bottle"
+
+bacaped:bacap/enhanced_building_milestone:
+  default:
+
+bacaped:bacap/enhanced_challenges_milestone:
+  default:
+
+bacaped:building/pot_on_a_pot:
+  default:
+
+bacaped:building/smoke_signal:
+  default:
+
+bacaped:challenges/command_work:
+  default:
+
+bacaped:challenges/compass_overload:
+  default:
+
+bacaped:challenges/piggish_poison_tango:
+  default:
+
+bacaped:challenges/pooch_purge_pilot:
+  default: "Kill an Ashen Wolf in the Snowy Taiga, Black Wolf in the Old Growth Pine Taiga, Chestnut Wolf in the Old Growth Spruce Taiga, Pale Wolf in the Taiga, Rusty Wolf in any type of the Jungle, Snowy Wolf in the Grove, Spotted Wolf in any type of Savanna, Striped Wolf in any type of Badlands, Woods Wolf in any type of Forest, without getting off the Llama"
+
+bacaped:challenges/thousand_lives:
+  default:
+
+bacaped:challenges/void_being:
+  default:
+
+bacaped:farming/golems:
+  default: "Have an Iron Golem, Copper Golem, Snow Golem and Wither within 16 blocks of you"
+
+bacaped:farming/high_risk:
+  default:
+
+bacaped:mining/time_killer:
+  default:
+
+bacaped:monsters/arachnophobia:
+  default: "Kill Spiders with this effects with a single piercing shot: Regeneration, Invisibility, Strength, Speed"
+
+bacaped:nether/happy_ghast_silencer:
+  default:
+
+bacaped:nether/herbarium_to_my_friend:
+  default: "Give these flowers to the Baby Piglin: Azure Bluet, Allium, Blue Archid, Dandelion, Lily of the Valley, Corn Flower, Red Tulip, White Tulip, Pink Tulip, Orange Tulip, Poppy, Torchflower, Wither Rose, Oxeye Daisy, Sunflower, Rose Bush, Pitcher Plant, Peony, Lilac, Wither Rose, Closed Eyeblossom, Open Eyeblossom, Golden Dandelion"
+
+bacaped:redstone/crafting_lockdown:
+  default:
+
+bacaped:redstone/craft_me_all:
+  default: "Craft the following items with the Crafter: Redstone, Redstone Torch, Redstone Block, Repeater, Comparator, Target, Lever, Oak Button, Stone Button, Oak Pressure Plate, Stone Pressure Plate, Light-Weighted Pressure Plate, Heavy-Weighted Pressure Plate, Calibrated Sculk Sensor, Amethyst Block, White Wool, Tripwire Hook, Lectern, Daylight Detector, Lightning Rod, Piston, Sticky Piston, Slime Block, Honey Block, Dispenser, Dropper, Hopper, Chest, Barrel, Chiseled Bookshelf, Furnace, Trapped Chest, Jukebox, Observer, Note Block, Composter, Cauldron, Rail, Powered Rail, Detector Rail, Activator Rail, Minecart, Hopper Minecart, Chest Minecart, Furnace Minecart, TNT Minecart, Oak Boat with Chest, Bamboo Raft with Chest, Oak Door, Iron Door, Oak Fence Gate, Oak Trapdoor, Iron Trapdoor, TNT, Redstone Lamp, Armor Stand, Decorated Pot, Crafter, Copper Bulb"
+
+bacaped:redstone/farm_basics:
+  default:
+
+bacaped:redstone/fat_cat:
+  default:
+
+bacaped:statistics/novice_angler:
+  default:
+
+bacaped:statistics/novice_scout:
+  default:
+
+bacaped:statistics/pillager_protector:
+  default:
+
+bacaped:statistics/raid_resister:
+  default:
+
+bacaped:weaponry/more_shields:
+  default:
+
+bacaped:weaponry/renowned_armament:
+  default:
+
+bacaped:weaponry/snow_fights:
+  default:
+
+bacaped:weaponry/surface_to_air_missle:
+  default:

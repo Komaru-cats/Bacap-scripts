@@ -18,7 +18,7 @@ The code can generate files for advancements, trophies, and messages. It include
     - Generates advancement data for the website
 
 ## How to Run
-To launch the interface for **Enhanced Discovery**:
+To launch the interface for **Enhanced Discoveries**:
 
 ```bash
 python scripts/AdvancementInterface.py

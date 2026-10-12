@@ -1,0 +1,17 @@
+﻿registry_path: "./registries"
+release_path: "./releases"
+wb_addon_path: "./assets/wb_addon_datapack"
+database_path: "wb_addon.db"
+
+datapacks:
+  bacap:
+    path: "./assets/bacaped_datapack"
+    main_namespace: "blazeandcave"
+    reward_namespace: "bacap_rewards"
+    type: "reference"
+
+  bacaped:
+    path: "./assets/bacaped_hardcore_datapack"
+    main_namespace: "bacaped"
+    reward_namespace: "bacaped_rewards"
+    type: "reference"

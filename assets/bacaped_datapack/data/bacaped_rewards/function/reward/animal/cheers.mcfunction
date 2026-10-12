@@ -1,0 +1,4 @@
+give @s minecraft:shears
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.shears"}]}
+give @s minecraft:bread 120
+tellraw @s {text:" +120 ",color:"green",extra:[{translate:"item.minecraft.bread"}]}

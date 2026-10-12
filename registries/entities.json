@@ -1,0 +1,968 @@
+{
+  "acacia_boat": {
+    "display_name": "Acacia Boat",
+    "translation_key": "entity.minecraft.acacia_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "acacia_chest_boat": {
+    "display_name": "Acacia Boat with Chest",
+    "translation_key": "entity.minecraft.acacia_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "allay": {
+    "display_name": "Allay",
+    "translation_key": "entity.minecraft.allay",
+    "category": "creature",
+    "summonable": true
+  },
+  "area_effect_cloud": {
+    "display_name": "Area Effect Cloud",
+    "translation_key": "entity.minecraft.area_effect_cloud",
+    "category": "misc",
+    "summonable": true
+  },
+  "armadillo": {
+    "display_name": "Armadillo",
+    "translation_key": "entity.minecraft.armadillo",
+    "category": "creature",
+    "summonable": true
+  },
+  "armor_stand": {
+    "display_name": "Armor Stand",
+    "translation_key": "entity.minecraft.armor_stand",
+    "category": "misc",
+    "summonable": true
+  },
+  "arrow": {
+    "display_name": "Arrow",
+    "translation_key": "entity.minecraft.arrow",
+    "category": "misc",
+    "summonable": true
+  },
+  "axolotl": {
+    "display_name": "Axolotl",
+    "translation_key": "entity.minecraft.axolotl",
+    "category": "axolotls",
+    "summonable": true
+  },
+  "bamboo_chest_raft": {
+    "display_name": "Bamboo Raft with Chest",
+    "translation_key": "entity.minecraft.bamboo_chest_raft",
+    "category": "misc",
+    "summonable": true
+  },
+  "bamboo_raft": {
+    "display_name": "Bamboo Raft",
+    "translation_key": "entity.minecraft.bamboo_raft",
+    "category": "misc",
+    "summonable": true
+  },
+  "bat": {
+    "display_name": "Bat",
+    "translation_key": "entity.minecraft.bat",
+    "category": "ambient",
+    "summonable": true
+  },
+  "bee": {
+    "display_name": "Bee",
+    "translation_key": "entity.minecraft.bee",
+    "category": "creature",
+    "summonable": true
+  },
+  "birch_boat": {
+    "display_name": "Birch Boat",
+    "translation_key": "entity.minecraft.birch_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "birch_chest_boat": {
+    "display_name": "Birch Boat with Chest",
+    "translation_key": "entity.minecraft.birch_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "blaze": {
+    "display_name": "Blaze",
+    "translation_key": "entity.minecraft.blaze",
+    "category": "monster",
+    "summonable": true
+  },
+  "block_display": {
+    "display_name": "Block Display",
+    "translation_key": "entity.minecraft.block_display",
+    "category": "misc",
+    "summonable": true
+  },
+  "bogged": {
+    "display_name": "Bogged",
+    "translation_key": "entity.minecraft.bogged",
+    "category": "monster",
+    "summonable": true
+  },
+  "breeze": {
+    "display_name": "Breeze",
+    "translation_key": "entity.minecraft.breeze",
+    "category": "monster",
+    "summonable": true
+  },
+  "breeze_wind_charge": {
+    "display_name": "Wind Charge",
+    "translation_key": "entity.minecraft.breeze_wind_charge",
+    "category": "misc",
+    "summonable": true
+  },
+  "camel": {
+    "display_name": "Camel",
+    "translation_key": "entity.minecraft.camel",
+    "category": "creature",
+    "summonable": true
+  },
+  "camel_husk": {
+    "display_name": "Camel Husk",
+    "translation_key": "entity.minecraft.camel_husk",
+    "category": "monster",
+    "summonable": true
+  },
+  "cat": {
+    "display_name": "Cat",
+    "translation_key": "entity.minecraft.cat",
+    "category": "creature",
+    "summonable": true
+  },
+  "cave_spider": {
+    "display_name": "Cave Spider",
+    "translation_key": "entity.minecraft.cave_spider",
+    "category": "monster",
+    "summonable": true
+  },
+  "cherry_boat": {
+    "display_name": "Cherry Boat",
+    "translation_key": "entity.minecraft.cherry_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "cherry_chest_boat": {
+    "display_name": "Cherry Boat with Chest",
+    "translation_key": "entity.minecraft.cherry_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "chest_minecart": {
+    "display_name": "Minecart with Chest",
+    "translation_key": "entity.minecraft.chest_minecart",
+    "category": "misc",
+    "summonable": true
+  },
+  "chicken": {
+    "display_name": "Chicken",
+    "translation_key": "entity.minecraft.chicken",
+    "category": "creature",
+    "summonable": true
+  },
+  "cod": {
+    "display_name": "Cod",
+    "translation_key": "entity.minecraft.cod",
+    "category": "water_ambient",
+    "summonable": true
+  },
+  "copper_golem": {
+    "display_name": "Copper Golem",
+    "translation_key": "entity.minecraft.copper_golem",
+    "category": "misc",
+    "summonable": true
+  },
+  "command_block_minecart": {
+    "display_name": "Minecart with Command Block",
+    "translation_key": "entity.minecraft.command_block_minecart",
+    "category": "misc",
+    "summonable": true
+  },
+  "cow": {
+    "display_name": "Cow",
+    "translation_key": "entity.minecraft.cow",
+    "category": "creature",
+    "summonable": true
+  },
+  "creaking": {
+    "display_name": "Creaking",
+    "translation_key": "entity.minecraft.creaking",
+    "category": "monster",
+    "summonable": true
+  },
+  "creeper": {
+    "display_name": "Creeper",
+    "translation_key": "entity.minecraft.creeper",
+    "category": "monster",
+    "summonable": true
+  },
+  "cushion": {
+    "display_name": "Cushion",
+    "translation_key": "entity.minecraft.cushion",
+    "category": "misc",
+    "summonable": true
+  },
+  "dark_oak_boat": {
+    "display_name": "Dark Oak Boat",
+    "translation_key": "entity.minecraft.dark_oak_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "dark_oak_chest_boat": {
+    "display_name": "Dark Oak Boat with Chest",
+    "translation_key": "entity.minecraft.dark_oak_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "dolphin": {
+    "display_name": "Dolphin",
+    "translation_key": "entity.minecraft.dolphin",
+    "category": "water_creature",
+    "summonable": true
+  },
+  "donkey": {
+    "display_name": "Donkey",
+    "translation_key": "entity.minecraft.donkey",
+    "category": "creature",
+    "summonable": true
+  },
+  "dragon_fireball": {
+    "display_name": "Dragon Fireball",
+    "translation_key": "entity.minecraft.dragon_fireball",
+    "category": "misc",
+    "summonable": true
+  },
+  "drowned": {
+    "display_name": "Drowned",
+    "translation_key": "entity.minecraft.drowned",
+    "category": "monster",
+    "summonable": true
+  },
+  "egg": {
+    "display_name": "Thrown Egg",
+    "translation_key": "entity.minecraft.egg",
+    "category": "misc",
+    "summonable": true
+  },
+  "elder_guardian": {
+    "display_name": "Elder Guardian",
+    "translation_key": "entity.minecraft.elder_guardian",
+    "category": "monster",
+    "summonable": true
+  },
+  "enderman": {
+    "display_name": "Enderman",
+    "translation_key": "entity.minecraft.enderman",
+    "category": "monster",
+    "summonable": true
+  },
+  "endermite": {
+    "display_name": "Endermite",
+    "translation_key": "entity.minecraft.endermite",
+    "category": "monster",
+    "summonable": true
+  },
+  "ender_dragon": {
+    "display_name": "Ender Dragon",
+    "translation_key": "entity.minecraft.ender_dragon",
+    "category": "monster",
+    "summonable": true
+  },
+  "ender_pearl": {
+    "display_name": "Thrown Ender Pearl",
+    "translation_key": "entity.minecraft.ender_pearl",
+    "category": "misc",
+    "summonable": true
+  },
+  "end_crystal": {
+    "display_name": "End Crystal",
+    "translation_key": "entity.minecraft.end_crystal",
+    "category": "misc",
+    "summonable": true
+  },
+  "evoker": {
+    "display_name": "Evoker",
+    "translation_key": "entity.minecraft.evoker",
+    "category": "monster",
+    "summonable": true
+  },
+  "evoker_fangs": {
+    "display_name": "Evoker Fangs",
+    "translation_key": "entity.minecraft.evoker_fangs",
+    "category": "misc",
+    "summonable": true
+  },
+  "experience_bottle": {
+    "display_name": "Thrown Bottle o\u0027 Enchanting",
+    "translation_key": "entity.minecraft.experience_bottle",
+    "category": "misc",
+    "summonable": true
+  },
+  "experience_orb": {
+    "display_name": "Experience Orb",
+    "translation_key": "entity.minecraft.experience_orb",
+    "category": "misc",
+    "summonable": true
+  },
+  "eye_of_ender": {
+    "display_name": "Eye of Ender",
+    "translation_key": "entity.minecraft.eye_of_ender",
+    "category": "misc",
+    "summonable": true
+  },
+  "falling_block": {
+    "display_name": "Falling Block",
+    "translation_key": "entity.minecraft.falling_block",
+    "category": "misc",
+    "summonable": true
+  },
+  "fireball": {
+    "display_name": "Fireball",
+    "translation_key": "entity.minecraft.fireball",
+    "category": "misc",
+    "summonable": true
+  },
+  "firework_rocket": {
+    "display_name": "Firework Rocket",
+    "translation_key": "entity.minecraft.firework_rocket",
+    "category": "misc",
+    "summonable": true
+  },
+  "fox": {
+    "display_name": "Fox",
+    "translation_key": "entity.minecraft.fox",
+    "category": "creature",
+    "summonable": true
+  },
+  "frog": {
+    "display_name": "Frog",
+    "translation_key": "entity.minecraft.frog",
+    "category": "creature",
+    "summonable": true
+  },
+  "furnace_minecart": {
+    "display_name": "Minecart with Furnace",
+    "translation_key": "entity.minecraft.furnace_minecart",
+    "category": "misc",
+    "summonable": true
+  },
+  "ghast": {
+    "display_name": "Ghast",
+    "translation_key": "entity.minecraft.ghast",
+    "category": "monster",
+    "summonable": true
+  },
+  "happy_ghast": {
+    "display_name": "Happy Ghast",
+    "translation_key": "entity.minecraft.happy_ghast",
+    "category": "creature",
+    "summonable": true
+  },
+  "giant": {
+    "display_name": "Giant",
+    "translation_key": "entity.minecraft.giant",
+    "category": "monster",
+    "summonable": true
+  },
+  "glow_item_frame": {
+    "display_name": "Glow Item Frame",
+    "translation_key": "entity.minecraft.glow_item_frame",
+    "category": "misc",
+    "summonable": true
+  },
+  "glow_squid": {
+    "display_name": "Glow Squid",
+    "translation_key": "entity.minecraft.glow_squid",
+    "category": "underground_water_creature",
+    "summonable": true
+  },
+  "goat": {
+    "display_name": "Goat",
+    "translation_key": "entity.minecraft.goat",
+    "category": "creature",
+    "summonable": true
+  },
+  "guardian": {
+    "display_name": "Guardian",
+    "translation_key": "entity.minecraft.guardian",
+    "category": "monster",
+    "summonable": true
+  },
+  "hoglin": {
+    "display_name": "Hoglin",
+    "translation_key": "entity.minecraft.hoglin",
+    "category": "monster",
+    "summonable": true
+  },
+  "hopper_minecart": {
+    "display_name": "Minecart with Hopper",
+    "translation_key": "entity.minecraft.hopper_minecart",
+    "category": "misc",
+    "summonable": true
+  },
+  "horse": {
+    "display_name": "Horse",
+    "translation_key": "entity.minecraft.horse",
+    "category": "creature",
+    "summonable": true
+  },
+  "husk": {
+    "display_name": "Husk",
+    "translation_key": "entity.minecraft.husk",
+    "category": "monster",
+    "summonable": true
+  },
+  "illusioner": {
+    "display_name": "Illusioner",
+    "translation_key": "entity.minecraft.illusioner",
+    "category": "monster",
+    "summonable": true
+  },
+  "interaction": {
+    "display_name": "Interaction",
+    "translation_key": "entity.minecraft.interaction",
+    "category": "misc",
+    "summonable": true
+  },
+  "iron_golem": {
+    "display_name": "Iron Golem",
+    "translation_key": "entity.minecraft.iron_golem",
+    "category": "misc",
+    "summonable": true
+  },
+  "item": {
+    "display_name": "Item",
+    "translation_key": "entity.minecraft.item",
+    "category": "misc",
+    "summonable": true
+  },
+  "item_display": {
+    "display_name": "Item Display",
+    "translation_key": "entity.minecraft.item_display",
+    "category": "misc",
+    "summonable": true
+  },
+  "item_frame": {
+    "display_name": "Item Frame",
+    "translation_key": "entity.minecraft.item_frame",
+    "category": "misc",
+    "summonable": true
+  },
+  "jungle_boat": {
+    "display_name": "Jungle Boat",
+    "translation_key": "entity.minecraft.jungle_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "jungle_chest_boat": {
+    "display_name": "Jungle Boat with Chest",
+    "translation_key": "entity.minecraft.jungle_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "leash_knot": {
+    "display_name": "Leash Knot",
+    "translation_key": "entity.minecraft.leash_knot",
+    "category": "misc",
+    "summonable": true
+  },
+  "lightning_bolt": {
+    "display_name": "Lightning Bolt",
+    "translation_key": "entity.minecraft.lightning_bolt",
+    "category": "misc",
+    "summonable": true
+  },
+  "llama": {
+    "display_name": "Llama",
+    "translation_key": "entity.minecraft.llama",
+    "category": "creature",
+    "summonable": true
+  },
+  "llama_spit": {
+    "display_name": "Llama Spit",
+    "translation_key": "entity.minecraft.llama_spit",
+    "category": "misc",
+    "summonable": true
+  },
+  "magma_cube": {
+    "display_name": "Magma Cube",
+    "translation_key": "entity.minecraft.magma_cube",
+    "category": "monster",
+    "summonable": true
+  },
+  "mangrove_boat": {
+    "display_name": "Mangrove Boat",
+    "translation_key": "entity.minecraft.mangrove_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "mangrove_chest_boat": {
+    "display_name": "Mangrove Boat with Chest",
+    "translation_key": "entity.minecraft.mangrove_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "mannequin": {
+    "display_name": "Mannequin",
+    "translation_key": "entity.minecraft.mannequin",
+    "category": "misc",
+    "summonable": true
+  },
+  "marker": {
+    "display_name": "Marker",
+    "translation_key": "entity.minecraft.marker",
+    "category": "misc",
+    "summonable": true
+  },
+  "minecart": {
+    "display_name": "Minecart",
+    "translation_key": "entity.minecraft.minecart",
+    "category": "misc",
+    "summonable": true
+  },
+  "mooshroom": {
+    "display_name": "Mooshroom",
+    "translation_key": "entity.minecraft.mooshroom",
+    "category": "creature",
+    "summonable": true
+  },
+  "mule": {
+    "display_name": "Mule",
+    "translation_key": "entity.minecraft.mule",
+    "category": "creature",
+    "summonable": true
+  },
+  "nautilus": {
+    "display_name": "Nautilus",
+    "translation_key": "entity.minecraft.nautilus",
+    "category": "water_creature",
+    "summonable": true
+  },
+  "oak_boat": {
+    "display_name": "Oak Boat",
+    "translation_key": "entity.minecraft.oak_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "oak_chest_boat": {
+    "display_name": "Oak Boat with Chest",
+    "translation_key": "entity.minecraft.oak_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "ocelot": {
+    "display_name": "Ocelot",
+    "translation_key": "entity.minecraft.ocelot",
+    "category": "creature",
+    "summonable": true
+  },
+  "ominous_item_spawner": {
+    "display_name": "Ominous Item Spawner",
+    "translation_key": "entity.minecraft.ominous_item_spawner",
+    "category": "misc",
+    "summonable": true
+  },
+  "painting": {
+    "display_name": "Painting",
+    "translation_key": "entity.minecraft.painting",
+    "category": "misc",
+    "summonable": true
+  },
+  "pale_oak_boat": {
+    "display_name": "Pale Oak Boat",
+    "translation_key": "entity.minecraft.pale_oak_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "pale_oak_chest_boat": {
+    "display_name": "Pale Oak Boat with Chest",
+    "translation_key": "entity.minecraft.pale_oak_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "panda": {
+    "display_name": "Panda",
+    "translation_key": "entity.minecraft.panda",
+    "category": "creature",
+    "summonable": true
+  },
+  "parched": {
+    "display_name": "Parched",
+    "translation_key": "entity.minecraft.parched",
+    "category": "monster",
+    "summonable": true
+  },
+  "parrot": {
+    "display_name": "Parrot",
+    "translation_key": "entity.minecraft.parrot",
+    "category": "creature",
+    "summonable": true
+  },
+  "phantom": {
+    "display_name": "Phantom",
+    "translation_key": "entity.minecraft.phantom",
+    "category": "monster",
+    "summonable": true
+  },
+  "pig": {
+    "display_name": "Pig",
+    "translation_key": "entity.minecraft.pig",
+    "category": "creature",
+    "summonable": true
+  },
+  "piglin": {
+    "display_name": "Piglin",
+    "translation_key": "entity.minecraft.piglin",
+    "category": "monster",
+    "summonable": true
+  },
+  "piglin_brute": {
+    "display_name": "Piglin Brute",
+    "translation_key": "entity.minecraft.piglin_brute",
+    "category": "monster",
+    "summonable": true
+  },
+  "pillager": {
+    "display_name": "Pillager",
+    "translation_key": "entity.minecraft.pillager",
+    "category": "monster",
+    "summonable": true
+  },
+  "polar_bear": {
+    "display_name": "Polar Bear",
+    "translation_key": "entity.minecraft.polar_bear",
+    "category": "creature",
+    "summonable": true
+  },
+  "poplar_boat": {
+    "display_name": "Poplar Boat",
+    "translation_key": "entity.minecraft.poplar_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "poplar_chest_boat": {
+    "display_name": "Poplar Boat with Chest",
+    "translation_key": "entity.minecraft.poplar_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "splash_potion": {
+    "display_name": "Splash Potion",
+    "translation_key": "entity.minecraft.splash_potion",
+    "category": "misc",
+    "summonable": true
+  },
+  "lingering_potion": {
+    "display_name": "Lingering Potion",
+    "translation_key": "entity.minecraft.lingering_potion",
+    "category": "misc",
+    "summonable": true
+  },
+  "pufferfish": {
+    "display_name": "Pufferfish",
+    "translation_key": "entity.minecraft.pufferfish",
+    "category": "water_ambient",
+    "summonable": true
+  },
+  "rabbit": {
+    "display_name": "Rabbit",
+    "translation_key": "entity.minecraft.rabbit",
+    "category": "creature",
+    "summonable": true
+  },
+  "ravager": {
+    "display_name": "Ravager",
+    "translation_key": "entity.minecraft.ravager",
+    "category": "monster",
+    "summonable": true
+  },
+  "salmon": {
+    "display_name": "Salmon",
+    "translation_key": "entity.minecraft.salmon",
+    "category": "water_ambient",
+    "summonable": true
+  },
+  "sheep": {
+    "display_name": "Sheep",
+    "translation_key": "entity.minecraft.sheep",
+    "category": "creature",
+    "summonable": true
+  },
+  "shulker": {
+    "display_name": "Shulker",
+    "translation_key": "entity.minecraft.shulker",
+    "category": "monster",
+    "summonable": true
+  },
+  "shulker_bullet": {
+    "display_name": "Shulker Bullet",
+    "translation_key": "entity.minecraft.shulker_bullet",
+    "category": "misc",
+    "summonable": true
+  },
+  "silverfish": {
+    "display_name": "Silverfish",
+    "translation_key": "entity.minecraft.silverfish",
+    "category": "monster",
+    "summonable": true
+  },
+  "skeleton": {
+    "display_name": "Skeleton",
+    "translation_key": "entity.minecraft.skeleton",
+    "category": "monster",
+    "summonable": true
+  },
+  "skeleton_horse": {
+    "display_name": "Skeleton Horse",
+    "translation_key": "entity.minecraft.skeleton_horse",
+    "category": "creature",
+    "summonable": true
+  },
+  "slime": {
+    "display_name": "Slime",
+    "translation_key": "entity.minecraft.slime",
+    "category": "monster",
+    "summonable": true
+  },
+  "small_fireball": {
+    "display_name": "Small Fireball",
+    "translation_key": "entity.minecraft.small_fireball",
+    "category": "misc",
+    "summonable": true
+  },
+  "sniffer": {
+    "display_name": "Sniffer",
+    "translation_key": "entity.minecraft.sniffer",
+    "category": "creature",
+    "summonable": true
+  },
+  "snowball": {
+    "display_name": "Snowball",
+    "translation_key": "entity.minecraft.snowball",
+    "category": "misc",
+    "summonable": true
+  },
+  "snow_golem": {
+    "display_name": "Snow Golem",
+    "translation_key": "entity.minecraft.snow_golem",
+    "category": "misc",
+    "summonable": true
+  },
+  "spawner_minecart": {
+    "display_name": "Minecart with Monster Spawner",
+    "translation_key": "entity.minecraft.spawner_minecart",
+    "category": "misc",
+    "summonable": true
+  },
+  "spectral_arrow": {
+    "display_name": "Spectral Arrow",
+    "translation_key": "entity.minecraft.spectral_arrow",
+    "category": "misc",
+    "summonable": true
+  },
+  "spider": {
+    "display_name": "Spider",
+    "translation_key": "entity.minecraft.spider",
+    "category": "monster",
+    "summonable": true
+  },
+  "spruce_boat": {
+    "display_name": "Spruce Boat",
+    "translation_key": "entity.minecraft.spruce_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "spruce_chest_boat": {
+    "display_name": "Spruce Boat with Chest",
+    "translation_key": "entity.minecraft.spruce_chest_boat",
+    "category": "misc",
+    "summonable": true
+  },
+  "squid": {
+    "display_name": "Squid",
+    "translation_key": "entity.minecraft.squid",
+    "category": "water_creature",
+    "summonable": true
+  },
+  "stray": {
+    "display_name": "Stray",
+    "translation_key": "entity.minecraft.stray",
+    "category": "monster",
+    "summonable": true
+  },
+  "strider": {
+    "display_name": "Strider",
+    "translation_key": "entity.minecraft.strider",
+    "category": "creature",
+    "summonable": true
+  },
+  "sulfur_cube": {
+    "display_name": "Sulfur Cube",
+    "translation_key": "entity.minecraft.sulfur_cube",
+    "category": "monster",
+    "summonable": true
+  },
+  "tadpole": {
+    "display_name": "Tadpole",
+    "translation_key": "entity.minecraft.tadpole",
+    "category": "creature",
+    "summonable": true
+  },
+  "text_display": {
+    "display_name": "Text Display",
+    "translation_key": "entity.minecraft.text_display",
+    "category": "misc",
+    "summonable": true
+  },
+  "tnt": {
+    "display_name": "Primed TNT",
+    "translation_key": "entity.minecraft.tnt",
+    "category": "misc",
+    "summonable": true
+  },
+  "tnt_minecart": {
+    "display_name": "Minecart with TNT",
+    "translation_key": "entity.minecraft.tnt_minecart",
+    "category": "misc",
+    "summonable": true
+  },
+  "trader_llama": {
+    "display_name": "Trader Llama",
+    "translation_key": "entity.minecraft.trader_llama",
+    "category": "creature",
+    "summonable": true
+  },
+  "trident": {
+    "display_name": "Trident",
+    "translation_key": "entity.minecraft.trident",
+    "category": "misc",
+    "summonable": true
+  },
+  "tropical_fish": {
+    "display_name": "Tropical Fish",
+    "translation_key": "entity.minecraft.tropical_fish",
+    "category": "water_ambient",
+    "summonable": true
+  },
+  "turtle": {
+    "display_name": "Turtle",
+    "translation_key": "entity.minecraft.turtle",
+    "category": "creature",
+    "summonable": true
+  },
+  "vex": {
+    "display_name": "Vex",
+    "translation_key": "entity.minecraft.vex",
+    "category": "monster",
+    "summonable": true
+  },
+  "villager": {
+    "display_name": "Villager",
+    "translation_key": "entity.minecraft.villager",
+    "category": "misc",
+    "summonable": true
+  },
+  "vindicator": {
+    "display_name": "Vindicator",
+    "translation_key": "entity.minecraft.vindicator",
+    "category": "monster",
+    "summonable": true
+  },
+  "wandering_trader": {
+    "display_name": "Wandering Trader",
+    "translation_key": "entity.minecraft.wandering_trader",
+    "category": "creature",
+    "summonable": true
+  },
+  "warden": {
+    "display_name": "Warden",
+    "translation_key": "entity.minecraft.warden",
+    "category": "monster",
+    "summonable": true
+  },
+  "wind_charge": {
+    "display_name": "Wind Charge",
+    "translation_key": "entity.minecraft.wind_charge",
+    "category": "misc",
+    "summonable": true
+  },
+  "witch": {
+    "display_name": "Witch",
+    "translation_key": "entity.minecraft.witch",
+    "category": "monster",
+    "summonable": true
+  },
+  "wither": {
+    "display_name": "Wither",
+    "translation_key": "entity.minecraft.wither",
+    "category": "monster",
+    "summonable": true
+  },
+  "wither_skeleton": {
+    "display_name": "Wither Skeleton",
+    "translation_key": "entity.minecraft.wither_skeleton",
+    "category": "monster",
+    "summonable": true
+  },
+  "wither_skull": {
+    "display_name": "Wither Skull",
+    "translation_key": "entity.minecraft.wither_skull",
+    "category": "misc",
+    "summonable": true
+  },
+  "wolf": {
+    "display_name": "Wolf",
+    "translation_key": "entity.minecraft.wolf",
+    "category": "creature",
+    "summonable": true
+  },
+  "zoglin": {
+    "display_name": "Zoglin",
+    "translation_key": "entity.minecraft.zoglin",
+    "category": "monster",
+    "summonable": true
+  },
+  "zombie": {
+    "display_name": "Zombie",
+    "translation_key": "entity.minecraft.zombie",
+    "category": "monster",
+    "summonable": true
+  },
+  "zombie_horse": {
+    "display_name": "Zombie Horse",
+    "translation_key": "entity.minecraft.zombie_horse",
+    "category": "monster",
+    "summonable": true
+  },
+  "zombie_nautilus": {
+    "display_name": "Zombie Nautilus",
+    "translation_key": "entity.minecraft.zombie_nautilus",
+    "category": "monster",
+    "summonable": true
+  },
+  "zombie_villager": {
+    "display_name": "Zombie Villager",
+    "translation_key": "entity.minecraft.zombie_villager",
+    "category": "monster",
+    "summonable": true
+  },
+  "zombified_piglin": {
+    "display_name": "Zombified Piglin",
+    "translation_key": "entity.minecraft.zombified_piglin",
+    "category": "monster",
+    "summonable": true
+  },
+  "player": {
+    "display_name": "Player",
+    "translation_key": "entity.minecraft.player",
+    "category": "misc",
+    "summonable": false
+  },
+  "fishing_bobber": {
+    "display_name": "Fishing Bobber",
+    "translation_key": "entity.minecraft.fishing_bobber",
+    "category": "misc",
+    "summonable": false
+  }
+}

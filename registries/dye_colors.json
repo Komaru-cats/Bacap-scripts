@@ -1,0 +1,66 @@
+{
+  "white": {
+    "hex": "#F9FFFE",
+    "argb": "#FFF9FFFE"
+  },
+  "orange": {
+    "hex": "#F9801D",
+    "argb": "#FFF9801D"
+  },
+  "magenta": {
+    "hex": "#C74EBD",
+    "argb": "#FFC74EBD"
+  },
+  "light_blue": {
+    "hex": "#3AB3DA",
+    "argb": "#FF3AB3DA"
+  },
+  "yellow": {
+    "hex": "#FED83D",
+    "argb": "#FFFED83D"
+  },
+  "lime": {
+    "hex": "#80C71F",
+    "argb": "#FF80C71F"
+  },
+  "pink": {
+    "hex": "#F38BAA",
+    "argb": "#FFF38BAA"
+  },
+  "gray": {
+    "hex": "#474F52",
+    "argb": "#FF474F52"
+  },
+  "light_gray": {
+    "hex": "#9D9D97",
+    "argb": "#FF9D9D97"
+  },
+  "cyan": {
+    "hex": "#169C9C",
+    "argb": "#FF169C9C"
+  },
+  "purple": {
+    "hex": "#8932B8",
+    "argb": "#FF8932B8"
+  },
+  "blue": {
+    "hex": "#3C44AA",
+    "argb": "#FF3C44AA"
+  },
+  "brown": {
+    "hex": "#835432",
+    "argb": "#FF835432"
+  },
+  "green": {
+    "hex": "#5E7C16",
+    "argb": "#FF5E7C16"
+  },
+  "red": {
+    "hex": "#B02E26",
+    "argb": "#FFB02E26"
+  },
+  "black": {
+    "hex": "#1D1D21",
+    "argb": "#FF1D1D21"
+  }
+}
