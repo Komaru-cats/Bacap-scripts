@@ -1,2 +1,2 @@
-give @s end_crystal 16
-tellraw @s {"color":"green","text":" +16 ","extra":[{"translate":"item.minecraft.end_crystal"}]}
+give @s end_crystal 4
+tellraw @s {"color":"green","text":" +4 ","extra":[{"translate":"item.minecraft.end_crystal"}]}

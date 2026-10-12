@@ -15,6 +15,18 @@
   },
   "parent": "bacaped:bacap/enhanced_enchanting_milestone",
   "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:statistics/1": true
+            }
+          }
+        }
+      }
+    },
     "artisan_adept": {
       "trigger": "minecraft:location",
       "conditions": {

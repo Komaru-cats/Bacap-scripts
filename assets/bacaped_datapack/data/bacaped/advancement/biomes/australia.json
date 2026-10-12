@@ -7,7 +7,7 @@
       "translate": "Australia"
     },
     "description": {
-      "translate": "Flip a warm Pig and stick it on the ceiling of the grass block (stay within 8 blocks of it)",
+      "translate": "Be within 8 blocks of an upside down warm Pig on a Grass Block",
       "color": "green"
     },
     "frame": "task",

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coal",
+      "components": {}
+    },
+    "title": {
+      "translate": "Cars Diet"
+    },
+    "description": {
+      "translate": "Drink 100 gallons of gasoline (Potions of Weakness)",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "bacaped:potion/youre_not_the_zillager",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "player": []
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:potion/cars_diet"
+  }
+}

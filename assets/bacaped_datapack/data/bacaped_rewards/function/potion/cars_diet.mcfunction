@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/cars_diet",reward_id:"potion/cars_diet",tier:"challenge"}

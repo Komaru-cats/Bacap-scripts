@@ -47,6 +47,18 @@
         }
       }
     },
+    "eye_contact_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/eye_contact_master": true
+            }
+          }
+        }
+      }
+    },
     "frozen_heart": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -234,6 +246,18 @@
               "advancements": {
                 "bacaped:monsters/the_undertakers_revenge": true
               }
+            }
+          }
+        }
+      }
+    },
+    "wardens_thrust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/wardens_thrust": true
             }
           }
         }

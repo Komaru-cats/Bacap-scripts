@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:crafter"
+      "id": "minecraft:redstone_torch"
     },
     "title": {
       "translate": "Enh. Redstone Milestone"
@@ -19,13 +19,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/crafting_lockdown": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/crafting_lockdown": true
             }
           }
         }
@@ -35,13 +31,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/craft_me_all": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/craft_me_all": true
             }
           }
         }
@@ -51,13 +43,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/farm_basics": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/farm_basics": true
             }
           }
         }
@@ -67,13 +55,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/fat_cat": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/fat_cat": true
             }
           }
         }
@@ -83,13 +67,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/heavy_steps": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/heavy_steps": true
             }
           }
         }
@@ -99,13 +79,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/light_touch": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/light_touch": true
             }
           }
         }
@@ -115,13 +91,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/more_optimisations": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/more_optimisations": true
             }
           }
         }
@@ -131,13 +103,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/night_shift": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/night_shift": true
             }
           }
         }
@@ -147,13 +115,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/old_optimisations": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/old_optimisations": true
             }
           }
         }
@@ -163,13 +127,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/oppositional_position": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/oppositional_position": true
             }
           }
         }
@@ -179,13 +139,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/say_no_to_campfires": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/say_no_to_campfires": true
             }
           }
         }
@@ -195,13 +151,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
             }
           }
         }
@@ -211,13 +163,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/what_do_you_know_about_pistons": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/what_do_you_know_about_pistons": true
             }
           }
         }

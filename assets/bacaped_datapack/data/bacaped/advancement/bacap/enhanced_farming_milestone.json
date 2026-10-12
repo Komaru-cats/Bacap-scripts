@@ -19,13 +19,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/apple_addiction": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/apple_addiction": true
             }
           }
         }
@@ -35,13 +31,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/auto_cactus": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/auto_cactus": true
             }
           }
         }
@@ -51,13 +43,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/christmas_spirit": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/christmas_spirit": true
             }
           }
         }
@@ -67,13 +55,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/cookie_eater": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/cookie_eater": true
             }
           }
         }
@@ -83,13 +67,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/delicious": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/delicious": true
             }
           }
         }
@@ -99,13 +79,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/doctors_hate_this_simple_trick": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/doctors_hate_this_simple_trick": true
             }
           }
         }
@@ -115,13 +91,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/eco_warrior": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/eco_warrior": true
             }
           }
         }
@@ -131,13 +103,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/exemplary_worker": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/exemplary_worker": true
             }
           }
         }
@@ -147,13 +115,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/failed_successfully": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/failed_successfully": true
             }
           }
         }
@@ -163,13 +127,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/golems": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/golems": true
             }
           }
         }
@@ -179,13 +139,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/high_risk": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/high_risk": true
             }
           }
         }
@@ -195,13 +151,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/its_midnight_already": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/its_midnight_already": true
             }
           }
         }
@@ -211,13 +163,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/more_more_cookies": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/more_more_cookies": true
             }
           }
         }
@@ -227,13 +175,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/not_fireflies": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/not_fireflies": true
             }
           }
         }
@@ -243,13 +187,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/overpayment": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/overpayment": true
             }
           }
         }
@@ -259,13 +199,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/plant_enthusiast": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/plant_enthusiast": true
             }
           }
         }
@@ -275,13 +211,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/preventive_conversation": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/preventive_conversation": true
             }
           }
         }
@@ -291,13 +223,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/raising_canes": true
-              }
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/raising_canes": true
             }
           }
         }
