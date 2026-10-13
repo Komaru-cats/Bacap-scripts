@@ -1,2 +1,2 @@
 give @s brown_mushroom 32
-tellraw @s {"color":"green","text":" +32 ","extra":[{"translate":"block.minecraft.brown_mushroom"}]}
+tellraw @s {text:" +32 ",color:"green",extra:[{translate:"block.minecraft.brown_mushroom"}]}

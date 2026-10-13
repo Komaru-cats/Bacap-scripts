@@ -1,2 +1,2 @@
 give @s emerald 6
-tellraw @s {"color":"green","text":" +6 ","extra":[{"translate":"item.minecraft.emerald"}]}
+tellraw @s {text:" +6 ",color:"green",extra:[{translate:"item.minecraft.emerald"}]}

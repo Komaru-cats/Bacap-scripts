@@ -1,2 +1,2 @@
 give @s wind_charge 15
-tellraw @s {"color":"green","text":" +15 ","extra":[{"translate":"item.minecraft.wind_charge"}]}
+tellraw @s {text:" +15 ",color:"green",extra:[{translate:"item.minecraft.wind_charge"}]}

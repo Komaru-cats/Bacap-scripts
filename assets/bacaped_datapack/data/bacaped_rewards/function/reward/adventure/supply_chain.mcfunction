@@ -1,2 +1,2 @@
 give @s dripstone_block 4
-tellraw @s {"color":"green","text":" +4 ","extra":[{"translate":"block.minecraft.dripstone_block"}]}
+tellraw @s {text:" +4 ",color:"green",extra:[{translate:"block.minecraft.dripstone_block"}]}

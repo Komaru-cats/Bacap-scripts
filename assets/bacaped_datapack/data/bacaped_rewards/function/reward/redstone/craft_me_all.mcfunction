@@ -1,2 +1,2 @@
 give @s crafter 4
-tellraw @s {"color":"green","text":" +4 ","extra":[{"translate":"block.minecraft.crafter"}]}
+tellraw @s {text:" +4 ",color:"green",extra:[{translate:"block.minecraft.crafter"}]}

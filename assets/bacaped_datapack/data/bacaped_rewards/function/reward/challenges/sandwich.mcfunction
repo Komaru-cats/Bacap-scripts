@@ -1,2 +1,2 @@
 give @s minecraft:arrow 32
-tellraw @s {"color":"green","text":" +32 ","extra":[{"translate":"item.minecraft.arrow"}]}
+tellraw @s {text:" +32 ",color:"green",extra:[{translate:"item.minecraft.arrow"}]}
