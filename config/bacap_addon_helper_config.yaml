@@ -273,6 +273,7 @@ datapacks:
         distance: 32
         # Target selector predicates or tags appended to @e[...] queries (without leading comma)
         extra_selector: "predicate=bacaped:is_baby"
+        check_subfolder: "mob_collections"
         # Omitting check_subfolder writes check functions directly into data/<namespace>/function/
         trigger_filename: "baby_zoo_trigger.mcfunction"
         header_translate_key: "Baby Zoo list"
