@@ -15,22 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_potion_milestone",
   "criteria": {
-    "bee_colonist": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:end/bee_colonist": true
-              }
-            }
-          }
-        }
-      }
-    },
     "compact_base": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -57,38 +41,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:end/dragon_blitz": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "endergardener": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:end/endergardener": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "end_at_the_start_of_the_game": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:end/end_at_the_start_of_the_game": true
               }
             }
           }
@@ -127,7 +79,7 @@
         }
       }
     },
-    "last_hit": {
+    "endergardener": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -136,14 +88,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:end/last_hit": true
+                "bacaped:end/endergardener": true
               }
             }
           }
         }
       }
     },
-    "one_small_step_for_man": {
+    "end_at_the_start_of_the_game": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -152,7 +104,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:end/one_small_step_for_man": true
+                "bacaped:end/end_at_the_start_of_the_game": true
               }
             }
           }
@@ -185,6 +137,54 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:end/the_lockbox": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "bee_colonist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/bee_colonist": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "last_hit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/last_hit": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "one_small_step_for_man": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/one_small_step_for_man": true
               }
             }
           }

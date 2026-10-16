@@ -15,150 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_weaponry_milestone",
   "criteria": {
-    "accept_cookies": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/accept_cookies": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "advanced_horse_transport": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/advanced_horse_transport": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "australia": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/australia": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "coolgrill": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/coolgrill": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "good_dreams": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/good_dreams": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "hydrodynamic": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/hydrodynamic": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "ice_sculptor": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/ice_sculptor": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "icy_pirates": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/icy_pirates": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "lost_ruin": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/lost_ruin": true
-              }
-            }
-          }
-        }
-      }
-    },
     "my_mountains": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -191,7 +47,7 @@
         }
       }
     },
-    "ready_for_everything": {
+    "hydrodynamic": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -200,51 +56,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:biomes/ready_for_everything": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "stop_there_youre_tall_enough": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/stop_there_youre_tall_enough": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "team_water": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/team_water": true
-            }
-          }
-        }
-      }
-    },
-    "the_boatman": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/the_boatman": true
+                "bacaped:biomes/hydrodynamic": true
               }
             }
           }
@@ -283,6 +95,38 @@
         }
       }
     },
+    "advanced_horse_transport": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/advanced_horse_transport": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "australia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/australia": true
+              }
+            }
+          }
+        }
+      }
+    },
     "underwater_pirates": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -309,6 +153,166 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:biomes/unite_storm": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "ready_for_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/ready_for_everything": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "stop_there_youre_tall_enough": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/stop_there_youre_tall_enough": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "accept_cookies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/accept_cookies": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "icy_pirates": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/icy_pirates": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "lost_ruin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/lost_ruin": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "coolgrill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/coolgrill": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "good_dreams": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/good_dreams": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "ice_sculptor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/ice_sculptor": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "team_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/team_water": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_boatman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/the_boatman": true
               }
             }
           }

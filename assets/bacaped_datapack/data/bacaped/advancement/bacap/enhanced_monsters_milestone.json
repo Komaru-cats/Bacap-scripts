@@ -15,22 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_animal_milestone",
   "criteria": {
-    "arachnophobia": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/arachnophobia": true
-              }
-            }
-          }
-        }
-      }
-    },
     "born_to_spawn": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -51,9 +35,93 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:monsters/eye_contact_master": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/eye_contact_master": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "suspicious_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/suspicious_duel": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_inquisition": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/the_inquisition": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "not_that_impossible": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/not_that_impossible": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "one_minute_wardens_hugs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/one_minute_wardens_hugs": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "phantom_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/phantom_rider": true
+              }
             }
           }
         }
@@ -155,7 +223,7 @@
         }
       }
     },
-    "not_that_impossible": {
+    "arachnophobia": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -164,71 +232,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:monsters/not_that_impossible": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "one_minute_wardens_hugs": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/one_minute_wardens_hugs": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "phantom_rider": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/phantom_rider": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "suspicious_duel": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/suspicious_duel": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "the_inquisition": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/the_inquisition": true
+                "bacaped:monsters/arachnophobia": true
               }
             }
           }
@@ -255,9 +259,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:monsters/wardens_thrust": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/wardens_thrust": true
+              }
             }
           }
         }

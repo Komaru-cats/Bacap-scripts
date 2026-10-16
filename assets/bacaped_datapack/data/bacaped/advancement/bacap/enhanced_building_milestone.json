@@ -15,6 +15,70 @@
   },
   "parent": "bacaped:bacap/enhanced_mining_milestone",
   "criteria": {
+    "stickman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:building/stickman": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "water_dependent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:building/water_dependent": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "potception": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:building/potception": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "pot_on_a_pot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:building/pot_on_a_pot": true
+              }
+            }
+          }
+        }
+      }
+    },
     "artificial_forest": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -79,38 +143,6 @@
         }
       }
     },
-    "potception": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:building/potception": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "pot_on_a_pot": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:building/pot_on_a_pot": true
-              }
-            }
-          }
-        }
-      }
-    },
     "smoke_signal": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -138,34 +170,6 @@
               "advancements": {
                 "bacaped:building/statue": true
               }
-            }
-          }
-        }
-      }
-    },
-    "stickman": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:building/stickman": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "water_dependent": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:building/water_dependent": true
             }
           }
         }
