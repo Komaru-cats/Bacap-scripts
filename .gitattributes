@@ -1,1 +1,7 @@
 *.mcfunction linguist-vendored=true
+
+* text=auto eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.sh text eol=lf
+.env* text eol=lf working-tree-encoding=UTF-8
