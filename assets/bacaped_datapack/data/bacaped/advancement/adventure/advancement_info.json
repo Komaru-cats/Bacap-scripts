@@ -6,300 +6,53 @@
     "title": {
       "translate": "Advancement Info"
     },
-    "description": {
-      "translate": "This mod is very useful for completing advancements, it's basically required. Click on this icon once you download it",
-      "color": "dark_purple"
-    },
-    "frame": "challenge",
+    "description": [
+      {
+        "translate": "Stand on cobblestone stairs in full diamond armor while holding a diamond sword.",
+        "color": "#75E1FF",
+        "extra": [
+          {
+            "text": "\n"
+          },
+          {
+            "translate": "Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!",
+            "color": "dark_gray"
+          }
+        ]
+      }
+    ],
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "minecraft:adventure/root",
   "criteria": {
-    "1._stand_on": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:cobblestone_stairs"
-              ]
-            }
-          },
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
-            },
-            "head": {
-              "items": [
-                "minecraft:diamond_helmet"
-              ]
-            },
-            "chest": {
-              "items": [
-                "minecraft:diamond_chestplate"
-              ]
-            },
-            "legs": {
-              "items": [
-                "minecraft:diamond_leggings"
-              ]
-            },
-            "feet": {
-              "items": [
-                "minecraft:diamond_boots"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "2._cobblestone": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:cobblestone_stairs"
-              ]
-            }
-          },
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
-            },
-            "head": {
-              "items": [
-                "minecraft:diamond_helmet"
-              ]
-            },
-            "chest": {
-              "items": [
-                "minecraft:diamond_chestplate"
-              ]
-            },
-            "legs": {
-              "items": [
-                "minecraft:diamond_leggings"
-              ]
-            },
-            "feet": {
-              "items": [
-                "minecraft:diamond_boots"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "3._stairs_while": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:cobblestone_stairs"
-              ]
-            }
-          },
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
-            },
-            "head": {
-              "items": [
-                "minecraft:diamond_helmet"
-              ]
-            },
-            "chest": {
-              "items": [
-                "minecraft:diamond_chestplate"
-              ]
-            },
-            "legs": {
-              "items": [
-                "minecraft:diamond_leggings"
-              ]
-            },
-            "feet": {
-              "items": [
-                "minecraft:diamond_boots"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "4._wearing_full": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:cobblestone_stairs"
-              ]
-            }
-          },
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
-            },
-            "head": {
-              "items": [
-                "minecraft:diamond_helmet"
-              ]
-            },
-            "chest": {
-              "items": [
-                "minecraft:diamond_chestplate"
-              ]
-            },
-            "legs": {
-              "items": [
-                "minecraft:diamond_leggings"
-              ]
-            },
-            "feet": {
-              "items": [
-                "minecraft:diamond_boots"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "5._diamond_armor": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:cobblestone_stairs"
-              ]
-            }
-          },
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
-            },
-            "head": {
-              "items": [
-                "minecraft:diamond_helmet"
-              ]
-            },
-            "chest": {
-              "items": [
-                "minecraft:diamond_chestplate"
-              ]
-            },
-            "legs": {
-              "items": [
-                "minecraft:diamond_leggings"
-              ]
-            },
-            "feet": {
-              "items": [
-                "minecraft:diamond_boots"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "6._and_holding": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:cobblestone_stairs"
-              ]
-            }
-          },
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
-            },
-            "head": {
-              "items": [
-                "minecraft:diamond_helmet"
-              ]
-            },
-            "chest": {
-              "items": [
-                "minecraft:diamond_chestplate"
-              ]
-            },
-            "legs": {
-              "items": [
-                "minecraft:diamond_leggings"
-              ]
-            },
-            "feet": {
-              "items": [
-                "minecraft:diamond_boots"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "7._a_diamond_sword": {
+    "trigger": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "stepping_on": {
-              "block": {
-                "blocks": [
-                  "minecraft:cobblestone_stairs"
-                ]
-              }
-            },
-            "equipment": {
+            "minecraft:equipment": {
               "mainhand": {
-                "items": [
-                  "minecraft:diamond_sword"
-                ]
+                "items": "minecraft:diamond_sword"
               },
               "head": {
-                "items": [
-                  "minecraft:diamond_helmet"
-                ]
+                "items": "minecraft:diamond_helmet"
               },
               "chest": {
-                "items": [
-                  "minecraft:diamond_chestplate"
-                ]
-              },
-              "legs": {
-                "items": [
-                  "minecraft:diamond_leggings"
-                ]
+                "items": "minecraft:diamond_chestplate"
               },
               "feet": {
-                "items": [
-                  "minecraft:diamond_boots"
-                ]
+                "items": "minecraft:diamond_leggings"
+              },
+              "legs": {
+                "items": "minecraft:diamond_boots"
+              }
+            },
+            "minecraft:stepping_on": {
+              "block": {
+                "blocks": "minecraft:cobblestone_stairs"
               }
             }
           }
@@ -307,17 +60,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "1._stand_on",
-      "2._cobblestone",
-      "3._stairs_while",
-      "4._wearing_full",
-      "5._diamond_armor",
-      "6._and_holding",
-      "7._a_diamond_sword"
-    ]
-  ],
   "rewards": {
     "function": "bacaped_rewards:adventure/advancement_info"
   }
