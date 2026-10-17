@@ -1,61 +1,103 @@
-# Bacap-scripts 
-This repository contains the source code for generating datapacks as well as the datapacks themselves. Changes to a datapack are usually made here and then a pull request is submitted to the main repository.
+# Bacap-scripts
 
-The code can generate files for advancements, trophies, and messages. It includes a wide range of features but may not support certain functions or Minecraft versions.
+This repository contains the source files, configurations, and assets for generating and maintaining **Enhanced Discoveries** (`bacaped`) and **WorldBorder Addon** datapacks. Changes to the datapacks are made here before submitting a pull request to the main repository.
 
+The project now uses dedicated interactive CLI utilities (**BACAP-Addon-Helper** and **WB-Addon-Helper**) to manage advancements, trophies, rewards, translations, and releases.
 
-## Features
-- The script allows you to add trophies and rewards with fully customizable data, such as name, color, description, enchantments, and more.
-- It automatically generates messages for advancements.
-- There is a feature for detecting missing translations, although it may not work correctly as it hasn’t been updated in a while.
-- You can set a number of blocks for missing advancements for the WorldBorder addon in script.
-- During release, the script performs the following automatically:
-    - Updates milestones
-    - Generates necessary files for translations
-    - Creates reward and message files (if they do not exist)
-    - Formats advancements
-    - Creates a zipped release of the datapack
-    - Generates advancement data for the website
+---
 
-## How to Run
-To launch the interface for **Enhanced Discoveries**:
+## Getting Started
 
-```bash
-python scripts/AdvancementInterface.py
-```
-> The working directory must be the root of the repository.
+### 1. Download Helper Binaries
 
-To run the **WorldBorder** script:
+Before running the tools, download the latest helper executables (`bacap_addon_helper` and `wb_addon_helper`). The download script automatically detects your OS, CPU architecture, and whether the **.NET 10** runtime is installed (fetching lightweight framework-dependent binaries if found, or self-contained binaries otherwise).
 
-```bash
-python -m scripts.WorldBorder
-```
+**Using JetBrains IDE (`.run` configurations):**
+Run the **Download Helpers [Windows]** or **Download Helpers [Unix]** run configuration.
 
-> Again, make sure the working directory is the root of the repository.
-> Also you need to create a `user_config.json` file
+**Via Terminal (from the repository root):**
+- **Windows:**
+  ```cmd
+  scripts\download_helpers.bat
+  ```
+- **Linux / macOS:**
+  ```bash
+  ./scripts/download_helpers.sh
+  ```
 
-## Configuration
+---
 
-You can configure `user_config.json` to specify the paths to the resource pack and datapack located within a Minecraft world, which is useful for testing. The values should be **paths to the folders** of the datapack/resource pack, not just the directories containing them. For example:
-```json
-{
-  "mcpath": "path_to_a_minecraft/saves/world/datapacks/bacaped",
-  "rppath": "path_to_a_minecraft/resourcepacks/bacaped_translate"
-}
+### 2. Environment Configuration (`.env`)
+
+Global tool configuration is located in the `config/` directory (`bacap_addon_helper_config.yaml` and `wb_addon_helper_config.yaml`) and are already configured.
+
+For syncing datapacks and resource packs directly to local Minecraft worlds, create `.env` files in the repository root based on the provided examples:
+
+#### Enhanced Discoveries (`.env.bacap_addon`)
+Copy `.env.bacap_addon.example` to `.env.bacap_addon`:
+```env
+WORLD_DATAPACKS_PATH="path/to/world/datapacks/folder/without/compatibility/addons"
+WORLD_COMPAT_DATAPACKS_PATH="path/to/world/datapacks/folder/with/compatibility/addons"
+RESOURCE_PACKS_PATH="path/to/resourcepacks/folder"
 ```
 
-> Be careful, this script completely deletes the folders specified in the config file
+#### WorldBorder Addon (`.env.wb_addon`)
+Copy `.env.wb_addon.example` to `.env.wb_addon`:
+```env
+WORLD_DATAPACKS_PATH="path/to/world/datapacks/folder/with/wb/addon"
+```
 
-## Project Structure and Notes
+> **Warning:** When syncing packs to your Minecraft saves folder, the utilities overwrite the target directories specified in your `.env` files.
 
-- The `datapacks` folder should contain the latest versions of the datapacks, including **Bacap**.
-- The file `pages/assets/requirements.json` must be updated **manually** to reflect changes on the advancements page.
-- Datapack releases are stored in the `releases` folder.
-- The `resources` folder contains data about Minecraft items. This list should be updated when Minecraft is updated to ensure correct functionality.
-- The **WorldBorder addon** uses a local SQLite database — the code is designed to work with it.
+---
+
+### 3. How to Run
+
+Ensure your working directory is the **root of the repository**.
+
+#### Option A: JetBrains IDE Run Configurations (Recommended)
+Ready-to-use configurations are located in `.run/`:
+- **Run BACAP Helper [Windows]** / **Run BACAP Helper [Unix]** — launches Enhanced Discoveries helper.
+- **Run WB Helper [Windows]** / **Run WB Helper [Unix]** — launches WorldBorder Addon helper.
+
+#### Option B: Terminal
+
+- **Enhanced Discoveries (BACAP Addon Helper):**
+    - **Windows:**
+      ```cmd
+      scripts\run_bacap_helper.bat --config config/bacap_addon_helper_config.yaml
+      ```
+    - **Linux / macOS:**
+      ```bash
+      ./scripts/run_bacap_helper.sh --config config/bacap_addon_helper_config.yaml
+      ```
+
+- **WorldBorder Addon (WB Addon Helper):**
+    - **Windows:**
+      ```cmd
+      scripts\run_wb_helper.bat --config config/wb_addon_helper_config.yaml
+      ```
+    - **Linux / macOS:**
+      ```bash
+      ./scripts/run_wb_helper.sh --config config/wb_addon_helper_config.yaml
+      ```
+
+---
+
+## Project Structure
+
+- `assets/` — Source datapacks (`bacap_datapack` as read-only reference, `bacaped_datapack`, `bacaped_hardcore_datapack`, `wb_addon_datapack`) and the language resource pack (`bacaped_lang_pack`).
+- `config/` — YAML configuration files for the CLI helpers.
+- `registries/` — Extracted Minecraft registry JSON files (items, blocks, potions, etc.), updateable via [registry-dumper](https://github.com/ItzSkyReed/registry-dumper).
+- `requirements/` & `docs/` — Actual requirements input and generated advancement documentation output for the website.
+- `releases/` — Destination folder for packed `.zip` releases.
+- `scripts/` — Helper download and launcher scripts (`.bat` / `.sh`); downloaded binaries are placed into `scripts/helpers/`.
+- `wb_addon.db` — Local SQLite database storing block counts and configurations for the WorldBorder addon.
+
+---
 
 ## Repository Notes
-- This repository includes a `ForceResolve #issue_number` feature:  
-  If a commit message contains `ForceResolve #<issue_number>`, the corresponding issue will be automatically closed.
-  For example: `feat: ForceResolve #575 - add new advancement`
-- There is a GitHub Actions workflow called `push_to_main_rep.yml` for pushing changes to the main repository.
+
+- **Issue Auto-Close (`ForceResolve`)**:  
+  If a commit message contains `ForceResolve #<issue_number>`, the corresponding issue will be automatically closed by GitHub Actions.  
+  *Example:* `feat: ForceResolve #575 - add new advancement`
