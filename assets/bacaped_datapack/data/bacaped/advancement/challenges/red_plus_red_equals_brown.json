@@ -11,12 +11,12 @@
     },
     "description": {
       "translate": "Get a Brown Mooshroom by breeding two Red Mooshrooms",
-      "color": "#FF2A2A"
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/star_fisherman",
+  "parent": "blazeandcave:animal/super_mooshroom",
   "criteria": {
     "get_brown_mooshroom_from_two_red": {
       "trigger": "minecraft:bred_animals",
@@ -55,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/red_plus_red_equals_brown"
+    "function": "bacaped_rewards:animal/red_plus_red_equals_brown"
   }
 }
