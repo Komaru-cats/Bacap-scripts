@@ -8,12 +8,12 @@
     },
     "description": {
       "translate": "Look at an anvil that is 325 blocks high using a Spyglass",
-      "color": "#FF2A2A"
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/telescopic",
+  "parent": "bacaped:enchanting/heavy_catch",
   "criteria": {
     "anvil": {
       "trigger": "minecraft:using_item",
@@ -105,6 +105,6 @@
     ]
   ],
   "rewards": {
-    "function": "bacaped_rewards:challenges/astronomer"
+    "function": "bacaped_rewards:enchanting/astronomer"
   }
 }
