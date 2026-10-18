@@ -8,12 +8,12 @@
     },
     "description": {
       "translate": "Catch a nautilus shell while you are 261 blocks high in the End",
-      "color": "#FF2A2A"
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/astronomer",
+  "parent": "blazeandcave:end/sky_high",
   "criteria": {
     "good_luck": {
       "trigger": "minecraft:fishing_rod_hooked",
@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/star_fisherman"
+    "function": "bacaped_rewards:end/star_fisherman"
   }
 }
