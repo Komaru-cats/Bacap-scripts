@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "bacaped:challenges/compass_overload",
+  "parent": "bacaped:challenges/so_bright",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",
