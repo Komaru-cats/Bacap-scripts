@@ -14,10 +14,9 @@
       "color": "light_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": true
+    "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/root",
+  "parent": "bacaped:challenges/shopaholic",
   "criteria": {
     "buy_pointed_dripstone": {
       "trigger": "minecraft:villager_trade",
