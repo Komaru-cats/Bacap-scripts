@@ -15,118 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_biomes_milestone",
   "criteria": {
-    "advancement_info": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/advancement_info": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "no_luck_for_the_next_guy": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/no_luck_for_the_next_guy": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "suspicious_miner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/suspicious_miner": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "jurassic_park": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/jurassic_park": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "restoring_the_population": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/restoring_the_population": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "my_personal_slave": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/my_personal_slave": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "wandering_chariot": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/wandering_chariot": true
-              }
-            }
-          }
-        }
-      }
-    },
     "placeholder": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -143,7 +31,7 @@
         }
       }
     },
-    "the_beginning_of_the_day": {
+    "team_waterless": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -152,55 +40,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:adventure/the_beginning_of_the_day": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "fake_netherite_armor": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/fake_netherite_armor": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "ominous_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/ominous_ocean": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "thats_a_new_style": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/thats_a_new_style": true
+                "bacaped:adventure/team_waterless": true
               }
             }
           }
@@ -223,7 +63,7 @@
         }
       }
     },
-    "dual_reality": {
+    "i_hate_all_of_you": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -232,7 +72,55 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:adventure/dual_reality": true
+                "bacaped:adventure/i_hate_all_of_you": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "on_the_wings_of_the_wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/on_the_wings_of_the_wind": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "thorny_prices": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/thorny_prices": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "jurassic_park": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/jurassic_park": true
               }
             }
           }
@@ -255,7 +143,7 @@
         }
       }
     },
-    "real_netherite_armor": {
+    "restoring_the_population": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -264,7 +152,135 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:adventure/real_netherite_armor": true
+                "bacaped:adventure/restoring_the_population": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "do_you_see_this": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/do_you_see_this": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "no_luck_for_the_next_guy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/no_luck_for_the_next_guy": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "supply_chain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/supply_chain": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "unprofitable_transportation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/unprofitable_transportation": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "fake_copper_armor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/fake_copper_armor": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "my_personal_slave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/my_personal_slave": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "save_me": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/save_me": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "uncontrolled_reproduction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/uncontrolled_reproduction": true
               }
             }
           }
@@ -287,6 +303,22 @@
         }
       }
     },
+    "fake_netherite_armor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/fake_netherite_armor": true
+              }
+            }
+          }
+        }
+      }
+    },
     "nobody_needs_rockets": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -297,6 +329,54 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:adventure/nobody_needs_rockets": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "ominous_vault_hunter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/ominous_vault_hunter": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "suspicious_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/suspicious_miner": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "oh_you_again": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/oh_you_again": true
               }
             }
           }
@@ -319,7 +399,7 @@
         }
       }
     },
-    "thorny_prices": {
+    "wandering_chariot": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -328,7 +408,55 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:adventure/thorny_prices": true
+                "bacaped:adventure/wandering_chariot": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "dual_reality": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/dual_reality": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "ominous_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/ominous_ocean": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_beginning_of_the_day": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/the_beginning_of_the_day": true
               }
             }
           }
@@ -383,7 +511,7 @@
         }
       }
     },
-    "fake_copper_armor": {
+    "advancement_info": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -392,14 +520,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:adventure/fake_copper_armor": true
+                "bacaped:adventure/advancement_info": true
               }
             }
           }
         }
       }
     },
-    "oh_you_again": {
+    "real_netherite_armor": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -408,151 +536,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:adventure/oh_you_again": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "save_me": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/save_me": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "uncontrolled_reproduction": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/uncontrolled_reproduction": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "i_hate_all_of_you": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/i_hate_all_of_you": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "on_site_sale": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/on_site_sale": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "supply_chain": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/supply_chain": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "unprofitable_transportation": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/unprofitable_transportation": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "do_you_see_this": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/do_you_see_this": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "on_the_wings_of_the_wind": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/on_the_wings_of_the_wind": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "team_waterless": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:adventure/team_waterless": true
+                "bacaped:adventure/real_netherite_armor": true
               }
             }
           }
@@ -575,7 +559,7 @@
         }
       }
     },
-    "ominous_vault_hunter": {
+    "on_site_sale": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -584,7 +568,23 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:adventure/ominous_vault_hunter": true
+                "bacaped:adventure/on_site_sale": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "thats_a_new_style": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/thats_a_new_style": true
               }
             }
           }

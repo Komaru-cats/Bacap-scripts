@@ -47,6 +47,70 @@
         }
       }
     },
+    "apple_addiction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/apple_addiction": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "auto_cactus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/auto_cactus": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "more_more_cookies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/more_more_cookies": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "not_fireflies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/not_fireflies": true
+              }
+            }
+          }
+        }
+      }
+    },
     "high_risk": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -63,22 +127,6 @@
         }
       }
     },
-    "eco_warrior": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/eco_warrior": true
-              }
-            }
-          }
-        }
-      }
-    },
     "its_midnight_already": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -89,6 +137,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:farming/its_midnight_already": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "eco_warrior": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/eco_warrior": true
               }
             }
           }
@@ -175,70 +239,6 @@
         }
       }
     },
-    "overpayment": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/overpayment": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "plant_enthusiast": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/plant_enthusiast": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "more_more_cookies": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/more_more_cookies": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "not_fireflies": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/not_fireflies": true
-              }
-            }
-          }
-        }
-      }
-    },
     "failed_successfully": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -271,7 +271,7 @@
         }
       }
     },
-    "apple_addiction": {
+    "overpayment": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -280,14 +280,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:farming/apple_addiction": true
+                "bacaped:farming/overpayment": true
               }
             }
           }
         }
       }
     },
-    "auto_cactus": {
+    "plant_enthusiast": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -296,7 +296,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:farming/auto_cactus": true
+                "bacaped:farming/plant_enthusiast": true
               }
             }
           }

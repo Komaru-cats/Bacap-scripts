@@ -15,134 +15,6 @@
   },
   "parent": "blazeandcave:bacap/time_to_farm",
   "criteria": {
-    "deepslated_miner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/deepslated_miner": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "deepslate_master": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/deepslate_master": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "redstoner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/redstoner": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "reinforced_miner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/reinforced_miner": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "light_at_the_end_of_the_tunnel": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/light_at_the_end_of_the_tunnel": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "pointy_problems": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/pointy_problems": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "batman": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/batman": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "chief_spide": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/chief_spide": true
-              }
-            }
-          }
-        }
-      }
-    },
     "distorted_cave_maze": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -169,6 +41,38 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:mining/flint_and_steal": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_cult_of_the_spyglass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/the_cult_of_the_spyglass": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_master_of_falls": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/the_master_of_falls": true
               }
             }
           }
@@ -207,7 +111,7 @@
         }
       }
     },
-    "the_cult_of_the_spyglass": {
+    "batman": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -216,14 +120,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:mining/the_cult_of_the_spyglass": true
+                "bacaped:mining/batman": true
               }
             }
           }
         }
       }
     },
-    "the_master_of_falls": {
+    "chief_spide": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -232,7 +136,103 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:mining/the_master_of_falls": true
+                "bacaped:mining/chief_spide": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "redstoner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/redstoner": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "reinforced_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/reinforced_miner": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "deepslated_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/deepslated_miner": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "deepslate_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/deepslate_master": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "light_at_the_end_of_the_tunnel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/light_at_the_end_of_the_tunnel": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "pointy_problems": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/pointy_problems": true
               }
             }
           }

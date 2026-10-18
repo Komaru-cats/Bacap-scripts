@@ -15,102 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_redstone_milestone",
   "criteria": {
-    "master_shearer": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/master_shearer": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "master_shieldman": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/master_shieldman": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "master_sweeper": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/master_sweeper": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "pyromaniac": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/pyromaniac": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "fully_charged": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/fully_charged": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "heavy_catch": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/heavy_catch": true
-              }
-            }
-          }
-        }
-      }
-    },
     "useless": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -159,6 +63,70 @@
         }
       }
     },
+    "fully_charged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/fully_charged": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "heavy_catch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/heavy_catch": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "master_sweeper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/master_sweeper": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "pyromaniac": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/pyromaniac": true
+              }
+            }
+          }
+        }
+      }
+    },
     "small_targets": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -185,6 +153,38 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:enchanting/thin_line": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "master_shearer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/master_shearer": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "master_shieldman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/master_shieldman": true
               }
             }
           }

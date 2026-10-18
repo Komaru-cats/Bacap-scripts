@@ -18,38 +18,6 @@
   },
   "parent": "bacaped:bacap/enhanced_nether_milestone",
   "criteria": {
-    "master_of_effects": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:potion/master_of_effects": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "real_immortal": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:potion/real_immortal": true
-              }
-            }
-          }
-        }
-      }
-    },
     "trial_potions": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -76,6 +44,70 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:potion/worst_cleric_in_the_world": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "healed_by_pain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/healed_by_pain": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "jump_for_joy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/jump_for_joy": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "master_of_effects": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/master_of_effects": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "real_immortal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/real_immortal": true
               }
             }
           }
@@ -124,38 +156,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:potion/flashlight": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "healed_by_pain": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:potion/healed_by_pain": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "jump_for_joy": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:potion/jump_for_joy": true
               }
             }
           }

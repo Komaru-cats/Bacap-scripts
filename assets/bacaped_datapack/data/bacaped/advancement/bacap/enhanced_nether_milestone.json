@@ -15,54 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_statistics_milestone",
   "criteria": {
-    "bastion_sweet_bastion": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/bastion_sweet_bastion": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "beyond_the_rings": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/beyond_the_rings": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "flap_dont_fall": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/flap_dont_fall": true
-              }
-            }
-          }
-        }
-      }
-    },
     "rainbow": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -159,7 +111,7 @@
         }
       }
     },
-    "never_careful_enough": {
+    "a_long_journey": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -168,14 +120,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:nether/never_careful_enough": true
+                "bacaped:nether/a_long_journey": true
               }
             }
           }
         }
       }
     },
-    "withering_depths": {
+    "bastion_robber": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -184,7 +136,39 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:nether/withering_depths": true
+                "bacaped:nether/bastion_robber": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "bastion_sweet_bastion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/bastion_sweet_bastion": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "beyond_the_rings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/beyond_the_rings": true
               }
             }
           }
@@ -351,6 +335,54 @@
         }
       }
     },
+    "never_careful_enough": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/never_careful_enough": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "flap_dont_fall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/flap_dont_fall": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "withering_depths": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/withering_depths": true
+              }
+            }
+          }
+        }
+      }
+    },
     "emerald_beacon": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -377,38 +409,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:nether/firefox": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "a_long_journey": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/a_long_journey": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "bastion_robber": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/bastion_robber": true
               }
             }
           }
