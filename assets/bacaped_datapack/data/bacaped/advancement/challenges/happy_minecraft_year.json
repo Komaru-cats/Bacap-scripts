@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "bacaped:challenges/from_the_underworld",
+  "parent": "blazeandcave:weaponry/fireworks_display",
   "criteria": {
     "new_year": {
       "trigger": "minecraft:item_used_on_block",
@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/happy_minecraft_year"
+    "function": "bacaped_rewards:weaponry/happy_minecraft_year"
   }
 }
