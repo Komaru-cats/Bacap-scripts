@@ -17,13 +17,13 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "bacaped:challenges/mob_universe",
+  "parent": "blazeandcave:monsters/the_wicked_witch_of_the_west",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/mounted_menace"
+    "function": "bacaped_rewards:monsters/mounted_menace"
   }
 }

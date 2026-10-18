@@ -41,7 +41,7 @@ execute as @a at @s run execute on vehicle if entity @s[type=minecraft:happy_gha
 execute as @a[predicate=bacaped:is_on_happy_ghast] run scoreboard players set @n[type=minecraft:happy_ghast] bacaped_ghast_passenger_count 0
 
 # Mounted Menace
-execute as @a[gamemode=!spectator,advancements={bacaped:challenges/mounted_menace=false}] at @s if entity @e[predicate=bacaped:mounted_menace/is_husk_on_cold_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_witch_on_temperate_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_drowned_with_trident_on_warm_chicken,distance=..8] run advancement grant @s only bacaped:challenges/mounted_menace
+execute as @a[gamemode=!spectator,advancements={bacaped:monsters/mounted_menace=false}] at @s if entity @e[predicate=bacaped:mounted_menace/is_husk_on_cold_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_witch_on_temperate_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_drowned_with_trident_on_warm_chicken,distance=..8] run advancement grant @s only bacaped:challenges/mounted_menace
 
 # Cookie Eater
 function bacaped:cookie_eater/reset
