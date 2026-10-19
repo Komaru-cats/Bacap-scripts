@@ -11,12 +11,12 @@
     },
     "description": {
       "translate": "Kill a blue Axolotl at coordinates x: 0 y: 0 z: 0 in the End",
-      "color": "#FF2A2A"
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/endergeddon",
+  "parent": "blazeandcave:animal/axeolotl",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:player_killed_entity",
@@ -52,6 +52,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/zero_coordinates_magnet"
+    "function": "bacaped_rewards:animal/zero_coordinates_magnet"
   }
 }

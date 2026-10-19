@@ -924,7 +924,7 @@ bacaped:challenges/professional_assassin:
 bacaped:challenges/pulse_detonation_engine:
   default:
 
-bacaped:challenges/zero_coordinates_magnet:
+bacaped:animal/zero_coordinates_magnet:
   default: "Kill a blue Axolotl at coordinates x: [-1; 1] z: [-1; 1] y: [-1; 1] in the End"
 
 bacaped:enchanting/all_the_netherite_tools:
