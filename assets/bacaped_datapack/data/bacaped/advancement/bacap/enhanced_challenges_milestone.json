@@ -623,7 +623,7 @@
         }
       }
     },
-    "the_world_is_actually_ending_2": {
+    "the_world_is_actually_ending": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -632,7 +632,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:challenges/the_world_is_actually_ending_2": true
+                "bacaped:challenges/the_world_is_actually_ending": true
               }
             }
           }

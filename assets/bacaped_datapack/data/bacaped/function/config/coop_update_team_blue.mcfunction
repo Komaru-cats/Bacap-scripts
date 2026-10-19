@@ -293,7 +293,7 @@ execute if score bacaped:challenges/baron_munchausen bac_obtained_blue matches 1
 execute if score bacaped:challenges/big_end_adventure bac_obtained_blue matches 1.. run advancement grant @a[team=bac_teamblue] only bacaped:challenges/big_end_adventure
 execute if score bacaped:challenges/my_little_pig bac_obtained_blue matches 1.. run advancement grant @a[team=bac_teamblue] only bacaped:challenges/my_little_pig
 execute if score bacaped:challenges/no_shield_please bac_obtained_blue matches 1.. run advancement grant @a[team=bac_teamblue] only bacaped:challenges/no_shield_please
-execute if score bacaped:challenges/the_world_is_actually_ending_2 bac_obtained_blue matches 1.. run advancement grant @a[team=bac_teamblue] only bacaped:challenges/the_world_is_actually_ending_2
+execute if score bacaped:challenges/the_world_is_actually_ending bac_obtained_blue matches 1.. run advancement grant @a[team=bac_teamblue] only bacaped:challenges/the_world_is_actually_ending
 execute if score bacaped:challenges/thousand_lives bac_obtained_blue matches 1.. run advancement grant @a[team=bac_teamblue] only bacaped:challenges/thousand_lives
 execute if score bacaped:end/weightlessness bac_obtained_blue matches 1.. run advancement grant @a[team=bac_teamblue] only bacaped:end/weightlessness
 execute if score bacaped:end/you_goat_me_to_an_end bac_obtained_blue matches 1.. run advancement grant @a[team=bac_teamblue] only bacaped:end/you_goat_me_to_an_end

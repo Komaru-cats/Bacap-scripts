@@ -6,8 +6,8 @@ execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..8] 
 # Golems
 execute as @a[gamemode=!spectator] at @s if entity @e[type=wither,distance=..16] run function bacaped:mob_collections/golems_check
 
-# The World is Actually Ending 2
-execute as @a[gamemode=!spectator] if score @s bac_ten_withers matches 64.. run advancement grant @s only bacaped:challenges/the_world_is_actually_ending_2
+# The World is Actually Ending
+execute as @a[gamemode=!spectator] if score @s bac_ten_withers matches 64.. run advancement grant @s only bacaped:challenges/the_world_is_actually_ending
 
 # The Apocalyptic Decalogy
 execute as @a[gamemode=!spectator] at @s if entity @e[type=wither,distance=..48] run function bacaped:mob_collections/the_apocalyptic_decalogy_check

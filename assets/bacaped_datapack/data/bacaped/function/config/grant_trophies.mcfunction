@@ -146,7 +146,7 @@ execute as @s[advancements={bacaped:challenges/baron_munchausen=true}] run funct
 execute as @s[advancements={bacaped:challenges/big_end_adventure=true}] run function [bacaped_rewards]:trophy/[challenges/big_end_adventure]
 execute as @s[advancements={bacaped:challenges/my_little_pig=true}] run function [bacaped_rewards]:trophy/[challenges/my_little_pig]
 execute as @s[advancements={bacaped:challenges/no_shield_please=true}] run function [bacaped_rewards]:trophy/[challenges/no_shield_please]
-execute as @s[advancements={bacaped:challenges/the_world_is_actually_ending_2=true}] run function [bacaped_rewards]:trophy/[challenges/the_world_is_actually_ending_2]
+execute as @s[advancements={bacaped:challenges/the_world_is_actually_ending=true}] run function [bacaped_rewards]:trophy/[challenges/the_world_is_actually_ending]
 execute as @s[advancements={bacaped:monsters/one_minute_wardens_hugs=true}] run function [bacaped_rewards]:trophy/[monsters/one_minute_wardens_hugs]
 execute as @s[advancements={bacaped:nether/netherite_beacon=true}] run function [bacaped_rewards]:trophy/[nether/netherite_beacon]
 execute as @s[advancements={bacaped:statistics/ravager_repeller=true}] run function [bacaped_rewards]:trophy/[statistics/ravager_repeller]

@@ -177,7 +177,7 @@ execute if score bacaped:challenges/so_bright bac_obtained_light_purple matches 
 execute if score bacaped:challenges/star_fisherman bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/star_fisherman
 execute if score bacaped:challenges/the_apocalyptic_decalogy bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/the_apocalyptic_decalogy
 execute if score bacaped:challenges/the_king_of_the_redskins bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/the_king_of_the_redskins
-execute if score bacaped:challenges/the_world_is_actually_ending_2 bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/the_world_is_actually_ending_2
+execute if score bacaped:challenges/the_world_is_actually_ending bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/the_world_is_actually_ending
 execute if score bacaped:challenges/thousand_lives bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/thousand_lives
 execute if score bacaped:challenges/void_being bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/void_being
 execute if score bacaped:challenges/what_a_stupid_purchase bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/what_a_stupid_purchase

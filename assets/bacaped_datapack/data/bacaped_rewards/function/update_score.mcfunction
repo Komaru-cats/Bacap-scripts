@@ -252,7 +252,7 @@ execute as @a[advancements={bacaped:challenges/baron_munchausen=true}] run score
 execute as @a[advancements={bacaped:challenges/big_end_adventure=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/my_little_pig=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/no_shield_please=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:challenges/the_world_is_actually_ending_2=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={bacaped:challenges/the_world_is_actually_ending=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/thousand_lives=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:end/weightlessness=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:end/you_goat_me_to_an_end=true}] run scoreboard players add @s bac_advancements 1
