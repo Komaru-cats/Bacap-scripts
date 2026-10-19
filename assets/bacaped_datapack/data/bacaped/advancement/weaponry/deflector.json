@@ -29,9 +29,9 @@
     },
     "description": {
       "translate": "Deflect a blow that does at least 40 damage with your shield",
-      "color": "dark_purple"
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:weaponry/more_shields",
