@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/what_are_the_chances",
+  "parent": "blazeandcave:challenges/endergeddon",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:impossible"

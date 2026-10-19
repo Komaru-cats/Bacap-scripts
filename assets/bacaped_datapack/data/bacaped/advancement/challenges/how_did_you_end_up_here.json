@@ -29,7 +29,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/endergeddon",
+  "parent": "bacaped:challenges/what_are_the_chances",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:player_killed_entity",
