@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/wither_aboard",reward_id:"nether/wither_aboard",tier:"challenge"}
