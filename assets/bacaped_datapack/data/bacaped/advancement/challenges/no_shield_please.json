@@ -27,7 +27,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/shield_of_achilles",
+  "parent": "bacaped:challenges/command_work",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:entity_hurt_player",

@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/root",
+  "parent": "bacaped:challenges/definitely_not_raid_farming",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

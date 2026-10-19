@@ -29,7 +29,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/circus_act",
+  "parent": "blazeandcave:challenges/dragon_army",
   "criteria": {
     "sit_on_good_horse": {
       "trigger": "minecraft:impossible"

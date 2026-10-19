@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/raise_the_stakes",
+  "parent": "bacaped:challenges/thousand_lives",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

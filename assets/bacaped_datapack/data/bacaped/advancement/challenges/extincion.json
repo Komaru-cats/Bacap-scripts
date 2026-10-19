@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/sandwich",
+  "parent": "bacaped:challenges/5_birds_1_stone",
   "criteria": {
     "exctinction": {
       "trigger": "minecraft:killed_by_arrow",

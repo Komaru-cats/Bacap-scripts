@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/pooch_purge_pilot",
+  "parent": "blazeandcave:challenges/explorer_of_worlds",
   "criteria": {
     "river": {
       "trigger": "minecraft:location",

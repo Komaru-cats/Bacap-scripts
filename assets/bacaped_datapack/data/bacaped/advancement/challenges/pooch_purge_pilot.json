@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/big_pig_adventure",
+  "parent": "bacaped:challenges/big_horse_adventure",
   "criteria": {
     "ashen_snowy_taiga": {
       "trigger": "minecraft:player_killed_entity",
