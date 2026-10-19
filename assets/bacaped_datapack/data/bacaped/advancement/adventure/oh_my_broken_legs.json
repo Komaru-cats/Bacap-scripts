@@ -24,12 +24,12 @@
     },
     "description": {
       "translate": "Survive a fall from 1000 blocks above the world without landing on any blocks that soften the fall, with an empty inventory, and without any effects",
-      "color": "#FF2A2A"
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/celestial_protocol",
+  "parent": "minecraft:adventure/fall_from_world_height",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:fall_from_height",
@@ -209,6 +209,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/oh_my_broken_legs"
+    "function": "bacaped_rewards:adventure/oh_my_broken_legs"
   }
 }

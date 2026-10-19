@@ -204,7 +204,7 @@ bacaped:challenges/celestial_protocol:
 bacaped:challenges/circus_act:
   default:
 
-bacaped:challenges/oh_my_broken_legs:
+bacaped:mining/oh_my_broken_legs:
   default: "Fall over 1000 blocks and sit on any possible mob (This is only 1 of the ways to do it)"
 
 bacaped:challenges/one_in_a_million_steed:
@@ -288,7 +288,7 @@ bacaped:bacap/enhanced_weaponry_milestone:
 bacaped:challenges/monstrous_rocket:
   default:
 
-bacaped:challenges/mounted_menace:
+bacaped:monsters/mounted_menace:
   default:
 
 bacaped:challenges/star_fisherman:
