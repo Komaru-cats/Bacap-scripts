@@ -24,12 +24,12 @@
     },
     "description": {
       "translate": "Look at a Silverfish in a Bastion, Fortress and a Ruined Portal in the Nether using Spyglass",
-      "color": "#FF2A2A"
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/highway_to_hell",
+  "parent": "bacaped:nether/flap_dont_fall",
   "criteria": {
     "ruined_portal": {
       "trigger": "minecraft:using_item",
@@ -99,6 +99,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/show_the_nether_to_a_silverfish"
+    "function": "bacaped_rewards:nether/show_the_nether_to_a_silverfish"
   }
 }

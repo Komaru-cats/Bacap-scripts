@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/show_the_nether_to_a_silverfish",reward_id:"nether/show_the_nether_to_a_silverfish",tier:"challenge"}
