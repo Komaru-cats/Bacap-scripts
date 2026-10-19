@@ -11,12 +11,12 @@
     },
     "description": {
       "translate": "Kill all airborne mobs with a Wind Charge",
-      "color": "#FF2A2A"
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/biological_warfare",
+  "parent": "minecraft:adventure/blowback",
   "criteria": {
     "killed_dragon_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
@@ -190,6 +190,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/airborne_annihilator"
+    "function": "bacaped_rewards:adventure/airborne_annihilator"
   }
 }
