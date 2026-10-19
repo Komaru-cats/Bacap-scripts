@@ -18,7 +18,7 @@
   },
   "parent": "minecraft:adventure/blowback",
   "criteria": {
-    "killed_dragon_with_wind_charge": {
+    "dragon": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -35,7 +35,7 @@
         }
       }
     },
-    "killed_bat_with_wind_charge": {
+    "bat": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -52,7 +52,7 @@
         }
       }
     },
-    "killed_bee_with_wind_charge": {
+    "bee": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -69,7 +69,7 @@
         }
       }
     },
-    "killed_blaze_with_wind_charge": {
+    "blaze": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -86,7 +86,7 @@
         }
       }
     },
-    "killed_breeze_with_wind_charge": {
+    "breeze": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -103,7 +103,7 @@
         }
       }
     },
-    "killed_ghast_with_wind_charge": {
+    "ghast": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -120,7 +120,7 @@
         }
       }
     },
-    "killed_happy_ghast_with_wind_charge": {
+    "happy_ghast": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -137,7 +137,7 @@
         }
       }
     },
-    "killed_parrot_with_wind_charge": {
+    "parrot": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -154,7 +154,7 @@
         }
       }
     },
-    "killed_vex_with_wind_charge": {
+    "vex": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -171,7 +171,7 @@
         }
       }
     },
-    "killed_phantom_with_wind_charge": {
+    "phantom": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
