@@ -1,3 +1,0 @@
-give @s filled_map[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"Forged in war",color:"#701000"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"My Personal Slave",color:"light_purple",italic:false}], minecraft:custom_name={translate:"Blood Contract",color:"#701000",bold:true,italic:false}, minecraft:custom_model_data={floats:[15500f]}, minecraft:custom_data={Trophy:true}, minecraft:map_color=12741452]
-tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.filled_map"}]}
-tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Blood Contract"}]}
