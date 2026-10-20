@@ -1,2 +1,0 @@
-give @s spyglass[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"How did it end up inside the Wither??",color:"#F0DD50"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Wither Aboard!",color:"dark_purple",italic:false}], minecraft:custom_name={translate:"Missed Spyglass",color:"#F0DD50",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:missed_spyglass"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
-tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Missed Spyglass"}]}

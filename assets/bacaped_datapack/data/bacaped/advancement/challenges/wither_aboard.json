@@ -8,12 +8,12 @@
     },
     "description": {
       "translate": "Defeat the Wither in the shipwreck with a Parrot sitting on your shoulder",
-      "color": "dark_purple"
+      "color": "#FF2A2A"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:nether/show_the_wither_his_home",
+  "parent": "blazeandcave:challenges/endergeddon",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:player_killed_entity",
@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:nether/wither_aboard"
+    "function": "bacaped_rewards:challenges/wither_aboard"
   }
 }

@@ -24,18 +24,18 @@
     },
     "description": {
       "translate": "Ride a Horse that has more than 25 health points, moves faster than 13 blocks per second and jumps more than 4 blocks",
-      "color": "#FF2A2A"
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/dragon_army",
+  "parent": "bacaped:animal/what_a_mess_this_horse_is",
   "criteria": {
     "sit_on_good_horse": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/one_in_a_million_steed"
+    "function": "bacaped_rewards:animal/one_in_a_million_steed"
   }
 }
