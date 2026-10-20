@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/star_fisherman",reward_id:"end/star_fisherman",tier:"goal"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/star_fisherman",reward_id:"end/star_fisherman",tier:"goal"}

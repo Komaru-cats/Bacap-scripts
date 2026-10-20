@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/astronomer",reward_id:"enchanting/astronomer",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/astronomer",reward_id:"enchanting/astronomer",tier:"challenge"}

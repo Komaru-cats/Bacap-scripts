@@ -6,21 +6,19 @@
     "title": {
       "translate": "Advancement Info"
     },
-    "description": [
-      {
-        "translate": "Stand on cobblestone stairs in full diamond armor while holding a diamond sword.",
-        "color": "#75E1FF",
-        "extra": [
-          {
-            "text": "\n"
-          },
-          {
-            "translate": "Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!",
-            "color": "dark_gray"
-          }
-        ]
-      }
-    ],
+    "description": {
+      "translate": "Stand on cobblestone stairs in full diamond armor while holding a diamond sword.",
+      "color": "#75E1FF",
+      "extra": [
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!",
+          "color": "dark_gray"
+        }
+      ]
+    },
     "frame": "goal",
     "announce_to_chat": true
   },
