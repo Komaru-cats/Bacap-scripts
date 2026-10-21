@@ -9,7 +9,8 @@
     "description": {
       "translate": "Get the \"death.fell.accident.water\" death message"
     },
-    "frame": "goal"
+    "frame": "goal",
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:biomes/just_keep_swimming",
   "criteria": {
@@ -40,5 +41,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/death_fell_accident_water"
   }
 }
