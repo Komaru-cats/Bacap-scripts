@@ -7,7 +7,7 @@
       "translate": "Explosive Elixir"
     },
     "description": {
-      "translate": "Have every max possible level effect applied at the same time",
+      "translate": "Have every max possible level effect applied at the same time (including Saturation)",
       "color": "light_purple"
     },
     "frame": "challenge",
