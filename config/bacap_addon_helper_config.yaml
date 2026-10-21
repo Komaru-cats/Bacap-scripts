@@ -23,6 +23,7 @@ templates:
           - "TeleFoxing"
           - "SnifferSniffEvent"
           - "HR Manager of the Year"
+          - "death.fell.accident.water"
 
       # Detects accidental leading or trailing spaces in titles and descriptions
       whitespace_trimming:
