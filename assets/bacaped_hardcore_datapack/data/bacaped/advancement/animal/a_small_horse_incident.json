@@ -4,10 +4,10 @@
       "id": "minecraft:lead"
     },
     "title": {
-      "translate": "Small Horse Assassination"
+      "translate": "A Small Horse Incident"
     },
     "description": {
-      "translate": "Die of suffocation while on Horse",
+      "translate": "Take suffocation damage while on Horse",
       "color": "green"
     },
     "frame": "task",
@@ -22,7 +22,6 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:nbt": "{Health:0f}",
             "minecraft:vehicle": {
               "minecraft:entity_type": "minecraft:horse"
             }
