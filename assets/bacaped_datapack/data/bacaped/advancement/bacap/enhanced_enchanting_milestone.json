@@ -10,27 +10,11 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Enchanting tab",
       "color": "yellow"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_redstone_milestone",
   "criteria": {
-    "useless": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/useless": true
-              }
-            }
-          }
-        }
-      }
-    },
     "all_the_netherite_tools": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -41,6 +25,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:enchanting/all_the_netherite_tools": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "astronomer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/astronomer": true
               }
             }
           }
@@ -89,6 +89,38 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:enchanting/heavy_catch": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "master_shearer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/master_shearer": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "master_shieldman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/master_shieldman": true
               }
             }
           }
@@ -159,7 +191,7 @@
         }
       }
     },
-    "master_shearer": {
+    "useless": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -168,23 +200,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:enchanting/master_shearer": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "master_shieldman": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/master_shieldman": true
+                "bacaped:enchanting/useless": true
               }
             }
           }

@@ -373,6 +373,6 @@
     ]
   ],
   "rewards": {
-    "function": "bacaped_rewards:challenges/dead_carnaval"
+    "function": "bacaped_rewards:challenges/dead_carnival"
   }
 }

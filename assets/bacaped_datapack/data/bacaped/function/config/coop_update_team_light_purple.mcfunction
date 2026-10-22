@@ -140,12 +140,12 @@ execute if score bacaped:challenges/celestial_protocol bac_obtained_light_purple
 execute if score bacaped:challenges/circus_act bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/circus_act
 execute if score bacaped:challenges/command_work bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/command_work
 execute if score bacaped:challenges/compass_overload bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/compass_overload
-execute if score bacaped:challenges/dead_carnaval bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/dead_carnaval
+execute if score bacaped:challenges/dead_carnival bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/dead_carnival
 execute if score bacaped:challenges/definitely_not_raid_farming bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/definitely_not_raid_farming
 execute if score bacaped:challenges/dragon_vs_warden_vi bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/dragon_vs_warden_vi
 execute if score bacaped:challenges/dragon_vs_wither_iv bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/dragon_vs_wither_iv
 execute if score bacaped:challenges/end_of_the_world_as_we_know_it bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/end_of_the_world_as_we_know_it
-execute if score bacaped:challenges/explosive_elexir bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/explosive_elexir
+execute if score bacaped:challenges/explosive_elixir bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/explosive_elixir
 execute if score bacaped:challenges/extincion bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/extincion
 execute if score bacaped:challenges/from_the_underworld bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/from_the_underworld
 execute if score bacaped:challenges/happy_anniversary bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/happy_anniversary

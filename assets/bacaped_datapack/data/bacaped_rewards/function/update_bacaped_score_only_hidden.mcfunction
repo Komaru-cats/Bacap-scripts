@@ -1,7 +1,7 @@
 execute as @a[advancements={bacaped:adventure/herbalists_dream=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:animal/i_love_salmons=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/end_of_the_world_as_we_know_it=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:challenges/explosive_elexir=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:challenges/explosive_elixir=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/absolutely_ablaze_journey=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/ancient_sorcerer_sage=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/storm_hog_pilgrim=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1

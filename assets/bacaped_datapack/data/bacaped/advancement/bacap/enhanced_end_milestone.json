@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the End tab",
       "color": "yellow"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_potion_milestone",
@@ -25,6 +25,86 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:end/bee_colonist": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "big_end_adventure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/big_end_adventure": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "circus_act": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/circus_act": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "compact_base": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/compact_base": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "dragon_blitz": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/dragon_blitz": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "end_at_the_start_of_the_game": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/end_at_the_start_of_the_game": true
               }
             }
           }
@@ -47,7 +127,7 @@
         }
       }
     },
-    "end_at_the_start_of_the_game": {
+    "how_did_you_end_up_here": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -56,7 +136,55 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:end/end_at_the_start_of_the_game": true
+                "bacaped:end/how_did_you_end_up_here": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "interdimensional_travel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/interdimensional_travel": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "intergalactic_journey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/intergalactic_journey": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "interspecific_adventure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/interspecific_adventure": true
               }
             }
           }
@@ -111,6 +239,22 @@
         }
       }
     },
+    "star_fisherman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/star_fisherman": true
+              }
+            }
+          }
+        }
+      }
+    },
     "the_lockbox": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -127,7 +271,7 @@
         }
       }
     },
-    "compact_base": {
+    "void_being": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -136,23 +280,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:end/compact_base": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "dragon_blitz": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:end/dragon_blitz": true
+                "bacaped:end/void_being": true
               }
             }
           }
@@ -185,38 +313,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:end/you_goat_me_to_an_end": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "interdimensional_travel": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:end/interdimensional_travel": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "intergalactic_journey": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:end/intergalactic_journey": true
               }
             }
           }

@@ -282,7 +282,7 @@ execute as @a[advancements={bacaped:bacap/enhanced_enchanting_milestone=true}] r
 execute as @a[advancements={bacaped:biomes/lost_ruin=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/underwater_pirates=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/unite_storm=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:challenges/dead_carnaval=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={bacaped:challenges/dead_carnival=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/definitely_not_raid_farming=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/pottery_collector=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/professional_assassin=true}] run scoreboard players add @s bac_advancements 1

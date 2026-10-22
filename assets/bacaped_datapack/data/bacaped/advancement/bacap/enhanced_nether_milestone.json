@@ -10,107 +10,11 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Nether tab",
       "color": "yellow"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_statistics_milestone",
   "criteria": {
-    "rainbow": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/rainbow": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "show_the_wither_his_home": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/show_the_wither_his_home": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "the_last_deal": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/the_last_deal": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "the_new_swamp_wont_be_here": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/the_new_swamp_wont_be_here": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "blaze3d": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/blaze3d": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "diamond_beacon": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/diamond_beacon": true
-              }
-            }
-          }
-        }
-      }
-    },
     "a_long_journey": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -169,6 +73,166 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:nether/beyond_the_rings": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "big_pig_adventure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/big_pig_adventure": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "blaze3d": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/blaze3d": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "diamond_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/diamond_beacon": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "emerald_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/emerald_beacon": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "firefox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/firefox": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "flap_dont_fall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/flap_dont_fall": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "give_them_everything_they_want": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/give_them_everything_they_want": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "gold_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/gold_beacon": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "happy_ghast_silencer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/happy_ghast_silencer": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "herbarium_to_my_friend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/herbarium_to_my_friend": true
               }
             }
           }
@@ -271,70 +335,6 @@
         }
       }
     },
-    "give_them_everything_they_want": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/give_them_everything_they_want": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "gold_beacon": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/gold_beacon": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "happy_ghast_silencer": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/happy_ghast_silencer": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "herbarium_to_my_friend": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/herbarium_to_my_friend": true
-              }
-            }
-          }
-        }
-      }
-    },
     "never_careful_enough": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -351,7 +351,7 @@
         }
       }
     },
-    "flap_dont_fall": {
+    "rainbow": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -360,7 +360,71 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:nether/flap_dont_fall": true
+                "bacaped:nether/rainbow": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "show_the_nether_to_a_silverfish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/show_the_nether_to_a_silverfish": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "show_the_wither_his_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/show_the_wither_his_home": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_last_deal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/the_last_deal": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_new_swamp_wont_be_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/the_new_swamp_wont_be_here": true
               }
             }
           }
@@ -377,38 +441,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:nether/withering_depths": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "emerald_beacon": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/emerald_beacon": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "firefox": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/firefox": true
               }
             }
           }

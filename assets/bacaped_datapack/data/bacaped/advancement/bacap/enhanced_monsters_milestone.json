@@ -10,75 +10,11 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Monsters tab",
       "color": "yellow"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_animal_milestone",
   "criteria": {
-    "high_explosives": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/high_explosives": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "i_uh_forgot_a_composter": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/i_uh_forgot_a_composter": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "the_undertakers_revenge": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/the_undertakers_revenge": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "wardens_thrust": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/wardens_thrust": true
-              }
-            }
-          }
-        }
-      }
-    },
     "arachnophobia": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -95,7 +31,7 @@
         }
       }
     },
-    "live_cactus": {
+    "born_to_spawn": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -104,14 +40,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:monsters/live_cactus": true
+                "bacaped:monsters/born_to_spawn": true
               }
             }
           }
         }
       }
     },
-    "more_impossible": {
+    "eye_contact_master": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -120,87 +56,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:monsters/more_impossible": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "phantom_rider": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/phantom_rider": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "suspicious_duel": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/suspicious_duel": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "the_inquisition": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/the_inquisition": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "not_that_impossible": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/not_that_impossible": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "one_minute_wardens_hugs": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:monsters/one_minute_wardens_hugs": true
+                "bacaped:monsters/eye_contact_master": true
               }
             }
           }
@@ -239,7 +95,7 @@
         }
       }
     },
-    "born_to_spawn": {
+    "high_explosives": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -248,14 +104,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:monsters/born_to_spawn": true
+                "bacaped:monsters/high_explosives": true
               }
             }
           }
         }
       }
     },
-    "eye_contact_master": {
+    "i_uh_forgot_a_composter": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -264,7 +120,183 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:monsters/eye_contact_master": true
+                "bacaped:monsters/i_uh_forgot_a_composter": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "live_cactus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/live_cactus": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "more_impossible": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/more_impossible": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "not_that_impossible": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/not_that_impossible": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "one_minute_wardens_hugs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/one_minute_wardens_hugs": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "phantom_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/phantom_rider": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "sandwich": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/sandwich": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "suspicious_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/suspicious_duel": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_inquisition": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/the_inquisition": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_undertakers_revenge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/the_undertakers_revenge": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "wardens_thrust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/wardens_thrust": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "what_are_the_chances": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/what_are_the_chances": true
               }
             }
           }

@@ -392,7 +392,7 @@ bacaped:building/potception:
 bacaped:challenges/end_of_the_world_as_we_know_it:
   default:
 
-bacaped:challenges/explosive_elexir:
+bacaped:challenges/explosive_elixir:
   default: "Have all the effects of a certain level or higher at the same time: Speed 2, Slowness 6, Strength 2, Jump Boost 2, Regeneration 2, Fire Resistance 1, Water Breathing 1, Invisibility 1, Night Vision 1, Weakness 1, Poison 2, Wither 2, Haste 2, Mining Fatigue 3, Levitation 1, Glowing 1, Absorption 4, Hunger 3, Nausea 1, Resistance 4, Slow Falling 1, Conduit Power 1, Dolphins Grace 1, Blindness 1, Hero of the Village 5, Darkness 1, Oozing 1, Weaving 1, Infested 1, Wind Charged 1, Raid Omen 5, Bad Omen 5, Trial Omen 1, Breath of the Nautilus 1, Saturation 1"
 
 bacaped:challenges/pyrotechnic_vs_dragon_v:
@@ -576,7 +576,7 @@ bacaped:building/art_lover:
 bacaped:building/bee_design:
   default: "Make a 3x3 platform out of beehives and stand in the center"
 
-bacaped:challenges/dead_carnaval:
+bacaped:challenges/dead_carnival:
   default: "Kill a Bogged, Zombie, Zombie Horse, Zombie Nautilus, Drowned, Husk, Camel Husk, Phantom, Skeleton, Skeleton Horse, Stray, Parched, Wither Skeleton, Zombie Villager, Zombified Piglin and Zoglin with a single firework rocket"
 
 bacaped:challenges/definitely_not_raid_farming:

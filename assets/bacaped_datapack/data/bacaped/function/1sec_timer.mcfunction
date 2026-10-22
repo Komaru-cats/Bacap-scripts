@@ -49,7 +49,7 @@ execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run exe
 execute as @a[advancements={bacaped:biomes/australia=false}] at @s if entity @e[type=pig,distance=..8,predicate=bacaped:australia_pig] run advancement grant @s only bacaped:biomes/australia
 
 # Dead Carnival
-execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnaval=false}] run advancement revoke @s only bacaped:challenges/dead_carnaval
+execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnival=false}] run advancement revoke @s only bacaped:challenges/dead_carnival
 
 # Flap, Don't Fall
 execute as @a[gamemode=!spectator,advancements={bacaped:nether/flap_dont_fall=false},predicate=bacaped:flap_dont_fall_reset] at @s run function bacaped:flap_dont_fall_reset

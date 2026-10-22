@@ -13,12 +13,12 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Potion tab",
       "color": "yellow"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_nether_milestone",
   "criteria": {
-    "trial_potions": {
+    "armor_in_a_bottle": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -27,14 +27,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:potion/trial_potions": true
+                "bacaped:potion/armor_in_a_bottle": true
               }
             }
           }
         }
       }
     },
-    "worst_cleric_in_the_world": {
+    "cowabunga_it_is": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -43,7 +43,23 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:potion/worst_cleric_in_the_world": true
+                "bacaped:potion/cowabunga_it_is": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "flashlight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/flashlight": true
               }
             }
           }
@@ -114,7 +130,7 @@
         }
       }
     },
-    "armor_in_a_bottle": {
+    "trial_potions": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -123,14 +139,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:potion/armor_in_a_bottle": true
+                "bacaped:potion/trial_potions": true
               }
             }
           }
         }
       }
     },
-    "cowabunga_it_is": {
+    "worst_cleric_in_the_world": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -139,23 +155,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:potion/cowabunga_it_is": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "flashlight": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:potion/flashlight": true
+                "bacaped:potion/worst_cleric_in_the_world": true
               }
             }
           }

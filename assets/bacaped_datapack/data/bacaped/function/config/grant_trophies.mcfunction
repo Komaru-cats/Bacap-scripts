@@ -64,12 +64,12 @@ execute as @s[advancements={bacaped:challenges/big_horse_adventure=true}] run fu
 execute as @s[advancements={bacaped:challenges/celestial_protocol=true}] run function bacaped_rewards:trophy/challenges/celestial_protocol
 execute as @s[advancements={bacaped:challenges/command_work=true}] run function bacaped_rewards:trophy/challenges/command_work
 execute as @s[advancements={bacaped:challenges/compass_overload=true}] run function bacaped_rewards:trophy/challenges/compass_overload
-execute as @s[advancements={bacaped:challenges/dead_carnaval=true}] run function bacaped_rewards:trophy/challenges/dead_carnaval
+execute as @s[advancements={bacaped:challenges/dead_carnival=true}] run function bacaped_rewards:trophy/challenges/dead_carnival
 execute as @s[advancements={bacaped:challenges/definitely_not_raid_farming=true}] run function bacaped_rewards:trophy/challenges/definitely_not_raid_farming
 execute as @s[advancements={bacaped:challenges/dragon_vs_warden_vi=true}] run function bacaped_rewards:trophy/challenges/dragon_vs_warden_vi
 execute as @s[advancements={bacaped:challenges/dragon_vs_wither_iv=true}] run function bacaped_rewards:trophy/challenges/dragon_vs_wither_iv
 execute as @s[advancements={bacaped:challenges/end_of_the_world_as_we_know_it=true}] run function bacaped_rewards:trophy/challenges/end_of_the_world_as_we_know_it
-execute as @s[advancements={bacaped:challenges/explosive_elexir=true}] run function bacaped_rewards:trophy/challenges/explosive_elexir
+execute as @s[advancements={bacaped:challenges/explosive_elixir=true}] run function bacaped_rewards:trophy/challenges/explosive_elixir
 execute as @s[advancements={bacaped:challenges/extincion=true}] run function bacaped_rewards:trophy/challenges/extincion
 execute as @s[advancements={bacaped:challenges/from_the_underworld=true}] run function bacaped_rewards:trophy/challenges/from_the_underworld
 execute as @s[advancements={bacaped:challenges/happy_anniversary=true}] run function bacaped_rewards:trophy/challenges/happy_anniversary

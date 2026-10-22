@@ -9,7 +9,7 @@ execute as @a[advancements={bacaped:bacap/enhanced_legend=true}] run scoreboard 
 execute as @a[advancements={bacaped:building/artificial_forest=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:building/art_lover=true}] run scoreboard players operation @s bacaped_advancements_points += task bac_points
 execute as @a[advancements={bacaped:challenges/end_of_the_world_as_we_know_it=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
-execute as @a[advancements={bacaped:challenges/explosive_elexir=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
+execute as @a[advancements={bacaped:challenges/explosive_elixir=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:challenges/riddle_me_that=true}] run scoreboard players operation @s bacaped_advancements_points += super_challenge bac_points
 execute as @a[advancements={bacaped:challenges/sandwich=true}] run scoreboard players operation @s bacaped_advancements_points += super_challenge bac_points
 execute as @a[advancements={bacaped:enchanting/useless=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
@@ -325,7 +325,7 @@ execute as @a[advancements={bacaped:bacap/enhanced_enchanting_milestone=true}] r
 execute as @a[advancements={bacaped:biomes/lost_ruin=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:biomes/underwater_pirates=true}] run scoreboard players operation @s bacaped_advancements_points += task bac_points
 execute as @a[advancements={bacaped:biomes/unite_storm=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
-execute as @a[advancements={bacaped:challenges/dead_carnaval=true}] run scoreboard players operation @s bacaped_advancements_points += super_challenge bac_points
+execute as @a[advancements={bacaped:challenges/dead_carnival=true}] run scoreboard players operation @s bacaped_advancements_points += super_challenge bac_points
 execute as @a[advancements={bacaped:challenges/definitely_not_raid_farming=true}] run scoreboard players operation @s bacaped_advancements_points += super_challenge bac_points
 execute as @a[advancements={bacaped:challenges/pottery_collector=true}] run scoreboard players operation @s bacaped_advancements_points += super_challenge bac_points
 execute as @a[advancements={bacaped:challenges/professional_assassin=true}] run scoreboard players operation @s bacaped_advancements_points += super_challenge bac_points

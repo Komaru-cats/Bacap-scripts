@@ -9,7 +9,7 @@ execute if score bacaped:bacap/enhanced_legend bac_obtained_white matches 1.. ru
 execute if score bacaped:building/artificial_forest bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:building/artificial_forest
 execute if score bacaped:building/art_lover bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:building/art_lover
 execute if score bacaped:challenges/end_of_the_world_as_we_know_it bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/end_of_the_world_as_we_know_it
-execute if score bacaped:challenges/explosive_elexir bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/explosive_elexir
+execute if score bacaped:challenges/explosive_elixir bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/explosive_elixir
 execute if score bacaped:challenges/riddle_me_that bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/riddle_me_that
 execute if score bacaped:challenges/sandwich bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/sandwich
 execute if score bacaped:enchanting/useless bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:enchanting/useless
@@ -325,7 +325,7 @@ execute if score bacaped:bacap/enhanced_enchanting_milestone bac_obtained_white 
 execute if score bacaped:biomes/lost_ruin bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:biomes/lost_ruin
 execute if score bacaped:biomes/underwater_pirates bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:biomes/underwater_pirates
 execute if score bacaped:biomes/unite_storm bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:biomes/unite_storm
-execute if score bacaped:challenges/dead_carnaval bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/dead_carnaval
+execute if score bacaped:challenges/dead_carnival bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/dead_carnival
 execute if score bacaped:challenges/definitely_not_raid_farming bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/definitely_not_raid_farming
 execute if score bacaped:challenges/pottery_collector bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/pottery_collector
 execute if score bacaped:challenges/professional_assassin bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:challenges/professional_assassin

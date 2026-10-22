@@ -10,12 +10,12 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Redstone tab",
       "color": "yellow"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_adventure_milestone",
   "criteria": {
-    "using_a_bow_using_a_bow": {
+    "craft_me_all": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -24,14 +24,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/using_a_bow_using_a_bow": true
+                "bacaped:redstone/craft_me_all": true
               }
             }
           }
         }
       }
     },
-    "what_do_you_know_about_pistons": {
+    "crafting_lockdown": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -40,14 +40,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/what_do_you_know_about_pistons": true
+                "bacaped:redstone/crafting_lockdown": true
               }
             }
           }
         }
       }
     },
-    "night_shift": {
+    "farm_basics": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -56,55 +56,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/night_shift": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "old_optimizations": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/old_optimizations": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "oppositional_position": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/oppositional_position": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "say_no_to_campfires": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:redstone/say_no_to_campfires": true
+                "bacaped:redstone/farm_basics": true
               }
             }
           }
@@ -175,7 +127,7 @@
         }
       }
     },
-    "crafting_lockdown": {
+    "night_shift": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -184,14 +136,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/crafting_lockdown": true
+                "bacaped:redstone/night_shift": true
               }
             }
           }
         }
       }
     },
-    "craft_me_all": {
+    "old_optimizations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -200,14 +152,14 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/craft_me_all": true
+                "bacaped:redstone/old_optimizations": true
               }
             }
           }
         }
       }
     },
-    "farm_basics": {
+    "oppositional_position": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -216,7 +168,55 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/farm_basics": true
+                "bacaped:redstone/oppositional_position": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "say_no_to_campfires": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/say_no_to_campfires": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "using_a_bow_using_a_bow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/using_a_bow_using_a_bow": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "what_do_you_know_about_pistons": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/what_do_you_know_about_pistons": true
               }
             }
           }

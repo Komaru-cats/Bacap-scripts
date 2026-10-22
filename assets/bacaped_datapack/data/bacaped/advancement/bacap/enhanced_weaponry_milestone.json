@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Weaponry tab",
       "color": "yellow"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_monsters_milestone",
@@ -153,6 +153,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:weaponry/more_shields": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "shield_of_achilles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:weaponry/shield_of_achilles": true
               }
             }
           }

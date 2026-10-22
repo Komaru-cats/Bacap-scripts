@@ -9,7 +9,7 @@ execute if score bacaped:bacap/enhanced_legend bac_obtained matches 1.. run adva
 execute if score bacaped:building/artificial_forest bac_obtained matches 1.. run advancement grant @a only bacaped:building/artificial_forest
 execute if score bacaped:building/art_lover bac_obtained matches 1.. run advancement grant @a only bacaped:building/art_lover
 execute if score bacaped:challenges/end_of_the_world_as_we_know_it bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/end_of_the_world_as_we_know_it
-execute if score bacaped:challenges/explosive_elexir bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/explosive_elexir
+execute if score bacaped:challenges/explosive_elixir bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/explosive_elixir
 execute if score bacaped:challenges/riddle_me_that bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/riddle_me_that
 execute if score bacaped:challenges/sandwich bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/sandwich
 execute if score bacaped:enchanting/useless bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/useless
@@ -325,7 +325,7 @@ execute if score bacaped:bacap/enhanced_enchanting_milestone bac_obtained matche
 execute if score bacaped:biomes/lost_ruin bac_obtained matches 1.. run advancement grant @a only bacaped:biomes/lost_ruin
 execute if score bacaped:biomes/underwater_pirates bac_obtained matches 1.. run advancement grant @a only bacaped:biomes/underwater_pirates
 execute if score bacaped:biomes/unite_storm bac_obtained matches 1.. run advancement grant @a only bacaped:biomes/unite_storm
-execute if score bacaped:challenges/dead_carnaval bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/dead_carnaval
+execute if score bacaped:challenges/dead_carnival bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/dead_carnival
 execute if score bacaped:challenges/definitely_not_raid_farming bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/definitely_not_raid_farming
 execute if score bacaped:challenges/pottery_collector bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/pottery_collector
 execute if score bacaped:challenges/professional_assassin bac_obtained matches 1.. run advancement grant @a only bacaped:challenges/professional_assassin
