@@ -17,7 +17,7 @@
       "translate": "Ice³"
     },
     "description": {
-      "translate": "Fill your inventory with blue ice",
+      "translate": "Have a shulker full of blue ice in your inventory",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -32,156 +32,205 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "slots": {
-              "inventory.0": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.1": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.2": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.3": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.4": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.5": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.6": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.7": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.8": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.9": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.10": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.11": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.12": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.13": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.14": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.15": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.16": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.17": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.18": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.19": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.20": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.21": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.22": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.23": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.24": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.25": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "inventory.26": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.0": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.1": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.2": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.3": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.4": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.5": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.6": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.7": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              },
-              "hotbar.8": {
-                "items": "minecraft:blue_ice",
-                "count": 64
-              }
-            },
-            "equipment": {
-              "offhand": {
-                "items": "minecraft:blue_ice",
-                "count": 64
+            "minecraft:slots": {
+              "container.*": {
+                "items": "#minecraft:shulker_boxes",
+                "count": {
+                  "min": 1
+                },
+                "components": {
+                  "minecraft:container": [
+                    {
+                      "slot": 0,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 1,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 2,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 3,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 4,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 5,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 6,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 7,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 8,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 9,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 10,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 11,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 12,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 13,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 14,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 15,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 16,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 17,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 18,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 19,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 20,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 21,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 22,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 23,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 24,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 25,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 26,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    }
+                  ]
+                }
               }
             }
           }
