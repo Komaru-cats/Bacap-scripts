@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/third_escape_velocity",reward_id:"end/third_escape_velocity",tier:"hidden"}

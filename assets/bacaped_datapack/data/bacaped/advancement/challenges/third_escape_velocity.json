@@ -18,13 +18,12 @@
     },
     "description": {
       "translate": "Reach a vertical speed of over 16700 blocks per second",
-      "color": "light_purple"
+      "color": "#FF2A2A"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": true
+    "announce_to_chat": true
   },
-  "parent": "bacaped:end/speed_of_light",
+  "parent": "bacaped:challenges/pulse_detonation_engine",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",
@@ -44,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:end/third_escape_velocity"
+    "function": "bacaped_rewards:challenges/third_escape_velocity"
   }
 }
