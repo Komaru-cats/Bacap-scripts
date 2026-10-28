@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Show the Nether to a Silverfish"
+      "translate": "Unfamiliar Depths"
     },
     "description": {
       "translate": "Look at a Silverfish in a Bastion, Fortress and a Ruined Portal in the Nether using Spyglass",
@@ -99,6 +99,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:nether/show_the_nether_to_a_silverfish"
+    "function": "bacaped_rewards:nether/unfamiliar_depths"
   }
 }

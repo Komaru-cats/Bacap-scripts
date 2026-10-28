@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:nether/show_the_nether_to_a_silverfish",
+  "parent": "bacaped:nether/unfamiliar_depths",
   "criteria": {
     "nether_wastes": {
       "trigger": "minecraft:location",

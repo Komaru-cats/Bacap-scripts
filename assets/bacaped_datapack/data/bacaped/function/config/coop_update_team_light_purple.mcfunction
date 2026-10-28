@@ -171,7 +171,7 @@ execute if score bacaped:challenges/riddle_me_that bac_obtained_light_purple mat
 execute if score bacaped:challenges/sandwich bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/sandwich
 execute if score bacaped:challenges/shield_of_achilles bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/shield_of_achilles
 execute if score bacaped:challenges/shopaholic bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/shopaholic
-execute if score bacaped:challenges/show_the_nether_to_a_silverfish bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/show_the_nether_to_a_silverfish
+execute if score bacaped:challenges/unfamiliar_depths bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/unfamiliar_depths
 execute if score bacaped:challenges/silence_is_loud_here bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/silence_is_loud_here
 execute if score bacaped:challenges/so_bright bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/so_bright
 execute if score bacaped:challenges/star_fisherman bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/star_fisherman

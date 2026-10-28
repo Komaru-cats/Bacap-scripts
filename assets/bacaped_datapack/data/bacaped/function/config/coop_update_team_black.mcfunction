@@ -173,7 +173,7 @@ execute if score bacaped:challenges/how_did_you_end_up_here bac_obtained_black m
 execute if score bacaped:building/water_dependent bac_obtained_black matches 1.. run advancement grant @a[team=bac_teamblack] only bacaped:building/water_dependent
 execute if score bacaped:challenges/interspecific_adventure bac_obtained_black matches 1.. run advancement grant @a[team=bac_teamblack] only bacaped:challenges/interspecific_adventure
 execute if score bacaped:challenges/extincion bac_obtained_black matches 1.. run advancement grant @a[team=bac_teamblack] only bacaped:challenges/extincion
-execute if score bacaped:challenges/show_the_nether_to_a_silverfish bac_obtained_black matches 1.. run advancement grant @a[team=bac_teamblack] only bacaped:challenges/show_the_nether_to_a_silverfish
+execute if score bacaped:challenges/unfamiliar_depths bac_obtained_black matches 1.. run advancement grant @a[team=bac_teamblack] only bacaped:challenges/unfamiliar_depths
 execute if score bacaped:challenges/from_the_underworld bac_obtained_black matches 1.. run advancement grant @a[team=bac_teamblack] only bacaped:challenges/from_the_underworld
 execute if score bacaped:challenges/silence_is_loud_here bac_obtained_black matches 1.. run advancement grant @a[team=bac_teamblack] only bacaped:challenges/silence_is_loud_here
 execute if score bacaped:challenges/shield_of_achilles bac_obtained_black matches 1.. run advancement grant @a[team=bac_teamblack] only bacaped:challenges/shield_of_achilles

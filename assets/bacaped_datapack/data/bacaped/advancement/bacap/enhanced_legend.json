@@ -4258,7 +4258,7 @@
         }
       }
     },
-    "show_the_nether_to_a_silverfish": {
+    "unfamiliar_depths": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -4267,7 +4267,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:nether/show_the_nether_to_a_silverfish": true
+                "bacaped:nether/unfamiliar_depths": true
               }
             }
           }

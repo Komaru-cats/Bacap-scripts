@@ -147,7 +147,7 @@ execute as @a[advancements={bacaped:challenges/how_did_you_end_up_here=true}] ru
 execute as @a[advancements={bacaped:building/water_dependent=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:challenges/interspecific_adventure=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:challenges/extincion=true}] run scoreboard players add @s bacaped_advancements 1
-execute as @a[advancements={bacaped:challenges/show_the_nether_to_a_silverfish=true}] run scoreboard players add @s bacaped_advancements 1
+execute as @a[advancements={bacaped:challenges/unfamiliar_depths=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:challenges/shield_of_achilles=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:enchanting/fully_charged=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:challenges/shopaholic=true}] run scoreboard players add @s bacaped_advancements 1
