@@ -24,6 +24,7 @@ templates:
           - "SnifferSniffEvent"
           - "HR Manager of the Year"
           - "death.fell.accident.water"
+          - "Where Did the WORLD GO?"
 
       # Detects accidental leading or trailing spaces in titles and descriptions
       whitespace_trimming:

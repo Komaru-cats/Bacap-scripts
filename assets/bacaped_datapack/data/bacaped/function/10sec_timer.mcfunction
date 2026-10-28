@@ -95,6 +95,9 @@ execute as @a[x=0,y=0,z=0,distance=16640..18176,predicate=bacaped:is_in_strongho
 execute as @a[x=0,y=0,z=0,distance=19712..21248,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_19712-21248
 execute as @a[x=0,y=0,z=0,distance=22784..24320,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_22784-24320
 
+# Where did the Ground/World Go
+# we are checking only for hidden one since players cant get bacaped:mining/where_did_the_world_go without getting bacaped:mining/where_did_the_ground_go
+execute as @a[advancements={bacaped:mining/where_did_the_world_go=false},gamemode=!spectator] if dimension minecraft:overworld run function bacaped:chunk_mining/start_chunk_check
 
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer
