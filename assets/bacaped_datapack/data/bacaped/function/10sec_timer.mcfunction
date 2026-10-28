@@ -85,6 +85,16 @@ execute as @a[gamemode=!spectator, advancements={bacaped:statistics/frustrated_t
 execute as @a[gamemode=!spectator, advancements={bacaped:statistics/did_you_get_mending_yet=false}] as @s if score @s bacaped_villager_profession_blocks_mined matches 1000.. run advancement grant @s only bacaped:statistics/did_you_get_mending_yet
 execute as @a[gamemode=!spectator, advancements={bacaped:statistics/hr_manager_of_the_year=false}] as @s if score @s bacaped_villager_profession_blocks_mined matches 5000.. run advancement grant @s only bacaped:statistics/hr_manager_of_the_year
 
+# Lord of the Rings
+execute as @a[x=0,y=0,z=0,distance=1280..2816,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_1280-2816
+execute as @a[x=0,y=0,z=0,distance=4352..5888,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_4352-5888
+execute as @a[x=0,y=0,z=0,distance=7424..8960,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_7424-8960
+execute as @a[x=0,y=0,z=0,distance=10496..12032,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_10496-12032
+execute as @a[x=0,y=0,z=0,distance=13568..15104,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_13568-15104
+execute as @a[x=0,y=0,z=0,distance=16640..18176,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_16640-18176
+execute as @a[x=0,y=0,z=0,distance=19712..21248,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_19712-21248
+execute as @a[x=0,y=0,z=0,distance=22784..24320,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_22784-24320
+
 
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer
