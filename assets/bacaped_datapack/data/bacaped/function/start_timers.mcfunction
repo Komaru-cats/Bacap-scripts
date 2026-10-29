@@ -56,6 +56,8 @@ scoreboard objectives add bacaped_advancements_only_hiddens dummy {"translate":"
 scoreboard objectives modify bacaped_advancements numberformat styled {"color":"green"}
 scoreboard objectives modify bacaped_all_advancements numberformat styled {"color":"green"}
 scoreboard objectives modify bacaped_advancements_only_hiddens numberformat styled {"color":"green"}
+scoreboard objectives add bacaped_advancements_points dummy {"translate":"ED Advancement Points","color":"white"}
+scoreboard objectives modify bacaped_advancements_points numberformat styled {"color":"green"}
 # For eq. check in advancement_made_macro
 scoreboard objectives add bacaped_is_hidden dummy
 scoreboard players set hidden bacaped_is_hidden 1
