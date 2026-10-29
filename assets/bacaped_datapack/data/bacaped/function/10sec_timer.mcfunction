@@ -99,6 +99,9 @@ execute as @a[x=0,y=0,z=0,distance=22784..24320,predicate=bacaped:is_in_strongho
 # we are checking only for hidden one since players cant get bacaped:mining/where_did_the_world_go without getting bacaped:mining/where_did_the_ground_go
 execute as @a[advancements={bacaped:mining/where_did_the_world_go=false},gamemode=!spectator] if dimension minecraft:overworld run function bacaped:chunk_mining/start_chunk_check
 
+# Logistics Nightmare
+execute as @e[type=minecraft:chest_minecart,tag=!bacaped_not_generated_in_sulfur_caves,nbt={LootTable:"minecraft:chests/abandoned_mineshaft"}] at @s unless biome ~ ~ ~ minecraft:sulfur_caves run tag @s add bacaped_not_generated_in_sulfur_caves
+
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer
 
