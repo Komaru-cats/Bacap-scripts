@@ -10,11 +10,27 @@
       "translate": "Complete every Enhanced Discoveries advancement in the End tab",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_potion_milestone",
   "criteria": {
+    "a_diverting_misconception": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/a_diverting_misconception": true
+              }
+            }
+          }
+        }
+      }
+    },
     "bee_colonist": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -217,6 +233,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:end/one_small_step_for_man": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "silence_is_loud_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/silence_is_loud_here": true
               }
             }
           }

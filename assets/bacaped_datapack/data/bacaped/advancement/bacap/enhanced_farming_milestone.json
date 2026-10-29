@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Farming tab",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_building_milestone",
@@ -57,6 +57,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:farming/christmas_spirit": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "closed_loop_economy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/closed_loop_economy": true
               }
             }
           }

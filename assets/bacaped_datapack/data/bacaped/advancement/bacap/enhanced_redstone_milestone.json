@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Redstone tab",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_adventure_milestone",

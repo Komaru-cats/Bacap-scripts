@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/small_horse_assassination",reward_id:"animal/small_horse_assassination",tier:"task"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/a_small_horse_incident",reward_id:"animal/a_small_horse_incident",tier:"task"}

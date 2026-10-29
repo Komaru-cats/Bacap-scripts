@@ -10,11 +10,27 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Enchanting tab",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_redstone_milestone",
   "criteria": {
+    "all_the_netherite_armor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/all_the_netherite_armor": true
+              }
+            }
+          }
+        }
+      }
+    },
     "all_the_netherite_tools": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -95,6 +111,22 @@
         }
       }
     },
+    "master_breather": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/master_breather": true
+              }
+            }
+          }
+        }
+      }
+    },
     "master_shearer": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -137,6 +169,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:enchanting/master_sweeper": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "pimp_my_ride": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:enchanting/pimp_my_ride": true
               }
             }
           }

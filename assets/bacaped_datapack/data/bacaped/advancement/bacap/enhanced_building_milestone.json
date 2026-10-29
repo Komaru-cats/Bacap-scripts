@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Building tab",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_mining_milestone",
@@ -73,6 +73,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:building/chromatic_completion": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "heavy_industry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:building/heavy_industry": true
               }
             }
           }

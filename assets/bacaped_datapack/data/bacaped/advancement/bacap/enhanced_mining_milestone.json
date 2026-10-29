@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Mining tab",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:bacap/time_to_farm",
@@ -127,6 +127,22 @@
         }
       }
     },
+    "high_effort_inefficiency": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/high_effort_inefficiency": true
+              }
+            }
+          }
+        }
+      }
+    },
     "light_at_the_end_of_the_tunnel": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -137,6 +153,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:mining/light_at_the_end_of_the_tunnel": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "pitmaster": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/pitmaster": true
               }
             }
           }
@@ -233,6 +265,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:mining/time_killer": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "where_did_the_ground_go": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:mining/where_did_the_ground_go": true
               }
             }
           }

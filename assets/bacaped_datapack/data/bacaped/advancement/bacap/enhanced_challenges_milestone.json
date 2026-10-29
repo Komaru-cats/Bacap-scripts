@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Super Challenges tab. Good luck with this one :D",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_end_milestone",
@@ -473,6 +473,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:challenges/the_world_is_actually_ending": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "third_escape_velocity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:challenges/third_escape_velocity": true
               }
             }
           }

@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Nether tab",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_statistics_milestone",
@@ -335,6 +335,22 @@
         }
       }
     },
+    "lord_of_the_rings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/lord_of_the_rings": true
+              }
+            }
+          }
+        }
+      }
+    },
     "never_careful_enough": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -361,22 +377,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:nether/rainbow": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "unfamiliar_depths": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:nether/unfamiliar_depths": true
               }
             }
           }
@@ -425,6 +425,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:nether/the_new_swamp_wont_be_here": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "unfamiliar_depths": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/unfamiliar_depths": true
               }
             }
           }

@@ -10,7 +10,7 @@
       "translate": "Complete every Enhanced Discoveries advancement in the Statistics tab",
       "color": "yellow"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:bacap/enhanced_enchanting_milestone",

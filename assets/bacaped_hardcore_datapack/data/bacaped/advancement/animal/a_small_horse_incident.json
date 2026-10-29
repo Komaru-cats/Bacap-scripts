@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:animal/small_horse_assassination"
+    "function": "bacaped_rewards:animal/a_small_horse_incident"
   }
 }

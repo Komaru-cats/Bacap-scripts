@@ -47,6 +47,22 @@
         }
       }
     },
+    "a_small_horse_incident": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/a_small_horse_incident": true
+              }
+            }
+          }
+        }
+      }
+    },
     "air_balloon": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -569,6 +585,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/the_invisible_turtle": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_saddle_of_many_races": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/the_saddle_of_many_races": true
               }
             }
           }
