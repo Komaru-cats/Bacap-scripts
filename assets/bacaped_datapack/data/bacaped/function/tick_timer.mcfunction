@@ -6,3 +6,8 @@ execute as @a[advancements={bacaped:building/secret_passage=false},gamemode=!spe
 
 # The Gravity of the Situation
 execute as @a[gamemode=!spectator, advancements={bacaped:mining/the_gravity_of_the_situation=false}] at @s if entity @e[type=falling_block,distance=..16] run function bacaped:mob_collections/the_gravity_of_the_situation_check
+
+# Betweenkill, Between-Betweenkill
+execute as @a[scores={bacaped_kill_tick_count=8..}, advancements={bacaped:monsters/betweenkill=false}] run advancement grant @s only bacaped:monsters/betweenkill
+execute as @a[scores={bacaped_kill_tick_count=50..}, advancements={bacaped:monsters/between_betweenkill=false}] run advancement grant @s only bacaped:monsters/between_betweenkill
+scoreboard players set @a[scores={bacaped_kill_tick_count=1..}] bacaped_kill_tick_count 0

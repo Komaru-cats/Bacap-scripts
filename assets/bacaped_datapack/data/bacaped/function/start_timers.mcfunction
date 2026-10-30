@@ -44,6 +44,7 @@ scoreboard objectives add bacaped_stonecutter_mined minecraft.mined:minecraft.st
 scoreboard objectives add bacaped_villager_profession_blocks_mined dummy
 scoreboard objectives add bacaped_in_struct_summary dummy
 scoreboard objectives add bacaped_archeology_stats dummy
+scoreboard objectives add bacaped_kill_tick_count dummy
 
 # For advancements related to mining the chunk
 scoreboard objectives add bacaped_chunk dummy
