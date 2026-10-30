@@ -62,11 +62,11 @@ execute as @a[advancements={bacaped:biomes/the_infernal_cauldron=false},gamemode
 # In cave score
 execute as @a[advancements={bacaped:mining/distorted_cave_maze=false},gamemode=!spectator] run function bacaped:scores/in_cave
 
-# Unlucky score
-function bacaped:unlucky_check
-
 # Warden near score
 execute as @a[gamemode=!spectator,advancements={bacaped:monsters/one_minute_wardens_hugs=false}] at @s run function bacaped:scores/warden_near
+
+# Unlucky score
+function bacaped:unlucky_check
 
 # Dragon Blitz
 execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon1_timer matches 1.. run scoreboard players remove @s bacaped_dragon1_timer 1
