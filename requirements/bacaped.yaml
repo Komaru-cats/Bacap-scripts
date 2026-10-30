@@ -891,7 +891,7 @@ bacaped:adventure/sus_miner:
 bacaped:adventure/water_dependent:
   default: "Stand on a pot and throw the splash potion into it"
 
-bacaped:animal/cheers:
+bacaped:animal/snip-snip:
   default: "Use shears on a Sheep, Red and Brown Mooshrooms, Snow Golem, Bogged, Wolf, Beehive, Bee Nest, Pumpkin, Cave Vines, Kelp, Weeping Vines, Twisting Vines, Horse Horse Armor, Horse Saddle, Zombie Horse Horse Armor, Zombie Horse Saddle, Nautilus Nautilus Armor, Nautilus Saddle, Zombie Nautilus Nautilus Armor, Zombie Nautilus Saddle, Skeleton Horse, Donkey, Mule, Camel, Camel Husk, Happy Ghast, Pig, Strider, Llama, Copper Golem, Sulfur Cube"
 
 bacaped:animal/scared_box:

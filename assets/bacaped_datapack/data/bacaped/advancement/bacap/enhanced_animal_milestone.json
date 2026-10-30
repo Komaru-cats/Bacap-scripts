@@ -159,7 +159,7 @@
         }
       }
     },
-    "cheers": {
+    "snip-snip": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -168,7 +168,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:animal/cheers": true
+                "bacaped:animal/snip-snip": true
               }
             }
           }

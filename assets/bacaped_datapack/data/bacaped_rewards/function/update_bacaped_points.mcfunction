@@ -33,7 +33,7 @@ execute as @a[advancements={bacaped:statistics/survivors_hour=true}] run scorebo
 execute as @a[advancements={bacaped:adventure/i_hate_all_of_you=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:adventure/on_the_wings_of_the_wind=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:adventure/thorny_prices=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
-execute as @a[advancements={bacaped:animal/cheers=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
+execute as @a[advancements={bacaped:animal/snip-snip=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:animal/hot=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:animal/the_invisible_turtle=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:bacap/enhanced_end_milestone=true}] run scoreboard players operation @s bacaped_advancements_points += milestone bac_points

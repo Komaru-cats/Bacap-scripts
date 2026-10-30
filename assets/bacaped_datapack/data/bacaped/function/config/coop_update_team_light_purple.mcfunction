@@ -50,7 +50,7 @@ execute if score bacaped:animal/beezlebooster bac_obtained_light_purple matches 
 execute if score bacaped:animal/blind_friend bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/blind_friend
 execute if score bacaped:animal/buff_axolotl bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/buff_axolotl
 execute if score bacaped:animal/camel_adventure bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/camel_adventure
-execute if score bacaped:animal/cheers bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/cheers
+execute if score bacaped:animal/snip-snip bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/snip-snip
 execute if score bacaped:animal/crab_should_win bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/crab_should_win
 execute if score bacaped:animal/desert_warrior bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/desert_warrior
 execute if score bacaped:animal/dinner_time bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/dinner_time

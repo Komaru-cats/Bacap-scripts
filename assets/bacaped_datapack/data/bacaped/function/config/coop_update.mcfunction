@@ -33,7 +33,7 @@ execute if score bacaped:statistics/survivors_hour bac_obtained matches 1.. run 
 execute if score bacaped:adventure/i_hate_all_of_you bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/i_hate_all_of_you
 execute if score bacaped:adventure/on_the_wings_of_the_wind bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/on_the_wings_of_the_wind
 execute if score bacaped:adventure/thorny_prices bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/thorny_prices
-execute if score bacaped:animal/cheers bac_obtained matches 1.. run advancement grant @a only bacaped:animal/cheers
+execute if score bacaped:animal/snip-snip bac_obtained matches 1.. run advancement grant @a only bacaped:animal/snip-snip
 execute if score bacaped:animal/hot bac_obtained matches 1.. run advancement grant @a only bacaped:animal/hot
 execute if score bacaped:animal/the_invisible_turtle bac_obtained matches 1.. run advancement grant @a only bacaped:animal/the_invisible_turtle
 execute if score bacaped:bacap/enhanced_end_milestone bac_obtained matches 1.. run advancement grant @a only bacaped:bacap/enhanced_end_milestone

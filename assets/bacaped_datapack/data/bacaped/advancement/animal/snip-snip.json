@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Cheers!"
+      "translate": "Snip-Snip"
     },
     "description": {
       "translate": "Use shears on all possible mobs and blocks",
@@ -555,6 +555,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:animal/cheers"
+    "function": "bacaped_rewards:animal/snip-snip"
   }
 }
