@@ -27,6 +27,10 @@ scoreboard objectives add bacaped_you_goat_me_to_an_end_timer dummy
 scoreboard objectives add bacaped_leashed_horses dummy
 scoreboard objectives add bacaped_current_day dummy
 scoreboard objectives add bacaped_ominous_vault_hunter_count dummy
+scoreboard objectives add bacaped_archeology_stats dummy
+scoreboard objectives add bacaped_kill_tick_count dummy
+scoreboard objectives add bacaped_flying_with_elytra dummy
+scoreboard objectives add bacaped_fly_delta minecraft.custom:minecraft.aviate_one_cm
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel
@@ -43,8 +47,6 @@ scoreboard objectives add bacaped_smithing_table_mined minecraft.mined:minecraft
 scoreboard objectives add bacaped_stonecutter_mined minecraft.mined:minecraft.stonecutter
 scoreboard objectives add bacaped_villager_profession_blocks_mined dummy
 scoreboard objectives add bacaped_in_struct_summary dummy
-scoreboard objectives add bacaped_archeology_stats dummy
-scoreboard objectives add bacaped_kill_tick_count dummy
 
 # For advancements related to mining the chunk
 scoreboard objectives add bacaped_chunk dummy

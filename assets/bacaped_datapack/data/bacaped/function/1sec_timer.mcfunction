@@ -84,6 +84,9 @@ execute as @a[gamemode=!spectator, advancements={bacaped:farming/exemplary_worke
 # One Small Step for Man
 execute as @a[gamemode=!spectator, advancements={bacaped:end/one_small_step_for_man=false}] at @s if predicate bacaped:min_y_350 positioned ~-0.5 ~-0.1 ~-0.5 if entity @e[type=shulker,dx=0,dy=0,dz=0] run advancement grant @s only bacaped:end/one_small_step_for_man
 
+# Airplane
+execute as @a[gamemode=!spectator,advancements={bacaped:end/airplane=false}] run function bacaped:scores/airplane
+
 # Triggers
 
 # Trigger to get a list of mobs for Mob Universe
