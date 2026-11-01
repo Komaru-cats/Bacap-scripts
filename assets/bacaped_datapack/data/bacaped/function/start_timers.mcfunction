@@ -31,6 +31,7 @@ scoreboard objectives add bacaped_archeology_stats dummy
 scoreboard objectives add bacaped_kill_tick_count dummy
 scoreboard objectives add bacaped_flying_with_elytra dummy
 scoreboard objectives add bacaped_fly_delta minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add bacaped_selenology_pitch dummy
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel

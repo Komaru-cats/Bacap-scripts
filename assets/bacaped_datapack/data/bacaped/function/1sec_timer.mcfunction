@@ -87,6 +87,9 @@ execute as @a[gamemode=!spectator, advancements={bacaped:end/one_small_step_for_
 # Airplane
 execute as @a[gamemode=!spectator,advancements={bacaped:end/airplane=false}] run function bacaped:scores/airplane
 
+# Selenology
+execute as @a[gamemode=!spectator, advancements={bacaped:adventure/selenology=false}] store result score @s bacaped_selenology_pitch run data get entity @s Rotation[1] 100
+
 # Triggers
 
 # Trigger to get a list of mobs for Mob Universe
