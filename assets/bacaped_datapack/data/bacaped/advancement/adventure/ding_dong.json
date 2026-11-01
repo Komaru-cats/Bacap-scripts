@@ -10,7 +10,8 @@
       "translate": "Ding Dong"
     },
     "description": {
-      "translate": "Ring a Bell 5,000 times"
+      "translate": "Ring a Bell 5,000 times",
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
