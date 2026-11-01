@@ -7,7 +7,8 @@
       "translate": "The Infernal Cauldron"
     },
     "description": {
-      "translate": "Spend a day in a lava cauldron",
+      "translate": "Spend five minutes in a lava cauldron",
+      "color": "#75E1FF",
       "extra": [
         {
           "text": "\n\n"
@@ -26,16 +27,16 @@
         }
       ]
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:biomes/sleep_with_the_fishes",
+  "parent": "blazeandcave:nether/hot_spring",
   "criteria": {
     "1200sec_in_lava": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:biomes/the_infernal_cauldron"
+    "function": "bacaped_rewards:nether/the_infernal_cauldron"
   }
 }
