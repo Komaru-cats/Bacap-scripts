@@ -33,6 +33,12 @@ scoreboard objectives add bacaped_flying_with_elytra dummy
 scoreboard objectives add bacaped_fly_delta minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add bacaped_selenology_pitch dummy
 scoreboard objectives add bacaped_persistent_fighters dummy
+scoreboard objectives add bacaped_temp dummy
+
+# Monumental Speedrun
+scoreboard objectives add bacaped_monumental_speedrun_t1 dummy
+scoreboard objectives add bacaped_monumental_speedrun_t2 dummy
+
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel
