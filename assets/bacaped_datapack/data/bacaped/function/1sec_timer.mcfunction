@@ -68,13 +68,6 @@ execute as @a[gamemode=!spectator,advancements={bacaped:monsters/one_minute_ward
 # Unlucky score
 function bacaped:unlucky_check
 
-# Dragon Blitz
-execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon1_timer matches 1.. run scoreboard players remove @s bacaped_dragon1_timer 1
-execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon1_timer matches 1 run scoreboard players remove @s bacaped_dragon_blitz 1
-
-execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon2_timer matches 1.. run scoreboard players remove @s bacaped_dragon2_timer 1
-execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon2_timer matches 1 run scoreboard players remove @s bacaped_dragon_blitz 1
-
 # Air Battle
 execute as @a[gamemode=!spectator, advancements={bacaped:weaponry/air_battle=false}] at @s if predicate bacaped:reset_air_battle run scoreboard players set @s bacaped_air_battle 0
 

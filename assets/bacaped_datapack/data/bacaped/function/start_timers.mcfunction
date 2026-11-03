@@ -1,8 +1,6 @@
 # Objectives
 scoreboard objectives add bacaped_dragon_blitz dummy
 scoreboard objectives add bacaped_air_battle dummy
-scoreboard objectives add bacaped_dragon1_timer dummy
-scoreboard objectives add bacaped_dragon2_timer dummy
 scoreboard objectives add bacaped_in_lava_cauldron dummy
 scoreboard objectives add bacaped_warden_mason dummy
 scoreboard objectives add bacaped_ravager_count dummy
@@ -39,6 +37,9 @@ scoreboard objectives add bacaped_temp dummy
 scoreboard objectives add bacaped_monumental_speedrun_t1 dummy
 scoreboard objectives add bacaped_monumental_speedrun_t2 dummy
 
+# Dragon Blitz
+scoreboard objectives add bacaped_dragon_blitz_t1 dummy
+scoreboard objectives add bacaped_dragon_blitz_t2 dummy
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel
