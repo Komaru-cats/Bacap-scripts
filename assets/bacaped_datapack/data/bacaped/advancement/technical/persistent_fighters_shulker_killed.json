@@ -12,6 +12,11 @@
           "predicate": {
             "minecraft:effects": {
               "minecraft:levitation": {}
+            },
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/persistent_fighters": false
+              }
             }
           }
         },
