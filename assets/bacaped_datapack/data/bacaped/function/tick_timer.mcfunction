@@ -11,3 +11,7 @@ execute as @a[gamemode=!spectator, advancements={bacaped:mining/the_gravity_of_t
 execute as @a[scores={bacaped_kill_tick_count=8..}, advancements={bacaped:monsters/betweenkill=false}] run advancement grant @s only bacaped:monsters/betweenkill
 execute as @a[scores={bacaped_kill_tick_count=50..}, advancements={bacaped:monsters/between_betweenkill=false}] run advancement grant @s only bacaped:monsters/between_betweenkill
 scoreboard players set @a[scores={bacaped_kill_tick_count=1..}] bacaped_kill_tick_count 0
+
+# Persistent Fighters
+execute as @a[advancements={bacaped:end/persistent_fighters=false}, scores={bacaped_persistent_fighters=1..}, predicate=!bacaped:is_under_levitation_effect] run scoreboard players set @s bacaped_persistent_fighters 0
+execute as @a[advancements={bacaped:end/persistent_fighters=false}, scores={bacaped_persistent_fighters=5..}, predicate=bacaped:is_under_levitation_effect] run advancement grant @s only bacaped:end/persistent_fighters
