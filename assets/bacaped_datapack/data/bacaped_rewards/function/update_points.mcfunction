@@ -200,7 +200,7 @@ execute as @a[advancements={bacaped:statistics/shulker_voyager=true}] run scoreb
 execute as @a[advancements={bacaped:potion/healed_by_pain=true}] run scoreboard players operation @s bac_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:statistics/skyward_legs=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:potion/jump_for_joy=true}] run scoreboard players operation @s bac_advancements_points += challenge bac_points
-execute as @a[advancements={bacaped:statistics/sovereign_of_martial_shifting=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
+execute as @a[advancements={bacaped:statistics/shinobi=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:potion/master_of_effects=true}] run scoreboard players operation @s bac_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:statistics/speed_master=true}] run scoreboard players operation @s bac_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:potion/real_immortal=true}] run scoreboard players operation @s bac_advancements_points += challenge bac_points

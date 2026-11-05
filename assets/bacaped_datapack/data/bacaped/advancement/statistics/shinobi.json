@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Sovereign of Martial Shifting"
+      "translate": "Shinobi"
     },
     "description": {
       "translate": "Sneak 100km",
@@ -56,6 +56,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/sovereign_of_martial_shifting"
+    "function": "bacaped_rewards:statistics/shinobi"
   }
 }

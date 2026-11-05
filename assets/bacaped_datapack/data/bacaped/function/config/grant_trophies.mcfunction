@@ -163,7 +163,7 @@ execute as @s[advancements={bacaped:statistics/ravager_repeller=true}] run funct
 execute as @s[advancements={bacaped:statistics/shulker_maestro=true}] run function bacaped_rewards:trophy/statistics/shulker_maestro
 execute as @s[advancements={bacaped:statistics/shulker_voyager=true}] run function bacaped_rewards:trophy/statistics/shulker_voyager
 execute as @s[advancements={bacaped:statistics/skyward_legs=true}] run function bacaped_rewards:trophy/statistics/skyward_legs
-execute as @s[advancements={bacaped:statistics/sovereign_of_martial_shifting=true}] run function bacaped_rewards:trophy/statistics/sovereign_of_martial_shifting
+execute as @s[advancements={bacaped:statistics/shinobi=true}] run function bacaped_rewards:trophy/statistics/shinobi
 execute as @s[advancements={bacaped:statistics/speed_master=true}] run function bacaped_rewards:trophy/statistics/speed_master
 execute as @s[advancements={bacaped:statistics/pork_formula_1=true}] run function bacaped_rewards:trophy/statistics/pork_formula_1
 execute as @s[advancements={bacaped:statistics/survival_saga=true}] run function bacaped_rewards:trophy/statistics/survival_saga

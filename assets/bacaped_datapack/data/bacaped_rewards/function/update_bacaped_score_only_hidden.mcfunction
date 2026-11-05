@@ -28,7 +28,7 @@ execute as @a[advancements={bacaped:challenges/from_the_underworld=true}] run sc
 execute as @a[advancements={bacaped:challenges/silence_is_loud_here=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/intercontinental_rail_nexus=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/skyward_legs=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/sovereign_of_martial_shifting=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/shinobi=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/master_fisherman=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:adventure/komaru=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:monsters/spiders_liar=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1

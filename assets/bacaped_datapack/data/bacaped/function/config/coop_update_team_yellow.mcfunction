@@ -200,7 +200,7 @@ execute if score bacaped:statistics/shulker_voyager bac_obtained_yellow matches 
 execute if score bacaped:potion/healed_by_pain bac_obtained_yellow matches 1.. run advancement grant @a[team=bac_teamyellow] only bacaped:potion/healed_by_pain
 execute if score bacaped:statistics/skyward_legs bac_obtained_yellow matches 1.. run advancement grant @a[team=bac_teamyellow] only bacaped:statistics/skyward_legs
 execute if score bacaped:potion/jump_for_joy bac_obtained_yellow matches 1.. run advancement grant @a[team=bac_teamyellow] only bacaped:potion/jump_for_joy
-execute if score bacaped:statistics/sovereign_of_martial_shifting bac_obtained_yellow matches 1.. run advancement grant @a[team=bac_teamyellow] only bacaped:statistics/sovereign_of_martial_shifting
+execute if score bacaped:statistics/shinobi bac_obtained_yellow matches 1.. run advancement grant @a[team=bac_teamyellow] only bacaped:statistics/shinobi
 execute if score bacaped:potion/master_of_effects bac_obtained_yellow matches 1.. run advancement grant @a[team=bac_teamyellow] only bacaped:potion/master_of_effects
 execute if score bacaped:statistics/speed_master bac_obtained_yellow matches 1.. run advancement grant @a[team=bac_teamyellow] only bacaped:statistics/speed_master
 execute if score bacaped:potion/real_immortal bac_obtained_yellow matches 1.. run advancement grant @a[team=bac_teamyellow] only bacaped:potion/real_immortal
