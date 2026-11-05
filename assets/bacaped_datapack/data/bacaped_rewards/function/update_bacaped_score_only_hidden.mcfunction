@@ -47,5 +47,5 @@ execute as @a[advancements={bacaped:statistics/happy_1000_days=true}] run scoreb
 execute as @a[advancements={bacaped:statistics/happy_chest_year=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/hr_manager_of_the_year=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:weaponry/renowned_armament=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/jetsetter_of_the_skies=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/million_miler=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/legendary_artisan=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1

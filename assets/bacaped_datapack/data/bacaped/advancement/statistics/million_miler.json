@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "Jetsetter of the Skies"
+      "translate": "Million Miler"
     },
     "description": {
       "translate": "Fly 10,000km with elytra",
@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/jetsetter_of_the_skies"
+    "function": "bacaped_rewards:statistics/million_miler"
   }
 }

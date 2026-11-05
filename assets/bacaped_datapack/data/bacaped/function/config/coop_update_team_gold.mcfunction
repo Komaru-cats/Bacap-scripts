@@ -379,7 +379,7 @@ execute if score bacaped:potion/youre_not_the_zillager bac_obtained_gold matches
 execute if score bacaped:redstone/crafting_lockdown bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:redstone/crafting_lockdown
 execute if score bacaped:redstone/craft_me_all bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:redstone/craft_me_all
 execute if score bacaped:redstone/farm_basics bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:redstone/farm_basics
-execute if score bacaped:statistics/jetsetter_of_the_skies bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:statistics/jetsetter_of_the_skies
+execute if score bacaped:statistics/million_miler bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:statistics/million_miler
 execute if score bacaped:statistics/jungle_gymnast bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:statistics/jungle_gymnast
 execute if score bacaped:statistics/ladder_legend bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:statistics/ladder_legend
 execute if score bacaped:statistics/legendary_artisan bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:statistics/legendary_artisan

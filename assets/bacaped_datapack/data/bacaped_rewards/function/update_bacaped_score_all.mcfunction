@@ -379,7 +379,7 @@ execute as @a[advancements={bacaped:potion/youre_not_the_zillager=true}] run sco
 execute as @a[advancements={bacaped:redstone/crafting_lockdown=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:redstone/craft_me_all=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:redstone/farm_basics=true}] run scoreboard players add @s bacaped_all_advancements 1
-execute as @a[advancements={bacaped:statistics/jetsetter_of_the_skies=true}] run scoreboard players add @s bacaped_all_advancements 1
+execute as @a[advancements={bacaped:statistics/million_miler=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/jungle_gymnast=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/ladder_legend=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/legendary_artisan=true}] run scoreboard players add @s bacaped_all_advancements 1

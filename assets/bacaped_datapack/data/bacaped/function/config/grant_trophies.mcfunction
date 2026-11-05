@@ -150,7 +150,7 @@ execute as @s[advancements={bacaped:statistics/ghastonaut=true}] run function ba
 execute as @s[advancements={bacaped:statistics/happy_1000_days=true}] run function bacaped_rewards:trophy/statistics/happy_1000_days
 execute as @s[advancements={bacaped:statistics/happy_chest_year=true}] run function bacaped_rewards:trophy/statistics/happy_chest_year
 execute as @s[advancements={bacaped:statistics/intercontinental_rail_nexus=true}] run function bacaped_rewards:trophy/statistics/intercontinental_rail_nexus
-execute as @s[advancements={bacaped:statistics/jetsetter_of_the_skies=true}] run function bacaped_rewards:trophy/statistics/jetsetter_of_the_skies
+execute as @s[advancements={bacaped:statistics/million_miler=true}] run function bacaped_rewards:trophy/statistics/million_miler
 execute as @s[advancements={bacaped:statistics/ladder_legend=true}] run function bacaped_rewards:trophy/statistics/ladder_legend
 execute as @s[advancements={bacaped:statistics/legend_of_the_races=true}] run function bacaped_rewards:trophy/statistics/legend_of_the_races
 execute as @s[advancements={bacaped:statistics/legendary_artisan=true}] run function bacaped_rewards:trophy/statistics/legendary_artisan
