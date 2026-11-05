@@ -27,7 +27,7 @@ execute if score bacaped:redstone/what_do_you_know_about_pistons bac_obtained ma
 execute if score bacaped:statistics/absolutely_ablaze_journey bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/absolutely_ablaze_journey
 execute if score bacaped:statistics/ancient_sorcerer_sage bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/ancient_sorcerer_sage
 execute if score bacaped:statistics/stone_cutter bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/stone_cutter
-execute if score bacaped:statistics/storm_hog_pilgrim bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/storm_hog_pilgrim
+execute if score bacaped:statistics/pork_formula_1 bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/pork_formula_1
 execute if score bacaped:statistics/survival_saga bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/survival_saga
 execute if score bacaped:statistics/survivors_hour bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/survivors_hour
 execute if score bacaped:adventure/i_hate_all_of_you bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/i_hate_all_of_you

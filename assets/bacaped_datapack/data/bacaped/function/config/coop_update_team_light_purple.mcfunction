@@ -357,7 +357,7 @@ execute if score bacaped:statistics/skyward_legs bac_obtained_light_purple match
 execute if score bacaped:statistics/sovereign_of_martial_shifting bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/sovereign_of_martial_shifting
 execute if score bacaped:statistics/speed_master bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/speed_master
 execute if score bacaped:statistics/stone_cutter bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/stone_cutter
-execute if score bacaped:statistics/storm_hog_pilgrim bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/storm_hog_pilgrim
+execute if score bacaped:statistics/pork_formula_1 bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/pork_formula_1
 execute if score bacaped:statistics/survival_saga bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/survival_saga
 execute if score bacaped:statistics/survivors_hour bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/survivors_hour
 execute if score bacaped:statistics/swift_herder bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/swift_herder

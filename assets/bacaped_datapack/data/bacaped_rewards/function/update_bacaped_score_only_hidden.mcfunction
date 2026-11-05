@@ -4,7 +4,7 @@ execute as @a[advancements={bacaped:challenges/end_of_the_world_as_we_know_it=tr
 execute as @a[advancements={bacaped:challenges/explosive_elixir=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/absolutely_ablaze_journey=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/ancient_sorcerer_sage=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/storm_hog_pilgrim=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/pork_formula_1=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/survival_saga=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/yes=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/navigator_of_the_infinite_waters=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1

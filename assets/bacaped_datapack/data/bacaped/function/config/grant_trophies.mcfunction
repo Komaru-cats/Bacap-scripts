@@ -165,7 +165,7 @@ execute as @s[advancements={bacaped:statistics/shulker_voyager=true}] run functi
 execute as @s[advancements={bacaped:statistics/skyward_legs=true}] run function bacaped_rewards:trophy/statistics/skyward_legs
 execute as @s[advancements={bacaped:statistics/sovereign_of_martial_shifting=true}] run function bacaped_rewards:trophy/statistics/sovereign_of_martial_shifting
 execute as @s[advancements={bacaped:statistics/speed_master=true}] run function bacaped_rewards:trophy/statistics/speed_master
-execute as @s[advancements={bacaped:statistics/storm_hog_pilgrim=true}] run function bacaped_rewards:trophy/statistics/storm_hog_pilgrim
+execute as @s[advancements={bacaped:statistics/pork_formula_1=true}] run function bacaped_rewards:trophy/statistics/pork_formula_1
 execute as @s[advancements={bacaped:statistics/survival_saga=true}] run function bacaped_rewards:trophy/statistics/survival_saga
 execute as @s[advancements={bacaped:statistics/michael_phelps=true}] run function bacaped_rewards:trophy/statistics/michael_phelps
 execute as @s[advancements={bacaped:statistics/totem_expert=true}] run function bacaped_rewards:trophy/statistics/totem_expert

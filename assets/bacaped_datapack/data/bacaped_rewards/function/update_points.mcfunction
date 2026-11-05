@@ -27,7 +27,7 @@ execute as @a[advancements={bacaped:redstone/what_do_you_know_about_pistons=true
 execute as @a[advancements={bacaped:statistics/absolutely_ablaze_journey=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/ancient_sorcerer_sage=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/stone_cutter=true}] run scoreboard players operation @s bac_advancements_points += task bac_points
-execute as @a[advancements={bacaped:statistics/storm_hog_pilgrim=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
+execute as @a[advancements={bacaped:statistics/pork_formula_1=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/survival_saga=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/survivors_hour=true}] run scoreboard players operation @s bac_advancements_points += task bac_points
 execute as @a[advancements={bacaped:adventure/i_hate_all_of_you=true}] run scoreboard players operation @s bac_advancements_points += challenge bac_points
