@@ -56,7 +56,7 @@ execute if score bacaped:statistics/climb_expert bac_obtained_gray matches 1.. r
 execute if score bacaped:statistics/craftsman_novice bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/craftsman_novice
 execute if score bacaped:statistics/mr_chester bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/mr_chester
 execute if score bacaped:statistics/my_chest bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/my_chest
-execute if score bacaped:statistics/navigator_of_the_infinite_waters bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/navigator_of_the_infinite_waters
+execute if score bacaped:statistics/lord_of_the_tides bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/lord_of_the_tides
 execute if score bacaped:statistics/novice_angler bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/novice_angler
 execute if score bacaped:adventure/jurassic_park bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:adventure/jurassic_park
 execute if score bacaped:adventure/midnight_snack bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:adventure/midnight_snack

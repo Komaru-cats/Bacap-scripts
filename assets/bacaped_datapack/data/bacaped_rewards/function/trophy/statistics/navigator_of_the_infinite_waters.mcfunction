@@ -1,2 +1,0 @@
-give @s minecraft:cherry_boat[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Motor Boat",color:"#FFD2E9",bold:true,italic:false}, minecraft:lore=[{translate:"Fast as the speed of light",color:"#FFD2E9"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Navigator of the Infinite Waters",color:"light_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:motor_boat"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
-tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Motor Boat"}]}

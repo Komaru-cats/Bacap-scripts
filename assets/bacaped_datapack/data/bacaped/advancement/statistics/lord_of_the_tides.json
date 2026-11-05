@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "Navigator of the Infinite Waters"
+      "translate": "Lord of the Tides"
     },
     "description": {
       "translate": "Sail 250km in a boat",
@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/navigator_of_the_infinite_waters"
+    "function": "bacaped_rewards:statistics/lord_of_the_tides"
   }
 }

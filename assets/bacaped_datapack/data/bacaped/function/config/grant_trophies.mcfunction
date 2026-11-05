@@ -158,7 +158,7 @@ execute as @s[advancements={bacaped:statistics/master_artificer=true}] run funct
 execute as @s[advancements={bacaped:statistics/master_fisherman=true}] run function bacaped_rewards:trophy/statistics/master_fisherman
 execute as @s[advancements={bacaped:statistics/master_of_survival=true}] run function bacaped_rewards:trophy/statistics/master_of_survival
 execute as @s[advancements={bacaped:statistics/mr_chester=true}] run function bacaped_rewards:trophy/statistics/mr_chester
-execute as @s[advancements={bacaped:statistics/navigator_of_the_infinite_waters=true}] run function bacaped_rewards:trophy/statistics/navigator_of_the_infinite_waters
+execute as @s[advancements={bacaped:statistics/lord_of_the_tides=true}] run function bacaped_rewards:trophy/statistics/lord_of_the_tides
 execute as @s[advancements={bacaped:statistics/ravager_repeller=true}] run function bacaped_rewards:trophy/statistics/ravager_repeller
 execute as @s[advancements={bacaped:statistics/shulker_maestro=true}] run function bacaped_rewards:trophy/statistics/shulker_maestro
 execute as @s[advancements={bacaped:statistics/shulker_voyager=true}] run function bacaped_rewards:trophy/statistics/shulker_voyager

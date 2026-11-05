@@ -342,7 +342,7 @@ execute if score bacaped:statistics/master_of_survival bac_obtained_light_purple
 execute if score bacaped:statistics/metal_miner bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/metal_miner
 execute if score bacaped:statistics/mr_chester bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/mr_chester
 execute if score bacaped:statistics/my_chest bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/my_chest
-execute if score bacaped:statistics/navigator_of_the_infinite_waters bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/navigator_of_the_infinite_waters
+execute if score bacaped:statistics/lord_of_the_tides bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/lord_of_the_tides
 execute if score bacaped:statistics/novice_angler bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/novice_angler
 execute if score bacaped:statistics/novice_scout bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/novice_scout
 execute if score bacaped:statistics/pillager_protector bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/pillager_protector

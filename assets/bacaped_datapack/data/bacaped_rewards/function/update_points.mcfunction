@@ -56,7 +56,7 @@ execute as @a[advancements={bacaped:statistics/climb_expert=true}] run scoreboar
 execute as @a[advancements={bacaped:statistics/craftsman_novice=true}] run scoreboard players operation @s bac_advancements_points += task bac_points
 execute as @a[advancements={bacaped:statistics/mr_chester=true}] run scoreboard players operation @s bac_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:statistics/my_chest=true}] run scoreboard players operation @s bac_advancements_points += task bac_points
-execute as @a[advancements={bacaped:statistics/navigator_of_the_infinite_waters=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
+execute as @a[advancements={bacaped:statistics/lord_of_the_tides=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/novice_angler=true}] run scoreboard players operation @s bac_advancements_points += task bac_points
 execute as @a[advancements={bacaped:adventure/jurassic_park=true}] run scoreboard players operation @s bac_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:adventure/midnight_snack=true}] run scoreboard players operation @s bac_advancements_points += goal bac_points

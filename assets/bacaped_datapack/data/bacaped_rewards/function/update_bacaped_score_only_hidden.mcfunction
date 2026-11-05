@@ -7,7 +7,7 @@ execute as @a[advancements={bacaped:statistics/ancient_sorcerer_sage=true}] run 
 execute as @a[advancements={bacaped:statistics/pork_formula_1=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/survival_saga=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/yes=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/navigator_of_the_infinite_waters=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/lord_of_the_tides=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/what_a_stupid_purchase=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/shulker_maestro=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:animal/one_more_frog=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
