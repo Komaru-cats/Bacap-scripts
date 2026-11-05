@@ -167,12 +167,12 @@ execute as @s[advancements={bacaped:statistics/sovereign_of_martial_shifting=tru
 execute as @s[advancements={bacaped:statistics/speed_master=true}] run function bacaped_rewards:trophy/statistics/speed_master
 execute as @s[advancements={bacaped:statistics/storm_hog_pilgrim=true}] run function bacaped_rewards:trophy/statistics/storm_hog_pilgrim
 execute as @s[advancements={bacaped:statistics/survival_saga=true}] run function bacaped_rewards:trophy/statistics/survival_saga
-execute as @s[advancements={bacaped:statistics/titan_of_olympian_gold_triumphs=true}] run function bacaped_rewards:trophy/statistics/titan_of_olympian_gold_triumphs
+execute as @s[advancements={bacaped:statistics/michael_phelps=true}] run function bacaped_rewards:trophy/statistics/michael_phelps
 execute as @s[advancements={bacaped:statistics/totem_expert=true}] run function bacaped_rewards:trophy/statistics/totem_expert
 execute as @s[advancements={bacaped:statistics/totem_immortal=true}] run function bacaped_rewards:trophy/statistics/totem_immortal
 execute as @s[advancements={bacaped:statistics/true_submarine=true}] run function bacaped_rewards:trophy/statistics/true_submarine
 execute as @s[advancements={bacaped:statistics/vindicator_vanquisher=true}] run function bacaped_rewards:trophy/statistics/vindicator_vanquisher
-execute as @s[advancements={bacaped:statistics/wrath_of_the_western_frontier=true}] run function bacaped_rewards:trophy/statistics/wrath_of_the_western_frontier
+execute as @s[advancements={bacaped:statistics/ghost_rider=true}] run function bacaped_rewards:trophy/statistics/ghost_rider
 execute as @s[advancements={bacaped:statistics/your_legs_are_beat=true}] run function bacaped_rewards:trophy/statistics/your_legs_are_beat
 execute as @s[advancements={bacaped:weaponry/air_battle=true}] run function bacaped_rewards:trophy/weaponry/air_battle
 execute as @s[advancements={bacaped:weaponry/dead-eye=true}] run function bacaped_rewards:trophy/weaponry/dead-eye

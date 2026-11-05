@@ -115,7 +115,7 @@ execute if score bacaped:statistics/chest_lover bac_obtained_dark_blue matches 1
 execute if score bacaped:statistics/legend_of_the_races bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/legend_of_the_races
 execute if score bacaped:statistics/ligmifitation bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/ligmifitation
 execute if score bacaped:statistics/swift_herder bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/swift_herder
-execute if score bacaped:statistics/titan_of_olympian_gold_triumphs bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/titan_of_olympian_gold_triumphs
+execute if score bacaped:statistics/michael_phelps bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/michael_phelps
 execute if score bacaped:statistics/totem_adept bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/totem_adept
 execute if score bacaped:statistics/totem_expert bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/totem_expert
 execute if score bacaped:adventure/fake_copper_armor bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:adventure/fake_copper_armor
@@ -146,7 +146,7 @@ execute if score bacaped:statistics/culinary_delight_maestro bac_obtained_dark_b
 execute if score bacaped:statistics/diamond_digger bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/diamond_digger
 execute if score bacaped:statistics/did_you_get_mending_yet bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/did_you_get_mending_yet
 execute if score bacaped:statistics/duo_dynamo bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/duo_dynamo
-execute if score bacaped:statistics/wrath_of_the_western_frontier bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/wrath_of_the_western_frontier
+execute if score bacaped:statistics/ghost_rider bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/ghost_rider
 execute if score bacaped:statistics/your_legs_are_beat bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:statistics/your_legs_are_beat
 execute if score bacaped:adventure/ding_dong bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:adventure/ding_dong
 execute if score bacaped:adventure/fake_netherite_armor bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_teamdark_blue] only bacaped:adventure/fake_netherite_armor

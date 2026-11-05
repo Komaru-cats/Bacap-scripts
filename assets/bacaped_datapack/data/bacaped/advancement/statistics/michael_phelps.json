@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "Titan of Olympian Gold Triumphs"
+      "translate": "Michael Phelps"
     },
     "description": {
       "translate": "Swim 250km",
@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/titan_of_olympian_gold_triumphs"
+    "function": "bacaped_rewards:statistics/michael_phelps"
   }
 }

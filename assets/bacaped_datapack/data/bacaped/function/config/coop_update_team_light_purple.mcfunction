@@ -361,14 +361,14 @@ execute if score bacaped:statistics/storm_hog_pilgrim bac_obtained_light_purple 
 execute if score bacaped:statistics/survival_saga bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/survival_saga
 execute if score bacaped:statistics/survivors_hour bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/survivors_hour
 execute if score bacaped:statistics/swift_herder bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/swift_herder
-execute if score bacaped:statistics/titan_of_olympian_gold_triumphs bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/titan_of_olympian_gold_triumphs
+execute if score bacaped:statistics/michael_phelps bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/michael_phelps
 execute if score bacaped:statistics/totem_adept bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/totem_adept
 execute if score bacaped:statistics/totem_expert bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/totem_expert
 execute if score bacaped:statistics/totem_immortal bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/totem_immortal
 execute if score bacaped:statistics/totem_tinkerer bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/totem_tinkerer
 execute if score bacaped:statistics/true_submarine bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/true_submarine
 execute if score bacaped:statistics/vindicator_vanquisher bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/vindicator_vanquisher
-execute if score bacaped:statistics/wrath_of_the_western_frontier bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/wrath_of_the_western_frontier
+execute if score bacaped:statistics/ghost_rider bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/ghost_rider
 execute if score bacaped:statistics/your_legs_are_beat bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/your_legs_are_beat
 execute if score bacaped:weaponry/air_battle bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:weaponry/air_battle
 execute if score bacaped:weaponry/cold_betrayal bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:weaponry/cold_betrayal

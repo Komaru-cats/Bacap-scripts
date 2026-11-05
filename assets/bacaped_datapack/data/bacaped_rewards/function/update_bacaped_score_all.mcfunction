@@ -115,7 +115,7 @@ execute as @a[advancements={bacaped:statistics/chest_lover=true}] run scoreboard
 execute as @a[advancements={bacaped:statistics/legend_of_the_races=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/ligmifitation=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/swift_herder=true}] run scoreboard players add @s bacaped_all_advancements 1
-execute as @a[advancements={bacaped:statistics/titan_of_olympian_gold_triumphs=true}] run scoreboard players add @s bacaped_all_advancements 1
+execute as @a[advancements={bacaped:statistics/michael_phelps=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/totem_adept=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/totem_expert=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:adventure/fake_copper_armor=true}] run scoreboard players add @s bacaped_all_advancements 1
@@ -146,7 +146,7 @@ execute as @a[advancements={bacaped:statistics/culinary_delight_maestro=true}] r
 execute as @a[advancements={bacaped:statistics/diamond_digger=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/did_you_get_mending_yet=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/duo_dynamo=true}] run scoreboard players add @s bacaped_all_advancements 1
-execute as @a[advancements={bacaped:statistics/wrath_of_the_western_frontier=true}] run scoreboard players add @s bacaped_all_advancements 1
+execute as @a[advancements={bacaped:statistics/ghost_rider=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/your_legs_are_beat=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:adventure/ding_dong=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:adventure/fake_netherite_armor=true}] run scoreboard players add @s bacaped_all_advancements 1

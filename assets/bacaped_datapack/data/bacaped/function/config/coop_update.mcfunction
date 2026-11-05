@@ -115,7 +115,7 @@ execute if score bacaped:statistics/chest_lover bac_obtained matches 1.. run adv
 execute if score bacaped:statistics/legend_of_the_races bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/legend_of_the_races
 execute if score bacaped:statistics/ligmifitation bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/ligmifitation
 execute if score bacaped:statistics/swift_herder bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/swift_herder
-execute if score bacaped:statistics/titan_of_olympian_gold_triumphs bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/titan_of_olympian_gold_triumphs
+execute if score bacaped:statistics/michael_phelps bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/michael_phelps
 execute if score bacaped:statistics/totem_adept bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/totem_adept
 execute if score bacaped:statistics/totem_expert bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/totem_expert
 execute if score bacaped:adventure/fake_copper_armor bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/fake_copper_armor
@@ -146,7 +146,7 @@ execute if score bacaped:statistics/culinary_delight_maestro bac_obtained matche
 execute if score bacaped:statistics/diamond_digger bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/diamond_digger
 execute if score bacaped:statistics/did_you_get_mending_yet bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/did_you_get_mending_yet
 execute if score bacaped:statistics/duo_dynamo bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/duo_dynamo
-execute if score bacaped:statistics/wrath_of_the_western_frontier bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/wrath_of_the_western_frontier
+execute if score bacaped:statistics/ghost_rider bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/ghost_rider
 execute if score bacaped:statistics/your_legs_are_beat bac_obtained matches 1.. run advancement grant @a only bacaped:statistics/your_legs_are_beat
 execute if score bacaped:adventure/ding_dong bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/ding_dong
 execute if score bacaped:adventure/fake_netherite_armor bac_obtained matches 1.. run advancement grant @a only bacaped:adventure/fake_netherite_armor
