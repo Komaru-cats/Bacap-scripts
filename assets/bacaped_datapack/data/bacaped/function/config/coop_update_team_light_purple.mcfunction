@@ -146,7 +146,7 @@ execute if score bacaped:challenges/dragon_vs_warden_vi bac_obtained_light_purpl
 execute if score bacaped:challenges/dragon_vs_wither_iv bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/dragon_vs_wither_iv
 execute if score bacaped:challenges/end_of_the_world_as_we_know_it bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/end_of_the_world_as_we_know_it
 execute if score bacaped:challenges/explosive_elixir bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/explosive_elixir
-execute if score bacaped:challenges/extincion bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/extincion
+execute if score bacaped:challenges/extinction bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/extinction
 execute if score bacaped:challenges/from_the_underworld bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/from_the_underworld
 execute if score bacaped:challenges/happy_anniversary bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/happy_anniversary
 execute if score bacaped:challenges/happy_minecraft_year bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/happy_minecraft_year

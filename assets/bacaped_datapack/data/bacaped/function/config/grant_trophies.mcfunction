@@ -70,7 +70,7 @@ execute as @s[advancements={bacaped:challenges/dragon_vs_warden_vi=true}] run fu
 execute as @s[advancements={bacaped:challenges/dragon_vs_wither_iv=true}] run function bacaped_rewards:trophy/challenges/dragon_vs_wither_iv
 execute as @s[advancements={bacaped:challenges/end_of_the_world_as_we_know_it=true}] run function bacaped_rewards:trophy/challenges/end_of_the_world_as_we_know_it
 execute as @s[advancements={bacaped:challenges/explosive_elixir=true}] run function bacaped_rewards:trophy/challenges/explosive_elixir
-execute as @s[advancements={bacaped:challenges/extincion=true}] run function bacaped_rewards:trophy/challenges/extincion
+execute as @s[advancements={bacaped:challenges/extinction=true}] run function bacaped_rewards:trophy/challenges/extinction
 execute as @s[advancements={bacaped:challenges/from_the_underworld=true}] run function bacaped_rewards:trophy/challenges/from_the_underworld
 execute as @s[advancements={bacaped:challenges/happy_anniversary=true}] run function bacaped_rewards:trophy/challenges/happy_anniversary
 execute as @s[advancements={bacaped:challenges/magic_kingdom=true}] run function bacaped_rewards:trophy/challenges/magic_kingdom

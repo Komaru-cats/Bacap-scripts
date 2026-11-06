@@ -175,7 +175,7 @@
         }
       }
     },
-    "extincion": {
+    "extinction": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -184,7 +184,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:challenges/extincion": true
+                "bacaped:challenges/extinction": true
               }
             }
           }
