@@ -149,7 +149,7 @@ execute as @s[advancements={bacaped:statistics/experienced_angler=true}] run fun
 execute as @s[advancements={bacaped:statistics/ghastonaut=true}] run function bacaped_rewards:trophy/statistics/ghastonaut
 execute as @s[advancements={bacaped:statistics/happy_1000_days=true}] run function bacaped_rewards:trophy/statistics/happy_1000_days
 execute as @s[advancements={bacaped:statistics/happy_chest_year=true}] run function bacaped_rewards:trophy/statistics/happy_chest_year
-execute as @s[advancements={bacaped:statistics/intercontinental_rail_nexus=true}] run function bacaped_rewards:trophy/statistics/intercontinental_rail_nexus
+execute as @s[advancements={bacaped:statistics/intercontinental_railway=true}] run function bacaped_rewards:trophy/statistics/intercontinental_railway
 execute as @s[advancements={bacaped:statistics/million_miler=true}] run function bacaped_rewards:trophy/statistics/million_miler
 execute as @s[advancements={bacaped:statistics/ladder_legend=true}] run function bacaped_rewards:trophy/statistics/ladder_legend
 execute as @s[advancements={bacaped:statistics/legend_of_the_races=true}] run function bacaped_rewards:trophy/statistics/legend_of_the_races

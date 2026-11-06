@@ -26,7 +26,7 @@ execute as @a[advancements={bacaped:statistics/your_legs_are_beat=true}] run sco
 execute as @a[advancements={bacaped:adventure/the_hardest_and_unfairest_one_yet=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/from_the_underworld=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/silence_is_loud_here=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/intercontinental_rail_nexus=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/intercontinental_railway=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/skyward_legs=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/shinobi=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/master_fisherman=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1

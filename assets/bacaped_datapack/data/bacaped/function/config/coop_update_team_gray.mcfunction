@@ -192,7 +192,7 @@ execute if score bacaped:nether/bastion_sweet_bastion bac_obtained_gray matches 
 execute if score bacaped:monsters/live_cactus bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:monsters/live_cactus
 execute if score bacaped:nether/beyond_the_rings bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:nether/beyond_the_rings
 execute if score bacaped:monsters/more_impossible bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:monsters/more_impossible
-execute if score bacaped:statistics/intercontinental_rail_nexus bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/intercontinental_rail_nexus
+execute if score bacaped:statistics/intercontinental_railway bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/intercontinental_railway
 execute if score bacaped:nether/high_pitch bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:nether/high_pitch
 execute if score bacaped:statistics/intermediate_fisher bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:statistics/intermediate_fisher
 execute if score bacaped:nether/hot_combat bac_obtained_gray matches 1.. run advancement grant @a[team=bac_teamgray] only bacaped:nether/hot_combat

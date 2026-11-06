@@ -192,7 +192,7 @@ execute as @a[advancements={bacaped:nether/bastion_sweet_bastion=true}] run scor
 execute as @a[advancements={bacaped:monsters/live_cactus=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:nether/beyond_the_rings=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:monsters/more_impossible=true}] run scoreboard players add @s bacaped_all_advancements 1
-execute as @a[advancements={bacaped:statistics/intercontinental_rail_nexus=true}] run scoreboard players add @s bacaped_all_advancements 1
+execute as @a[advancements={bacaped:statistics/intercontinental_railway=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:nether/high_pitch=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:statistics/intermediate_fisher=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:nether/hot_combat=true}] run scoreboard players add @s bacaped_all_advancements 1

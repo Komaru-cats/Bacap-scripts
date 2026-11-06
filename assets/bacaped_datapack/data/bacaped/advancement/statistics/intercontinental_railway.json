@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Intercontinental Rail Nexus"
+      "translate": "Intercontinental Railway"
     },
     "description": {
       "translate": "Ride 250km in a minecart",
@@ -56,6 +56,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/intercontinental_rail_nexus"
+    "function": "bacaped_rewards:statistics/intercontinental_railway"
   }
 }
