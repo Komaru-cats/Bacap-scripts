@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/command_work",
+  "parent": "bacaped:challenges/no_shield_please",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

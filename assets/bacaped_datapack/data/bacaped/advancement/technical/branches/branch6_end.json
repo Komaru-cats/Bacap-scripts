@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/unfamiliar_depths",
+  "parent": "bacaped:challenges/mob_universe",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",
