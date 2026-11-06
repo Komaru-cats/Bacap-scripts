@@ -139,7 +139,7 @@ execute as @s[advancements={bacaped:statistics/absolutely_ablaze_journey=true}] 
 execute as @s[advancements={bacaped:statistics/ancient_sorcerer_sage=true}] run function bacaped_rewards:trophy/statistics/ancient_sorcerer_sage
 execute as @s[advancements={bacaped:statistics/ascension_ace=true}] run function bacaped_rewards:trophy/statistics/ascension_ace
 execute as @s[advancements={bacaped:statistics/bedrock_breaker=true}] run function bacaped_rewards:trophy/statistics/bedrock_breaker
-execute as @s[advancements={bacaped:statistics/chests_aficionado=true}] run function bacaped_rewards:trophy/statistics/chests_aficionado
+execute as @s[advancements={bacaped:statistics/loot_obsession=true}] run function bacaped_rewards:trophy/statistics/loot_obsession
 execute as @s[advancements={bacaped:statistics/bottomless_pit=true}] run function bacaped_rewards:trophy/statistics/bottomless_pit
 execute as @s[advancements={bacaped:statistics/diamond_digger=true}] run function bacaped_rewards:trophy/statistics/diamond_digger
 execute as @s[advancements={bacaped:statistics/duo_dynamo=true}] run function bacaped_rewards:trophy/statistics/duo_dynamo

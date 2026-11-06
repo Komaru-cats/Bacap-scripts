@@ -1,6 +1,6 @@
 advancement grant @a[scores={bac_day_count=1000..}] only bacaped:statistics/happy_1000_days
 advancement grant @a[scores={bac_stat_food=25000..}] only bacaped:statistics/bottomless_pit
-advancement grant @a[scores={bac_stat_loot_chest=2500..}] only bacaped:statistics/chests_aficionado
+advancement grant @a[scores={bac_stat_loot_chest=2500..}] only bacaped:statistics/loot_obsession
 
 
 # Unite Storm check

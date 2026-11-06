@@ -110,7 +110,7 @@ execute as @a[advancements={bacaped:nether/blaze3d=true}] run scoreboard players
 execute as @a[advancements={bacaped:nether/diamond_beacon=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:potion/trial_potions=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:potion/worst_cleric_in_the_world=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
-execute as @a[advancements={bacaped:statistics/chests_aficionado=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
+execute as @a[advancements={bacaped:statistics/loot_obsession=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/chest_lover=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:statistics/legend_of_the_races=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/ligmifitation=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points

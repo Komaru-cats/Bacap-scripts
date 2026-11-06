@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "Chests Aficionado"
+      "translate": "Loot Obsession"
     },
     "description": {
       "translate": "Open 2500 loot chests",
@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/chests_aficionado"
+    "function": "bacaped_rewards:statistics/loot_obsession"
   }
 }

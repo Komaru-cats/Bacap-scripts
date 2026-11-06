@@ -12,7 +12,7 @@ execute as @a[advancements={bacaped:challenges/what_a_stupid_purchase=true}] run
 execute as @a[advancements={bacaped:statistics/shulker_maestro=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:animal/one_more_frog=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/happy_minecraft_year=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/chests_aficionado=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/loot_obsession=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/legend_of_the_races=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/ligmifitation=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/michael_phelps=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1

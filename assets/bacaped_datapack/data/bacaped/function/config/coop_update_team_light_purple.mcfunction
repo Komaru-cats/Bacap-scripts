@@ -313,7 +313,7 @@ execute if score bacaped:statistics/ascension_ace bac_obtained_light_purple matc
 execute if score bacaped:statistics/avid_trader bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/avid_trader
 execute if score bacaped:statistics/bedrock_breaker bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/bedrock_breaker
 execute if score bacaped:statistics/chest_lover bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/chest_lover
-execute if score bacaped:statistics/chests_aficionado bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/chests_aficionado
+execute if score bacaped:statistics/loot_obsession bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/loot_obsession
 execute if score bacaped:statistics/climb_expert bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/climb_expert
 execute if score bacaped:statistics/craftsman_novice bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/craftsman_novice
 execute if score bacaped:statistics/bottomless_pit bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/bottomless_pit
