@@ -1,7 +1,4 @@
 {
-  "rewards": {
-    "function": "bacaped:scores/persistent_fighters"
-  },
   "criteria": {
     "killed_shulker": {
       "trigger": "minecraft:player_killed_entity",
@@ -29,5 +26,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped:scores/persistent_fighters"
   }
 }

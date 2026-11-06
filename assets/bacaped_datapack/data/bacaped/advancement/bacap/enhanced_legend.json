@@ -283,7 +283,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:adventure/oh_my_broken_legs": true
+                "bacaped:mining/oh_my_broken_legs": true
               }
             }
           }

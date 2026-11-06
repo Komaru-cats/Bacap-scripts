@@ -3,25 +3,20 @@
     "icon": {
       "id": "minecraft:potion",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:healing"
-        }
+        "minecraft:potion_contents": "minecraft:healing"
       }
     },
     "title": {
       "translate": "No Discrimination Club"
     },
     "description": {
-      "color": "dark_purple",
-      "translate": "Use a Spyglass to look at a Villager and Pillager without a crossbow sitting in a Boat from at least 50 blocks away"
+      "translate": "Use a Spyglass to look at a Villager and Pillager without a crossbow sitting in a Boat from at least 50 blocks away",
+      "color": "dark_purple"
     },
-    "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "challenge",
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:adventure/hey_you_two_should_kiss",
-  "rewards": {
-    "function": "bacaped_rewards:adventure/no_discrimination_club"
-  },
   "criteria": {
     "trigger1": {
       "trigger": "minecraft:using_item",
@@ -68,5 +63,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/no_discrimination_club"
   }
 }
