@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "Ancient Sorcerer Sage"
+      "translate": "Archmage"
     },
     "description": {
       "translate": "Enchant 1000 items",
@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/ancient_sorcerer_sage"
+    "function": "bacaped_rewards:statistics/archmage"
   }
 }

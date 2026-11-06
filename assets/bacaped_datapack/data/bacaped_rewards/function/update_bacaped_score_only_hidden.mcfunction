@@ -3,7 +3,7 @@ execute as @a[advancements={bacaped:animal/i_love_salmons=true}] run scoreboard 
 execute as @a[advancements={bacaped:challenges/end_of_the_world_as_we_know_it=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/explosive_elixir=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/absolutely_ablaze_journey=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/ancient_sorcerer_sage=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/archmage=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/pork_formula_1=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/survival_saga=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/yes=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1

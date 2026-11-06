@@ -136,7 +136,7 @@ execute as @s[advancements={bacaped:nether/the_new_swamp_wont_be_here=true}] run
 execute as @s[advancements={bacaped:potion/master_of_effects=true}] run function bacaped_rewards:trophy/potion/master_of_effects
 execute as @s[advancements={bacaped:redstone/what_do_you_know_about_pistons=true}] run function bacaped_rewards:trophy/redstone/what_do_you_know_about_pistons
 execute as @s[advancements={bacaped:statistics/absolutely_ablaze_journey=true}] run function bacaped_rewards:trophy/statistics/absolutely_ablaze_journey
-execute as @s[advancements={bacaped:statistics/ancient_sorcerer_sage=true}] run function bacaped_rewards:trophy/statistics/ancient_sorcerer_sage
+execute as @s[advancements={bacaped:statistics/archmage=true}] run function bacaped_rewards:trophy/statistics/archmage
 execute as @s[advancements={bacaped:statistics/ascension_ace=true}] run function bacaped_rewards:trophy/statistics/ascension_ace
 execute as @s[advancements={bacaped:statistics/bedrock_breaker=true}] run function bacaped_rewards:trophy/statistics/bedrock_breaker
 execute as @s[advancements={bacaped:statistics/loot_obsession=true}] run function bacaped_rewards:trophy/statistics/loot_obsession

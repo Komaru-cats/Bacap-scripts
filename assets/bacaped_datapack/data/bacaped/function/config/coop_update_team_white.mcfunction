@@ -25,7 +25,7 @@ execute if score bacaped:nether/show_the_wither_his_home bac_obtained_white matc
 execute if score bacaped:redstone/using_a_bow_using_a_bow bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:redstone/using_a_bow_using_a_bow
 execute if score bacaped:redstone/what_do_you_know_about_pistons bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:redstone/what_do_you_know_about_pistons
 execute if score bacaped:statistics/absolutely_ablaze_journey bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:statistics/absolutely_ablaze_journey
-execute if score bacaped:statistics/ancient_sorcerer_sage bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:statistics/ancient_sorcerer_sage
+execute if score bacaped:statistics/archmage bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:statistics/archmage
 execute if score bacaped:statistics/stone_cutter bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:statistics/stone_cutter
 execute if score bacaped:statistics/pork_formula_1 bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:statistics/pork_formula_1
 execute if score bacaped:statistics/survival_saga bac_obtained_white matches 1.. run advancement grant @a[team=bac_teamwhite] only bacaped:statistics/survival_saga

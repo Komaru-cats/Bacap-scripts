@@ -307,7 +307,7 @@ execute if score bacaped:redstone/say_no_to_campfires bac_obtained_light_purple 
 execute if score bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow
 execute if score bacaped:redstone/what_do_you_know_about_pistons bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:redstone/what_do_you_know_about_pistons
 execute if score bacaped:statistics/absolutely_ablaze_journey bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/absolutely_ablaze_journey
-execute if score bacaped:statistics/ancient_sorcerer_sage bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/ancient_sorcerer_sage
+execute if score bacaped:statistics/archmage bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/archmage
 execute if score bacaped:statistics/artisan_adept bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/artisan_adept
 execute if score bacaped:statistics/ascension_ace bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/ascension_ace
 execute if score bacaped:statistics/avid_trader bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/avid_trader
