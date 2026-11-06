@@ -143,7 +143,7 @@ execute as @s[advancements={bacaped:statistics/chests_aficionado=true}] run func
 execute as @s[advancements={bacaped:statistics/culinary_delight_maestro=true}] run function bacaped_rewards:trophy/statistics/culinary_delight_maestro
 execute as @s[advancements={bacaped:statistics/diamond_digger=true}] run function bacaped_rewards:trophy/statistics/diamond_digger
 execute as @s[advancements={bacaped:statistics/duo_dynamo=true}] run function bacaped_rewards:trophy/statistics/duo_dynamo
-execute as @s[advancements={bacaped:statistics/epic_capital_conqueror=true}] run function bacaped_rewards:trophy/statistics/epic_capital_conqueror
+execute as @s[advancements={bacaped:statistics/wolf_of_villager_st=true}] run function bacaped_rewards:trophy/statistics/wolf_of_villager_st
 execute as @s[advancements={bacaped:statistics/eternal_vanguard=true}] run function bacaped_rewards:trophy/statistics/eternal_vanguard
 execute as @s[advancements={bacaped:statistics/experienced_angler=true}] run function bacaped_rewards:trophy/statistics/experienced_angler
 execute as @s[advancements={bacaped:statistics/ghastonaut=true}] run function bacaped_rewards:trophy/statistics/ghastonaut

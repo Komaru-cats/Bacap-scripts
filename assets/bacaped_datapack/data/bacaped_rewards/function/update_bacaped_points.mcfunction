@@ -272,7 +272,7 @@ execute as @a[advancements={bacaped:nether/give_them_everything_they_want=true}]
 execute as @a[advancements={bacaped:nether/gold_beacon=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:nether/happy_ghast_silencer=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:nether/herbarium_to_my_friend=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
-execute as @a[advancements={bacaped:statistics/epic_capital_conqueror=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
+execute as @a[advancements={bacaped:statistics/wolf_of_villager_st=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/eternal_vanguard=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/experienced_angler=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:statistics/frustrated_trader=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points

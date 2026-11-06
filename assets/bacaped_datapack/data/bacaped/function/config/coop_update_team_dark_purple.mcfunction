@@ -272,7 +272,7 @@ execute if score bacaped:nether/give_them_everything_they_want bac_obtained_dark
 execute if score bacaped:nether/gold_beacon bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:nether/gold_beacon
 execute if score bacaped:nether/happy_ghast_silencer bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:nether/happy_ghast_silencer
 execute if score bacaped:nether/herbarium_to_my_friend bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:nether/herbarium_to_my_friend
-execute if score bacaped:statistics/epic_capital_conqueror bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:statistics/epic_capital_conqueror
+execute if score bacaped:statistics/wolf_of_villager_st bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:statistics/wolf_of_villager_st
 execute if score bacaped:statistics/eternal_vanguard bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:statistics/eternal_vanguard
 execute if score bacaped:statistics/experienced_angler bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:statistics/experienced_angler
 execute if score bacaped:statistics/frustrated_trader bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:statistics/frustrated_trader

@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Epic Capital Conqueror"
+      "translate": "Wolf of Villager St."
     },
     "description": {
       "translate": "Trade with Villagers 10,000 times",
@@ -56,6 +56,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/epic_capital_conqueror"
+    "function": "bacaped_rewards:statistics/wolf_of_villager_st"
   }
 }

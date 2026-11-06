@@ -37,7 +37,7 @@ execute as @a[advancements={bacaped:statistics/bedrock_breaker=true}] run scoreb
 execute as @a[advancements={bacaped:statistics/totem_immortal=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/true_submarine=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:challenges/mounted_menace=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/epic_capital_conqueror=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/wolf_of_villager_st=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/eternal_vanguard=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:nether/netherite_beacon=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/ravager_repeller=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
