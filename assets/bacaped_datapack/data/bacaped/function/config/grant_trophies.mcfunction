@@ -8,7 +8,7 @@ execute as @s[advancements={bacaped:adventure/i_hate_all_of_you=true}] run funct
 execute as @s[advancements={bacaped:adventure/komaru=true}] run function bacaped_rewards:trophy/adventure/komaru
 execute as @s[advancements={bacaped:adventure/midnight_snack=true}] run function bacaped_rewards:trophy/adventure/midnight_snack
 execute as @s[advancements={bacaped:adventure/no_luck_for_the_next_guy=true}] run function bacaped_rewards:trophy/adventure/no_luck_for_the_next_guy
-execute as @s[advancements={bacaped:adventure/oh_my_broken_legs=true}] run function bacaped_rewards:trophy/adventure/oh_my_broken_legs
+execute as @s[advancements={bacaped:mining/oh_my_broken_legs=true}] run function bacaped_rewards:trophy/mining/oh_my_broken_legs
 execute as @s[advancements={bacaped:adventure/ominous_ocean=true}] run function bacaped_rewards:trophy/adventure/ominous_ocean
 execute as @s[advancements={bacaped:adventure/on_the_wings_of_the_wind=true}] run function bacaped_rewards:trophy/adventure/on_the_wings_of_the_wind
 execute as @s[advancements={bacaped:adventure/real_netherite_armor=true}] run function bacaped_rewards:trophy/adventure/real_netherite_armor

@@ -209,6 +209,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:adventure/oh_my_broken_legs"
+    "function": "bacaped_rewards:mining/oh_my_broken_legs"
   }
 }
