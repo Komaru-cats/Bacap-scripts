@@ -101,6 +101,7 @@ $execute if entity @s[team=bac_team_white] unless score $(tier) bac_dont_count m
 scoreboard players add @s bacaped_all_advancements 1
 $execute unless score $(tier) bac_dont_count matches 1 run scoreboard players add @s bacaped_advancements 1
 $execute if score $(tier) bacaped_is_hidden matches 1 run scoreboard players add @s bacaped_advancements_only_hiddens 1
+$scoreboard players operation @s bacaped_advancements_points += $(tier) bac_points
 
 # Points scores
 $scoreboard players operation @s bac_advancements_points += $(tier) bac_points
