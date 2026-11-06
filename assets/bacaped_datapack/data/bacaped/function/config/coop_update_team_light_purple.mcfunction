@@ -316,7 +316,7 @@ execute if score bacaped:statistics/chest_lover bac_obtained_light_purple matche
 execute if score bacaped:statistics/chests_aficionado bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/chests_aficionado
 execute if score bacaped:statistics/climb_expert bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/climb_expert
 execute if score bacaped:statistics/craftsman_novice bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/craftsman_novice
-execute if score bacaped:statistics/culinary_delight_maestro bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/culinary_delight_maestro
+execute if score bacaped:statistics/bottomless_pit bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/bottomless_pit
 execute if score bacaped:statistics/diamond_digger bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/diamond_digger
 execute if score bacaped:statistics/did_you_get_mending_yet bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/did_you_get_mending_yet
 execute if score bacaped:statistics/duo_dynamo bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/duo_dynamo

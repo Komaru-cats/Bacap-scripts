@@ -4,7 +4,7 @@
       "id": "minecraft:enchanted_golden_apple"
     },
     "title": {
-      "translate": "Culinary Delight Maestro"
+      "translate": "Bottomless Pit"
     },
     "description": {
       "translate": "Eat 25,000 food items",
@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/culinary_delight_maestro"
+    "function": "bacaped_rewards:statistics/bottomless_pit"
   }
 }

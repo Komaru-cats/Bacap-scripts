@@ -142,7 +142,7 @@ execute if score bacaped:mining/complete_orellection bac_obtained_green matches 
 execute if score bacaped:mining/copper_king bac_obtained_green matches 1.. run advancement grant @a[team=bac_teamgreen] only bacaped:mining/copper_king
 execute if score bacaped:nether/a_long_journey bac_obtained_green matches 1.. run advancement grant @a[team=bac_teamgreen] only bacaped:nether/a_long_journey
 execute if score bacaped:nether/bastion_robber bac_obtained_green matches 1.. run advancement grant @a[team=bac_teamgreen] only bacaped:nether/bastion_robber
-execute if score bacaped:statistics/culinary_delight_maestro bac_obtained_green matches 1.. run advancement grant @a[team=bac_teamgreen] only bacaped:statistics/culinary_delight_maestro
+execute if score bacaped:statistics/bottomless_pit bac_obtained_green matches 1.. run advancement grant @a[team=bac_teamgreen] only bacaped:statistics/bottomless_pit
 execute if score bacaped:statistics/diamond_digger bac_obtained_green matches 1.. run advancement grant @a[team=bac_teamgreen] only bacaped:statistics/diamond_digger
 execute if score bacaped:statistics/did_you_get_mending_yet bac_obtained_green matches 1.. run advancement grant @a[team=bac_teamgreen] only bacaped:statistics/did_you_get_mending_yet
 execute if score bacaped:statistics/duo_dynamo bac_obtained_green matches 1.. run advancement grant @a[team=bac_teamgreen] only bacaped:statistics/duo_dynamo

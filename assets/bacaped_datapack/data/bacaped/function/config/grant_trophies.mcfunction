@@ -140,7 +140,7 @@ execute as @s[advancements={bacaped:statistics/ancient_sorcerer_sage=true}] run 
 execute as @s[advancements={bacaped:statistics/ascension_ace=true}] run function bacaped_rewards:trophy/statistics/ascension_ace
 execute as @s[advancements={bacaped:statistics/bedrock_breaker=true}] run function bacaped_rewards:trophy/statistics/bedrock_breaker
 execute as @s[advancements={bacaped:statistics/chests_aficionado=true}] run function bacaped_rewards:trophy/statistics/chests_aficionado
-execute as @s[advancements={bacaped:statistics/culinary_delight_maestro=true}] run function bacaped_rewards:trophy/statistics/culinary_delight_maestro
+execute as @s[advancements={bacaped:statistics/bottomless_pit=true}] run function bacaped_rewards:trophy/statistics/bottomless_pit
 execute as @s[advancements={bacaped:statistics/diamond_digger=true}] run function bacaped_rewards:trophy/statistics/diamond_digger
 execute as @s[advancements={bacaped:statistics/duo_dynamo=true}] run function bacaped_rewards:trophy/statistics/duo_dynamo
 execute as @s[advancements={bacaped:statistics/wolf_of_villager_st=true}] run function bacaped_rewards:trophy/statistics/wolf_of_villager_st

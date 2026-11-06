@@ -19,7 +19,7 @@ execute as @a[advancements={bacaped:statistics/michael_phelps=true}] run scorebo
 execute as @a[advancements={bacaped:end/the_void=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:end/universal_solitude=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:mining/complete_orellection=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
-execute as @a[advancements={bacaped:statistics/culinary_delight_maestro=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
+execute as @a[advancements={bacaped:statistics/bottomless_pit=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/duo_dynamo=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/ghost_rider=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1
 execute as @a[advancements={bacaped:statistics/your_legs_are_beat=true}] run scoreboard players add @s bacaped_advancements_only_hidden 1

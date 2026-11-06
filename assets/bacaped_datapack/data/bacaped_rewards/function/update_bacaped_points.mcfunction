@@ -142,7 +142,7 @@ execute as @a[advancements={bacaped:mining/complete_orellection=true}] run score
 execute as @a[advancements={bacaped:mining/copper_king=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:nether/a_long_journey=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:nether/bastion_robber=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
-execute as @a[advancements={bacaped:statistics/culinary_delight_maestro=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
+execute as @a[advancements={bacaped:statistics/bottomless_pit=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/diamond_digger=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:statistics/did_you_get_mending_yet=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:statistics/duo_dynamo=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
