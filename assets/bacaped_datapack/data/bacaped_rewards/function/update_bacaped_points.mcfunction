@@ -24,7 +24,7 @@ execute as @a[advancements={bacaped:nether/rainbow=true}] run scoreboard players
 execute as @a[advancements={bacaped:nether/show_the_wither_his_home=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:redstone/using_a_bow_using_a_bow=true}] run scoreboard players operation @s bacaped_advancements_points += task bac_points
 execute as @a[advancements={bacaped:redstone/what_do_you_know_about_pistons=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
-execute as @a[advancements={bacaped:statistics/absolutely_ablaze_journey=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
+execute as @a[advancements={bacaped:statistics/hot_wheels=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/archmage=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points
 execute as @a[advancements={bacaped:statistics/stone_cutter=true}] run scoreboard players operation @s bacaped_advancements_points += task bac_points
 execute as @a[advancements={bacaped:statistics/pork_formula_1=true}] run scoreboard players operation @s bacaped_advancements_points += hidden bac_points

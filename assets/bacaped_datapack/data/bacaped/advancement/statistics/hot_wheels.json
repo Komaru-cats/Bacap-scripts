@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Absolutely Ablaze Journey"
+      "translate": "Hot Wheels"
     },
     "description": {
       "translate": "Ride 100km on a Strider",
@@ -56,6 +56,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:statistics/absolutely_ablaze_journey"
+    "function": "bacaped_rewards:statistics/hot_wheels"
   }
 }
