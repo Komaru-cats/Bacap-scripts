@@ -7,7 +7,7 @@
       "translate": "Light at the End of the Tunnel"
     },
     "description": {
-      "translate": "Place the lantern in a dark place in the cave",
+      "translate": "Place a lantern in a dark cave",
       "color": "#75E1FF"
     },
     "frame": "goal",
