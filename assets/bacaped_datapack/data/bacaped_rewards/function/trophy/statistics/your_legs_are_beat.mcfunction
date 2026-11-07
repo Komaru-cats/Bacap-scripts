@@ -1,2 +1,4 @@
-give @s minecraft:chainmail_boots[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Running shoes",color:"#F4FFA7",bold:true,italic:false}, minecraft:lore=[{translate:"This is only 1/40 of the perimeter of",color:"#F4FFA7"},{translate:"our planet",color:"#F4FFA7"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Your Legs Are Beat",color:"light_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:running_shoes"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
-tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Running shoes"}]}
+give @s minecraft:chainmail_boots[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Running Shoes
+",color:"#F4FFA7",bold:true,italic:false}, minecraft:lore=[{translate:"This is only 1/40 of the perimeter of",color:"#F4FFA7"},{translate:"our planet",color:"#F4FFA7"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Your Legs Are Beat",color:"light_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:running_shoes"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Running Shoes
+"}]}
