@@ -23,7 +23,7 @@
           "entity": "this",
           "predicate": {
             "location": {
-              "biomes": "minecraft:river"
+              "biomes": "#minecraft:is_river"
             }
           }
         },
