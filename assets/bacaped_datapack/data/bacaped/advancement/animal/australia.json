@@ -13,13 +13,13 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:biomes/simba",
+  "parent": "blazeandcave:animal/when_pigs_used_to_fly",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:biomes/australia"
+    "function": "bacaped_rewards:animal/australia"
   }
 }
