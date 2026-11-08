@@ -67,6 +67,9 @@ execute as @a[advancements={bacaped:mining/distorted_cave_maze=false},gamemode=!
 # Warden near score
 execute as @a[gamemode=!spectator,advancements={bacaped:monsters/one_minute_wardens_hugs=false}] at @s run function bacaped:scores/warden_near
 
+# Time without food score
+execute as @a[advancements={bacaped:farming/i_am_on_diet=false},gamemode=!spectator] at @s run function bacaped:scores/i_am_on_diet
+
 # Unlucky score
 function bacaped:unlucky_check
 

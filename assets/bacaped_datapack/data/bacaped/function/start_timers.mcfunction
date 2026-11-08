@@ -32,6 +32,8 @@ scoreboard objectives add bacaped_fly_delta minecraft.custom:minecraft.aviate_on
 scoreboard objectives add bacaped_selenology_pitch dummy
 scoreboard objectives add bacaped_persistent_fighters dummy
 scoreboard objectives add bacaped_temp dummy
+scoreboard objectives add bacaped_in_struct_summary dummy
+scoreboard objectives add bacaped_time_without_food dummy
 
 # Monumental Speedrun
 scoreboard objectives add bacaped_monumental_speedrun_t1 dummy
@@ -55,7 +57,6 @@ scoreboard objectives add bacaped_loom_mined minecraft.mined:minecraft.loom
 scoreboard objectives add bacaped_smithing_table_mined minecraft.mined:minecraft.smithing_table
 scoreboard objectives add bacaped_stonecutter_mined minecraft.mined:minecraft.stonecutter
 scoreboard objectives add bacaped_villager_profession_blocks_mined dummy
-scoreboard objectives add bacaped_in_struct_summary dummy
 
 # For advancements related to mining the chunk
 scoreboard objectives add bacaped_chunk dummy
