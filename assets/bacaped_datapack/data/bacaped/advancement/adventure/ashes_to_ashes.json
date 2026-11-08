@@ -57,7 +57,7 @@
               }
             },
             "minecraft:location": {
-              "structures": "minecraft:witch_hut"
+              "structures": "minecraft:swamp_hut"
             }
           }
         }
