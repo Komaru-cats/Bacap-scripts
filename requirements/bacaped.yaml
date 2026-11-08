@@ -1361,3 +1361,6 @@ bacaped:nether/lord_of_the_rings:
 
 bacaped:weaponry/happy_minecraft_year:
   default: 
+
+bacaped:redstone/classic_door_trap:
+  default: Get trapped by stepping on a pressure plate surrounded by 4 closed iron doors
