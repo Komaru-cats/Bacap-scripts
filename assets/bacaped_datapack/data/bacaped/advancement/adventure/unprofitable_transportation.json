@@ -26,11 +26,7 @@
               "entity": "this",
               "predicate": {
                 "location": {
-                  "biomes": [
-                    "minecraft:badlands",
-                    "minecraft:wooded_badlands",
-                    "minecraft:eroded_badlands"
-                  ]
+                  "biomes": "#minecraft:is_badlands"
                 }
               }
             }
