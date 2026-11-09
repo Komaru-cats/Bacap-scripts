@@ -236,7 +236,8 @@
 - Fixed "Extinction" file name: `extincion` -> `extinction`
 - Removed all enchantments from "Professional Fishing Rod" trophy to avoid granting "Master Fisherman" advancement 
 - Fixed progress cheese for "Distorted Cave Maze", "The Infernal Cauldron", and "One Minute Warden Hugs" while being dead
-- Added `dark_purple` color to Ding Dong
+- Added `dark_purple` color to "Ding Dong"
 - Separated "Its Midnight Already" trophy description to 24 lines
 - Run additional commands from fanpacks before granting advancement for all other players in coop in `advancement_made_macro`
 - Added all missing lanterns to "Light at the End of the Tunnel"
+- Added missing "Sulfur Caves" biome to "Big Horse Adventure"
