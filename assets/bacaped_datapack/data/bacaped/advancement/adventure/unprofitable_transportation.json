@@ -15,7 +15,7 @@
   },
   "parent": "bacaped:adventure/on_site_sale",
   "criteria": {
-    "terracotta": {
+    "buy_terracotta": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {

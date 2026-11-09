@@ -15,7 +15,7 @@
   },
   "parent": "blazeandcave:monsters/tele_morph",
   "criteria": {
-    "look_at_enderman_through_spyglass": {
+    "trigger": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
