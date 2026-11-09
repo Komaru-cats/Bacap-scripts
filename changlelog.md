@@ -90,6 +90,7 @@
 - Added requirement to be in the Nether to complete "Dragon vs Wither IV"
 - Added "Executive Desk" trophy to "HR Manager of the Year"
 - Added "Strange Frog" trophy to "One More Frog"
+- Added new unique string identifiers to trophies `custom_model_data` instead of using `floats`
 
 - ### Datapack Menu (/function bacaped:config)
     Added datapack menu to configure ED scoreboards:
@@ -196,12 +197,16 @@
   - Changed "Piggish Poison Tango" trophy description to "Your Pig's face at the time of completing this advancement"
 
 - Renamed "Cheers!" to "Snip-Snip"
+- Renamed "No Water Team" to "Team Waterless"
+- Renamed "Water Team" to "Team Water"
+- Renamed "Wandering Caravane" to "Wandering Chariot"
 - Renamed "The World Is Actually Ending 2 " to "The World Is Actually Ending"
 - Renamed "Show the Nether to a Silverfish" to "Unfamiliar Depths"
 - Changed "Enhanced Potions Milestone" icon to Lingering Regeneration Potion
 - Changed "Beyond the Rings" parent to "Lord of the Rings"
 - Changed "Explosive Elixir" description to mention saturation
 - Changed "Deflector" tier to Goal, instead of Challenge
+- - Changed "Deflector" tier to Challenge, instead of Hidden
 - Changed "The Infernal Cauldron" tier to Goal, instead of Challenge
 - Changed "The Explosive Adventure" tier to Challenge, instead of Goal
 - Changed "Enhanced Adventure Milestone" icon from Filled Map to Buried Treasure Map
@@ -218,6 +223,9 @@
 - Changed Oozing amplifier of "The New Swamp Wont Be Here" trophy to 1 from 10
 - Changed "Multi-Crossbow" trophy from "Enh. Weaponry Milestone" multishot level from 3 to 1
 - Changed the description for "Light at the End of the Tunnel" to "Place a lantern in a dark cave"
+- Changed "Ligmifitation" item reward from 256 Hay Bales to 64
+- Changed "Advancement info" description to " Stand on cobblestone stairs in full diamond armor while holding a diamond sword.<br> Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!"
+- Removed version line from `install` function
 
 ## Fixes
 - Used `#minecraft:is_river` biome tag in "On Site Sale" criteria instead of listing biomes
@@ -241,3 +249,8 @@
 - Run additional commands from fanpacks before granting advancement for all other players in coop in `advancement_made_macro`
 - Added all missing lanterns to "Light at the End of the Tunnel"
 - Added missing "Sulfur Caves" biome to "Big Horse Adventure"
+- Added all missing pre-3.0 translations 
+- Fixed completion messages for advancements overridden by the Hardcore Addon
+- Deleted outdated/unused files from datapack 
+- Fixed incorrect tab display name for "BlazeandCave's Advancements" tab in advancement completion messages
+- Changed all `’` symbols to `'`
