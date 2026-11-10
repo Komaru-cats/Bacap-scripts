@@ -100,10 +100,7 @@ bacaped:adventure/oh_you_again:
   default: Open a door looking at a Wandering Trader through it
 
 bacaped:adventure/save_me:
-  default: 
-
-bacaped:adventure/wardens_thrust:
-  default: 
+  default:
 
 bacaped:animal/echoing_call:
   default: 
@@ -238,10 +235,7 @@ bacaped:statistics/your_legs_are_beat:
   default: 
 
 bacaped:adventure/nobody_needs_rockets:
-  default: 
-
-bacaped:adventure/real_immortal:
-  default: 
+  default:
 
 bacaped:adventure/the_hardest_and_unfairest_one_yet:
   default: 
@@ -307,10 +301,7 @@ bacaped:redstone/heavy_steps:
   default: 
 
 bacaped:redstone/light_touch:
-  default: 
-
-bacaped:redstone/more_optimisations:
-  default: 
+  default:
 
 bacaped:redstone/night_shift:
   default: 
@@ -445,10 +436,7 @@ bacaped:adventure/general_cleaning:
   default: Use a brush on a spawner and inside Igloo, Desert Pyramid, Jungle Pyramid, Swamp Hut, desert Villager's House, plains Villager's House, savanna Villager's House, snowy Villager's House, taiga Villager's House, Mineshaft, Mesa Mineshaft, Stronghold, Fortress, End City, Monument, Mansion, cold Ocean Ruin, warm Ocean Ruin, Shipwreck, Buried Treasure, Pillager Outpost, Ruined Portal, Bastion, Trial Chambers, Trail Ruins, Abandoned Camp
 
 bacaped:adventure/no_luck_for_the_next_guy:
-  default: 
-
-bacaped:adventure/restoring_population:
-  default: 
+  default:
 
 bacaped:adventure/thorny_prices:
   default: 
@@ -739,10 +727,7 @@ bacaped:adventure/jurassic_park:
   default: 
 
 bacaped:adventure/on_the_wings_of_the_wind:
-  default: 
-
-bacaped:adventure/the_cult_of_the_spyglass:
-  default: 
+  default:
 
 bacaped:animal/baby_zoo:
   default: Have a baby Axolotl, Cat, Chicken, Cow, Donkey, Fox, Horse, Mooshroom, Mule, Ocelot, Pig, Rabbit, Sheep, Strider, Turtle, Bee, Goat, Llama, Panda, Polar Bear, Wolf, Hoglin, Happy Ghast, Camel, Sniffer, Armadillo, Dolphin, Squid, Glow Squid, Nautilus within 32 blocks of you
@@ -835,17 +820,11 @@ bacaped:weaponry/dead-eye:
 bacaped:weaponry/deflector:
   default: 
 
-bacaped:adventure/eye_contact_master:
-  default: Look at an Enderman less than 1 block away
-
 bacaped:adventure/midnight_snack:
   default: Buy cookies from a Villager between 3 a.m. and 4 a.m.
 
 bacaped:adventure/placeholder:
-  default: 
-
-bacaped:adventure/water_dependent:
-  default: Stand on a pot and throw the splash potion into it
+  default:
 
 bacaped:animal/snip-snip:
   default: Use shears on a Sheep, Red and Brown Mooshrooms, Snow Golem, Bogged, Wolf, Beehive, Bee Nest, Pumpkin, Cave Vines, Kelp, Weeping Vines, Twisting Vines, Horse Horse Armor, Horse Saddle, Zombie Horse Horse Armor, Zombie Horse Saddle, Nautilus Nautilus Armor, Nautilus Saddle, Zombie Nautilus Nautilus Armor, Zombie Nautilus Saddle, Skeleton Horse, Donkey, Mule, Camel, Camel Husk, Happy Ghast, Pig, Strider, Llama, Copper Golem, Sulfur Cube
@@ -1023,8 +1002,6 @@ bacaped:weaponry/unlucky:
 bacaped:weaponry/wind_burst_fox:
   default: 
 
-bacaped:adventure/pottery_collector:
-  default: 
 
 bacaped:adventure/thats_a_new_style:
   default: 
@@ -1165,10 +1142,10 @@ bacaped:adventure/unprofitable_transportation:
   default: 
 
 bacaped:building/water_dependent:
-  default: 
+  default: Stand on a pot and throw the splash potion into it
 
 bacaped:monsters/eye_contact_master:
-  default: 
+  default: Look at an Enderman less than 1 block away
 
 bacaped:biomes/death_fell_accident_water:
   default: Die from falling onto a waterlogged bottom position slab while sitting in a minecart
