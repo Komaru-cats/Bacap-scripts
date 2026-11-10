@@ -157,7 +157,7 @@ execute if score bacaped:challenges/mob_universe bac_obtained_light_purple match
 execute if score bacaped:challenges/monstrous_rocket bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/monstrous_rocket
 execute if score bacaped:challenges/mounted_menace bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/mounted_menace
 execute if score bacaped:challenges/my_little_pig bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/my_little_pig
-execute if score bacaped:challenges/no_shield_please bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/no_shield_please
+execute if score bacaped:challenges/stoppable_force bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/stoppable_force
 execute if score bacaped:challenges/oh_my_broken_legs bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/oh_my_broken_legs
 execute if score bacaped:challenges/one_in_a_million_steed bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/one_in_a_million_steed
 execute if score bacaped:challenges/piggish_poison_tango bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:challenges/piggish_poison_tango

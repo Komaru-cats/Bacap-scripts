@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/no_shield_please",
+  "parent": "bacaped:challenges/stoppable_force",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

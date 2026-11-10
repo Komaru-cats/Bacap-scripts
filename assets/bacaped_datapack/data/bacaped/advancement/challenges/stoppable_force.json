@@ -18,7 +18,7 @@
       }
     },
     "title": {
-      "translate": "No Shield, Please"
+      "translate": "Stoppable Force"
     },
     "description": {
       "translate": "Break a fully durable shield by blocking a single blow",
@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:challenges/no_shield_please"
+    "function": "bacaped_rewards:challenges/stoppable_force"
   }
 }

@@ -292,7 +292,7 @@ execute if score bacaped:biomes/pandas_express bac_obtained_dark_red matches 1..
 execute if score bacaped:challenges/baron_munchausen bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_teamdark_red] only bacaped:challenges/baron_munchausen
 execute if score bacaped:challenges/big_end_adventure bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_teamdark_red] only bacaped:challenges/big_end_adventure
 execute if score bacaped:challenges/my_little_pig bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_teamdark_red] only bacaped:challenges/my_little_pig
-execute if score bacaped:challenges/no_shield_please bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_teamdark_red] only bacaped:challenges/no_shield_please
+execute if score bacaped:challenges/stoppable_force bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_teamdark_red] only bacaped:challenges/stoppable_force
 execute if score bacaped:challenges/the_world_is_actually_ending bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_teamdark_red] only bacaped:challenges/the_world_is_actually_ending
 execute if score bacaped:challenges/thousand_lives bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_teamdark_red] only bacaped:challenges/thousand_lives
 execute if score bacaped:end/weightlessness bac_obtained_dark_red matches 1.. run advancement grant @a[team=bac_teamdark_red] only bacaped:end/weightlessness

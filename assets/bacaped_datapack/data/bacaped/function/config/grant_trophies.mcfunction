@@ -77,7 +77,7 @@ execute as @s[advancements={bacaped:challenges/magic_kingdom=true}] run function
 execute as @s[advancements={bacaped:challenges/mob_universe=true}] run function bacaped_rewards:trophy/challenges/mob_universe
 execute as @s[advancements={bacaped:challenges/monstrous_rocket=true}] run function bacaped_rewards:trophy/challenges/monstrous_rocket
 execute as @s[advancements={bacaped:challenges/my_little_pig=true}] run function bacaped_rewards:trophy/challenges/my_little_pig
-execute as @s[advancements={bacaped:challenges/no_shield_please=true}] run function bacaped_rewards:trophy/challenges/no_shield_please
+execute as @s[advancements={bacaped:challenges/stoppable_force=true}] run function bacaped_rewards:trophy/challenges/stoppable_force
 execute as @s[advancements={bacaped:challenges/pooch_purge_pilot=true}] run function bacaped_rewards:trophy/challenges/pooch_purge_pilot
 execute as @s[advancements={bacaped:challenges/pottery_collector=true}] run function bacaped_rewards:trophy/challenges/pottery_collector
 execute as @s[advancements={bacaped:challenges/professional_assassin=true}] run function bacaped_rewards:trophy/challenges/professional_assassin

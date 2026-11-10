@@ -529,6 +529,7 @@
 - Changed xp reward to 50 in "Nobody Needs Rockets!"
 - Removed fire immune from "Unite Storm" trophy
 - Renamed "Cheers!" to "Snip-Snip"
+- Renamed "No Shield, Please" to "Stoppable Force"
 - Renamed "The World Is Actually Ending 2 " to "The World Is Actually Ending"
 - Renamed "Show the Nether to a Silverfish" to "Unfamiliar Depths"
 - Changed "Beyond the Rings" parent to "Lord of the Rings"

@@ -251,7 +251,7 @@ execute as @a[advancements={bacaped:biomes/pandas_express=true}] run scoreboard 
 execute as @a[advancements={bacaped:challenges/baron_munchausen=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:challenges/big_end_adventure=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:challenges/my_little_pig=true}] run scoreboard players add @s bacaped_advancements 1
-execute as @a[advancements={bacaped:challenges/no_shield_please=true}] run scoreboard players add @s bacaped_advancements 1
+execute as @a[advancements={bacaped:challenges/stoppable_force=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:challenges/the_world_is_actually_ending=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:challenges/thousand_lives=true}] run scoreboard players add @s bacaped_advancements 1
 execute as @a[advancements={bacaped:end/weightlessness=true}] run scoreboard players add @s bacaped_advancements 1
