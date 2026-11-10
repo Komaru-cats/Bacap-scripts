@@ -61,7 +61,7 @@
 ### Redstone Tab
 - Back to Basics - Shear a Mooshroom to turn it back into a regular Cow (based on ParzivalAFK's proof-of-concept datapack for an ED update)
 - Classic Door Trap - Fall for the oldest trick in the book: the iron door trap (based on ParzivalAFK's proof-of-concept datapack for an ED update)
-- Timing is Everything - Adjust a Redstone Repeater to all four delay settings (based on ParzivalAFK's proof-of-concept datapack for an ED update)
+- Timing Is Everything - Adjust a Redstone Repeater to all four delay settings (based on ParzivalAFK's proof-of-concept datapack for an ED update)
 - Staring Contest - Create a redstone clock by placing two observers facing each other (based on ParzivalAFK's proof-of-concept datapack for an ED update)
 - Idea Generator - Light a copper bulb on top of your head (suggested by _adamo\_)
 
