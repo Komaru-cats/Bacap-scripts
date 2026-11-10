@@ -65,8 +65,10 @@ templates:
 
       # Additional translation keys or literals to exclude from discovery
       ignored_keys:
-        - "DonationAlerts"
-        - "Patreon"
+        - "GitHub"
+        - "Modrinth"
+        - "Enhanced Discoveries"
+        - "Enhanced Discoveries Hardcore"
 
       # Multiline header written as comments at the top of base_translation.json
       # Using '|-' preserves line breaks without a trailing empty newline
