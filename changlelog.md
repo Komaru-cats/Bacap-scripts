@@ -74,24 +74,6 @@
 - Master Archaeologist - Brush 250 suspicious blocks (suggested by _adamo\_)
 - Living History - Brush 1000 suspicious blocks (suggested by _adamo\_)
 
-
-
-## Additions
-- Added "Creaking" to "Magic Kingdom"
-- Made "The Vex Slayer" trophy from "Five Birds, One Stone" unbreakable
-- Made "Warden's Plate" trophy from "Dragon vs Warden VI" unbreakable
-- Made "Broken" trophy from "Professional Assassin" unbreakable
-- Made "Useful Instrument" trophy from "All The Netherite Tools" unbreakable
-- Made "Useful Instrument" trophy from "All The Netherite Tools" unbreakable
-- Made "The Undertaker's Shovel" trophy from "The Undertakers Revenge" unbreakable
-- Made "Katana" trophy from "Shonobi" unbreakable
-- Made "Excalibur" trophy from "Renowned Armament" unbreakable
-- Made "Iron Ax" trophy from "Vindicator Vanquisher" unbreakable
-- Added requirement to be in the Nether to complete "Dragon vs Wither IV"
-- Added "Executive Desk" trophy to "HR Manager of the Year"
-- Added "Strange Frog" trophy to "One More Frog"
-- Added new unique string identifiers to trophies `custom_model_data` instead of using `floats`
-
 - ### Datapack Menu (/function bacaped:config)
     Added datapack menu to configure ED scoreboards:
     - ED Advancements - keeps track of how many ED advancements each player has obtained 
@@ -116,7 +98,6 @@
   - Moved "Universal Solitude" to End tab as a child of "Circus Act"
   - Moved "Interspecific Adventure" to End tab as a child of "The City At The End Of The Game"
   - Moved "Void Being" to End tab as a child of "How Did You End Up Here"
-  - Moved "The V O I D" to End tab as a child of "Void Being"
   - Moved "5G Connectivity" to Animals tab as a child of "Iceologer Should've Won"
   - Moved "Big Pig Adventure" to Nether tab as a child of "Unfamiliar Depths"
   - Moved "Shield of Achilles" to Weaponry tab as a child of "Deflector"
@@ -195,30 +176,380 @@
   - Changed "Happy Chest Year!" trophy description to "Santa's worst nightmare: a kid who opens 25,000 presents in one sitting"
   - Changed "Ascension Ace" trophy description to "Long enough to knock on the gates of Celestia"
   - Changed "Piggish Poison Tango" trophy description to "Your Pig's face at the time of completing this advancement"
+  - Changed "Enhanced Biomes Milestone" trophy description to "A blank map. It projects the whole world's topography into your mind"
+  - Changed "Enhanced Building Milestone" trophy description to "3D printing taken to the next level. The world is just another string of filament"
+  - Changed "Enhanced Super Challenges Milestone" trophy to "SkyReed's Head" (Player Head with Skyreed's skin) with description "You have bested this datapack's maker"
+  - Changed "Enhanced Enchanting Milestone" trophy description to "All written history is distilled in this small flask of near infinite power"
+  - Changed "Enhanced End Milestone" trophy description to "Next, we are going to steal, pause for effect… THE MOON!"
+  - Changed "Enhanced Farming Milestone" trophy description to "It may be just a bunch of wheat, but there is no better showing of your expertise in farming"
+  - Changed "Enhanced Legend" trophy description to "A hero's reward, only given to those who are steadfast to all obstacles, and tough it out until the end!"
+  - Changed "Enhanced Mining Milestone" trophy description to "A legendary metal, formed deep within the Earth's crust, known for its immense strength. Only the greatest miners can refine it to its purest form"
+  - Changed "Enhanced Nether Milestone" trophy to "Netherite Ore" (Netherite Block) with description "It used to be like this, millennia ago. Then the piglins arrived"
 
+    
+- #### Ding Dong
+    - Renamed "Din Don" to "Ding Dong"
+    - Changed requirements from 10000 bell rings to 5000
+    - Changed item reward to 4 bells
+    - Changed xp reward to 75
+    - Changed description to "Ring a Bell 5,000 times"
+- #### Fake Copper Armor
+    - Renamed "Fake Copper Armor"
+    - Renamed criteria to `orange_leather_armor_with_copper_trims`
+    - Changed xp reward to 50
+- #### Do You See This?
+    - Changed parent to "Thorny Prices"
+    - Changed xp reward to 50
+    - Changed trophy description to "Priceless…"
+    - Changed description to "Equip a Villager with a full set of Netherite Armor"
+- #### Emerald Armor?
+    - Changed icon to green leather leggings
+    - Changed xp reward to 50
+    - Changed item reward to 6 emerald
+- #### Eye Contact Master
+    - Changed parent to "Tele-morth"
+    - Changed description to "Look at an Enderman very closely through a Spyglass"
+    - Changed item reward to 2 ender pearls
+    - Changed xp reward to 25
+- #### Fake Netherite Armor
+    - Changed icon to black leather helmet
+    - Changed description to "Wear a full set of black Leather Armor with any Netherite Trims of the same type"
+    - Changed xp reward to 100
+- #### General Cleaning
+    - Removed enchantment glint from the icon
+    - Changed description to "Use a Brush on a block in each structure and the Spawner in a Dungeon"
+    - Changed trophy description to "Sweeping is not a chore, it is your pride"
+- #### Herbalist's Dream
+    - Changed icon to Tall Grass
+    - Renamed trophy to "Herb Collector's Medal"
+    - Changed item reward to 2 Tall Grass and 2 Large Fern
+- #### I Hate All of You
+    - Changed parent to "Do you see this?"
+    - Renamed trophy to "Head Bread"
+    - Changed xp reward to 100
+- #### Jurassic Park
+    - Removed enchantment glint from the icon
+    - Changed parent to "Planting the Past"
+    - Changed description to "Obtain 64 Torchflowers and 64 Pitcher Plants"
+    - Changed xp reward to 100
+- #### Komaru ♥
+    - Changed trophy description to "My favorite cat's name is Komaru. A playful yet mischievous goofball who has a big loving heart. Komaru has pretty gray fur with small patches of white on her paws and chest. Her resplendent green eyes shimmer with cleverness and cunning. She loves to chase toys and climb high places, most of all, she is always ready for cuddles and will purr softly in your embrace. Komaru."
+    - Changed description to "Name a Cat 'Komaru'"
+    - Changed item reward to 2 Cod and 1 Name Tag
+    - Changed xp reward to 0
+- #### Midnight Snack
+    - Changed requirements to actual midnight (12:00 to 12:59) (18000 to 19000 ticks)
+    - Changed trophy color to "#A69A9A" (imagine this color in your head :D)
+    - Changed description to "Wake up a Villager to buy Cookies late at night"
+    - Changed xp reward to 25
+- #### My Personal Slave
+    - Changed icon to Copper Sword
+    - Added a trophy "Blood Contract" (Trial Explorer Map) with description "Forged in war"
+    - Changed description to "Have an Allay deliver you all the Swords, Spears and Axes, as well as a Trident, Bow, Crossbow and Mace"
+    - Changed xp reward to 150
+- #### Unprofitable Transportation
+  - Renamed from "Not Profitable Transportation"
+  - Changed description to "Buy any type of Terracotta from a Villager in a Badlands biome"
+  - Changed item reward to 4 Terracotta
+  - Changed xp reward to 50
+- #### Team Waterless
+  - Renamed from "No-Water Team"
+  - Changed icon to Netherrack
+  - Changed criteria to `sponge`
+  - Changed description to "Place 250 Sponges"
+  - Changed xp reward to 50
+- #### Oh, You Again?
+  - Changed criteria to `open_door_for_trader`
+  - Changed xp reward to 50
+- #### Ominous Ocean
+  - Changed icon to Potion of Harming
+  - Renamed trophy to "Enchanted Ominous Bottle" (Level 5)
+  - Changed description to "Collect a stack of each tier of Ominous Bottles"
+- #### On Site Sale
+  - Changed description to "Buy Brick items from a Villager in a River biome"
+  - Changed item reward to 4 Bricks
+  - Changed xp reward to 25
+- #### On the Wings of the Wind
+  - Changed icon to Wind Charged Arrow
+  - Changed trophy description to "A charge so powerful that it should not be used"
+  - Changed item reward to 15 Wind Charges
+  - Changed xp reward to 150
+- #### Placeholder
+  - Changed description to "Name a Warden 'Placeholder'"
+  - Changed xp reward to 50
+#### Pottery Collector
+  - Moved to Super Challenges after "Abyss Lord"
+  - Changed criteria to `any_sherd`
+  - Removed enchantment glint from the icon
+  - Changed trophy description to "You've officially collected enough Pottery Sherds to open a museum"
+  - Changed description to "Collect a stack of any Pottery Sherd"
+  - Changed xp reward to 750
+- #### Real Immortal
+  - Moved to Potions after "Cowabunga It Is"
+  - Added a trophy "Elixir of Life" (Strong Potion of the Turtle Master) with description "Rids the drinker of aging, disease and injury. Totally doesn't contain a lethal dose of mercury"
+  - Changed description to "Kill an Allay that has the strong Turtle Master effect"
+  - Changed xp reward to 100
+- #### Real Netherite Armor
+  - Changed icon to Netherite Helmet
+  - Added enchantment glint to the icon
+  - Changed description to "Wear a full set of Netherite Armor with any Netherite Trims"
+- #### Restoring the Population
+  - Renamed from "Restoring Population"
+  - Changed icon to Sniffer Egg
+  - Removed enchantment glint from the icon
+  - Changed criteria to `sniffer_egg`
+  - Changed description to "Obtain 64 Sniffer Eggs"
+  - Changed item reward to 8 Sniffer Eggs
+  - Changed xp reward to 125
+- #### Sandpicious
+  - Reimplemented
+  - Changed parent to "Careful Restoration"
+  - Changed icon to Red Sand
+  - Changed description to "Name a stack of Sand 'Suspicious Sand'"
+  - Removed all item, xp, and trophy rewards
+- #### Save Me!
+  - Changed description to "Repair an Iron Golem during battle with a Warden"
+  - Changed xp reward to 50
+- #### Silent Armor
+  - Removed enchantment glint from the icon
+  - Changed description to "Wear a full set of Armor with Silence Trims"
+  - Changed xp reward to 100
+- #### Supply Chain
+  - Turned into a Goal
+  - Changed parent to "Unprofitable Transportation"
+  - Changed description to "Buy Dripstone Blocks from a Villager in a Dripstone Caves biome"
+  - Changed item reward to 4 Dripstone Blocks
+  - Changed xp reward to 75
+- #### Oops.
+  - Renamed from "Sus Miner"
+  - Moved after "Brushed Away"
+  - Changed criteria to `break_sus_block`
+  - Removed enchantment glint from the icon
+  - Changed description to "Break Suspicious Sand or Suspicious Gravel without a Brush"
+  - Removed xp reward
+- #### Suspicious Miner
+  - Changed parent to "Oops."
+  - Changed icon to Netherite Shovel
+  - Removed enchantment glint from the icon
+  - Changed description to "Break 64 Suspicious Sand or Suspicious Gravel without a Brush"
+  - Changed xp reward to 100
+- #### That's A New Style
+  - Changed description to "Wear a light blue Leather Tunic named 'Diamond Chestplate'"
+  - Changed xp reward to 25
+- #### The Beginning of the Day
+  - Changed icon to Ochre Froglight
+  - Changed description to "Ring a Bell upon waking up while at the top of the world"
+  - Changed xp reward to 50
+- #### The Cult of the Spyglass
+  - Moved to Mining after "Galileo Figaro"
+  - Changed criteria to `spyglass`
+  - Changed description to "Look at a Spyglass through a Spyglass"
+  - Changed xp reward to 25
+- #### Thorny Prices
+  - Changed icon to Emerald Block
+  - Changed criteria to `villager_thorns_kills_player` (`villager_thorns_hurts_player` in Hardcore)
+  - Changed description to "Die from a Villager wearing Armor with the Thorns enchantment" ("Get damaged by a Villager wearing Armor with the Thorns enchantment" in Hardcore)
+  - Changed xp reward to 50
+- #### Uncontrolled Reproduction
+  - Changed icon to Budding Amethyst
+  - Removed enchantment glint from the icon
+  - Changed description to "Have an Allay drop an Amethyst Shard at a Note Block"
+  - Changed xp reward to 25
+#### Warden's Thrust
+  - Moved to Monsters after "Now that's a Lot of Damage"
+  - Changed criteria to `elytra_sonic_boom`
+  - Changed description to "Soar with an Elytra from a Warden's Sonic Boom attack"
+  - Changed xp reward to 25
+- #### Wandering Chariot
+  - Renamed from "Wandering Caravane"
+  - Changed icon to Trader Llama Spawn Egg
+  - Changed criteria to `transport_trader_and_llama`
+  - Changed item reward to 2 Emeralds
+- #### Water Dependent
+  - Moved to Building after "Pot on a Pot"
+  - Changed icon to Splash Potion
+  - Removed enchantment glint from the icon
+  - Changed criteria to `splash_potted_flower`
+  - Changed description to "Water a potted flower with a Splash Potion while standing atop it"
+- #### Team Water
+  - Moved to Biomes after "Dive Bomb"
+  - Changed tier to Goal
+  - Changed description to
+- #### Enhanced Adventure Milestone
+    - Changed icon to Buried Treasure Map
+    - Changed trophy description to "And in this vast wide world, you will always have a home"
+- #### Enhanced Adventure Milestone
+    - Changed icon to Buried Treasure Map
+    - Changed trophy description to "And in this vast wide world, you will always have a home"
+#### Enhanced Animal Milestone
+  - Changed trophy color to "#ACACAC"
+  - Changed trophy description to "The animal kingdom bows before you upon hearing this horn"
+- #### Enhanced Monsters Milestone
+  - Renamed trophy to "Bush Monster's Head"
+  - Changed trophy description to "A rare trophy of a mystic urban legend described as the smartest predator. Natural and fictitious horrors stand no chance before you"
+- #### Enhanced Potions Milestone
+  - Changed icon to Lingering Regeneration Potion
+  - Renamed trophy to "Colossal Cauldron"
+  - Changed trophy description to "Prepare supercharged potions in a single brew. Then sell them off to the highest bidder"
+- #### Enhanced Redstone Milestone
+  - Changed icon to Redstone Torch
+  - Changed trophy description to "A key component in many redstone contraptions, perhaps almost as essential as the wires themselves"
+- #### Enhanced Weaponry Milestone
+  - Changed initial trophy state to contain 7 Arrows
+  - Changed trophy description to "Contains too many projectiles… Use only in extreme cases"
+- #### The Infernal Cauldron
+    - Changed tier to Goal, instead of Challenge
+    - Changed completion time from 20 to 5 minutes
+- #### Renowned Armament
+    - Changed "Renowned Armament" criteria to detect new unique `custom_model_data` identifiers
+    - Made "Excalibur" trophy from "Renowned Armament" unbreakable
+- #### Renowned Armament
+    - Changed "Renowned Armament" criteria to detect new unique `custom_model_data` identifiers
+    - Made "Excalibur" trophy from "Renowned Armament" unbreakable
+- #### Bee Colonist
+  - Changed description to "Place a full Bee Nest in the End"
+  - Changed xp reward to 50
+- #### Compact Base
+  - Changed icon to Black Shulker Box
+  - Changed xp reward to 75
+- #### Dragon Blitz
+  - Changed icon to Eye of Ender
+  - Moved after "What For?"
+- #### End at the Start of the Game
+  - Changed description to "Look at a natural End Crystal that was brought from the End into the Overworld through a Spyglass"
+  - Changed item reward to 4 End Crystals
+- #### Endergardener
+  - Changed icon to Chorus Plant
+  - Removed enchantment glint from the icon
+  - Changed description to "Plant 100 Chorus Flowers"
+  - Changed item reward to 4 Chorus Flowers
+- #### Interdimensional Travel
+  - Moved after "Unending Hell"
+  - Changed tier to a Goal
+  - Removed enchantment glint from the icon
+  - Changed description to "Travel directly from the Nether to the End"
+  - Changed item reward to 4 Ender Pearls
+  - Changed xp reward to 50
+- #### Intergalactic Journey
+  - Changed tier to a Goal
+  - Changed description to "Sail through all dimensions in one Boat without getting out"
+  - #### Last Hit
+  - Removed enchantment glint from the icon
+  - Renamed trophy to "First Dragon's Head"
+  - Changed xp reward to 75
+- #### Speed of Light
+  - Changed requirement to reaching a horizontal speed of over 150 blocks per second
+  - Added a trophy "Light Block" (Ochre Froglight) with description "As fast as you may go, you can never truly reach this speed"
+  - Changed description to "Reach a horizontal speed of over 150 blocks per second"
+  - Changed xp reward to 75
+- #### The Lockbox
+  - Turned into a Goal
+  - Changed description to "Put the Dragon Egg in an Ender Chest"
+  - Changed xp reward to 50
+- #### The V O I D
+  - Moved to The End tab after "Void Being"
+    - Added a trophy "Bedrock Shard" (Echo Shard) with description "All of your exploits to destroy Bedrock have yielded only a single fragment"
+    - Changed description to "Be under Bedrock in the Overworld and the Nether"
+- #### Universal Solitude
+  - Moved to The End tab after "Circus Act"
+  - Changed trophy description to "Workbench for any mason"
+  - Changed item reward to 42 Sculk Sensors
+  - Changed xp reward to 420
+- #### Craft Me ALL!
+  - Changed criteria from `decorated_pot_simple` to `decorated_pot_sherds`
+  - Added a trophy "Crafters" (Copper Golem Statue) with description "They're the tiny men! The ones working inside all machinery to ensure proper function"
+  - Changed description to "Craft every Redstone component using a Crafter"
+  - Changed item reward to 4 Crafters
+  - Changed xp reward to 100
+- #### Crafting Lockdown
+  - Changed description to "Open a Crafter with all slots disabled"
+  - Removed xp reward
+- #### Farm Basics
+  - Turned into a Task
+  - Changed description to "Place an Observer facing Sugar Cane or Bamboo"
+  - Removed xp reward
+- #### Fat Cat
+  - Added Trapped Chest and all Copper Chests to criteria
+  - Changed description to "Look at a Cat sitting on a Chest, preventing it from being opened, through a Spyglass"
+  - Removed item reward
+- #### Heavy Steps
+  - Removed enchantment glint from the icon
+  - Changed description to "Stand on a Heavy Weighted Pressure Plate with the maximum Redstone signal strength"
+  - Changed xp reward to 50
+- #### Light Touch
+  - Removed enchantment glint from the icon
+  - Changed description to "Stand on a Light Weighted Pressure Plate with the maximum Redstone signal strength"
+  - Changed xp reward to 25
+- #### More Optimizations!
+  - Renamed to American English spelling ("More Optimizations!")
+  - Changed parent to "Old Optimizations"
+  - Changed description to "Place a Redstone Block above a Hopper to lock it"
+  - Removed all item and xp rewards
+- #### Night Shift
+  - Changed description to "Set a Daylight Detector to night mode"
+  - Removed xp reward
+- #### Old Optimizations
+  - Renamed to American English spelling ("Old Optimizations")
+  - Changed description to "Before 1.21, placing a Composter above a Hopper optimized calculations. Do it in honor of tradition"
+  - Removed all item and xp rewards
+- #### Say NO to Campfires
+  - Moved after "Using a Bow, Using a Bow"
+  - Changed description to "Place a Dispenser next to a Beehive to automate the Bees' work"
+  - Changed item reward to 2 Honeycomb
+  - Changed xp reward to 25
+
+- #### Using a Bow, Using a Bow
+  - Renamed from "Using a Bow, a Bow, a Bow, a Bow"
+  - Changed description to "Open a Dispenser with a Bow inside it while holding a Bow in your main hand and off-hand"
+  - Removed xp reward
+- #### What Do You Know About Pistons?
+  - Moved after "Master Engineer"
+  - Added missing question mark to title ("What Do You Know About Pistons?")
+  - Changed description to "Craft 1000 Pistons"
+  - Changed trophy description to "The creator of these advancements has crafted 370,000 Pistons, and he needs double that too"
+  - Changed xp reward to 200
+- #### Desert Warrior
+  - Fixed trigger so the shield must be in the off-hand and the sword in the main hand
+  - Changed description to "Sit on a Camel while holding a Sword and Shield, and wearing full Leather Armor"
+
+
+- Added Creaking to "Magic Kingdom"
+- Added Happy Ghast to "What's the Best Transport"
+- Made "The Vex Slayer" trophy from "Five Birds, One Stone" unbreakable
+- Made "Warden's Plate" trophy from "Dragon vs Warden VI" unbreakable
+- Made "Broken" trophy from "Professional Assassin" unbreakable
+- Made "Useful Instrument" trophy from "All The Netherite Tools" unbreakable
+- Made "The Undertaker's Shovel" trophy from "The Undertakers Revenge" unbreakable
+- Made "Katana" trophy from "Shonobi" unbreakable
+- Made "Iron Ax" trophy from "Vindicator Vanquisher" unbreakable
+- Added requirement to be in the Nether to complete "Dragon vs Wither IV"
+- Added "Executive Desk" trophy to "HR Manager of the Year"
+- Added "Strange Frog" trophy to "One More Frog"
+- Added new unique string identifiers to trophies `custom_model_data` instead of using `floats`
+- Changed xp reward to 50 in "Nobody Needs Rockets!"
+- Removed fire immune from "Unite Storm" trophy
 - Renamed "Cheers!" to "Snip-Snip"
-- Renamed "No Water Team" to "Team Waterless"
-- Renamed "Water Team" to "Team Water"
-- Renamed "Wandering Caravane" to "Wandering Chariot"
 - Renamed "The World Is Actually Ending 2 " to "The World Is Actually Ending"
 - Renamed "Show the Nether to a Silverfish" to "Unfamiliar Depths"
-- Changed "Enhanced Potions Milestone" icon to Lingering Regeneration Potion
 - Changed "Beyond the Rings" parent to "Lord of the Rings"
 - Changed "Explosive Elixir" description to mention saturation
 - Changed "Deflector" tier to Goal, instead of Challenge
-- - Changed "Deflector" tier to Challenge, instead of Hidden
-- Changed "The Infernal Cauldron" tier to Goal, instead of Challenge
+- Changed "Pandas Express" description to "Leash a Boat with two Pandas inside"
+- Changed "Australia" description to "Be within 8 blocks of an upside down warm Pig on a Grass Block"
+- Changed "Extraordinary Duel" description to "Look at a Fox that is holding a Netherite Sword, through a Spyglass, while it kills a Wolf that is attacking you"
+- Changed "Dinner Time" description to "Look at a Wolf that is hunting a Skeleton through a Spyglass"
+- Changed "Camel Adventure" description to "Travel to a Desert Temple, Village house and a Pillager Outpost in a Desert without dismounting your Camel"
+- Changed "Buff Axolotl" description to "Give your pet Axolotl the Resistance, Regeneration and Strength effects, then win a fight"
+- Changed description to "Open the Bonus Chest" in "The Hardest and Unfairest One Yet"
 - Changed "The Explosive Adventure" tier to Challenge, instead of Goal
-- Changed "Enhanced Adventure Milestone" icon from Filled Map to Buried Treasure Map
 - Changed "All The Netherite Tools" description from "Get perfect enchantments for all netherite tools and all paths" to "Create every netherite tool variant with all possible enchantments at max level"
 - Changed "Wind Burst Fox" description from "Give a Wind Burst 3 Mace to a Fox" to "Give a Wind Burst III Mace to a Fox"
-- Changed "Renowned Armament" criteria to detect new unique `custom_model_data` indentifiers
-- Changed "The Infernal Cauldron" completion time from 20 to 5 minutes
 - Changed "Dragon Blitz" to use the same system as "Monumental Speedrun" uses to detect it
 - Simplified "Airborne Annihilator" criteria names
 - Moved "Australia" to Animals tab as a child of "When Pigs Used to Fly"
 - Removed excessive color specifiers in "Riddle Me That" so that the first line automatically changes the color of all the next lines
 - Removed enchantment glint from "The Boatman" icon
+- Removed enchantment glint from "Do You See This?" icon
 - Removed fake enchantment/trim lines from trophies lore
 - Changed Oozing amplifier of "The New Swamp Wont Be Here" trophy to 1 from 10
 - Changed "Multi-Crossbow" trophy from "Enh. Weaponry Milestone" multishot level from 3 to 1
@@ -226,6 +557,7 @@
 - Changed "Ligmifitation" item reward from 256 Hay Bales to 64
 - Changed "Advancement info" description to " Stand on cobblestone stairs in full diamond armor while holding a diamond sword.<br> Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!"
 - Removed version line from `install` function
+- A lot of other small grammar fixes
 
 ## Fixes
 - Used `#minecraft:is_river` biome tag in "On Site Sale" criteria instead of listing biomes
