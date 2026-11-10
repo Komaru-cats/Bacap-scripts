@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped:adventure/batminton"
+    "function": "bacaped_rewards:adventure/batminton"
   }
 }
