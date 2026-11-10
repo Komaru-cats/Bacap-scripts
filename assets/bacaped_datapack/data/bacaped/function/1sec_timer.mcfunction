@@ -54,7 +54,7 @@ execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnival
 # Flap, Don't Fall
 execute as @a[gamemode=!spectator,advancements={bacaped:nether/flap_dont_fall=false},predicate=bacaped:flap_dont_fall_reset] at @s run function bacaped:flap_dont_fall_reset
 
-# I am a Train
+# I Am a Train
 execute as @a[gamemode=!spectator, advancements={bacaped:animal/i_am_a_train=false}] on vehicle if entity @s[type=#blazeandcave:all_boats] as @e[type=#blazeandcave:all_boats] on leasher if entity @s[type=#blazeandcave:all_boats] on leasher if entity @s[type=#blazeandcave:all_boats] on leasher if entity @s[type=#blazeandcave:all_boats] on leasher if entity @s[type=#blazeandcave:all_boats] on passengers if entity @s[type=player, gamemode=!spectator, advancements={bacaped:animal/i_am_a_train=false}] run advancement grant @s only bacaped:animal/i_am_a_train
 
 # Scores

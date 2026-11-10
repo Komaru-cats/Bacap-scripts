@@ -12,7 +12,7 @@
 - A Small Horse Incident - Die of suffocation while on Horse
 - The Saddle of Many Races - Kill a Horse of each color variant with a saddle (suggested by Honestly Tzadok)
 - Batminton - Kill a Bat with a deflected Wind Charge from a Breeze
-- I am a Train - Ride a boat that is connected in a chain with 4 other leashed boats
+- I Am a Train - Ride a boat that is connected in a chain with 4 other leashed boats
 
 ### Biomes Tab
 - death.fell.accident.water - Get the "death.fell.accident.water" death message (suggested by MasterKhan)
