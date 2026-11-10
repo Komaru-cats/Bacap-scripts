@@ -103,7 +103,7 @@ execute if score bacaped:bacap/enhanced_statistics_milestone bac_obtained_light_
 execute if score bacaped:bacap/enhanced_weaponry_milestone bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:bacap/enhanced_weaponry_milestone
 execute if score bacaped:biomes/accept_cookies bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:biomes/accept_cookies
 execute if score bacaped:biomes/advanced_horse_transport bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:biomes/advanced_horse_transport
-execute if score bacaped:biomes/australia bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:biomes/australia
+execute if score bacaped:animal/australia bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:animal/australia
 execute if score bacaped:biomes/coolgrill bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:biomes/coolgrill
 execute if score bacaped:biomes/good_dreams bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:biomes/good_dreams
 execute if score bacaped:biomes/hydrodynamic bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:biomes/hydrodynamic

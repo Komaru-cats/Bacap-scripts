@@ -1691,7 +1691,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:biomes/australia": true
+                "bacaped:animal/australia": true
               }
             }
           }

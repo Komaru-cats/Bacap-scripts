@@ -99,7 +99,7 @@ execute if score bacaped:animal/one_more_frog bac_obtained_dark_purple matches 1
 execute if score bacaped:animal/turtle_bowl bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:animal/turtle_bowl
 execute if score bacaped:bacap/enhanced_challenges_milestone bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:bacap/enhanced_challenges_milestone
 execute if score bacaped:biomes/advanced_horse_transport bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:biomes/advanced_horse_transport
-execute if score bacaped:biomes/australia bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:biomes/australia
+execute if score bacaped:animal/australia bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:animal/australia
 execute if score bacaped:building/bee_design bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:building/bee_design
 execute if score bacaped:building/chromatic_completion bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:building/chromatic_completion
 execute if score bacaped:challenges/happy_anniversary bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_teamdark_purple] only bacaped:challenges/happy_anniversary

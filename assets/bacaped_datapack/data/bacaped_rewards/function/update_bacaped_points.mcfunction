@@ -99,7 +99,7 @@ execute as @a[advancements={bacaped:animal/one_more_frog=true}] run scoreboard p
 execute as @a[advancements={bacaped:animal/turtle_bowl=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:bacap/enhanced_challenges_milestone=true}] run scoreboard players operation @s bacaped_advancements_points += milestone bac_points
 execute as @a[advancements={bacaped:biomes/advanced_horse_transport=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
-execute as @a[advancements={bacaped:biomes/australia=true}] run scoreboard players operation @s bacaped_advancements_points += task bac_points
+execute as @a[advancements={bacaped:animal/australia=true}] run scoreboard players operation @s bacaped_advancements_points += task bac_points
 execute as @a[advancements={bacaped:building/bee_design=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:building/chromatic_completion=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:challenges/happy_anniversary=true}] run scoreboard players operation @s bacaped_advancements_points += super_challenge bac_points

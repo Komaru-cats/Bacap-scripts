@@ -46,7 +46,7 @@ execute as @a[advancements={bacaped:end/intergalactic_journey=false}] unless pre
 execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_llama] run advancement revoke @s only bacaped:challenges/pooch_purge_pilot
 
 # Australia
-execute as @a[advancements={bacaped:biomes/australia=false}] at @s if entity @e[type=pig,distance=..8,predicate=bacaped:australia_pig] run advancement grant @s only bacaped:biomes/australia
+execute as @a[advancements={bacaped:animal/australia=false}] at @s if entity @e[type=pig,distance=..8,predicate=bacaped:australia_pig] run advancement grant @s only bacaped:animal/australia
 
 # Dead Carnival
 execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnival=false}] run advancement revoke @s only bacaped:challenges/dead_carnival
