@@ -207,6 +207,22 @@
         }
       }
     },
+    "i_am_on_diet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/i_am_on_diet": true
+              }
+            }
+          }
+        }
+      }
+    },
     "its_midnight_already": {
       "trigger": "minecraft:location",
       "conditions": {

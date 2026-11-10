@@ -127,6 +127,22 @@
         }
       }
     },
+    "secret_passage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:building/secret_passage": true
+              }
+            }
+          }
+        }
+      }
+    },
     "smoke_signal": {
       "trigger": "minecraft:location",
       "conditions": {

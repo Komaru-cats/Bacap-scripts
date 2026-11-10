@@ -63,6 +63,38 @@
         }
       }
     },
+    "ashes_to_ashes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/ashes_to_ashes": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "batminton": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/batminton": true
+              }
+            }
+          }
+        }
+      }
+    },
     "ding_dong": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -223,6 +255,22 @@
         }
       }
     },
+    "monumental_speedrun": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/monumental_speedrun": true
+              }
+            }
+          }
+        }
+      }
+    },
     "my_personal_slave": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -233,6 +281,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:adventure/my_personal_slave": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "no_discrimination_club": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/no_discrimination_club": true
               }
             }
           }
@@ -265,22 +329,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:adventure/nobody_needs_rockets": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "oh_my_broken_legs": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:mining/oh_my_broken_legs": true
               }
             }
           }
@@ -457,6 +505,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:adventure/save_me": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "selenology": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:adventure/selenology": true
               }
             }
           }

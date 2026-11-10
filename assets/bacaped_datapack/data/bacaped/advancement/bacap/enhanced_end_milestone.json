@@ -31,6 +31,22 @@
         }
       }
     },
+    "airplane": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/airplane": true
+              }
+            }
+          }
+        }
+      }
+    },
     "bee_colonist": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -143,6 +159,22 @@
         }
       }
     },
+    "final_hope": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/final_hope": true
+              }
+            }
+          }
+        }
+      }
+    },
     "how_did_you_end_up_here": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -239,6 +271,22 @@
         }
       }
     },
+    "persistent_fighters": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/persistent_fighters": true
+              }
+            }
+          }
+        }
+      }
+    },
     "silence_is_loud_here": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -313,6 +361,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:end/void_being": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "void_hammer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/void_hammer": true
               }
             }
           }

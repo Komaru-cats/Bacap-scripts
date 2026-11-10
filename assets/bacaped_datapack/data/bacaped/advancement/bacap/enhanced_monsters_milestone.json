@@ -31,6 +31,38 @@
         }
       }
     },
+    "between_betweenkill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/between_betweenkill": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "betweenkill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/betweenkill": true
+              }
+            }
+          }
+        }
+      }
+    },
     "born_to_spawn": {
       "trigger": "minecraft:location",
       "conditions": {

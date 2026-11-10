@@ -79,6 +79,22 @@
         }
       }
     },
+    "australia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/australia": true
+              }
+            }
+          }
+        }
+      }
+    },
     "baby_zoo": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -89,6 +105,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/baby_zoo": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "back_to_basics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/back_to_basics": true
               }
             }
           }
@@ -153,22 +185,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/camel_adventure": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "snip-snip": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:animal/snip-snip": true
               }
             }
           }
@@ -367,6 +383,22 @@
         }
       }
     },
+    "i_am_a_train": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/i_am_a_train": true
+              }
+            }
+          }
+        }
+      }
+    },
     "live_salmon": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -537,6 +569,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/sniffer-sniff-event": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "snip-snip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/snip-snip": true
               }
             }
           }

@@ -271,7 +271,7 @@
         }
       }
     },
-    "no_shield_please": {
+    "stoppable_force": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -280,7 +280,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:challenges/no_shield_please": true
+                "bacaped:challenges/stoppable_force": true
               }
             }
           }

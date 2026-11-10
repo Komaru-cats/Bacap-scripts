@@ -47,22 +47,6 @@
         }
       }
     },
-    "australia": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:animal/australia": true
-              }
-            }
-          }
-        }
-      }
-    },
     "coolgrill": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -207,6 +191,22 @@
         }
       }
     },
+    "neverland_lost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/neverland_lost": true
+              }
+            }
+          }
+        }
+      }
+    },
     "pandas_express": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -281,22 +281,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:biomes/the_boatman": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "the_infernal_cauldron": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/the_infernal_cauldron": true
               }
             }
           }

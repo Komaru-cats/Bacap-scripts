@@ -15,6 +15,22 @@
   },
   "parent": "bacaped:bacap/enhanced_adventure_milestone",
   "criteria": {
+    "classic_door_trap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/classic_door_trap": true
+              }
+            }
+          }
+        }
+      }
+    },
     "craft_me_all": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -89,6 +105,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:redstone/heavy_steps": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "idea_generator": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/idea_generator": true
               }
             }
           }
@@ -185,6 +217,38 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:redstone/say_no_to_campfires": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "staring_contest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/staring_contest": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "timing_is_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/timing_is_everything": true
               }
             }
           }

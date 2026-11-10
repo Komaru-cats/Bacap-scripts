@@ -367,6 +367,22 @@
         }
       }
     },
+    "primitive_excavation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/primitive_excavation": true
+              }
+            }
+          }
+        }
+      }
+    },
     "rainbow": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -393,6 +409,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:nether/show_the_wither_his_home": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_infernal_cauldron": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/the_infernal_cauldron": true
               }
             }
           }
