@@ -1,0 +1,53 @@
+name: Sync WB Addon to Target Repo
+
+on:
+  release:
+    types: [published] # Triggered when a GitHub Release is published
+  workflow_dispatch:   # Manual trigger from GitHub Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # Execute only on manual run or if release tag matches wb-v*
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.release.tag_name, 'wb-v')
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v7
+        with:
+          # Pull snapshot matching release tag or active branch
+          ref: ${{ github.event.release.tag_name || github.ref }}
+
+      - name: Checkout target repository
+        uses: actions/checkout@v7
+        with:
+          repository: 'Komaru-cats/WB-Addon-for-BACAP'
+          token: ${{ secrets.ORG_TOKEN }}
+          path: 'target-repo'
+
+      - name: Sync datapack files
+        run: |
+          TARGET="target-repo"
+
+          # Ensure target destination directory exists
+          mkdir -p "$TARGET/datapack"
+
+          # Sync inner contents of assets/wb_addon_datapack into target-repo/datapack/
+          # and prune deleted files via --delete
+          rsync -av --delete "assets/wb_addon_datapack/" "$TARGET/datapack/"
+
+      - name: Commit and push changes
+        run: |
+          cd target-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          TAG_NAME="${{ github.event.release.tag_name || github.ref_name }}"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "chore(release): sync from Bacap-scripts ($TAG_NAME)"
+            git push origin HEAD:main
+          else
+            echo "No changes detected to commit."
+          fi
