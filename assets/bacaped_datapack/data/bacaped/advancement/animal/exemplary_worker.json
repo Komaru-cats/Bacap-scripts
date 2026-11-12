@@ -7,18 +7,19 @@
       "translate": "Exemplary Worker"
     },
     "description": {
-      "translate": "Be near a Bee with 10 successful pollinations in a single journey"
+      "translate": "Be near a Bee with 10 successful pollinations in a single journey",
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:farming/eco_warrior",
+  "parent": "blazeandcave:animal/honey_im_home",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:farming/exemplary_worker"
+    "function": "bacaped_rewards:animal/exemplary_worker"
   }
 }
