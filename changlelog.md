@@ -13,6 +13,7 @@
 - The Saddle of Many Races - Kill a Horse of each color variant with a saddle (suggested by Honestly Tzadok)
 - Batminton - Kill a Bat with a deflected Wind Charge from a Breeze
 - I Am a Train - Ride a boat that is connected in a chain with 4 other leashed boats
+- Forbidden Flower - Feed a Bee a Wither Rose
 
 ### Biomes Tab
 - death.fell.accident.water - Get the "death.fell.accident.water" death message (suggested by MasterKhan)
@@ -548,6 +549,7 @@
 - Changed "Dragon Blitz" to use the same system as "Monumental Speedrun" uses to detect it
 - Simplified "Airborne Annihilator" criteria names
 - Moved "Australia" to Animals tab as a child of "When Pigs Used to Fly"
+- Moved "Exemplary Worker" to Animals tab as a child of "Honey, I'm Home"
 - Removed excessive color specifiers in "Riddle Me That" so that the first line automatically changes the color of all the next lines
 - Removed enchantment glint from "The Boatman" icon
 - Removed enchantment glint from "Do You See This?" icon
