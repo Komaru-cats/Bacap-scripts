@@ -2,9 +2,9 @@
 
 ### Adventure Tab
 - Ashes to Ashes - Burn down a Pillager Outpost, a Swamp Hut, and a Woodland Mansion (based on ParzivalAFK's proof-of-concept datapack for an ED update)
-- Alpine Settlement - Locate a village situated in a Meadow (suggested by Rounduction)
-- Under the Blossoms - Locate a village situated in a Cherry Grove (suggest by Rounduction)
-- Selenology - Look at each moon phase through a spyglass at midnight (suggest by _adamo\_)
+- Alpine Settlement - Locate a Village situated in a Meadow (suggested by Rounduction)
+- Under the Blossoms - Locate a Village situated in a Cherry Grove (suggest by Rounduction)
+- Selenology - Look at each Moon phase through a Spyglass at midnight (suggest by _adamo\_)
 - No Discrimination Club - Use a Spyglass to look at a Villager and Pillager without a crossbow sitting in a Boat from at least 50 blocks away (suggest by CoolGirlOmega)
 - Monumental Speedrun - Kill 3 Elder Guardians within 30 seconds (suggest by _adamo\_)
 
@@ -12,7 +12,7 @@
 - A Small Horse Incident - Die of suffocation while on Horse
 - The Saddle of Many Races - Kill a Horse of each color variant with a saddle (suggested by Honestly Tzadok)
 - Batminton - Kill a Bat with a deflected Wind Charge from a Breeze
-- I Am a Train - Ride a boat that is connected in a chain with 4 other leashed boats
+- I Am a Train - Ride a Boat that is connected in a chain with 4 other leashed Boats
 - Forbidden Flower - Feed a Bee a Wither Rose
 
 ### Biomes Tab
@@ -144,7 +144,9 @@
 - ### Trophies Description Changes
   - Changed "Advancement Info" trophy description to "Your ladder to the Advancement Legend!"
   - Changed "Baby Zoo" trophy description to "Proof that you successfully ran the most chaotic daycare in Minecraft"
-  - Changed "I Love Salmons" trophy description to "A bear's wildest dream" from "A bear's wildest dream"
+  - Changed "Hot!" description to "Swim on a Pig in Lava"
+  - Changed "Full Catch" description to "Catch every size of Salmon in Buckets"
+  - Changed "Fox Poses" description to "Look at a Fox in all its poses using a Spyglass"
   - Changed "What a Mess This Horse Is!" trophy description to "Technically a horse. Barely."
   - Changed "Enh. Mining Milestone" trophy description to "Lighter than a feather, harder than dragon scales"
   - Changed "Enh. Monsters Milestone" trophy description to "It watches you when the leaves rustle"
@@ -188,6 +190,10 @@
   - Changed "Enhanced Nether Milestone" trophy to "Netherite Ore" (Netherite Block) with description "It used to be like this, millennia ago. Then the piglins arrived"
 
     
+- #### I Love Salmons
+    - Changed trophy description to "A bear's wildest dream" from "A bear's wildest dream"
+    - Changed description to "Fill your inventory with raw Salmon"
+
 - #### Ding Dong
     - Renamed "Din Don" to "Ding Dong"
     - Changed requirements from 10000 bell rings to 5000
@@ -521,7 +527,7 @@
 - Made "Broken" trophy from "Professional Assassin" unbreakable
 - Made "Useful Instrument" trophy from "All The Netherite Tools" unbreakable
 - Made "The Undertaker's Shovel" trophy from "The Undertakers Revenge" unbreakable
-- Made "Katana" trophy from "Shonobi" unbreakable
+- Made "Katana" trophy from "Sinobi" unbreakable
 - Made "Iron Ax" trophy from "Vindicator Vanquisher" unbreakable
 - Added requirement to be in the Nether to complete "Dragon vs Wither IV"
 - Added "Executive Desk" trophy to "HR Manager of the Year"
@@ -558,7 +564,7 @@
 - Changed "Multi-Crossbow" trophy from "Enh. Weaponry Milestone" multishot level from 3 to 1
 - Changed the description for "Light at the End of the Tunnel" to "Place a lantern in a dark cave"
 - Changed "Ligmifitation" item reward from 256 Hay Bales to 64
-- Changed "Advancement info" description to " Stand on cobblestone stairs in full diamond armor while holding a diamond sword.<br> Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!"
+- Changed "Advancement info" description to " Stand on Cobblestone Stairs in full Diamond Armor while holding a Diamond Sword<br> Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!"
 - Removed version line from `install` function
 - A lot of other small grammar fixes
 
