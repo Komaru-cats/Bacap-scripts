@@ -517,7 +517,7 @@ bacaped:statistics/shulker_voyager:
 bacaped:statistics/skyward_legs:
   default: 
 
-bacaped:statistics/shinobi:
+bacaped:statistics/sinobi:
   default: 
 
 bacaped:adventure/i_hate_all_of_you:
@@ -1085,7 +1085,7 @@ bacaped:weaponry/more_shields:
   default: 
 
 bacaped:weaponry/renowned_armament:
-  default: "Kill any mob using one of the trophy weapons: The Vex Slayer from \"Five Birds, One Stone\", Warden's Plate from \"Dragon vs Warden VI\", Broken from \"Professional Assassin\", Useful Instrument from \"All the Netherite Tools\", The Undertaker's Shovel from \"The Undertaker's Revenge\", Katana from \"Shinobi\", or Iron Ax from \"Vindicator Vanquisher\""
+  default: "Kill any mob using one of the trophy weapons: The Vex Slayer from \"Five Birds, One Stone\", Warden's Plate from \"Dragon vs Warden VI\", Broken from \"Professional Assassin\", Useful Instrument from \"All the Netherite Tools\", The Undertaker's Shovel from \"The Undertaker's Revenge\", Katana from \"Sinobi\", or Iron Ax from \"Vindicator Vanquisher\""
 
 bacaped:weaponry/snow_fights:
   default: 

@@ -354,7 +354,7 @@ execute if score bacaped:statistics/shulker_maestro bac_obtained_light_purple ma
 execute if score bacaped:statistics/shulker_seeker bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/shulker_seeker
 execute if score bacaped:statistics/shulker_voyager bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/shulker_voyager
 execute if score bacaped:statistics/skyward_legs bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/skyward_legs
-execute if score bacaped:statistics/shinobi bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/shinobi
+execute if score bacaped:statistics/sinobi bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/sinobi
 execute if score bacaped:statistics/speed_master bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/speed_master
 execute if score bacaped:statistics/stone_cutter bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/stone_cutter
 execute if score bacaped:statistics/pork_formula_1 bac_obtained_light_purple matches 1.. run advancement grant @a[team=bac_team_light_purple] only bacaped:statistics/pork_formula_1

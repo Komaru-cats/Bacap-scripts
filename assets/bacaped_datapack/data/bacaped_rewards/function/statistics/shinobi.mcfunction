@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/shinobi",reward_id:"statistics/shinobi",tier:"hidden"}

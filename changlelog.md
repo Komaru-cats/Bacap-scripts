@@ -131,7 +131,7 @@
     - Renamed Wrath of the Western Frontier to Ghost Rider
     - Renamed Titan of Olympian Gold Triumphs to Michael Phelps
     - Renamed Storm Hog Pilgrim to Pork Formula 1
-    - Renamed Sovereign of Martial Shifting to Shinobi
+    - Renamed Sovereign of Martial Shifting to Sinobi
     - Renamed Navigator of the Infinite Waters to Lord of the Tides
     - Renamed Jetsetter of the Skies to Million Miler
     - Renamed Intercontinental Rail Nexus to Intercontinental Railway
@@ -278,7 +278,7 @@
 - #### Placeholder
   - Changed description to "Name a Warden 'Placeholder'"
   - Changed xp reward to 50
-#### Pottery Collector
+- #### Pottery Collector
   - Moved to Super Challenges after "Abyss Lord"
   - Changed criteria to `any_sherd`
   - Removed enchantment glint from the icon
@@ -449,8 +449,8 @@
   - Changed xp reward to 50
 - #### The V O I D
   - Moved to The End tab after "Void Being"
-    - Added a trophy "Bedrock Shard" (Echo Shard) with description "All of your exploits to destroy Bedrock have yielded only a single fragment"
-    - Changed description to "Be under Bedrock in the Overworld and the Nether"
+  - Added a trophy "Bedrock Shard" (Echo Shard) with description "All of your exploits to destroy Bedrock have yielded only a single fragment"
+  - Changed description to "Be under Bedrock in the Overworld and the Nether"
 - #### Universal Solitude
   - Moved to The End tab after "Circus Act"
   - Changed trophy description to "Workbench for any mason"
@@ -554,7 +554,7 @@
 - Removed enchantment glint from "The Boatman" icon
 - Removed enchantment glint from "Do You See This?" icon
 - Removed fake enchantment/trim lines from trophies lore
-- Changed Oozing amplifier of "The New Swamp Wont Be Here" trophy to 1 from 10
+- Changed Oozing amplifier of "The New Swamp Won't Be Here" trophy to 1 from 10
 - Changed "Multi-Crossbow" trophy from "Enh. Weaponry Milestone" multishot level from 3 to 1
 - Changed the description for "Light at the End of the Tunnel" to "Place a lantern in a dark cave"
 - Changed "Ligmifitation" item reward from 256 Hay Bales to 64
