@@ -10,20 +10,20 @@
 
 ### Animals Tab
 - A Small Horse Incident - Die of suffocation while on Horse
-- The Saddle of Many Races - Kill a Horse of each color variant with a saddle (suggested by Honestly Tzadok)
+- The Saddle of Many Races - Kill a Horse of each color variant with a Saddle (suggested by Honestly Tzadok)
 - Batminton - Kill a Bat with a deflected Wind Charge from a Breeze
 - I Am a Train - Ride a Boat that is connected in a chain with 4 other leashed Boats
 - Forbidden Flower - Feed a Bee a Wither Rose
 
 ### Biomes Tab
 - death.fell.accident.water - Get the "death.fell.accident.water" death message (suggested by MasterKhan)
-- Tokyo Drift - Reach a horizontal speed of over 70 blocks per second on blue ice in a boat
+- Tokyo Drift - Reach a horizontal speed of over 70 blocks per second on Blue Ice in a Boat
 - Ice³ - Have a shulker full of blue ice in your inventory
 - Neverland Lost - Use a Golden Dandelion a second time on the same mob to resume its aging
 
 ### Building Tab
 - Heavy Industry - Smelt every Blast Furnace recipe
-- Secret Passage! - Walk through a painting (suggested by _adamo\_)
+- Secret Passage! - Walk through a Painting (suggested by _adamo\_)
 
 ### Enchanting Tab
 - Master Breather - Create a Turtle Shell with all possible enchants at max level (suggested by `Deleted Account`)
@@ -147,6 +147,27 @@
   - Changed "Hot!" description to "Swim on a Pig in Lava"
   - Changed "Full Catch" description to "Catch every size of Salmon in Buckets"
   - Changed "Fox Poses" description to "Look at a Fox in all its poses using a Spyglass"
+  - Changed "Scared Box" description to "Look at a scared Armadillo using a Spyglass"
+  - Changed "TeleFoxing" description to "Feed a Fox a Chorus Fruit"
+  - Changed "The Wool Magnate" description to "Fill your inventory with pink Wool"
+  - Changed "What About Mooblooms?" description to "Kill a Glow Squid in a Flower Forest while holding a Dandelion"
+  - Changed "You're Part of a Hive Mind Now" description to "Fill your inventory with Beehives, each with three Bees"
+  - Changed "Accept Cookies" description to "Feed a Parrot a Cookie and see what happens next"
+  - Changed "You're Bald" description to "Look at a Goat without both Horns by using a Spyglass"
+  - Changed "Advanced Horse Transport" description to "Swim in an Ocean with 3 or more Horses on a lead under the Dolphins Grace effect"
+  - Changed "Unite Storm" description to "Be near a Polar Fox, a Snow Golem, a Stray, a Snow Wolf, a Snow Rabbit, a Polar Bear and a Goat in a Snow biome during snowfall (have them all within 16 blocks of you)"
+  - Changed "Underwater Pirates" description to "Travel on a sunken Boat"
+  - Changed "The Boatman" description to "Take a boat ride on Blue Ice"
+  - Changed "Stop There, You're Tall Enough" description to "Stop the growth of Kelp, Twisted Vines, Weeping Vines and Cave Vines"
+  - Changed "Ready for Everything" description to "Wear a Turtle Shell, an Elytra, Golden Leggings and Leather Boots to be ready for everything"
+  - Changed "Smoke Signal" description to "Place a Campfire on a Hay Bale to make its smoke rise higher into the sky"
+  - Changed "Potception" description to "Put a Brown Shulker Box full of Decorated Pots inside a Decorated Pot"
+  - Changed "Pot on a Pot" description to "Place a Flower Pot above a Decorated Pot"
+  - Changed "Chromatic Completion" description to "Craft all Dyes in all possible ways"
+  - Changed "Artificial Forest" description to "Mine a full stack of all types of Leaves, Logs, Stems, and Saplings"
+  - Changed "Art Lover" description to "Place 100 Paintings"
+  - Changed "Statue" description to "Stand on a block of Chiseled Quartz and look through a Spyglass"
+  - Changed "Ice Sculptor" description to "Place 200 blocks of Blue Ice"
   - Changed "What a Mess This Horse Is!" trophy description to "Technically a horse. Barely."
   - Changed "Enh. Mining Milestone" trophy description to "Lighter than a feather, harder than dragon scales"
   - Changed "Enh. Monsters Milestone" trophy description to "It watches you when the leaves rustle"
