@@ -10,10 +10,10 @@
       "translate": "Ding Dong"
     },
     "description": {
-      "translate": "Ring a Bell 5,000 times",
-      "color": "dark_purple"
+      "translate": "Ring a Bell 500 times",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:adventure/the_beginning_of_the_day",
@@ -31,7 +31,7 @@
                   "type": "minecraft:custom",
                   "stat": "minecraft:bell_ring",
                   "value": {
-                    "min": 5000
+                    "min": 500
                   }
                 }
               ]

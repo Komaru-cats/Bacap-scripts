@@ -220,7 +220,7 @@
     - Changed requirements from 10000 bell rings to 5000
     - Changed item reward to 4 bells
     - Changed xp reward to 75
-    - Changed description to "Ring a Bell 5,000 times"
+    - Changed description to "Ring a Bell 500 times"
 - #### Fake Copper Armor
     - Renamed "Fake Copper Armor"
     - Renamed criteria to `orange_leather_armor_with_copper_trims`
