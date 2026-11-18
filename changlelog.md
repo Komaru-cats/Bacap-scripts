@@ -540,6 +540,11 @@
   - Fixed trigger so the shield must be in the off-hand and the sword in the main hand
   - Changed description to "Sit on a Camel while holding a Sword and Shield, and wearing full Leather Armor"
 
+- #### Riddle Me That
+  - Changed Riddle Me That lines 2 and 7 to:<br>
+  The second is to trade the flames you wear for a melting bath<br>
+  The seventh is to anchor a pointed stone under a soft floor of wool
+
 
 - Added Creaking to "Magic Kingdom"
 - Added Happy Ghast to "What's the Best Transport"
