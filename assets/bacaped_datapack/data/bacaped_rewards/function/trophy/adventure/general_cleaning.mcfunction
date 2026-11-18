@@ -1,0 +1,2 @@
+give @s minecraft:brush[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Broomstick",color:"#D8AD8B",bold:true,italic:false}, minecraft:lore=[{translate:"Sweeping is not a chore, it is your pride",color:"#D8AD8B"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"General Cleaning",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:broomstick"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Broomstick"}]}

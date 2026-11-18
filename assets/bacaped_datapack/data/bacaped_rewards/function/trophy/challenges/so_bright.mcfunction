@@ -1,0 +1,2 @@
+give @s minecraft:diamond[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"A Charming Diamond",color:"#87E9FF",bold:true,italic:false}, minecraft:lore=[{translate:"Too bright to look at",color:"#87E9FF"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"So Bright",color:"#FF2A2A",italic:false}], minecraft:custom_model_data={strings:["bacaped:a_charming_diamond"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"A Charming Diamond"}]}

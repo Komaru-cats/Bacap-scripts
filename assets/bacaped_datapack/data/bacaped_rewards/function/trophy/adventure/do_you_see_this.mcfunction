@@ -1,0 +1,2 @@
+give @s minecraft:emerald[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Ruby",color:"#FD1401",bold:true,italic:false}, minecraft:lore=[{translate:"Priceless…",color:"#FD1401"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Do You See This?",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:ruby"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Ruby"}]}

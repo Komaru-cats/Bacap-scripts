@@ -1,0 +1,2 @@
+give @s minecraft:cherry_sapling[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"My Little Cherry",color:"#EFBAEC",bold:true,italic:false}, minecraft:lore=[{translate:"So rose...",color:"#EFBAEC"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Eco Warrior",color:"#75E1FF",italic:false}], minecraft:custom_model_data={strings:["bacaped:my_little_cherry"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"My Little Cherry"}]}

@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone_stairs"
+    },
+    "title": {
+      "translate": "Advancement Info"
+    },
+    "description": {
+      "translate": "Stand on Cobblestone Stairs in full Diamond Armor while holding a Diamond Sword",
+      "color": "#75E1FF",
+      "extra": [
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!",
+          "color": "dark_gray"
+        }
+      ]
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "mainhand": {
+                "items": "minecraft:diamond_sword"
+              },
+              "head": {
+                "items": "minecraft:diamond_helmet"
+              },
+              "chest": {
+                "items": "minecraft:diamond_chestplate"
+              },
+              "feet": {
+                "items": "minecraft:diamond_leggings"
+              },
+              "legs": {
+                "items": "minecraft:diamond_boots"
+              }
+            },
+            "minecraft:stepping_on": {
+              "block": {
+                "blocks": "minecraft:cobblestone_stairs"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/advancement_info"
+  }
+}

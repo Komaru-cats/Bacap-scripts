@@ -1,0 +1,2 @@
+give @s minecraft:spyglass[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Portable Telescope",color:"#D6137A",bold:true,italic:false}, minecraft:lore=[{translate:"Allows you to see more",color:"#D6137A"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Dead-Eye",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:portable_telescope"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Portable Telescope"}]}

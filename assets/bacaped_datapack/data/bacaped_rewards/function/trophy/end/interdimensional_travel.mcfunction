@@ -1,0 +1,2 @@
+give @s minecraft:copper_bulb[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Ancient Teleporter",color:"#D7880A",bold:true,italic:false}, minecraft:lore=[{translate:"How to use it!?",color:"#D7880A"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Interdimensional Travel",color:"#75E1FF",italic:false}], minecraft:custom_model_data={strings:["bacaped:ancient_teleporter"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Ancient Teleporter"}]}

@@ -1,0 +1,2 @@
+give @s cobweb[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"Proof of your selfishness",color:"#17C362"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"No Luck for the Next Guy",color:"#75E1FF",italic:false}], minecraft:custom_name={translate:"Broken Trial Spawner",color:"#17C362",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:broken_trial_spawner"]}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Broken Trial Spawner"}]}

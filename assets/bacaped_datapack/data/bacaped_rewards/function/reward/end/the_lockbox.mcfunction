@@ -1,0 +1,2 @@
+give @s ender_chest
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"block.minecraft.ender_chest"}]}

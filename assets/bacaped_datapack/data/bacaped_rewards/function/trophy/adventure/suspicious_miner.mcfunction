@@ -1,0 +1,2 @@
+give @s minecraft:wooden_shovel[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Awkward Shovel",color:"#E58850",bold:true,italic:false}, minecraft:lore=[{translate:"To mine suspiciously",color:"#E58850"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Suspicious Miner",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:awkward_shovel"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Awkward Shovel"}]}

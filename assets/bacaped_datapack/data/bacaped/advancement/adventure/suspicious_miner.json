@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
+    },
+    "title": {
+      "translate": "Suspicious Miner"
+    },
+    "description": {
+      "translate": "Break 64 Suspicious Sand or Suspicious Gravel without a Brush"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/oops",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:mined",
+                      "stat": "minecraft:suspicious_gravel",
+                      "value": {
+                        "min": 64
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "stats": [
+                    {
+                      "type": "minecraft:mined",
+                      "stat": "minecraft:suspicious_sand",
+                      "value": {
+                        "min": 64
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/suspicious_miner"
+  }
+}

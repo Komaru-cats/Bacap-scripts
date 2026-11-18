@@ -1,0 +1,97 @@
+name: Sync ED to Target Repo
+
+on:
+  release:
+    types: [published] # Triggered when a GitHub Release is published
+  workflow_dispatch:   # Manual trigger from GitHub Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # Execute only on manual run or if release tag matches ed-v*
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.release.tag_name, 'ed-v')
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v7
+        with:
+          # Pull snapshot matching release tag or active branch
+          ref: ${{ github.event.release.tag_name || github.ref }}
+
+      - name: Checkout BACAP repository
+        uses: actions/checkout@v7
+        with:
+          repository: 'Komaru-cats/BACAP-Enhanced-Discoveries'
+          token: ${{ secrets.ORG_TOKEN }}
+          path: 'target-repo'
+
+      - name: Sync datapacks and language pack
+        run: |
+          TARGET="target-repo"
+
+          # Ensure target destination folders exist
+          mkdir -p "$TARGET/BACAP_Enhanced_Discoveries"
+          mkdir -p "$TARGET/BACAP_Enhanced_Discoveries_Hardcore_Addon"
+          mkdir -p "$TARGET/Enhanced_Discoveries_Language_Pack"
+
+          # rsync copies the inner contents (due to trailing slash)
+          # and removes deleted files (--delete) without touching root-level files
+          rsync -av --delete "assets/bacaped_datapack/" "$TARGET/BACAP_Enhanced_Discoveries/"
+          rsync -av --delete "assets/bacaped_hardcore_datapack/" "$TARGET/BACAP_Enhanced_Discoveries_Hardcore_Addon/"
+          rsync -av --delete "assets/bacaped_lang_pack/" "$TARGET/Enhanced_Discoveries_Language_Pack/"
+
+      - name: Commit and push datapack changes
+        run: |
+          cd target-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          TAG_NAME="${{ github.event.release.tag_name || github.ref_name }}"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "chore(release): sync from Bacap-scripts ($TAG_NAME)"
+            git push origin HEAD:main
+          else
+            echo "No changes detected to commit in BACAP-Enhanced-Discoveries."
+          fi
+
+      - name: Checkout Pages repository
+        uses: actions/checkout@v7
+        with:
+          repository: 'Komaru-cats/Enhanced-Discoveries-Pages'
+          token: ${{ secrets.ORG_TOKEN }}
+          path: 'pages-repo'
+
+      - name: Copy documentation JSON
+        run: |
+          TAG_NAME="${{ github.event.release.tag_name || github.ref_name }}"
+          # Bash prefix removal: 'ed-v3.0.0' becomes '3.0.0'
+          VERSION="${TAG_NAME#ed-v}"
+
+          TARGET_DIR="pages-repo/public/data/bacaped_versions"
+          mkdir -p "$TARGET_DIR"
+
+          if [ -f "docs/bacaped.json" ]; then
+            cp "docs/bacaped.json" "$TARGET_DIR/${VERSION}.json"
+            echo "Copied docs/bacaped.json -> $TARGET_DIR/${VERSION}.json"
+          else
+            echo "Error: docs/bacaped.json not found in source repository!"
+            exit 1
+          fi
+
+      - name: Commit and push documentation changes
+        run: |
+          cd pages-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          TAG_NAME="${{ github.event.release.tag_name || github.ref_name }}"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "docs(bacaped): add documentation for version $TAG_NAME"
+            git push origin HEAD:main
+          else
+            echo "No changes detected to commit in Pages repo."
+          fi

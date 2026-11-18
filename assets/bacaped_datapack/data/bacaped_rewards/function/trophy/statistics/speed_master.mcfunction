@@ -1,0 +1,2 @@
+give @s saddle[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"Perfect for your fast steed",color:"#FFA66D"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Speed Master",color:"dark_purple",italic:false}], minecraft:custom_name={translate:"Lightweight Saddle",color:"#FFA66D",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:lightweight_saddle"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Lightweight Saddle"}]}

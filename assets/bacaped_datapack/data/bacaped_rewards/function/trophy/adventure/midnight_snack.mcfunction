@@ -1,0 +1,2 @@
+give @s minecraft:clock[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Watch",color:"#A69A9A",bold:true,italic:false}, minecraft:lore=[{translate:"Next time, watch the time",color:"#A69A9A"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Midnight Snack",color:"#75E1FF",italic:false}], minecraft:custom_model_data={strings:["bacaped:watch"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Watch"}]}

@@ -1,0 +1,244 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:buried_treasure_map"
+    },
+    "title": {
+      "translate": "Riddle Me That",
+      "extra": [
+        {
+          "text": "                  ",
+          "italic": true
+        }
+      ]
+    },
+    "description": {
+      "translate": "The first is to use igloo technology to speed up curing",
+      "color": "#FF2A2A",
+      "extra": [
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The second is to trade the flames you wear for a melting bath"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The third is to seal the four elements within a pot"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The fourth is to fill your inventory, yet keep it empty"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The fifth is to go everywhere at once"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The sixth is to collect all the references of the silent \"Shhh...\""
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The seventh is to anchor a pointed stone under a soft floor of wool"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The eighth is to end the duel of the frostbitten undead riders, on the grounds of differing legs"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The ninth is to chase a Cat through its nine lives without losing track"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "The tenth is to make a deal with a clucking trader"
+        }
+      ]
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/riddle_me_this",
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_one": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "second_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_two": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "third_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_three": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "fourth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_four": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "fifth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_five": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "sixth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_six": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "seventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_seven": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "eighth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_eight": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "ninth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_nine": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_ten": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:challenges/riddle_me_that"
+  }
+}

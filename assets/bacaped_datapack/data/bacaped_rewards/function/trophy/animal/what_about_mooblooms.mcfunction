@@ -1,0 +1,2 @@
+give @s minecraft:dandelion[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Yellow Flower",color:"#FFDB0C",bold:true,italic:false}, minecraft:lore=[{translate:"Something very similar to dandelion",color:"#FFDB0C"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"What About Mooblooms?",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:yellow_flower"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Yellow Flower"}]}

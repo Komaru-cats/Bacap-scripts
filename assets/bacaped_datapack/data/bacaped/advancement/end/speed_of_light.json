@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": "minecraft:swiftness"
+      }
+    },
+    "title": {
+      "translate": "Speed of Light"
+    },
+    "description": {
+      "translate": "Reach a horizontal speed of over 150 blocks per second",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/uh_houston_we_have_a_problem",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 150
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/speed_of_light"
+  }
+}

@@ -1,5 +1,7 @@
 /.idea
-/user_config.json
 /releases
-/minecraft-data/
-**/test.py
+/.venv
+
+.env*
+!.env*.example
+/scripts/helpers/*

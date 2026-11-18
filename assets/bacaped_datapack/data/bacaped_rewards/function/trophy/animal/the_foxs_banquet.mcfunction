@@ -1,0 +1,2 @@
+give @s cake[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"So that you don't go hungry",color:"#FF4D54"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"The Fox's Banquet",color:"dark_purple",italic:false}], minecraft:custom_name={translate:"Cake",color:"#FF4D54",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:cake"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Cake"}]}

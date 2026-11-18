@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_plant"
+    },
+    "title": {
+      "translate": "Jurassic Park"
+    },
+    "description": {
+      "translate": "Obtain 64 Torchflowers and 64 Pitcher Plants"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/plant_any_sniffer_seed",
+  "criteria": {
+    "torchflowers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torchflower",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+    "pitcher_plants": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pitcher_plant",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/jurassic_park"
+  }
+}

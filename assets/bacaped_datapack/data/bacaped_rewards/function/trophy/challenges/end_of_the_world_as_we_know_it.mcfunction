@@ -1,0 +1,2 @@
+give @s minecraft:dirt[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"The Ultimate Power",color:"#A8E5E4",bold:true,italic:false}, minecraft:lore=[{translate:"Touch the grass",color:"#A8E5E4"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"End of the World as We Know It",color:"light_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:the_ultimate_power"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"The Ultimate Power"}]}

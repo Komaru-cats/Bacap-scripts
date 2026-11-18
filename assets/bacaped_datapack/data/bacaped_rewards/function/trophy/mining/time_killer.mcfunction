@@ -1,0 +1,2 @@
+give @s minecraft:obsidian[minecraft:custom_name={translate:"Some Rock",color:"#1C0039",bold:true,italic:false}, minecraft:lore=[{translate:"Nothing in life is as strong as it seems",color:"#1C0039"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Time Killer",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:some_rock"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Some Rock"}]}

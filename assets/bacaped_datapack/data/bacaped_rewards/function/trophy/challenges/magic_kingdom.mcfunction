@@ -1,0 +1,2 @@
+give @s minecraft:stick[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"The Magic Wand",color:"#482303",bold:true,italic:false}, minecraft:lore=[{translate:"Slytherin or Gryffindor?",color:"#482303"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Magic Kingdom",color:"#FF2A2A",italic:false}], minecraft:custom_model_data={strings:["bacaped:the_magic_wand"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"The Magic Wand"}]}

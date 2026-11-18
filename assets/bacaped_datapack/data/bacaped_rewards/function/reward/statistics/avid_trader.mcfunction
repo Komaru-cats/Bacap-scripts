@@ -1,0 +1,2 @@
+give @s iron_axe
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.iron_axe"}]}

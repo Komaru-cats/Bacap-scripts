@@ -1,0 +1,2 @@
+give @s end_stone[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"Next, we are going to steal,",color:"#E2DDA7"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Enh. End Milestone",color:"yellow",italic:false}], minecraft:custom_name={translate:"Tiny Moon",color:"#E2DDA7",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:tiny_moon"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Tiny Moon"}]}

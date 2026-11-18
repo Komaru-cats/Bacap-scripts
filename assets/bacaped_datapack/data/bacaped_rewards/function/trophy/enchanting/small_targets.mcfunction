@@ -1,0 +1,2 @@
+give @s tadpole_bucket[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"Too tiny to execute",color:"#91D4AF"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Small Targets",color:"dark_purple",italic:false}], minecraft:custom_name={translate:"Non-selected Candidate",color:"#91D4AF",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:non_selected_candidate"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Non-selected Candidate"}]}

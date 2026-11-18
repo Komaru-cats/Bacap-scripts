@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ochre_froglight"
+    },
+    "title": {
+      "translate": "The Beginning of the Day"
+    },
+    "description": {
+      "translate": "Ring a Bell upon waking up while at the top of the world",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/oh_look_it_dings",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 0,
+                "max": 500
+              },
+              "period": 24000
+            },
+            "blazeandcave:at_world_height"
+          ]
+        },
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:bell"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/the_beginning_of_the_day"
+  }
+}

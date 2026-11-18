@@ -1,0 +1,2 @@
+give @s feather[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"Who knew aerial combat could be so... messy?",color:"#C1D9D8"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Air Battle",color:"dark_purple",italic:false}], minecraft:custom_name={translate:"Feathered Frenzy",color:"#C1D9D8",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:feathered_frenzy"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Feathered Frenzy"}]}

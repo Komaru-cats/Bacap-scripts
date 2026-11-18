@@ -1,0 +1,2 @@
+give @s minecraft:ladder[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Ladder",color:"#EFD267",bold:true,italic:false}, minecraft:lore=[{translate:"Simple ladder, you can use it",color:"#EFD267"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Ladder Legend",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:ladder"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Ladder"}]}

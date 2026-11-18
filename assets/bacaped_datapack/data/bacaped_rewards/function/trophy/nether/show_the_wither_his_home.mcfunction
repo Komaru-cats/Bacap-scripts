@@ -1,0 +1,2 @@
+give @s minecraft:wither_rose[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"The Last Rose",color:"#5F2C4E",bold:true,italic:false}, minecraft:lore=[{translate:"It was the last day I saw him",color:"#5F2C4E"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Show the Wither His Home",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:the_last_rose"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"The Last Rose"}]}

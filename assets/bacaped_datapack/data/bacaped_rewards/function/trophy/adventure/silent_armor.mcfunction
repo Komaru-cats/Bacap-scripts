@@ -1,0 +1,2 @@
+give @s minecraft:silence_armor_trim_smithing_template[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"The Silence",color:"#A5F1F4",bold:true,italic:false}, minecraft:lore=[{translate:"Still waters run deep",color:"#A5F1F4"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Silent Armor",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:the_silence"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"The Silence"}]}

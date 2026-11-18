@@ -1,0 +1,2 @@
+give @s netherite_axe[minecraft:tooltip_display={}, minecraft:enchantments={efficiency:3,unbreaking:2}, minecraft:enchantment_glint_override=true]
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.netherite_axe"}]}

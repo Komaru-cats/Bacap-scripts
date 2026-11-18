@@ -1,0 +1,2 @@
+give @s minecraft:firework_rocket[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Big Rocket",color:"#FF6C6A",bold:true,italic:false}, minecraft:lore=[{translate:"Contains a large supply of gunpowder",color:"#FF6C6A"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Monstrous Rocket",color:"#FF2A2A",italic:false}], minecraft:custom_model_data={strings:["bacaped:big_rocket"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Big Rocket"}]}

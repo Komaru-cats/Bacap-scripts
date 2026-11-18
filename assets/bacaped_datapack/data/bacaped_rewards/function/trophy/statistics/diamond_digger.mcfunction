@@ -1,0 +1,2 @@
+give @s minecraft:diamond_ore[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"High-Quality Diamond Ore",color:"#ADF3FD",bold:true,italic:false}, minecraft:lore=[{translate:"Your glory",color:"#ADF3FD"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Diamond Digger",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:high_quality_diamond_ore"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"High-Quality Diamond Ore"}]}

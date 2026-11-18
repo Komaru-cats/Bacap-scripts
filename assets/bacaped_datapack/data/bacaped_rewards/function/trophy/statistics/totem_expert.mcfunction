@@ -1,0 +1,2 @@
+give @s minecraft:totem_of_undying[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Totem of Totems",color:"#FCD05C",bold:true,italic:false}, minecraft:lore=[{translate:"Maybe stop dying?",color:"#FCD05C"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Totem Expert",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:totem_of_totems"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Totem of Totems"}]}
