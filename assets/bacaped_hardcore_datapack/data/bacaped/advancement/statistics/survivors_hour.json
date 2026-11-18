@@ -7,7 +7,7 @@
       "translate": "Survivor's Hour"
     },
     "description": {
-      "translate": "Avoid using Totem of Undying for 1 hour",
+      "translate": "Avoid using totem of undying for 1 hour",
       "color": "green"
     },
     "frame": "task",
