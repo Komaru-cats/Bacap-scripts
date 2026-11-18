@@ -28,7 +28,7 @@
 ### Enchanting Tab
 - Master Breather - Create a Turtle Shell with all possible enchants at max level (suggested by `Deleted Account`)
 - Pimp My Ride - Create a Carrot on a Stick and a Warped Fungus on a Stick with all possible enchantments at their max level
-- All the Netherite Armor - Create every netherite armor piece variant with all possible enchantments at max level (suggested by Rounduction)
+- All the Netherite Armor - Create every Netherite Armor piece variant with all possible enchantments at max level (suggested by Rounduction)
 
 ### End Tab
 - Void Hammer - Hit a mob with a Mace while taking damage from the End void (suggested by Kishbek)
@@ -38,42 +38,42 @@
 
 ### Farming Tab
 - I Am on Diet - Don't eat anything for 10 days
-- Closed-Loop Economy - Smelt leaves into leaf litter... only to use it as fuel!
+- Closed-Loop Economy - Smelt Leaves into Leaf Litter... only to use it as fuel!
 
 ### Mining Tab
-- Metal Nameplate - Craft a Name Tag using every type of nugget (based on ParzivalAFK's proof-of-concept datapack for an ED update)
-- High-Effort Inefficiency - Smelt lapis ore (suggested by Rounduction)
+- Metal Nameplate - Craft a Name Tag using every type of Nugget (based on ParzivalAFK's proof-of-concept datapack for an ED update)
+- High-Effort Inefficiency - Smelt Lapis Ore (suggested by Rounduction)
 - Pitmaster - Cook every Smoker recipe
-  Where Did the Ground Go? - Mine out every block in a single chunk in the Overworld, down to the bedrock layer
-- Where Did the WORLD GO? - Mine out every block in a single chunk in the Overworld, including the bedrock (hidden)
+  Where Did the Ground Go? - Mine out every block in a single chunk in the Overworld, down to the Bedrock layer
+- Where Did the WORLD GO? - Mine out every block in a single chunk in the Overworld, including the Bedrock (hidden)
 - Logistics Nightmare - Move a Mineshaft chest minecart from another biome into Sulfur Caves to try to get the Bounce Music Disc
 - Bomb Has Been Defused - Kill a primed Sulfur Cube before it explodes (suggested by Ellie)
 - The Gravity of the Situation - Be within 16 blocks of every falling block variant at once (suggested by _adamo\_)
 - Mind the Gap - Place opposing Pointed Dripstones while crouching to keep them separated
 
 ### Nether Tab
-- Lord of the Rings - Visit a stronghold in every ring around the world's center
-- Primitive Excavation - Use a bed as an explosive mining tool
+- Lord of the Rings - Visit a Stronghold in every ring around the world's center
+- Primitive Excavation - Use a Bed as an explosive mining tool
 
 ### Potion Tab
-- Seasick - Have Nausea while riding a boat
+- Seasick - Have nausea while riding a Boat
 
 
 ### Redstone Tab
 - Back to Basics - Shear a Mooshroom to turn it back into a regular Cow (based on ParzivalAFK's proof-of-concept datapack for an ED update)
-- Classic Door Trap - Fall for the oldest trick in the book: the iron door trap (based on ParzivalAFK's proof-of-concept datapack for an ED update)
+- Classic Door Trap - Fall for the oldest trick in the book: the Iron Door trap (based on ParzivalAFK's proof-of-concept datapack for an ED update)
 - Timing Is Everything - Adjust a Redstone Repeater to all four delay settings (based on ParzivalAFK's proof-of-concept datapack for an ED update)
-- Staring Contest - Create a redstone clock by placing two observers facing each other (based on ParzivalAFK's proof-of-concept datapack for an ED update)
-- Idea Generator - Light a copper bulb on top of your head (suggested by _adamo\_)
+- Staring Contest - Create a Redstone clock by placing two Observers facing each other (based on ParzivalAFK's proof-of-concept datapack for an ED update)
+- Idea Generator - Light a Copper Bulb on top of your head (suggested by _adamo\_)
 
 ### Super Challenges Tab
-- Third Escape Velocity - Reach a vertical speed of over 16700 blocks per second
+- Third Escape Velocity - Reach a vertical speed of over 16,700 blocks per second
 
 ### Statistics Tab
-- A Delicate Touch - Brush 10 suspicious blocks (suggested by _adamo\_)
-- Careful Excavator - Brush 50 suspicious blocks (suggested by _adamo\_) 
-- Master Archaeologist - Brush 250 suspicious blocks (suggested by _adamo\_)
-- Living History - Brush 1000 suspicious blocks (suggested by _adamo\_)
+- A Delicate Touch - Brush 10 Suspicious blocks (suggested by _adamo\_)
+- Careful Excavator - Brush 50 Suspicious blocks (suggested by _adamo\_) 
+- Master Archaeologist - Brush 250 Suspicious blocks (suggested by _adamo\_)
+- Living History - Brush 1000 Suspicious blocks (suggested by _adamo\_)
 
 - ### Datapack Menu (/function bacaped:config)
     Added datapack menu to configure ED scoreboards:
@@ -106,7 +106,7 @@
   - Moved "What Are The Chances" to Monsters tab as a child of "The Undertaker's Revenge"
   - Moved "Sandwich" to Monsters tab as a child of "House of Freaks"
   - Moved "One In a Million Steed" to Animals tab as a child of "What A Mess This Horse Is"
-  - Moved "Moved Silence Is Loud Here" to End tab as a child of "Diverting Misconception", changed the description and requirements to "Kill the Ender Dragon deep in the void between the main and outer end islands"
+  - Moved "Moved Silence Is Loud Here" to End tab as a child of "Diverting Misconception"
   - Changed "What a Stupid Purchase" parent to "Shopaholic"
   - Changed "Five Birds, One Stone" parent to "Wither Aboard"
   - Changed "Professional Assassin" parent to "Biological Warfare"
@@ -567,11 +567,111 @@
 - Changed "Australia" description to "Be within 8 blocks of an upside down warm Pig on a Grass Block"
 - Changed "Extraordinary Duel" description to "Look at a Fox that is holding a Netherite Sword, through a Spyglass, while it kills a Wolf that is attacking you"
 - Changed "Dinner Time" description to "Look at a Wolf that is hunting a Skeleton through a Spyglass"
+- Changed "Dead Carnival" description to "Kill every undead mob with a single Firework Rocket"
+- Changed "Definitely Not Raid Farming" description to "Fill your inventory with Emerald Blocks"
+- Changed "Dragon vs Wither IV" description to "Kill the Wither in the Nether while in Lava while wearing a Dragon Head and Elytra"
+- Changed "Pyrotechnic vs Dragon V" description to "Kill the Ender Dragon using a Crossbow with Fireworks while wearing a Piglin Head, Elytra, and Golden Boots without taking damage and touching the ground"
+- Changed "Raise the Stakes" description to "Fill your inventory with Golden Apples"
+- Changed "So Bright" description to "Fill your inventory with Diamonds"
+- Changed "The King of the Redskins" description to "Fill your inventory with Redstone Blocks"
+- Changed "Third Escape Velocity" description to "Reach a vertical speed of over 16,700 blocks per second"
+- Changed "Thousand Lives" description to "Buy Pointed Dripstone or Sulfur Spike from a Wandering Trader in its native caves"
+- Changed "What a Stupid Purchase" description to "Travel on a sunken Boat"
+- Changed "Wither Aboard!" description to "Defeat the Wither in the Shipwreck with a Parrot sitting on your shoulder"
+- Changed "Yes" description to "Stand on a Chest filled with Beacons"
+- Changed "All the Netherite Tools" description to "Create every Netherite tool variant with all possible enchantments at max level"
+- Changed "Astronomer" description to "Look at an Anvil that is 325 blocks high using a Spyglass"
+- Changed "Heavy Catch" description to "Catch an Anvil on a fishing rod"
+- Changed "Master Shearer" description to "Create Shears with all possible enchantments at max level"
+- Changed "Master Shieldman" description to "Create a Shield with all possible enchantments at max level"
+- Changed "Master Sweeper" description to "Create a Brush with all possible enchantments at max level"
+- Changed "Pyromaniac" description to "Create a Flint and Steel with all possible enchantments at max level"
+- Changed "Interspecific Adventure" description to "Bring a Silverfish and an Endermite from the main End island to the End city and look at them through a Spyglass"
+- Changed "Silence Is Loud Here" description to "Kill the Ender Dragon deep in the void between the main and outer End islands"
+- Changed "Star Fisherman" description to "Catch a Nautilus Shell while you are 261 blocks high in the End"
+- Changed "Apple Addiction" description to "Fill your inventory with Apples"
+- Changed "Auto Cactus" description to "Build a 50-block-tall Cactus"
+- Changed "Christmas Spirit" description to "Cookies, Cakes, Honey, Fireworks, Christmas Tree and Snowballs"
+- Changed "Cookie Eater" description to "Eat 200 Cookies during 1 ingame day"
+- Changed "Delicious" description to "Feed a Brown Mooshroom with every Flower you can use in Suspicious Stews"
+- Changed "Eco Warrior" description to "Plant 100 Saplings of any one type"
+- Changed "High Risk" description to "Eat a Golden Carrot and Golden Apple while looking at the Piglin"
+- Changed "It's Midnight Already!?" description to "Place a Book with a undred pages on a Lectern and read it"
+- Changed "Not Fireflies" description to "Have a stack of Melon Seeds"
+- Changed "Overpayment" description to "Craft Golden Carrot from Carrot and Golden Nuggets"
+- Changed "Plant Enthusiast" description to "Plant 800 Potatoes"
+- Changed "Preventive Conversation" description to "Kill a Rabbit immediately after it has eaten your Carrots"
+- Changed "Chief Spide" description to "Fill your inventory with Cobweb"
+- Changed "Complete Orellection" description to "Mine a stack of Deepslate Emerald Ore"
+- Changed "Copper King" description to "Stand on a Chest filled with Copper Blocks"
+- Changed "Deepslate Master" description to "Mine 16 blocks of all forms of Deepslate"
+- Changed "Deepslated Miner" description to "Let a mob steal your Flint"
+- Changed "Flint and Steal" description to "Collect two blocks of Deepslate Emerald Ore"
+- Changed "Metal Nameplate" description to "Craft a Name Tag using every type of Nugget"
+- Changed "Redstoner" description to "Fill your inventory with Redstone"
+- Changed "Reinforced Miner" description to "Mine one block of Reinforced Deepslate"
+- Changed "Time Killer" description to "Fill your inventory with Obsidian"
+- Changed "Born to Spawn" description to "Stand on all types of naturally generated Monster Spawners"
+- Changed "Frozen Heart" description to "Kill a Stray while in a Snow biome during a snowstorm with hunger and slowness effects, taking damage from Powdering Snow with a slowness Arrow"
+- Changed "Heart" description to "Kill"
+- Changed "High Explosives" description to "Stand on a Barrel filled with Gunpowder"
+- Changed "Live Cactus" description to "Kill the Elder Guardian in the Desert"
+- Changed "Phantom Rider" description to "Catch a Phantom with a Fishing Rod"
+- Changed "Suspicious Duel" description to "Look at a Skeleton who decided to have a duel with another Skeleton using a Spyglass"
+- Changed "The Inquisition" description to "Burn the Witch at the Campfire while it runs away from your Sword"
+- Changed "The Undertaker's Revenge" description to "Kill a Phantom at the bottom of the world with an Iron Shovel"
+- Changed "What Are the Chances" description to "Kill a Phantom that is 92 blocks above the world with a Bow enchanted with Flame, Punch 1, Unbreaking 2, and Curse of Vanishing while inside the Mangrove Swamp biome"
+- Changed "A Long Journey" description to "Ride at least 300 meters on a Lava lake riding a Strider in the End"
+- Changed "Bastion Robber" description to "Loot all types of Chests from the Bastion"
+- Changed "Bastion Sweet Bastion" description to "Barter with a Piglin in a Bastion with a Golden Axe in the main hand while wearing the Piglin's Head and a piece of the Golden Armor"
+- Changed "Diamond Beacon" description to "Create a full power Beacon that consists entirely of Diamond Blocks"
+- Changed "Emerald Beacon" description to "Create a full power Beacon that consists entirely of Emerald Blocks"
+- Changed "Gold Beacon" description to "Create a full power Beacon that consists entirely of Gold Blocks"
+- Changed "Herbarium to My Friend" description to "Give a baby Piglin all kinds of Flowers"
+- Changed "Hot Lake" description to "Use a Fishing Rod to hook a Salmon from the Lava in the Nether"
+- Changed "Iron Beacon" description to "Create a full power Beacon that consists entirely of Iron Blocks"
+- Changed "Netherite Beacon!" description to "Create a full power Beacon that consists entirely of Netherite Blocks"
+- Changed "Never Careful Enough" description to "Ensure you won't take damage from that Magma Block"
+- Changed "Rainbow!" description to "Place all kinds of colored Glass directly above a Beacon"
+- Changed "The Infernal Cauldron" description to "Spend five minutes in a Lava Cauldron"
+- Changed "Withering Depths" description to "Summon and kill the Wither in an Ancient City"
+- Changed "Cowabunga It Is" description to "Kill a Turtle that is under the effect of a turtle master Potion"
+- Changed "Healed by Pain" description to "Take damage from an Arrow with a strong healing effect"
+- Changed "Worst Cleric in the World" description to "Fill your entire inventory with corrupted Potions"
+- Changed "Farm Basics" description to "Place an Observer facing Sugarcane or Bamboo"
+- Changed "Air Battle" description to "Kill 10 Chickens while both you and the Chickens are in the air, without using Elytra, all in a single attempt, using a Bow"
+- Changed "Deflector" description to "Deflect a blow that does at least 40 damage with your Shield"
+- Changed "Frightening Fishing" description to "Use a Fishing Rod to hook a Warden"
+- Changed "Glowball" description to "Hit the Glow Squid in the air with a Snowball"
+- Changed "Happy Minecraft Year" description to "Launch a Firework on new year's day in Minecraft!"
+- Changed "Meet the Snipe" description to "Hold a Spyglass and a Crossbow"
+- Changed "More Shields!" description to "Fill your inventory with Shields"
+- Changed "Shield of Achilles" description to "Deflect a blow that does at least 200 damage with your Shield"
+- Changed "Snow Fights!" description to "Kill the Snow Golem with a Snowball"
+- Changed "Artisan Adept" description to "Open a Crafting Table 100 times"
+- Changed "Craftsman Novice" description to "Open a Crafting Table 15 times"
+- Changed "Intermediate Fisher" description to "Catch 25 fish with a Fishing Rod"
+- Changed "Legendary Artisan" description to "Open a Crafting Table 2500 times"
+- Changed "Living History" description to "Brush 1000 Suspicious blocks"
+- Changed "Loot Obsession" description to "Open 2500 loot Chests"
+- Changed "Master Artificer" description to "Open a Crafting Table 500 times"
+- Changed "Master Fisherman" description to "Catch 500 fish with a Fishing Rod"
+- Changed "Million Miler" description to "Fly 10,000km with Elytra"
+- Changed "Mr. Chester" description to "Open 10,000 Chests!"
+- Changed "My Chest!" description to "Open 100 Chests"
+- Changed "Novice Angler" description to "Catch 5 fish with a Fishing Rod"
+- Changed "Shulker Explorer" description to "Open a Shulker Box 1000 times"
+- Changed "Shulker Maestro" description to "Open a Shulker Box 100,000 times"
+- Changed "Shulker Seeker" description to "Open a Shulker Box 100 times"
+- Changed "Shulker Voyager" description to "Open a Shulker Box 10,000 times"
+- Changed "Totem Adept" description to "Spend 25 Totems of Undying"
+- Changed "Totem Expert" description to "Spend 100 Totems of Undying"
+- Changed "Totem Immortal" description to "Spend 1000 Totems of Undying"
+- Changed "Totem Tinkerer" description to "Spend 5 Totems of Undying"
 - Changed "Camel Adventure" description to "Travel to a Desert Temple, Village house and a Pillager Outpost in a Desert without dismounting your Camel"
 - Changed "Buff Axolotl" description to "Give your pet Axolotl the Resistance, Regeneration and Strength effects, then win a fight"
 - Changed description to "Open the Bonus Chest" in "The Hardest and Unfairest One Yet"
 - Changed "The Explosive Adventure" tier to Challenge, instead of Goal
-- Changed "All The Netherite Tools" description from "Get perfect enchantments for all netherite tools and all paths" to "Create every netherite tool variant with all possible enchantments at max level"
 - Changed "Wind Burst Fox" description from "Give a Wind Burst 3 Mace to a Fox" to "Give a Wind Burst III Mace to a Fox"
 - Changed "Dragon Blitz" to use the same system as "Monumental Speedrun" uses to detect it
 - Simplified "Airborne Annihilator" criteria names
@@ -583,7 +683,6 @@
 - Removed fake enchantment/trim lines from trophies lore
 - Changed Oozing amplifier of "The New Swamp Won't Be Here" trophy to 1 from 10
 - Changed "Multi-Crossbow" trophy from "Enh. Weaponry Milestone" multishot level from 3 to 1
-- Changed the description for "Light at the End of the Tunnel" to "Place a lantern in a dark cave"
 - Changed "Ligmifitation" item reward from 256 Hay Bales to 64
 - Changed "Advancement info" description to " Stand on Cobblestone Stairs in full Diamond Armor while holding a Diamond Sword<br> Tip: Installing the 'AdvancementInfo' mod makes tracking advancements much easier!"
 - Removed version line from `install` function

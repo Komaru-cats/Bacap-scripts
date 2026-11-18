@@ -7,7 +7,7 @@
       "translate": "Where Did the Ground Go?"
     },
     "description": {
-      "translate": "Mine out every block in a single chunk in the Overworld, down to the bedrock layer",
+      "translate": "Mine out every block in a single chunk in the Overworld, down to the Bedrock layer",
       "color": "dark_purple"
     },
     "frame": "challenge",

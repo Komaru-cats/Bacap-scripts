@@ -7,7 +7,7 @@
       "translate": "Staring Contest"
     },
     "description": {
-      "translate": "Create a redstone clock by placing two observers facing each other",
+      "translate": "Create a Redstone clock by placing two Observers facing each other",
       "color": "green"
     },
     "frame": "task",

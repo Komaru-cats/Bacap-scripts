@@ -28,7 +28,7 @@
       "translate": "Deflector"
     },
     "description": {
-      "translate": "Deflect a blow that does at least 40 damage with your shield",
+      "translate": "Deflect a blow that does at least 40 damage with your Shield",
       "color": "#75E1FF"
     },
     "frame": "goal",

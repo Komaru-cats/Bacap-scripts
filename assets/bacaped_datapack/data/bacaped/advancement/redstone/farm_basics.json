@@ -7,7 +7,7 @@
       "translate": "Farm Basics"
     },
     "description": {
-      "translate": "Place an observer facing sugarcane or bamboo",
+      "translate": "Place an Observer facing Sugarcane or Bamboo",
       "color": "green"
     },
     "frame": "task",

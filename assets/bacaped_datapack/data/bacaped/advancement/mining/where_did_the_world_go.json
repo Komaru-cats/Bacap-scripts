@@ -7,7 +7,7 @@
       "translate": "Where Did the WORLD GO?"
     },
     "description": {
-      "translate": "Mine out every block in a single chunk in the Overworld, including the bedrock",
+      "translate": "Mine out every block in a single chunk in the Overworld, including the Bedrock",
       "color": "light_purple"
     },
     "frame": "challenge",

@@ -7,7 +7,7 @@
       "translate": "Classic Door Trap"
     },
     "description": {
-      "translate": "Fall for the oldest trick in the book: the iron door trap"
+      "translate": "Fall for the oldest trick in the book: the Iron Door trap"
     },
     "frame": "task",
     "announce_to_chat": true

@@ -10,7 +10,7 @@
       "translate": "Shield of Achilles"
     },
     "description": {
-      "translate": "Deflect a blow that does at least 200 damage with your shield",
+      "translate": "Deflect a blow that does at least 200 damage with your Shield",
       "color": "dark_purple"
     },
     "frame": "challenge",
