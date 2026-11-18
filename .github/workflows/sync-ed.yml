@@ -91,7 +91,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "docs(bacaped): add documentation for version $TAG_NAME"
-            git push origin HEAD:main
+            git push origin HEAD:master
           else
             echo "No changes detected to commit in Pages repo."
           fi
