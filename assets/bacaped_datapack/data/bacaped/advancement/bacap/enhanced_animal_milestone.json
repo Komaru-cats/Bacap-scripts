@@ -271,6 +271,22 @@
         }
       }
     },
+    "exemplary_worker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/exemplary_worker": true
+              }
+            }
+          }
+        }
+      }
+    },
     "extraordinary_duel": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -281,6 +297,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/extraordinary_duel": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "forbidden_flower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/forbidden_flower": true
               }
             }
           }

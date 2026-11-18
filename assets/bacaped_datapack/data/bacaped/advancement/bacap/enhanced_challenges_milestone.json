@@ -271,22 +271,6 @@
         }
       }
     },
-    "stoppable_force": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/stoppable_force": true
-              }
-            }
-          }
-        }
-      }
-    },
     "pooch_purge_pilot": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -425,6 +409,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:challenges/so_bright": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "stoppable_force": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:challenges/stoppable_force": true
               }
             }
           }

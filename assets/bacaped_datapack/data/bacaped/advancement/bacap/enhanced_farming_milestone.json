@@ -143,22 +143,6 @@
         }
       }
     },
-    "exemplary_worker": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/exemplary_worker": true
-              }
-            }
-          }
-        }
-      }
-    },
     "failed_successfully": {
       "trigger": "minecraft:location",
       "conditions": {
