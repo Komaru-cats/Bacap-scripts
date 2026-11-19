@@ -6050,7 +6050,7 @@
         }
       }
     },
-    "deflector": {
+    "that_tickles": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -6059,7 +6059,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:weaponry/deflector": true
+                "bacaped:weaponry/that_tickles": true
               }
             }
           }

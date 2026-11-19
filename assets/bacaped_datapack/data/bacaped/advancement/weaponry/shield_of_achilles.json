@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:weaponry/deflector",
+  "parent": "bacaped:weaponry/that_tickles",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:entity_hurt_player",

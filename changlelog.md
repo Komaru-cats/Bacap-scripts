@@ -101,7 +101,7 @@
   - Moved "Void Being" to End tab as a child of "How Did You End Up Here"
   - Moved "5G Connectivity" to Animals tab as a child of "Iceologer Should've Won"
   - Moved "Big Pig Adventure" to Nether tab as a child of "Unfamiliar Depths"
-  - Moved "Shield of Achilles" to Weaponry tab as a child of "Deflector"
+  - Moved "Shield of Achilles" to Weaponry tab as a child of "That Tickles"
   - Moved "Thousand Lives" to End tab as a child of "Void Walker"
   - Moved "What Are The Chances" to Monsters tab as a child of "The Undertaker's Revenge"
   - Moved "Sandwich" to Monsters tab as a child of "House of Freaks"
@@ -568,7 +568,7 @@
 - Renamed "Show the Nether to a Silverfish" to "Unfamiliar Depths"
 - Changed "Beyond the Rings" parent to "Lord of the Rings"
 - Changed "Explosive Elixir" description to mention saturation
-- Changed "Deflector" tier to Goal, instead of Challenge
+- Changed "That Tickles" tier to Goal, instead of Challenge
 - Changed "Pandas Express" description to "Leash a Boat with two Pandas inside"
 - Changed "Australia" description to "Be within 8 blocks of an upside down warm Pig on a Grass Block"
 - Changed "Extraordinary Duel" description to "Look at a Fox that is holding a Netherite Sword, through a Spyglass, while it kills a Wolf that is attacking you"
@@ -646,7 +646,7 @@
 - Changed "Worst Cleric in the World" description to "Fill your entire inventory with corrupted Potions"
 - Changed "Farm Basics" description to "Place an Observer facing Sugarcane or Bamboo"
 - Changed "Air Battle" description to "Kill 10 Chickens while both you and the Chickens are in the air, without using Elytra, all in a single attempt, using a Bow"
-- Changed "Deflector" description to "Deflect a blow that does at least 40 damage with your Shield"
+- Changed "That Tickles" description to "Deflect a blow that does at least 40 damage with your Shield"
 - Changed "Frightening Fishing" description to "Use a Fishing Rod to hook a Warden"
 - Changed "Glowball" description to "Hit the Glow Squid in the air with a Snowball"
 - Changed "Happy Minecraft Year" description to "Launch a Firework on new year's day in Minecraft!"

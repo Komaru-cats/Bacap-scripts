@@ -424,7 +424,7 @@ execute if score bacaped:statistics/your_legs_are_beat bac_obtained_gold matches
 execute if score bacaped:weaponry/air_battle bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:weaponry/air_battle
 execute if score bacaped:weaponry/cold_betrayal bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:weaponry/cold_betrayal
 execute if score bacaped:weaponry/dead-eye bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:weaponry/dead-eye
-execute if score bacaped:weaponry/deflector bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:weaponry/deflector
+execute if score bacaped:weaponry/that_tickles bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:weaponry/that_tickles
 execute if score bacaped:weaponry/explosive_fisherman bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:weaponry/explosive_fisherman
 execute if score bacaped:weaponry/frightening_fishing bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:weaponry/frightening_fishing
 execute if score bacaped:weaponry/glowball bac_obtained_gold matches 1.. run advancement grant @a[team=bac_teamgold] only bacaped:weaponry/glowball

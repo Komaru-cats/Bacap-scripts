@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/that_tickles",reward_id:"weaponry/that_tickles",tier:"goal"}

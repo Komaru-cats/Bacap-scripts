@@ -424,7 +424,7 @@ execute as @a[advancements={bacaped:statistics/your_legs_are_beat=true}] run sco
 execute as @a[advancements={bacaped:weaponry/air_battle=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:weaponry/cold_betrayal=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:weaponry/dead-eye=true}] run scoreboard players add @s bacaped_all_advancements 1
-execute as @a[advancements={bacaped:weaponry/deflector=true}] run scoreboard players add @s bacaped_all_advancements 1
+execute as @a[advancements={bacaped:weaponry/that_tickles=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:weaponry/explosive_fisherman=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:weaponry/frightening_fishing=true}] run scoreboard players add @s bacaped_all_advancements 1
 execute as @a[advancements={bacaped:weaponry/glowball=true}] run scoreboard players add @s bacaped_all_advancements 1

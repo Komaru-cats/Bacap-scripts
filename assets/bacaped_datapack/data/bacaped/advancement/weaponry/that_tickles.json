@@ -25,7 +25,7 @@
       }
     },
     "title": {
-      "translate": "Deflector"
+      "translate": "That Tickles"
     },
     "description": {
       "translate": "Deflect a blow that does at least 40 damage with your Shield",
@@ -49,6 +49,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:weaponry/deflector"
+    "function": "bacaped_rewards:weaponry/that_tickles"
   }
 }
