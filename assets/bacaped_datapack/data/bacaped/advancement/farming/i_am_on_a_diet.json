@@ -4,7 +4,7 @@
       "id": "minecraft:bone"
     },
     "title": {
-      "translate": "I Am on Diet"
+      "translate": "I Am on a Diet"
     },
     "description": {
       "translate": "Don't eat anything for 10 days",
@@ -34,6 +34,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:farming/i_am_on_diet"
+    "function": "bacaped_rewards:farming/i_am_on_a_diet"
   }
 }

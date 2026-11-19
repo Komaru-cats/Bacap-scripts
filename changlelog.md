@@ -37,7 +37,7 @@
 - Persistent Fighters - Kill 5 Shulkers without losing the levitation effect (ported from Pokerhok's End Edition datapack)
 
 ### Farming Tab
-- I Am on Diet - Don't eat anything for 10 days
+- I Am on a Diet - Don't eat anything for 10 days
 - Closed-Loop Economy - Smelt Leaves into Leaf Litter... only to use it as fuel!
 
 ### Mining Tab

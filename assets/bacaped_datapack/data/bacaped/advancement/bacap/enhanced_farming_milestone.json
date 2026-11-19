@@ -191,7 +191,7 @@
         }
       }
     },
-    "i_am_on_diet": {
+    "i_am_on_a_diet": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -200,7 +200,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:farming/i_am_on_diet": true
+                "bacaped:farming/i_am_on_a_diet": true
               }
             }
           }

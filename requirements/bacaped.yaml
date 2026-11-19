@@ -1352,7 +1352,7 @@ bacaped:end/void_hammer:
 bacaped:animal/back_to_basics:
   default: 
 
-bacaped:farming/i_am_on_diet:
+bacaped:farming/i_am_on_a_diet:
   default: 
 
 bacaped:nether/primitive_excavation:
