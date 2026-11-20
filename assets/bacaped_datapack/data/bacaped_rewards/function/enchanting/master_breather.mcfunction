@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/master_breather",reward_id:"enchanting/master_breather",tier:"challenge"}
