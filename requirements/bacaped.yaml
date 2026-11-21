@@ -1144,8 +1144,8 @@ bacaped:monsters/eye_contact_master:
   default: Look at an Enderman less than 1 block away
 
 bacaped:biomes/death_fell_accident_water:
-  default: Die from falling onto a waterlogged bottom position slab while sitting in a minecart
-  Hardcore: 
+  default: Die from falling from a height of exactly 25 blocks onto a waterlogged bottom position slab while sitting in a minecart
+  Hardcore: Get damage from falling from a height of exactly 25 blocks onto a waterlogged bottom position slab while sitting in a minecart
 
 bacaped:adventure/batminton:
   default: 
@@ -1199,7 +1199,8 @@ bacaped:end/a_diverting_misconception:
   default: 
 
 bacaped:mining/the_gravity_of_the_situation:
-  default: 
+  default: |-
+    Have all of the following falling blocks within 16 blocks of you simultaneously: Dragon Egg, Anvil, Chipped Anvil, Damaged Anvil, Scaffolding, Suspicious Sand, Suspicious Gravel, Pointed Dripstone, Sulfur Spike, All 16 colors of Concrete Powder, Sand, Red Sand, Gravel
 
 bacaped:statistics/careful_excavator:
   default: 
