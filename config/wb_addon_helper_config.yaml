@@ -1,8 +1,11 @@
 ﻿registry_path: "./registries"
 release_path: "./releases"
 wb_addon_path: "./assets/wb_addon_datapack"
-database_path: "wb_addon.db"
 database_path: "../../wb_addon.db"
+
+document_generator:
+  output_directory: "./wb_docs"
+  output_file_name: "wb_addon.json"
 
 datapacks:
   bacap:
