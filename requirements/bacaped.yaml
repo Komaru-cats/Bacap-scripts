@@ -1211,9 +1211,6 @@ bacaped:animal/5g_connectivity:
 bacaped:building/secret_passage:
   default: 
 
-bacaped:enchanting/pimp_my_ride:
-  default: Enchant both a Carrot on a Stick and a Warped Fungus on a Stick with Unbreaking 3 and Mending
-
 bacaped:end/persistent_fighters:
   default: 
 
@@ -1234,9 +1231,6 @@ bacaped:mining/bomb_has_been_defused:
 
 bacaped:nether/big_pig_adventure:
   default: Visit Fortress, Ruined Portal, Bastion, Nether Wastes, Crimson Forest, Warped Forest, Soul Sand Valley, Basalt Deltas without dismounting from the Pig
-
-bacaped:enchanting/master_breather:
-  default: Enchant a Turtle Shell with Unbreaking 3, Mending, Aqua Affinity, Respiration 3, and any Protection 4 (Protection, Fire Protection, Blast Protection, or Projectile Protection)
 
 bacaped:end/interspecific_adventure:
   default: 
