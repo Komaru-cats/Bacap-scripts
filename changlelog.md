@@ -637,7 +637,7 @@
 - Changed "Hot Lake" description to "Use a Fishing Rod to hook a Salmon from the Lava in the Nether"
 - Changed "Iron Beacon" description to "Create a full power Beacon that consists entirely of Iron Blocks"
 - Changed "Netherite Beacon!" description to "Create a full power Beacon that consists entirely of Netherite Blocks"
-- Changed "Never Careful Enough" description to "Ensure you won't take damage from that Magma Block"
+- Changed "Never Careful Enough" description to "Combine every way to avoid taking damage from a Magma Block"
 - Changed "Rainbow!" description to "Place all kinds of colored Glass directly above a Beacon"
 - Changed "The Infernal Cauldron" description to "Spend five minutes in a Lava Cauldron"
 - Changed "Withering Depths" description to "Summon and kill the Wither in an Ancient City"

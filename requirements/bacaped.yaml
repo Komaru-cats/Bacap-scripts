@@ -975,7 +975,7 @@ bacaped:nether/netherite_beacon:
   default: 
 
 bacaped:nether/never_careful_enough:
-  default: Stand on a Magma block with frost walker enchantment on the boots and fire resistance effect
+  default: Stand on a Magma block while sneaking, wearing boots with the Frost Walker enchantment, and having the Fire Resistance effect
 
 bacaped:statistics/diamond_digger:
   default: 
