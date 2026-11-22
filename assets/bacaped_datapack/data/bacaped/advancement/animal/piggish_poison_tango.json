@@ -46,7 +46,7 @@
         "killing_blow": {
           "tags": [
             {
-              "id": "#minecraft:is_projectile",
+              "id": "#bacaped:piggish_poison_tango",
               "expected": false
             }
           ]
