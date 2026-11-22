@@ -191,11 +191,9 @@ execute as @a[advancements={bacaped:enchanting/astronomer=true}] run scoreboard 
 execute as @a[advancements={bacaped:enchanting/elementals=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:enchanting/fully_charged=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:enchanting/heavy_catch=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
-execute as @a[advancements={bacaped:enchanting/master_breather=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:enchanting/master_shearer=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:enchanting/master_shieldman=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:enchanting/master_sweeper=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
-execute as @a[advancements={bacaped:enchanting/pimp_my_ride=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:enchanting/pyromaniac=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:enchanting/small_targets=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:enchanting/thin_line=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
@@ -424,7 +422,6 @@ execute as @a[advancements={bacaped:statistics/your_legs_are_beat=true}] run sco
 execute as @a[advancements={bacaped:weaponry/air_battle=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:weaponry/cold_betrayal=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:weaponry/dead-eye=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
-execute as @a[advancements={bacaped:weaponry/that_tickles=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:weaponry/explosive_fisherman=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:weaponry/frightening_fishing=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:weaponry/glowball=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
@@ -435,6 +432,7 @@ execute as @a[advancements={bacaped:weaponry/renowned_armament=true}] run scoreb
 execute as @a[advancements={bacaped:weaponry/shield_of_achilles=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:weaponry/snow_fights=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:weaponry/surface_to_air_missle=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
+execute as @a[advancements={bacaped:weaponry/that_tickles=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:weaponry/the_explosive_adventure=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points
 execute as @a[advancements={bacaped:weaponry/unlucky=true}] run scoreboard players operation @s bacaped_advancements_points += goal bac_points
 execute as @a[advancements={bacaped:weaponry/wind_burst_fox=true}] run scoreboard players operation @s bacaped_advancements_points += challenge bac_points

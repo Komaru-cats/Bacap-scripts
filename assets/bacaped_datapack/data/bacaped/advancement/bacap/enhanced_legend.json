@@ -2946,22 +2946,6 @@
         }
       }
     },
-    "master_breather": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/master_breather": true
-              }
-            }
-          }
-        }
-      }
-    },
     "master_shearer": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -3004,22 +2988,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:enchanting/master_sweeper": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "pimp_my_ride": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/pimp_my_ride": true
               }
             }
           }
@@ -6050,22 +6018,6 @@
         }
       }
     },
-    "that_tickles": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:weaponry/that_tickles": true
-              }
-            }
-          }
-        }
-      }
-    },
     "explosive_fisherman": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -6188,6 +6140,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:weaponry/surface_to_air_missle": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "that_tickles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:weaponry/that_tickles": true
               }
             }
           }

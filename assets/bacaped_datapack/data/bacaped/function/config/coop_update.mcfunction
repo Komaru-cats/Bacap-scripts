@@ -191,11 +191,9 @@ execute if score bacaped:enchanting/astronomer bac_obtained matches 1.. run adva
 execute if score bacaped:enchanting/elementals bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/elementals
 execute if score bacaped:enchanting/fully_charged bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/fully_charged
 execute if score bacaped:enchanting/heavy_catch bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/heavy_catch
-execute if score bacaped:enchanting/master_breather bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/master_breather
 execute if score bacaped:enchanting/master_shearer bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/master_shearer
 execute if score bacaped:enchanting/master_shieldman bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/master_shieldman
 execute if score bacaped:enchanting/master_sweeper bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/master_sweeper
-execute if score bacaped:enchanting/pimp_my_ride bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/pimp_my_ride
 execute if score bacaped:enchanting/pyromaniac bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/pyromaniac
 execute if score bacaped:enchanting/small_targets bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/small_targets
 execute if score bacaped:enchanting/thin_line bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/thin_line
@@ -424,7 +422,6 @@ execute if score bacaped:statistics/your_legs_are_beat bac_obtained matches 1.. 
 execute if score bacaped:weaponry/air_battle bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/air_battle
 execute if score bacaped:weaponry/cold_betrayal bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/cold_betrayal
 execute if score bacaped:weaponry/dead-eye bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/dead-eye
-execute if score bacaped:weaponry/that_tickles bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/that_tickles
 execute if score bacaped:weaponry/explosive_fisherman bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/explosive_fisherman
 execute if score bacaped:weaponry/frightening_fishing bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/frightening_fishing
 execute if score bacaped:weaponry/glowball bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/glowball
@@ -435,6 +432,7 @@ execute if score bacaped:weaponry/renowned_armament bac_obtained matches 1.. run
 execute if score bacaped:weaponry/shield_of_achilles bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/shield_of_achilles
 execute if score bacaped:weaponry/snow_fights bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/snow_fights
 execute if score bacaped:weaponry/surface_to_air_missle bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/surface_to_air_missle
+execute if score bacaped:weaponry/that_tickles bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/that_tickles
 execute if score bacaped:weaponry/the_explosive_adventure bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/the_explosive_adventure
 execute if score bacaped:weaponry/unlucky bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/unlucky
 execute if score bacaped:weaponry/wind_burst_fox bac_obtained matches 1.. run advancement grant @a only bacaped:weaponry/wind_burst_fox

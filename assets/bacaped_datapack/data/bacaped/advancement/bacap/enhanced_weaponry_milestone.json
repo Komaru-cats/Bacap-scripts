@@ -63,22 +63,6 @@
         }
       }
     },
-    "that_tickles": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:weaponry/that_tickles": true
-              }
-            }
-          }
-        }
-      }
-    },
     "explosive_fisherman": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -201,6 +185,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:weaponry/surface_to_air_missle": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "that_tickles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:weaponry/that_tickles": true
               }
             }
           }

@@ -111,22 +111,6 @@
         }
       }
     },
-    "master_breather": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/master_breather": true
-              }
-            }
-          }
-        }
-      }
-    },
     "master_shearer": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -169,22 +153,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:enchanting/master_sweeper": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "pimp_my_ride": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:enchanting/pimp_my_ride": true
               }
             }
           }
