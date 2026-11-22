@@ -3521,7 +3521,8 @@
       ]
     },
     "requirements": {
-      "default": "Die from falling onto a waterlogged bottom position slab while sitting in a minecart"
+      "default": "Die from falling from a height of exactly 25 blocks onto a waterlogged bottom position slab while sitting in a minecart",
+      "Hardcore": "Get damage from falling from a height of exactly 25 blocks onto a waterlogged bottom position slab while sitting in a minecart"
     }
   },
   {
@@ -5719,29 +5720,6 @@
     }
   },
   {
-    "title": "Master Breather",
-    "description": "Create a Turtle Shell with all possible enchants at max level",
-    "frame": "challenge",
-    "icon_id": "minecraft:turtle_helmet",
-    "tier": "challenge",
-    "tab": "enchanting",
-    "mc_path": "bacaped:enchanting/master_breather",
-    "parent": {
-      "mc_path": "bacaped:enchanting/master_sweeper",
-      "title": "Master Sweeper",
-      "description": "Create a Brush with all possible enchantments at max level",
-      "frame": "challenge",
-      "icon_id": "minecraft:brush",
-      "tier": "challenge"
-    },
-    "rewards": {
-      "experience": 100
-    },
-    "requirements": {
-      "default": "Enchant a Turtle Shell with Unbreaking 3, Mending, Aqua Affinity, Respiration 3, and any Protection 4 (Protection, Fire Protection, Blast Protection, or Projectile Protection)"
-    }
-  },
-  {
     "title": "Master Shearer",
     "description": "Create Shears with all possible enchantments at max level",
     "frame": "challenge",
@@ -5818,29 +5796,6 @@
     },
     "requirements": {
       "default": "Enchant Brush with Mending, Unbreaking 3"
-    }
-  },
-  {
-    "title": "Pimp My Ride",
-    "description": "Create a Carrot on a Stick and a Warped Fungus on a Stick with all possible enchantments at their max level",
-    "frame": "challenge",
-    "icon_id": "minecraft:warped_fungus_on_a_stick",
-    "tier": "challenge",
-    "tab": "enchanting",
-    "mc_path": "bacaped:enchanting/pimp_my_ride",
-    "parent": {
-      "mc_path": "blazeandcave:enchanting/master_arbalist",
-      "title": "Master Arbalist",
-      "description": "Create a crossbow with all possible enchantments at max level",
-      "frame": "challenge",
-      "icon_id": "minecraft:crossbow",
-      "tier": "challenge"
-    },
-    "rewards": {
-      "experience": 90
-    },
-    "requirements": {
-      "default": "Enchant both a Carrot on a Stick and a Warped Fungus on a Stick with Unbreaking 3 and Mending"
     }
   },
   {
@@ -7040,13 +6995,13 @@
     }
   },
   {
-    "title": "I Am on Diet",
+    "title": "I Am on a Diet",
     "description": "Don't eat anything for 10 days",
     "frame": "challenge",
     "icon_id": "minecraft:bone",
     "tier": "challenge",
     "tab": "farming",
-    "mc_path": "bacaped:farming/i_am_on_diet",
+    "mc_path": "bacaped:farming/i_am_on_a_diet",
     "parent": {
       "mc_path": "blazeandcave:farming/castaway",
       "title": "Castaway",
@@ -7863,6 +7818,9 @@
     },
     "rewards": {
       "experience": 100
+    },
+    "requirements": {
+      "default": "Have all of the following falling blocks within 16 blocks of you simultaneously: Dragon Egg, Anvil, Chipped Anvil, Damaged Anvil, Scaffolding, Suspicious Sand, Suspicious Gravel, Pointed Dripstone, Sulfur Spike, All 16 colors of Concrete Powder, Sand, Red Sand, Gravel"
     }
   },
   {
@@ -9317,7 +9275,7 @@
   },
   {
     "title": "Never Careful Enough",
-    "description": "Ensure you won't take damage from that Magma Block",
+    "description": "Combine every way to avoid taking damage from a Magma Block",
     "frame": "goal",
     "icon_id": "minecraft:leather_boots",
     "tier": "goal",
@@ -9341,7 +9299,7 @@
       ]
     },
     "requirements": {
-      "default": "Stand on a Magma block with frost walker enchantment on the boots and fire resistance effect"
+      "default": "Stand on a Magma block while sneaking, wearing boots with the Frost Walker enchantment, and having the Fire Resistance effect"
     }
   },
   {
@@ -12325,26 +12283,6 @@
     }
   },
   {
-    "title": "Deflector",
-    "description": "Deflect a blow that does at least 40 damage with your Shield",
-    "frame": "goal",
-    "icon_id": "minecraft:shield",
-    "tier": "goal",
-    "tab": "weaponry",
-    "mc_path": "bacaped:weaponry/deflector",
-    "parent": {
-      "mc_path": "bacaped:weaponry/more_shields",
-      "title": "More Shields!",
-      "description": "Fill your inventory with Shields",
-      "frame": "goal",
-      "icon_id": "minecraft:shield",
-      "tier": "goal"
-    },
-    "rewards": {
-      "experience": 60
-    }
-  },
-  {
     "title": "Explosive Fisherman",
     "description": "Catch TNT on a fishing rod",
     "frame": "goal",
@@ -12535,8 +12473,8 @@
     "tab": "weaponry",
     "mc_path": "bacaped:weaponry/shield_of_achilles",
     "parent": {
-      "mc_path": "bacaped:weaponry/deflector",
-      "title": "Deflector",
+      "mc_path": "bacaped:weaponry/that_tickles",
+      "title": "That Tickles",
       "description": "Deflect a blow that does at least 40 damage with your Shield",
       "frame": "goal",
       "icon_id": "minecraft:shield",
@@ -12600,6 +12538,26 @@
     },
     "rewards": {
       "experience": 65
+    }
+  },
+  {
+    "title": "That Tickles",
+    "description": "Deflect a blow that does at least 40 damage with your Shield",
+    "frame": "goal",
+    "icon_id": "minecraft:shield",
+    "tier": "goal",
+    "tab": "weaponry",
+    "mc_path": "bacaped:weaponry/that_tickles",
+    "parent": {
+      "mc_path": "bacaped:weaponry/more_shields",
+      "title": "More Shields!",
+      "description": "Fill your inventory with Shields",
+      "frame": "goal",
+      "icon_id": "minecraft:shield",
+      "tier": "goal"
+    },
+    "rewards": {
+      "experience": 60
     }
   },
   {
