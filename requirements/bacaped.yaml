@@ -394,7 +394,7 @@ bacaped:end/intergalactic_journey:
   default: 
 
 bacaped:end/last_hit:
-  default:
+  default: 
 
 bacaped:farming/failed_successfully:
   default: 
@@ -1199,8 +1199,7 @@ bacaped:end/a_diverting_misconception:
   default: 
 
 bacaped:mining/the_gravity_of_the_situation:
-  default: |-
-    Have all of the following falling blocks within 16 blocks of you simultaneously: Dragon Egg, Anvil, Chipped Anvil, Damaged Anvil, Scaffolding, Suspicious Sand, Suspicious Gravel, Pointed Dripstone, Sulfur Spike, All 16 colors of Concrete Powder, Sand, Red Sand, Gravel
+  default: 'Have all of the following falling blocks within 16 blocks of you simultaneously: Dragon Egg, Anvil, Chipped Anvil, Damaged Anvil, Scaffolding, Suspicious Sand, Suspicious Gravel, Pointed Dripstone, Sulfur Spike, All 16 colors of Concrete Powder, Sand, Red Sand, Gravel'
 
 bacaped:statistics/careful_excavator:
   default: 
@@ -1363,4 +1362,4 @@ bacaped:animal/exemplary_worker:
   default: 
 
 bacaped:animal/forbidden_flower:
-  default: 
+  default:
