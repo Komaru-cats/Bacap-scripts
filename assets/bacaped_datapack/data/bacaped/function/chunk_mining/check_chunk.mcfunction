@@ -23,6 +23,10 @@ execute if score #bacaped_step bacaped_chunk matches 1 positioned ~ ~ ~-2 run re
 execute if score #bacaped_z bacaped_chunk matches 1 store success score #bacaped_step bacaped_chunk run scoreboard players remove #bacaped_z bacaped_chunk 1
 execute if score #bacaped_step bacaped_chunk matches 1 positioned ~ ~ ~-1 run return run function bacaped:chunk_mining/check_chunk
 
+# Guard against wrong dimension or unloaded chunk before checking heightmaps
+execute unless dimension minecraft:overworld run return fail
+execute unless loaded ~ 0 ~ run return fail
+
 execute positioned ~8 0 ~8 positioned over world_surface unless predicate bacaped:is_dug_down_to_bedrock run return fail
 execute positioned ~0 0 ~0 positioned over world_surface unless predicate bacaped:is_dug_down_to_bedrock run return fail
 execute positioned ~15 0 ~0 positioned over world_surface unless predicate bacaped:is_dug_down_to_bedrock run return fail

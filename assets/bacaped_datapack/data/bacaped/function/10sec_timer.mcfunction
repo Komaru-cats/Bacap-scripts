@@ -96,8 +96,10 @@ execute as @a[x=0,y=0,z=0,distance=19712..21248,predicate=bacaped:is_in_strongho
 execute as @a[x=0,y=0,z=0,distance=22784..24320,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_22784-24320
 
 # Where did the Ground/World Go
-# we are checking only for hidden one since players cant get bacaped:mining/where_did_the_world_go without getting bacaped:mining/where_did_the_ground_go
-execute as @a[advancements={bacaped:mining/where_did_the_world_go=false},gamemode=!spectator] if dimension minecraft:overworld run function bacaped:chunk_mining/start_chunk_check
+# Checks only the hidden advancement since where_did_the_world_go requires where_did_the_ground_go.
+# Uses @e[type=player] to ignore dead players, `at @s` before `if dimension` to check the player's actual dimension,
+# and `if loaded ~ 0 ~` to prevent unloaded chunks from passing heightmap checks as void.
+execute as @e[type=player,advancements={bacaped:mining/where_did_the_world_go=false},gamemode=!spectator] at @s if dimension minecraft:overworld if loaded ~ 0 ~ run function bacaped:chunk_mining/start_chunk_check
 
 # Logistics Nightmare
 execute as @e[type=minecraft:chest_minecart,tag=!bacaped_not_generated_in_sulfur_caves,nbt={LootTable:"minecraft:chests/abandoned_mineshaft"}] at @s unless biome ~ ~ ~ minecraft:sulfur_caves run tag @s add bacaped_not_generated_in_sulfur_caves
