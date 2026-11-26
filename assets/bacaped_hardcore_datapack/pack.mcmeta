@@ -2,7 +2,7 @@
   "pack": {
         "min_format": [121.0],
         "max_format": [121.0],
-        "description": [{"text":"\"Enhanced discoveries ","color":"#74B021"},{"text":"Hardcore Addon\"","color":"dark_red"}]
+        "description": [{"text":"ED ","color":"#74B021", "bold":true},{"text":"HC ","color":"dark_red", "bold":true},{"text":"– Hardcore-Friendly Edition","color":"gray", "bold":false}]
   }
 }
 
