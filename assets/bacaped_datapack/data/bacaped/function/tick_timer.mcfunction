@@ -1,5 +1,7 @@
 # Secret Passage
-execute as @a[advancements={bacaped:building/secret_passage=false},gamemode=!spectator] at @s if entity @e[type=minecraft:painting,distance=..3.5] run function bacaped:secret_passage_check
+# Uses distance=..4 for reliable entity-section lookup on 4x4 paintings,
+# then delegates exact AABB overlap to secret_passage_check.
+execute as @e[type=player,advancements={bacaped:building/secret_passage=false},gamemode=!spectator] at @s if entity @e[type=minecraft:painting,distance=..4] if function bacaped:secret_passage_check run advancement grant @s only bacaped:building/secret_passage
 
 # The Gravity of the Situation
 execute as @a[gamemode=!spectator, advancements={bacaped:mining/the_gravity_of_the_situation=false}] at @s if entity @e[type=falling_block,distance=..16] run function bacaped:mob_collections/the_gravity_of_the_situation_check
